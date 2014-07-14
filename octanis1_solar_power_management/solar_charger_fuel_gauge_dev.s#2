@@ -8634,9 +8634,9 @@ Source: AVX .. aphvc.pdf</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.4064" drill="0">
+<class number="0" name="default" width="0.3048" drill="0">
 </class>
-<class number="1" name="ground" width="0.6096" drill="0">
+<class number="1" name="ground" width="0.3048" drill="0">
 </class>
 </classes>
 <parts>
