@@ -3454,15 +3454,15 @@ design rules under a new name.</description>
 <attribute name="NAME" x="4.5212" y="24.0538" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="9.525" y="24.13" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="U2" library="bq27510_drz_12" package="DRZ12_1P95X2P45" value="BQ27510_DRZ_12" x="4.064" y="-2.8448">
-<attribute name="DATASHEETURL" value="Unknown" x="4.064" y="-2.8448" size="1.778" layer="27" display="off"/>
-<attribute name="PIN_COUNT" value="12" x="4.064" y="-2.8448" size="1.778" layer="27" display="off"/>
-<attribute name="GENERIC_PART_NUMBER" value="BQ27510" x="4.064" y="-2.8448" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="Unknown" x="4.064" y="-2.8448" size="1.778" layer="27" display="off"/>
-<attribute name="FAMILY_NAME" value="Unknown" x="4.064" y="-2.8448" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Texas Instruments" x="4.064" y="-2.8448" size="1.778" layer="27" display="off"/>
-<attribute name="INDUSTRY_STD_PKG_TYPE" value="Unknown" x="4.064" y="-2.8448" size="1.778" layer="27" display="off"/>
-<attribute name="PACKAGE_DESIGNATOR" value="DRZ" x="4.064" y="-2.8448" size="1.778" layer="27" display="off"/>
+<element name="U2" library="bq27510_drz_12" package="DRZ12_1P95X2P45" value="BQ27510_DRZ_12" x="4.6736" y="3.8608">
+<attribute name="DATASHEETURL" value="Unknown" x="4.6736" y="3.8608" size="1.778" layer="27" display="off"/>
+<attribute name="PIN_COUNT" value="12" x="4.6736" y="3.8608" size="1.778" layer="27" display="off"/>
+<attribute name="GENERIC_PART_NUMBER" value="BQ27510" x="4.6736" y="3.8608" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Unknown" x="4.6736" y="3.8608" size="1.778" layer="27" display="off"/>
+<attribute name="FAMILY_NAME" value="Unknown" x="4.6736" y="3.8608" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" x="4.6736" y="3.8608" size="1.778" layer="27" display="off"/>
+<attribute name="INDUSTRY_STD_PKG_TYPE" value="Unknown" x="4.6736" y="3.8608" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE_DESIGNATOR" value="DRZ" x="4.6736" y="3.8608" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C14" library="rcl" package="C0402" value="100n" x="17.272" y="-65.4304"/>
 <element name="C15" library="rcl" package="C0402" value="220n" x="22.7584" y="-65.4304"/>
@@ -3552,12 +3552,14 @@ design rules under a new name.</description>
 <element name="R408" library="rcl" package="R0402" value="15k" x="1.6256" y="-119.888"/>
 <element name="R413" library="rcl" package="R0402" value="15k" x="24.384" y="-119.888"/>
 <element name="R412" library="rcl" package="R0402" value="15k" x="18.6944" y="-119.888"/>
+<element name="RPUD" library="resistor" package="R1206" value="10k" x="2.6416" y="-134.9248"/>
+<element name="RPUC" library="resistor" package="R1206" value="10k" x="2.6416" y="-138.7856"/>
 </elements>
 <signals>
 <signal name="EPAD">
 <contactref element="U1" pad="11"/>
 <contactref element="U2" pad="13"/>
-<wire x1="4.064" y1="-2.8448" x2="18.0681" y2="32.8508" width="0" layer="19" extent="1-1"/>
+<wire x1="4.6736" y1="3.8608" x2="18.0681" y2="32.8508" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="C2" pad="2"/>
@@ -3999,8 +4001,12 @@ design rules under a new name.</description>
 <signal name="P3.7">
 <contactref element="U6" pad="44"/>
 </signal>
-<signal name="P4.0">
+<signal name="I2C_CLK">
 <contactref element="U6" pad="45"/>
+<contactref element="RPUC" pad="1"/>
+<contactref element="U2" pad="11"/>
+<wire x1="14.5466" y1="-47.0476" x2="1.2196" y2="-138.7856" width="0" layer="19" extent="1-1"/>
+<wire x1="6.6548" y1="4.4704" x2="14.5466" y2="-47.0476" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="P6.5">
 <contactref element="U6" pad="2"/>
@@ -4014,8 +4020,12 @@ design rules under a new name.</description>
 <signal name="P3.6">
 <contactref element="U6" pad="43"/>
 </signal>
-<signal name="P4.1">
+<signal name="I2C_DATA">
 <contactref element="U6" pad="46"/>
+<contactref element="RPUD" pad="1"/>
+<contactref element="U2" pad="10"/>
+<wire x1="14.5466" y1="-46.5476" x2="1.2196" y2="-134.9248" width="0" layer="19" extent="1-1"/>
+<wire x1="6.6548" y1="4.064" x2="14.5466" y2="-46.5476" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="P3.0">
 <contactref element="U6" pad="37"/>
@@ -4062,10 +4072,14 @@ design rules under a new name.</description>
 <contactref element="C19" pad="2"/>
 <contactref element="C14" pad="1"/>
 <contactref element="U6" pad="50"/>
-<wire x1="8.8934" y1="-65.6336" x2="7.762" y2="-70.9168" width="0" layer="19" extent="1-1"/>
-<wire x1="16.622" y1="-65.4304" x2="8.8934" y2="-65.6336" width="0" layer="19" extent="1-1"/>
-<wire x1="20.97" y1="-75.7936" x2="16.622" y2="-65.4304" width="0" layer="19" extent="1-1"/>
+<contactref element="RPUD" pad="2"/>
+<contactref element="RPUC" pad="2"/>
+<wire x1="4.0636" y1="-134.9248" x2="4.0636" y2="-138.7856" width="0" layer="19" extent="1-1"/>
+<wire x1="20.97" y1="-75.7936" x2="4.0636" y2="-134.9248" width="0" layer="19" extent="1-1"/>
 <wire x1="25.6436" y1="-75.7936" x2="20.97" y2="-75.7936" width="0" layer="19" extent="1-1"/>
+<wire x1="16.622" y1="-65.4304" x2="20.97" y2="-75.7936" width="0" layer="19" extent="1-1"/>
+<wire x1="8.8934" y1="-65.6336" x2="16.622" y2="-65.4304" width="0" layer="19" extent="1-1"/>
+<wire x1="7.762" y1="-70.9168" x2="8.8934" y2="-65.6336" width="0" layer="19" extent="1-1"/>
 <wire x1="1.218" y1="-57.3018" x2="8.8934" y2="-65.6336" width="0" layer="19" extent="1-1"/>
 <wire x1="0.8966" y1="-48.0476" x2="1.218" y2="-57.3018" width="0" layer="19" extent="1-1"/>
 <wire x1="14.5466" y1="-44.5476" x2="0.8966" y2="-48.0476" width="0" layer="19" extent="1-1"/>

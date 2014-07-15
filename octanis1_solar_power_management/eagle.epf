@@ -346,11 +346,10 @@ UsedLibrary="/Applications/EAGLE-6.6.0/lbr/zilog.lbr"
 UsedLibrary="/Users/raffael/Desktop/Octanis/octanis-pcb/Octanis1-Electronics/lib/bq24210_dqc_10.lbr"
 UsedLibrary="/Users/raffael/Desktop/Octanis/octanis-pcb/Octanis1-Electronics/lib/bq27510_drz_12.lbr"
 UsedLibrary="/Users/raffael/Downloads/schule_xl.lbr"
-UsedLibrary="/Users/raffael/Desktop/Octanis/octanis-pcb/Octanis1-Electronics/lib/msp430.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="158 68 1232 467"
+Loc="4 68 1279 777"
 State=2
 Number=0
 
@@ -360,7 +359,7 @@ Loc="320 218 919 617"
 State=2
 Number=2
 File="solar_charger_fuel_gauge_dev.brd"
-View="6.29529 -0.934394 65.7661 83.2129"
+View="55.281 -116.111 148.746 61.9064"
 WireWidths=" 0 0.254 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -402,11 +401,11 @@ Layer=16
 
 [Win_3]
 Type="Schematic Editor"
-Loc="320 218 1548 949"
+Loc="320 218 1516 932"
 State=1
 Number=1
 File="solar_charger_fuel_gauge_dev.sch"
-View="-56.0286 -11.7676 596.947 299.326"
+View="355.965 172.408 508.503 266.183"
 WireWidths=" 0 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -444,8 +443,8 @@ SwapLevel=0
 ArcDirection=0
 AddLevel=2
 PadsSameType=0
-Layer=95
-Views=" 1: -56.0286 -11.7676 596.947 299.326"
+Layer=97
+Views=" 1: 355.965 172.408 508.503 266.183"
 Sheet=1
 
 [Desktop]
