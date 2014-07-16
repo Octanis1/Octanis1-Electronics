@@ -18738,13 +18738,17 @@ Block, Siemens and generic&lt;p&gt;
 <clearance class="0" value="0.1524"/>
 </class>
 <class number="1" name="Ground" width="0.2032" drill="0.3048">
-<clearance class="0" value="0.1524"/>
 <clearance class="1" value="0.1524"/>
 </class>
 <class number="2" name="Power" width="0.2032" drill="0.3048">
-<clearance class="0" value="0.1524"/>
-<clearance class="1" value="0.1524"/>
 <clearance class="2" value="0.1524"/>
+</class>
+<class number="3" name="hPower" width="0.4064" drill="0.6096">
+<clearance class="3" value="0.1524"/>
+</class>
+<class number="4" name="hGround" width="0.4064" drill="0.6096">
+<clearance class="0" value="0.1524"/>
+<clearance class="4" value="0.1524"/>
 </class>
 </classes>
 <parts>
@@ -18755,8 +18759,8 @@ Block, Siemens and generic&lt;p&gt;
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="LED1" library="led" deviceset="LED" device="CHIP-LED0603"/>
 <part name="LED2" library="led" deviceset="LED" device="CHIP-LED0603"/>
-<part name="R1" library="resistor" deviceset="R-EU_" device="R1206"/>
-<part name="R2" library="resistor" deviceset="R-EU_" device="R1206"/>
+<part name="R1" library="resistor" deviceset="R-EU_" device="R1206" value="1k"/>
+<part name="R2" library="resistor" deviceset="R-EU_" device="R1206" value="1k"/>
 <part name="TEMP1" library="varistor" deviceset="THERMISTOR" device="-2,5" value="103AT"/>
 <part name="RT1" library="resistor" deviceset="R-EU_" device="R1206"/>
 <part name="BATTERY" library="pinhead" deviceset="PINHD-1X2" device=""/>
@@ -19588,7 +19592,7 @@ Block, Siemens and generic&lt;p&gt;
 <wire x1="149.86" y1="193.04" x2="147.32" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="BAT+" class="1">
+<net name="BAT+" class="3">
 <segment>
 <pinref part="U1" gate="A" pin="BAT"/>
 <wire x1="86.36" y1="81.28" x2="111.76" y2="81.28" width="0.1524" layer="91"/>
@@ -19704,7 +19708,7 @@ Block, Siemens and generic&lt;p&gt;
 <wire x1="7.62" y1="81.28" x2="7.62" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="N$13" class="3">
 <segment>
 <pinref part="U1" gate="A" pin="VBUS"/>
 <wire x1="25.4" y1="83.82" x2="-2.54" y2="83.82" width="0.1524" layer="91"/>

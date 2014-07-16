@@ -18876,8 +18876,8 @@ Block, Siemens and generic&lt;p&gt;
 <part name="RSBAT" library="resistor" deviceset="R-EU_" device="R1206" value="0.01"/>
 <part name="R5" library="resistor" deviceset="R-EU_" device="R1206"/>
 <part name="R6" library="resistor" deviceset="R-EU_" device="R1206"/>
-<part name="R7" library="resistor" deviceset="R-EU_" device="R1206"/>
-<part name="R8" library="resistor" deviceset="R-EU_" device="R1206"/>
+<part name="R7" library="resistor" deviceset="R-EU_" device="R1206" value="100"/>
+<part name="R8" library="resistor" deviceset="R-EU_" device="R1206" value="100"/>
 <part name="RT2" library="resistor" deviceset="R-EU_" device="R1206" value="1k"/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="C3" library="rcl" deviceset="C-EU" device="C1206" value="33nF"/>
@@ -18888,6 +18888,7 @@ Block, Siemens and generic&lt;p&gt;
 <part name="C7" library="rcl" deviceset="C-EU" device="C1206" value="0.1uF"/>
 <part name="C8" library="rcl" deviceset="C-EU" device="C1206" value="0.1uF"/>
 <part name="C9" library="rcl" deviceset="C-EU" device="C1206" value="0.1uF"/>
+<part name="GND21" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -19256,18 +19257,19 @@ Block, Siemens and generic&lt;p&gt;
 <instance part="RSBAT" gate="G$1" x="139.7" y="53.34" rot="R180"/>
 <instance part="R5" gate="G$1" x="-22.86" y="231.14" rot="R90"/>
 <instance part="R6" gate="G$1" x="-22.86" y="248.92" rot="R90"/>
-<instance part="R7" gate="G$1" x="165.1" y="193.04" rot="R180"/>
-<instance part="R8" gate="G$1" x="165.1" y="182.88" rot="R180"/>
+<instance part="R7" gate="G$1" x="165.1" y="198.12" rot="R180"/>
+<instance part="R8" gate="G$1" x="165.1" y="187.96" rot="R180"/>
 <instance part="RT2" gate="G$1" x="-12.7" y="220.98" rot="R180"/>
 <instance part="GND18" gate="1" x="-22.86" y="182.88"/>
 <instance part="C3" gate="G$1" x="7.62" y="205.74"/>
 <instance part="C4" gate="G$1" x="-2.54" y="205.74"/>
 <instance part="C5" gate="G$1" x="27.94" y="198.12"/>
 <instance part="C6" gate="G$1" x="20.32" y="198.12"/>
-<instance part="GND19" gate="1" x="180.34" y="193.04" rot="R90"/>
-<instance part="C7" gate="G$1" x="147.32" y="195.58"/>
-<instance part="C8" gate="G$1" x="147.32" y="180.34"/>
-<instance part="C9" gate="G$1" x="137.16" y="187.96"/>
+<instance part="GND19" gate="1" x="180.34" y="198.12" rot="R90"/>
+<instance part="C7" gate="G$1" x="147.32" y="200.66"/>
+<instance part="C8" gate="G$1" x="147.32" y="185.42"/>
+<instance part="C9" gate="G$1" x="137.16" y="193.04"/>
+<instance part="GND21" gate="1" x="152.4" y="193.04" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -19574,8 +19576,16 @@ Block, Siemens and generic&lt;p&gt;
 </segment>
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="170.18" y1="193.04" x2="177.8" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="198.12" x2="177.8" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="GND19" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C8" gate="G$1" pin="1"/>
+<pinref part="C7" gate="G$1" pin="2"/>
+<wire x1="147.32" y1="187.96" x2="147.32" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="GND21" gate="1" pin="GND"/>
+<wire x1="147.32" y1="193.04" x2="147.32" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="193.04" x2="147.32" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BAT+" class="1">
@@ -20636,8 +20646,8 @@ Block, Siemens and generic&lt;p&gt;
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="170.18" y1="182.88" x2="180.34" y2="182.88" width="0.1524" layer="91"/>
-<label x="177.8" y="182.88" size="1.778" layer="95"/>
+<wire x1="170.18" y1="187.96" x2="180.34" y2="187.96" width="0.1524" layer="91"/>
+<label x="177.8" y="187.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$33" class="0">
@@ -20696,6 +20706,38 @@ Block, Siemens and generic&lt;p&gt;
 <junction x="27.94" y="208.28"/>
 <pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="208.28" x2="27.94" y2="200.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$36" class="0">
+<segment>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="160.02" y1="198.12" x2="154.94" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="198.12" x2="154.94" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="205.74" x2="147.32" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="205.74" x2="137.16" y2="205.74" width="0.1524" layer="91"/>
+<pinref part="U2" gate="A" pin="SRN"/>
+<wire x1="137.16" y1="205.74" x2="119.38" y2="205.74" width="0.1524" layer="91"/>
+<pinref part="C7" gate="G$1" pin="1"/>
+<wire x1="147.32" y1="203.2" x2="147.32" y2="205.74" width="0.1524" layer="91"/>
+<pinref part="C9" gate="G$1" pin="1"/>
+<wire x1="137.16" y1="195.58" x2="137.16" y2="205.74" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$38" class="0">
+<segment>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="160.02" y1="187.96" x2="154.94" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="187.96" x2="154.94" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="C8" gate="G$1" pin="2"/>
+<wire x1="154.94" y1="177.8" x2="147.32" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="177.8" x2="147.32" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="C9" gate="G$1" pin="2"/>
+<wire x1="147.32" y1="177.8" x2="137.16" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="177.8" x2="137.16" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="177.8" x2="124.46" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="177.8" x2="124.46" y2="203.2" width="0.1524" layer="91"/>
+<pinref part="U2" gate="A" pin="SRP"/>
+<wire x1="124.46" y1="203.2" x2="119.38" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

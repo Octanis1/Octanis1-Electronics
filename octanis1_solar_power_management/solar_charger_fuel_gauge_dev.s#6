@@ -18850,6 +18850,9 @@ Source: http://focus.ti.com/lit/ds/symlink/tusb2046b.pdf</description>
 <part name="R413" library="rcl" deviceset="R-EU_" device="R0402" value="15k"/>
 <part name="R412" library="rcl" deviceset="R-EU_" device="R0402" value="15k"/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
+<part name="RPUD" library="resistor" deviceset="R-EU_" device="R1206" value="10k"/>
+<part name="RPUC" library="resistor" deviceset="R-EU_" device="R1206" value="10k"/>
+<part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18898,6 +18901,11 @@ Source: http://focus.ti.com/lit/ds/symlink/tusb2046b.pdf</description>
 <wire x1="187.96" y1="144.78" x2="561.34" y2="144.78" width="0.1524" layer="95"/>
 <wire x1="187.96" y1="144.78" x2="187.96" y2="276.86" width="0.1524" layer="95"/>
 <wire x1="187.96" y1="276.86" x2="185.42" y2="276.86" width="0.1524" layer="95"/>
+<wire x1="438.15" y1="194.31" x2="438.15" y2="224.79" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="481.33" y1="224.79" x2="438.15" y2="224.79" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="481.33" y1="224.79" x2="481.33" y2="194.31" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="481.33" y1="194.31" x2="438.15" y2="194.31" width="0.1524" layer="97" style="shortdash"/>
+<text x="454.66" y="218.44" size="1.778" layer="97">I2C Pull-up Resistor</text>
 </plain>
 <instances>
 <instance part="U1" gate="A" x="25.4" y="83.82"/>
@@ -19202,6 +19210,11 @@ Source: http://focus.ti.com/lit/ds/symlink/tusb2046b.pdf</description>
 <attribute name="VALUE" x="468.63" y="19.558" size="1.778" layer="96"/>
 </instance>
 <instance part="GND17" gate="1" x="497.84" y="20.32"/>
+<instance part="RPUD" gate="G$1" x="444.5" y="205.74" rot="R90"/>
+<instance part="RPUC" gate="G$1" x="459.74" y="205.74" rot="R90"/>
+<instance part="+3V6" gate="G$1" x="444.5" y="220.98" smashed="yes">
+<attribute name="VALUE" x="444.5" y="220.98" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -19898,11 +19911,21 @@ Source: http://focus.ti.com/lit/ds/symlink/tusb2046b.pdf</description>
 <wire x1="396.24" y1="210.82" x2="408.94" y2="210.82" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="P4.0" class="0">
+<net name="I2C_CLK" class="0">
 <segment>
 <label x="402.59" y="213.36" size="1.778" layer="95"/>
 <pinref part="U6" gate="G$1" pin="45"/>
 <wire x1="396.24" y1="213.36" x2="408.94" y2="213.36" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="RPUC" gate="G$1" pin="1"/>
+<wire x1="459.74" y1="200.66" x2="459.74" y2="198.12" width="0.1524" layer="91"/>
+<label x="459.74" y="198.12" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U2" gate="A" pin="SCL"/>
+<wire x1="119.38" y1="213.36" x2="127" y2="213.36" width="0.1524" layer="91"/>
+<label x="124.46" y="213.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="P6.5" class="0">
@@ -19933,11 +19956,21 @@ Source: http://focus.ti.com/lit/ds/symlink/tusb2046b.pdf</description>
 <wire x1="396.24" y1="208.28" x2="408.94" y2="208.28" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="P4.1" class="0">
+<net name="I2C_DATA" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="46"/>
 <label x="402.59" y="215.9" size="1.778" layer="95"/>
 <wire x1="396.24" y1="215.9" x2="408.94" y2="215.9" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="RPUD" gate="G$1" pin="1"/>
+<wire x1="444.5" y1="200.66" x2="444.5" y2="198.12" width="0.1524" layer="91"/>
+<label x="444.5" y="198.12" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U2" gate="A" pin="SDA"/>
+<wire x1="119.38" y1="210.82" x2="127" y2="210.82" width="0.1524" layer="91"/>
+<label x="124.46" y="210.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="P3.0" class="0">
@@ -20054,6 +20087,16 @@ Source: http://focus.ti.com/lit/ds/symlink/tusb2046b.pdf</description>
 <pinref part="U6" gate="G$1" pin="50"/>
 <wire x1="396.24" y1="226.06" x2="426.72" y2="226.06" width="0.1524" layer="91"/>
 <junction x="426.72" y="226.06"/>
+</segment>
+<segment>
+<pinref part="+3V6" gate="G$1" pin="+3V3"/>
+<pinref part="RPUD" gate="G$1" pin="2"/>
+<wire x1="444.5" y1="218.44" x2="444.5" y2="213.36" width="0.1524" layer="91"/>
+<pinref part="RPUC" gate="G$1" pin="2"/>
+<wire x1="444.5" y1="213.36" x2="444.5" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="444.5" y1="213.36" x2="459.74" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="459.74" y1="213.36" x2="459.74" y2="210.82" width="0.1524" layer="91"/>
+<junction x="444.5" y="213.36"/>
 </segment>
 </net>
 <net name="+5V" class="2">

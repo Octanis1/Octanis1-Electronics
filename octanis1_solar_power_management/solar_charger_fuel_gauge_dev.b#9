@@ -3454,15 +3454,15 @@ design rules under a new name.</description>
 <attribute name="NAME" x="4.5212" y="24.0538" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="9.525" y="24.13" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="U2" library="bq27510_drz_12" package="DRZ12_1P95X2P45" value="BQ27510_DRZ_12" x="4.064" y="-2.8448">
-<attribute name="DATASHEETURL" value="Unknown" x="4.064" y="-2.8448" size="1.778" layer="27" display="off"/>
-<attribute name="PIN_COUNT" value="12" x="4.064" y="-2.8448" size="1.778" layer="27" display="off"/>
-<attribute name="GENERIC_PART_NUMBER" value="BQ27510" x="4.064" y="-2.8448" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="Unknown" x="4.064" y="-2.8448" size="1.778" layer="27" display="off"/>
-<attribute name="FAMILY_NAME" value="Unknown" x="4.064" y="-2.8448" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Texas Instruments" x="4.064" y="-2.8448" size="1.778" layer="27" display="off"/>
-<attribute name="INDUSTRY_STD_PKG_TYPE" value="Unknown" x="4.064" y="-2.8448" size="1.778" layer="27" display="off"/>
-<attribute name="PACKAGE_DESIGNATOR" value="DRZ" x="4.064" y="-2.8448" size="1.778" layer="27" display="off"/>
+<element name="U2" library="bq27510_drz_12" package="DRZ12_1P95X2P45" value="BQ27510_DRZ_12" x="4.6736" y="3.8608">
+<attribute name="DATASHEETURL" value="Unknown" x="4.6736" y="3.8608" size="1.778" layer="27" display="off"/>
+<attribute name="PIN_COUNT" value="12" x="4.6736" y="3.8608" size="1.778" layer="27" display="off"/>
+<attribute name="GENERIC_PART_NUMBER" value="BQ27510" x="4.6736" y="3.8608" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Unknown" x="4.6736" y="3.8608" size="1.778" layer="27" display="off"/>
+<attribute name="FAMILY_NAME" value="Unknown" x="4.6736" y="3.8608" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" x="4.6736" y="3.8608" size="1.778" layer="27" display="off"/>
+<attribute name="INDUSTRY_STD_PKG_TYPE" value="Unknown" x="4.6736" y="3.8608" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE_DESIGNATOR" value="DRZ" x="4.6736" y="3.8608" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C14" library="rcl" package="C0402" value="100n" x="17.272" y="-65.4304"/>
 <element name="C15" library="rcl" package="C0402" value="220n" x="22.7584" y="-65.4304"/>
@@ -3557,7 +3557,7 @@ design rules under a new name.</description>
 <signal name="EPAD">
 <contactref element="U1" pad="11"/>
 <contactref element="U2" pad="13"/>
-<wire x1="4.064" y1="-2.8448" x2="18.0681" y2="32.8508" width="0" layer="19" extent="1-1"/>
+<wire x1="4.6736" y1="3.8608" x2="18.0681" y2="32.8508" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="C2" pad="2"/>

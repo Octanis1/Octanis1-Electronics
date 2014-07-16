@@ -18762,10 +18762,10 @@ Block, Siemens and generic&lt;p&gt;
 <part name="R1" library="resistor" deviceset="R-EU_" device="R1206" value="1k"/>
 <part name="R2" library="resistor" deviceset="R-EU_" device="R1206" value="1k"/>
 <part name="TEMP1" library="varistor" deviceset="THERMISTOR" device="-2,5" value="103AT"/>
-<part name="RT1" library="resistor" deviceset="R-EU_" device="R1206"/>
+<part name="RT1" library="resistor" deviceset="R-EU_" device="R1206" value="21.5k"/>
 <part name="BATTERY" library="pinhead" deviceset="PINHD-1X2" device=""/>
-<part name="R3" library="resistor" deviceset="R-EU_" device="R1206"/>
-<part name="R4" library="resistor" deviceset="R-EU_" device="R1206"/>
+<part name="RVDM" library="resistor" deviceset="R-EU_" device="R1206" value="float"/>
+<part name="R4" library="resistor" deviceset="R-EU_" device="R1206" value="500"/>
 <part name="SOLAR" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="U2" library="bq27510_drz_12" deviceset="BQ27510_DRZ_12" device=""/>
 <part name="C14" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
@@ -18960,7 +18960,7 @@ Block, Siemens and generic&lt;p&gt;
 <instance part="TEMP1" gate="G$1" x="165.1" y="71.12" rot="R90"/>
 <instance part="RT1" gate="G$1" x="20.32" y="68.58" rot="R90"/>
 <instance part="BATTERY" gate="G$1" x="157.48" y="71.12"/>
-<instance part="R3" gate="G$1" x="104.14" y="71.12" rot="R90"/>
+<instance part="RVDM" gate="G$1" x="104.14" y="71.12" rot="R90"/>
 <instance part="R4" gate="G$1" x="7.62" y="68.58" rot="R90"/>
 <instance part="SOLAR" gate="G$1" x="-15.24" y="83.82" rot="R180"/>
 <instance part="U2" gate="A" x="33.02" y="218.44"/>
@@ -19283,7 +19283,7 @@ Block, Siemens and generic&lt;p&gt;
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="127" y1="68.58" x2="127" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="RVDM" gate="G$1" pin="1"/>
 <wire x1="104.14" y1="66.04" x2="104.14" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="53.34" x2="127" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="127" y1="53.34" x2="127" y2="48.26" width="0.1524" layer="91"/>
@@ -19695,7 +19695,7 @@ Block, Siemens and generic&lt;p&gt;
 <net name="N$6" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="VDPM"/>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="RVDM" gate="G$1" pin="2"/>
 <wire x1="86.36" y1="78.74" x2="104.14" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="78.74" x2="104.14" y2="76.2" width="0.1524" layer="91"/>
 </segment>
