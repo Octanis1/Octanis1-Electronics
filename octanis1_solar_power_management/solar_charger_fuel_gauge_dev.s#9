@@ -8606,7 +8606,7 @@ Source: AVX .. aphvc.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="U1" library="bq24210_dqc_10" deviceset="BQ24210_DQC_10" device=""/>
+<part name="U1" library="bq24210_dqc_10" deviceset="BQ24210_DQC_10" device="" value="BQ24210"/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C1206" value="1uF"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C1206" value="1uF"/>
