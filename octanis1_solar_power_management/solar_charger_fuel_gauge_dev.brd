@@ -3376,6 +3376,38 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 </package>
 </packages>
 </library>
+<library name="DRV8834">
+<packages>
+<package name="SON50P200X300X80-13N">
+<smd name="1" x="-1.016" y="1.2446" dx="0.6604" dy="0.3048" layer="1"/>
+<smd name="2" x="-1.016" y="0.762" dx="0.6604" dy="0.3048" layer="1"/>
+<smd name="3" x="-1.016" y="0.254" dx="0.6604" dy="0.3048" layer="1"/>
+<smd name="4" x="-1.016" y="-0.254" dx="0.6604" dy="0.3048" layer="1"/>
+<smd name="5" x="-1.016" y="-0.762" dx="0.6604" dy="0.3048" layer="1"/>
+<smd name="6" x="-1.016" y="-1.2446" dx="0.6604" dy="0.3048" layer="1"/>
+<smd name="7" x="1.016" y="-1.2446" dx="0.6604" dy="0.3048" layer="1"/>
+<smd name="8" x="1.016" y="-0.762" dx="0.6604" dy="0.3048" layer="1"/>
+<smd name="9" x="1.016" y="-0.254" dx="0.6604" dy="0.3048" layer="1"/>
+<smd name="10" x="1.016" y="0.254" dx="0.6604" dy="0.3048" layer="1"/>
+<smd name="11" x="1.016" y="0.762" dx="0.6604" dy="0.3048" layer="1"/>
+<smd name="12" x="1.016" y="1.2446" dx="0.6604" dy="0.3048" layer="1"/>
+<smd name="13" x="0" y="0" dx="0.9906" dy="3.0988" layer="1"/>
+<wire x1="-1.6002" y1="-1.8034" x2="-1.6002" y2="1.8034" width="0.1524" layer="39"/>
+<wire x1="-1.6002" y1="1.8034" x2="1.6002" y2="1.8034" width="0.1524" layer="39"/>
+<wire x1="1.6002" y1="1.8034" x2="1.6002" y2="-1.8034" width="0.1524" layer="39"/>
+<wire x1="1.6002" y1="-1.8034" x2="-1.6002" y2="-1.8034" width="0.1524" layer="39"/>
+<wire x1="-1.0414" y1="-1.5494" x2="1.0414" y2="-1.5494" width="0.1524" layer="51"/>
+<wire x1="1.0414" y1="-1.5494" x2="1.0414" y2="1.5494" width="0.1524" layer="51"/>
+<wire x1="1.0414" y1="1.5494" x2="0.3048" y2="1.5494" width="0.1524" layer="51"/>
+<wire x1="0.3048" y1="1.5494" x2="-0.3048" y2="1.5494" width="0.1524" layer="51"/>
+<wire x1="-0.3048" y1="1.5494" x2="-1.0414" y2="1.5494" width="0.1524" layer="51"/>
+<wire x1="-1.0414" y1="1.5494" x2="-1.0414" y2="-1.5494" width="0.1524" layer="51"/>
+<wire x1="0.3048" y1="1.5494" x2="-0.3048" y2="1.5494" width="0.1524" layer="51" curve="-180"/>
+<text x="-4.3434" y="2.3368" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-5.6642" y="-4.2164" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3748,6 +3780,34 @@ design rules under a new name.</description>
 <attribute name="MF" value="MOLEX" x="5.08" y="5.715" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="1462926" x="5.08" y="5.715" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
+<element name="U3" library="DRV8834" package="SON50P200X300X80-13N" value="DRV8836DSSR" x="6.2992" y="-146.9136">
+<attribute name="PACKAGE" value="SON-12" x="6.2992" y="-146.9136" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="94T6066" x="6.2992" y="-146.9136" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="DRV8836DSSR " x="6.2992" y="-146.9136" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="TEXAS INSTRUMENTS" x="6.2992" y="-146.9136" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="2115236 " x="6.2992" y="-146.9136" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U4" library="DRV8834" package="SON50P200X300X80-13N" value="DRV8836DSSR" x="6.2992" y="-157.0736">
+<attribute name="PACKAGE" value="SON-12" x="6.2992" y="-157.0736" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="94T6066" x="6.2992" y="-157.0736" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="DRV8836DSSR " x="6.2992" y="-157.0736" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="TEXAS INSTRUMENTS" x="6.2992" y="-157.0736" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="2115236 " x="6.2992" y="-157.0736" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U5" library="DRV8834" package="SON50P200X300X80-13N" value="DRV8836DSSR" x="6.2992" y="-167.2336">
+<attribute name="PACKAGE" value="SON-12" x="6.2992" y="-167.2336" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="94T6066" x="6.2992" y="-167.2336" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="DRV8836DSSR " x="6.2992" y="-167.2336" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="TEXAS INSTRUMENTS" x="6.2992" y="-167.2336" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="2115236 " x="6.2992" y="-167.2336" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U7" library="DRV8834" package="SON50P200X300X80-13N" value="DRV8836DSSR" x="6.2992" y="-177.3936">
+<attribute name="PACKAGE" value="SON-12" x="6.2992" y="-177.3936" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="94T6066" x="6.2992" y="-177.3936" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="DRV8836DSSR " x="6.2992" y="-177.3936" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="TEXAS INSTRUMENTS" x="6.2992" y="-177.3936" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="2115236 " x="6.2992" y="-177.3936" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND" class="4" airwireshidden="yes">
@@ -3987,10 +4047,18 @@ design rules under a new name.</description>
 <wire x1="19.415" y1="11.9822" x2="19.304" y2="11.8712" width="1.016" layer="1"/>
 <wire x1="19.304" y1="11.8712" x2="19.304" y2="10.16" width="1.016" layer="1"/>
 <wire x1="19.304" y1="10.16" x2="19.1008" y2="10.16" width="1.016" layer="1"/>
-<wire x1="15.367" y1="34.3276" x2="15.367" y2="34.734" width="0" layer="19" extent="1-1"/>
-<wire x1="12.195" y1="34.29" x2="15.367" y2="34.3276" width="0" layer="19" extent="1-1"/>
-<wire x1="10.453" y1="28.9678" x2="12.195" y2="34.29" width="0" layer="19" extent="1-16"/>
+<contactref element="U3" pad="1"/>
+<contactref element="U4" pad="1"/>
+<contactref element="U5" pad="1"/>
+<contactref element="U7" pad="1"/>
+<wire x1="5.2832" y1="-165.989" x2="5.2832" y2="-176.149" width="0" layer="19" extent="1-1"/>
+<wire x1="5.2832" y1="-155.829" x2="5.2832" y2="-165.989" width="0" layer="19" extent="1-1"/>
+<wire x1="5.2832" y1="-145.669" x2="5.2832" y2="-155.829" width="0" layer="19" extent="1-1"/>
+<wire x1="13.335" y1="4.445" x2="5.2832" y2="-145.669" width="0" layer="19" extent="1-1"/>
 <wire x1="10.795" y1="22.6178" x2="12.3952" y2="24.7904" width="0" layer="19" extent="1-16"/>
+<wire x1="12.195" y1="34.29" x2="10.453" y2="28.9678" width="0" layer="19" extent="1-16"/>
+<wire x1="15.367" y1="34.3276" x2="12.195" y2="34.29" width="0" layer="19" extent="1-1"/>
+<wire x1="15.367" y1="34.734" x2="15.367" y2="34.3276" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="R1" pad="1"/>

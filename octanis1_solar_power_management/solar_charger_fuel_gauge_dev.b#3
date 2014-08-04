@@ -4776,6 +4776,12 @@ design rules under a new name.</description>
 <wire x1="4.445" y1="-150.495" x2="4.445" y2="-193.675" width="0" layer="19" extent="1-1"/>
 <wire x1="7.62" y1="-144.78" x2="4.445" y2="-150.495" width="0" layer="19" extent="1-1"/>
 </signal>
+<signal name="EN_SOLAR_HEAT">
+<contactref element="T1" pad="2"/>
+</signal>
+<signal name="EN_BAT_HEAT">
+<contactref element="T2" pad="2"/>
+</signal>
 </signals>
 </board>
 </drawing>
