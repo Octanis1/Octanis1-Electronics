@@ -21310,6 +21310,7 @@ Typical applications:&lt;p&gt;
 <text x="454.66" y="218.44" size="1.778" layer="97">I2C Pull-up Resistor</text>
 <text x="73.66" y="337.82" size="2.54" layer="91" font="fixed" align="bottom-center">On-Board Heating</text>
 <wire x1="-12.7" y1="27.94" x2="185.42" y2="27.94" width="0.1524" layer="96"/>
+<text x="665.48" y="271.78" size="1.778" layer="91">Pressure Sensor</text>
 </plain>
 <instances>
 <instance part="U1" gate="A" x="25.4" y="83.82"/>

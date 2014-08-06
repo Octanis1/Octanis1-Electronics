@@ -21130,6 +21130,77 @@ Typical applications:&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="HMC5883L">
+<packages>
+<package name="LPCC16">
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="21"/>
+<smd name="12" x="1.5" y="0.75" dx="0.8" dy="0.3" layer="1"/>
+<smd name="11" x="1.5" y="0.25" dx="0.8" dy="0.3" layer="1"/>
+<smd name="10" x="1.5" y="-0.25" dx="0.8" dy="0.3" layer="1"/>
+<smd name="9" x="1.5" y="-0.75" dx="0.8" dy="0.3" layer="1"/>
+<smd name="8" x="0.75" y="-1.5" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="7" x="0.25" y="-1.5" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="6" x="-0.25" y="-1.5" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="5" x="-0.75" y="-1.5" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="4" x="-1.5" y="-0.75" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="3" x="-1.5" y="-0.25" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="2" x="-1.5" y="0.25" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="1" x="-1.5" y="0.75" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="16" x="-0.75" y="1.5" dx="0.8" dy="0.3" layer="1" rot="R270"/>
+<smd name="15" x="-0.25" y="1.5" dx="0.8" dy="0.3" layer="1" rot="R270"/>
+<smd name="14" x="0.25" y="1.5" dx="0.8" dy="0.3" layer="1" rot="R270"/>
+<smd name="13" x="0.75" y="1.5" dx="0.8" dy="0.3" layer="1" rot="R270"/>
+<circle x="-1.2" y="1.2" radius="0.05" width="0.1" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="HMC5883L">
+<pin name="VDD" x="-20.32" y="17.78" length="middle" direction="pwr"/>
+<pin name="VDD_IO" x="-20.32" y="15.24" length="middle" direction="pwr"/>
+<pin name="GND" x="-20.32" y="12.7" length="middle"/>
+<pin name="S1" x="-20.32" y="7.62" length="middle" direction="pwr"/>
+<pin name="C1" x="-20.32" y="5.08" length="middle" direction="pas"/>
+<pin name="SCL" x="10.16" y="17.78" length="middle" direction="in" rot="R180"/>
+<pin name="DRDY" x="10.16" y="15.24" length="middle" direction="in" rot="R180"/>
+<pin name="SDA" x="10.16" y="12.7" length="middle" direction="in" rot="R180"/>
+<pin name="SETC" x="10.16" y="7.62" length="middle" direction="pas" rot="R180"/>
+<pin name="SETP" x="10.16" y="5.08" length="middle" direction="pas" rot="R180"/>
+<wire x1="-15.24" y1="2.54" x2="-15.24" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="20.32" x2="5.08" y2="20.32" width="0.254" layer="94"/>
+<wire x1="5.08" y1="20.32" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="-15.24" y2="2.54" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="HMC5883L">
+<gates>
+<gate name="G$1" symbol="HMC5883L" x="5.08" y="-10.16"/>
+</gates>
+<devices>
+<device name="" package="LPCC16">
+<connects>
+<connect gate="G$1" pin="C1" pad="10"/>
+<connect gate="G$1" pin="DRDY" pad="15"/>
+<connect gate="G$1" pin="GND" pad="9 11"/>
+<connect gate="G$1" pin="S1" pad="4"/>
+<connect gate="G$1" pin="SCL" pad="1"/>
+<connect gate="G$1" pin="SDA" pad="16"/>
+<connect gate="G$1" pin="SETC" pad="12"/>
+<connect gate="G$1" pin="SETP" pad="8"/>
+<connect gate="G$1" pin="VDD" pad="2"/>
+<connect gate="G$1" pin="VDD_IO" pad="13"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -21280,6 +21351,13 @@ Typical applications:&lt;p&gt;
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
+<part name="COMPASS" library="HMC5883L" deviceset="HMC5883L" device=""/>
+<part name="GND5" library="supply1" deviceset="GND" device=""/>
+<part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
+<part name="C13" library="rcl" deviceset="C-EU" device="C0805" value="0.22µ"/>
+<part name="C10" library="rcl" deviceset="C-EU" device="C0805" value="4.7µ"/>
+<part name="C15" library="rcl" deviceset="C-EU" device="C0805" value="0.1µ"/>
+<part name="GND7" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -21311,6 +21389,7 @@ Typical applications:&lt;p&gt;
 <text x="73.66" y="337.82" size="2.54" layer="91" font="fixed" align="bottom-center">On-Board Heating</text>
 <wire x1="-12.7" y1="27.94" x2="185.42" y2="27.94" width="0.1524" layer="96"/>
 <text x="665.48" y="271.78" size="1.778" layer="91">Pressure Sensor</text>
+<text x="886.46" y="284.48" size="1.778" layer="91">compass</text>
 </plain>
 <instances>
 <instance part="U1" gate="A" x="25.4" y="83.82"/>
@@ -21480,6 +21559,13 @@ Typical applications:&lt;p&gt;
 <instance part="+3V4" gate="G$1" x="716.28" y="281.94" smashed="yes">
 <attribute name="VALUE" x="716.28" y="281.94" size="1.778" layer="96"/>
 </instance>
+<instance part="COMPASS" gate="G$1" x="896.62" y="261.62"/>
+<instance part="GND5" gate="1" x="866.14" y="246.38"/>
+<instance part="+3V5" gate="G$1" x="843.28" y="276.86" rot="R90"/>
+<instance part="C13" gate="G$1" x="914.4" y="264.16"/>
+<instance part="C10" gate="G$1" x="873.76" y="261.62"/>
+<instance part="C15" gate="G$1" x="853.44" y="292.1"/>
+<instance part="GND7" gate="1" x="883.92" y="299.72" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -21760,6 +21846,23 @@ Typical applications:&lt;p&gt;
 <pinref part="GND6" gate="1" pin="GND"/>
 <pinref part="C11" gate="G$1" pin="2"/>
 <wire x1="716.28" y1="238.76" x2="716.28" y2="233.68" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="COMPASS" gate="G$1" pin="GND"/>
+<wire x1="876.3" y1="274.32" x2="866.14" y2="274.32" width="0.1524" layer="91"/>
+<wire x1="866.14" y1="274.32" x2="866.14" y2="254" width="0.1524" layer="91"/>
+<pinref part="GND5" gate="1" pin="GND"/>
+<pinref part="C10" gate="G$1" pin="2"/>
+<wire x1="866.14" y1="254" x2="866.14" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="873.76" y1="256.54" x2="873.76" y2="254" width="0.1524" layer="91"/>
+<wire x1="873.76" y1="254" x2="866.14" y2="254" width="0.1524" layer="91"/>
+<junction x="866.14" y="254"/>
+</segment>
+<segment>
+<pinref part="C15" gate="G$1" pin="1"/>
+<wire x1="853.44" y1="294.64" x2="858.52" y2="299.72" width="0.1524" layer="91"/>
+<wire x1="858.52" y1="299.72" x2="881.38" y2="299.72" width="0.1524" layer="91"/>
+<pinref part="GND7" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="BAT+" class="3">
@@ -22491,6 +22594,23 @@ Typical applications:&lt;p&gt;
 <wire x1="695.96" y1="256.54" x2="716.28" y2="256.54" width="0.1524" layer="91"/>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
 </segment>
+<segment>
+<pinref part="COMPASS" gate="G$1" pin="VDD"/>
+<pinref part="COMPASS" gate="G$1" pin="S1"/>
+<wire x1="876.3" y1="279.4" x2="858.52" y2="279.4" width="0.1524" layer="91"/>
+<wire x1="876.3" y1="269.24" x2="858.52" y2="269.24" width="0.1524" layer="91"/>
+<wire x1="858.52" y1="269.24" x2="858.52" y2="276.86" width="0.1524" layer="91"/>
+<pinref part="COMPASS" gate="G$1" pin="VDD_IO"/>
+<wire x1="858.52" y1="276.86" x2="858.52" y2="279.4" width="0.1524" layer="91"/>
+<junction x="858.52" y="276.86"/>
+<wire x1="876.3" y1="276.86" x2="858.52" y2="276.86" width="0.1524" layer="91"/>
+<wire x1="858.52" y1="276.86" x2="853.44" y2="276.86" width="0.1524" layer="91"/>
+<pinref part="+3V5" gate="G$1" pin="+3V3"/>
+<wire x1="853.44" y1="276.86" x2="845.82" y2="276.86" width="0.1524" layer="91"/>
+<wire x1="853.44" y1="276.86" x2="853.44" y2="287.02" width="0.1524" layer="91"/>
+<pinref part="C15" gate="G$1" pin="2"/>
+<junction x="853.44" y="276.86"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -22859,6 +22979,11 @@ Typical applications:&lt;p&gt;
 <wire x1="119.38" y1="210.82" x2="127" y2="210.82" width="0.1524" layer="91"/>
 <label x="124.46" y="210.82" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="COMPASS" gate="G$1" pin="SDA"/>
+<wire x1="906.78" y1="274.32" x2="924.56" y2="274.32" width="0.1524" layer="91"/>
+<label x="914.4" y="274.32" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SCL" class="0">
 <segment>
@@ -22885,6 +23010,11 @@ Typical applications:&lt;p&gt;
 <pinref part="U2" gate="A" pin="SCL"/>
 <wire x1="119.38" y1="213.36" x2="127" y2="213.36" width="0.1524" layer="91"/>
 <label x="124.46" y="213.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="COMPASS" gate="G$1" pin="SCL"/>
+<wire x1="906.78" y1="279.4" x2="927.1" y2="279.4" width="0.1524" layer="91"/>
+<label x="914.4" y="279.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VIN+" class="0">
@@ -22917,6 +23047,32 @@ Typical applications:&lt;p&gt;
 <segment>
 <wire x1="640.08" y1="309.88" x2="614.68" y2="309.88" width="0.1524" layer="91"/>
 <wire x1="614.68" y1="309.88" x2="614.68" y2="-15.24" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$25" class="0">
+<segment>
+<pinref part="COMPASS" gate="G$1" pin="SETP"/>
+<wire x1="906.78" y1="266.7" x2="909.32" y2="266.7" width="0.1524" layer="91"/>
+<wire x1="909.32" y1="266.7" x2="909.32" y2="256.54" width="0.1524" layer="91"/>
+<wire x1="909.32" y1="256.54" x2="914.4" y2="256.54" width="0.1524" layer="91"/>
+<wire x1="914.4" y1="256.54" x2="914.4" y2="259.08" width="0.1524" layer="91"/>
+<pinref part="C13" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$32" class="0">
+<segment>
+<pinref part="C13" gate="G$1" pin="1"/>
+<wire x1="914.4" y1="266.7" x2="914.4" y2="269.24" width="0.1524" layer="91"/>
+<pinref part="COMPASS" gate="G$1" pin="SETC"/>
+<wire x1="914.4" y1="269.24" x2="906.78" y2="269.24" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="COMPASS" gate="G$1" pin="C1"/>
+<wire x1="876.3" y1="266.7" x2="873.76" y2="266.7" width="0.1524" layer="91"/>
+<wire x1="873.76" y1="266.7" x2="873.76" y2="264.16" width="0.1524" layer="91"/>
+<pinref part="C10" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
