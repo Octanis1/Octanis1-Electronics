@@ -3786,7 +3786,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="tps62231_dry_6" x="-3.8608" y="-84.328" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE_DESIGNATOR" value="DRY" x="-3.8608" y="-84.328" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J401" library="usb_con-update" package="HIROSE-ZX62R-B-5P" value="" x="3.048" y="-90.424"/>
+<element name="J401" library="usb_con-update" package="HIROSE-ZX62R-B-5P" value="" x="95.3008" y="16.0528"/>
 <element name="C404" library="CAP" package="CSMD0805" value="1u" x="7.112" y="-106.68"/>
 <element name="C401" library="CAP" package="CSMD0805" value="1u" x="1.6256" y="-106.68"/>
 <element name="Q401" library="murata" package="MURATA-FILTER_CSTCR" value="CSTCR6M00G15L99" x="3.048" y="-98.7552">
@@ -4067,8 +4067,8 @@ design rules under a new name.</description>
 <wire x1="23.734" y1="-119.888" x2="25.034" y2="-124.7648" width="0" layer="19" extent="1-1"/>
 <wire x1="19.3444" y1="-124.7648" x2="25.034" y2="-124.7648" width="0" layer="19" extent="1-1"/>
 <wire x1="18.0444" y1="-119.888" x2="19.3444" y2="-124.7648" width="0" layer="19" extent="1-1"/>
-<wire x1="5.723" y1="-89.124" x2="3.048" y2="-98.7552" width="0" layer="19" extent="1-1"/>
-<wire x1="7.1754" y1="-89.4388" x2="5.723" y2="-89.124" width="0" layer="19" extent="1-1"/>
+<wire x1="97.9758" y1="17.3528" x2="3.048" y2="-98.7552" width="0" layer="19" extent="1-1"/>
+<wire x1="7.1754" y1="-89.4388" x2="97.9758" y2="17.3528" width="0" layer="19" extent="1-1"/>
 <wire x1="8.3004" y1="-85.8138" x2="7.1754" y2="-89.4388" width="0" layer="19" extent="1-1"/>
 <wire x1="9.8004" y1="-85.8138" x2="8.3004" y2="-85.8138" width="0" layer="19" extent="1-1"/>
 <wire x1="10.3004" y1="-85.8138" x2="9.8004" y2="-85.8138" width="0" layer="19" extent="1-1"/>
@@ -4572,21 +4572,21 @@ design rules under a new name.</description>
 <signal name="N$15">
 <contactref element="J401" pad="SHIELD1"/>
 <contactref element="R401" pad="1"/>
-<wire x1="29.4236" y1="-110.1344" x2="3.048" y2="-86.324" width="0" layer="19" extent="1-1"/>
+<wire x1="29.4236" y1="-110.1344" x2="95.3008" y2="20.1528" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$16">
 <contactref element="J401" pad="D+"/>
 <contactref element="U404" pad="5"/>
 <contactref element="R405" pad="2"/>
 <wire x1="19.2104" y1="-97.6988" x2="19.3444" y2="-115.0112" width="0" layer="19" extent="1-1"/>
-<wire x1="5.723" y1="-90.424" x2="19.2104" y2="-97.6988" width="0" layer="19" extent="1-1"/>
+<wire x1="97.9758" y1="16.0528" x2="19.2104" y2="-97.6988" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$17">
 <contactref element="J401" pad="D-"/>
 <contactref element="U404" pad="3"/>
 <contactref element="R406" pad="2"/>
 <wire x1="20.2104" y1="-98.9988" x2="25.034" y2="-115.0112" width="0" layer="19" extent="1-1"/>
-<wire x1="5.723" y1="-91.074" x2="20.2104" y2="-98.9988" width="0" layer="19" extent="1-1"/>
+<wire x1="97.9758" y1="15.4028" x2="20.2104" y2="-98.9988" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$18">
 <contactref element="IC401" pad="2"/>
@@ -4747,7 +4747,7 @@ design rules under a new name.</description>
 <wire x1="14.9894" y1="-104.8512" x2="8.0518" y2="-106.68" width="0" layer="19" extent="1-1"/>
 <wire x1="21.4988" y1="-104.4448" x2="14.9894" y2="-104.8512" width="0" layer="19" extent="1-1"/>
 <wire x1="19.2104" y1="-98.9988" x2="21.4988" y2="-104.4448" width="0" layer="19" extent="1-1"/>
-<wire x1="5.723" y1="-91.724" x2="8.0518" y2="-106.68" width="0" layer="19" extent="1-1"/>
+<wire x1="97.9758" y1="14.7528" x2="8.0518" y2="-106.68" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BAT-" class="4">
 <contactref element="BATTERY" pad="2"/>

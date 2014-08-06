@@ -20512,25 +20512,29 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <wire x1="7.62" y1="81.28" x2="7.62" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="P1.4" class="0">
-<segment>
-<wire x1="340.36" y1="175.26" x2="340.36" y2="185.42" width="0.1524" layer="91"/>
-<label x="340.36" y="175.26" size="1.778" layer="95" rot="R90"/>
-<pinref part="U6" gate="G$1" pin="25"/>
-</segment>
-</net>
-<net name="P2.6" class="0">
+<net name="M5678SLEEP" class="0">
 <segment>
 <wire x1="365.76" y1="175.26" x2="365.76" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="U6" gate="G$1" pin="35"/>
-<label x="365.76" y="175.26" size="1.778" layer="95" rot="R90"/>
+<label x="365.76" y="175.26" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
-</net>
-<net name="P1.3" class="0">
 <segment>
-<wire x1="337.82" y1="175.26" x2="337.82" y2="185.42" width="0.1524" layer="91"/>
-<label x="337.82" y="175.26" size="1.778" layer="95" rot="R90"/>
-<pinref part="U6" gate="G$1" pin="24"/>
+<pinref part="U5" gate="A" pin="NSLEEP"/>
+<wire x1="492.76" y1="0" x2="487.68" y2="0" width="0.1524" layer="91"/>
+<wire x1="487.68" y1="0" x2="485.14" y2="0" width="0.1524" layer="91"/>
+<label x="485.14" y="0" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U5" gate="A" pin="MODE"/>
+<wire x1="492.76" y1="-2.54" x2="487.68" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="487.68" y1="-2.54" x2="487.68" y2="0" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U7" gate="A" pin="NSLEEP"/>
+<wire x1="589.28" y1="0" x2="584.2" y2="0" width="0.1524" layer="91"/>
+<wire x1="584.2" y1="0" x2="581.66" y2="0" width="0.1524" layer="91"/>
+<label x="581.66" y="0" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U7" gate="A" pin="MODE"/>
+<wire x1="589.28" y1="-2.54" x2="584.2" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="584.2" y1="-2.54" x2="584.2" y2="0" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="P3.2" class="0">
@@ -20538,27 +20542,6 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <wire x1="375.92" y1="175.26" x2="375.92" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="U6" gate="G$1" pin="39"/>
 <label x="375.92" y="175.26" size="1.778" layer="95" rot="R90"/>
-</segment>
-</net>
-<net name="P1.2" class="0">
-<segment>
-<wire x1="335.28" y1="185.42" x2="335.28" y2="175.26" width="0.1524" layer="91"/>
-<label x="335.28" y="175.26" size="1.778" layer="95" rot="R90"/>
-<pinref part="U6" gate="G$1" pin="23"/>
-</segment>
-</net>
-<net name="P1.5" class="0">
-<segment>
-<wire x1="342.9" y1="175.26" x2="342.9" y2="185.42" width="0.1524" layer="91"/>
-<label x="342.9" y="175.26" size="1.778" layer="95" rot="R90"/>
-<pinref part="U6" gate="G$1" pin="26"/>
-</segment>
-</net>
-<net name="P1.7" class="0">
-<segment>
-<wire x1="347.98" y1="175.26" x2="347.98" y2="185.42" width="0.1524" layer="91"/>
-<label x="347.98" y="175.26" size="1.778" layer="95" rot="R90"/>
-<pinref part="U6" gate="G$1" pin="28"/>
 </segment>
 </net>
 <net name="TARGET_PUR" class="0">
@@ -20588,20 +20571,6 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <pinref part="JP1" gate="G$1" pin="1"/>
 <label x="261.62" y="279.4" size="1.778" layer="95" rot="R180"/>
 <wire x1="340.36" y1="279.4" x2="238.76" y2="279.4" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="P1.0" class="0">
-<segment>
-<wire x1="330.2" y1="185.42" x2="330.2" y2="175.26" width="0.1524" layer="91"/>
-<label x="330.2" y="175.26" size="1.778" layer="95" rot="R90"/>
-<pinref part="U6" gate="G$1" pin="21"/>
-</segment>
-</net>
-<net name="P1.1" class="0">
-<segment>
-<wire x1="332.74" y1="185.42" x2="332.74" y2="175.26" width="0.1524" layer="91"/>
-<label x="332.74" y="175.26" size="1.778" layer="95" rot="R90"/>
-<pinref part="U6" gate="G$1" pin="22"/>
 </segment>
 </net>
 <net name="VCORE" class="2">
@@ -20639,13 +20608,6 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <wire x1="332.74" y1="276.86" x2="332.74" y2="269.24" width="0.1524" layer="91"/>
 <label x="332.74" y="271.78" size="1.778" layer="95" rot="R90"/>
 <pinref part="U6" gate="G$1" pin="79"/>
-</segment>
-</net>
-<net name="P1.6" class="0">
-<segment>
-<wire x1="345.44" y1="175.26" x2="345.44" y2="185.42" width="0.1524" layer="91"/>
-<label x="345.44" y="175.26" size="1.778" layer="95" rot="R90"/>
-<pinref part="U6" gate="G$1" pin="27"/>
 </segment>
 </net>
 <net name="P6.4" class="0">
@@ -20692,25 +20654,11 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <pinref part="U6" gate="G$1" pin="4"/>
 </segment>
 </net>
-<net name="P2.0" class="0">
-<segment>
-<wire x1="350.52" y1="175.26" x2="350.52" y2="185.42" width="0.1524" layer="91"/>
-<label x="350.52" y="175.26" size="1.778" layer="95" rot="R90"/>
-<pinref part="U6" gate="G$1" pin="29"/>
-</segment>
-</net>
 <net name="P3.4" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="41"/>
 <label x="402.59" y="203.2" size="1.778" layer="95"/>
 <wire x1="396.24" y1="203.2" x2="408.94" y2="203.2" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="P2.5" class="0">
-<segment>
-<wire x1="363.22" y1="175.26" x2="363.22" y2="185.42" width="0.1524" layer="91"/>
-<pinref part="U6" gate="G$1" pin="34"/>
-<label x="363.22" y="175.26" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="P3.3" class="0">
@@ -20732,34 +20680,6 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <wire x1="337.82" y1="276.86" x2="337.82" y2="269.24" width="0.1524" layer="91"/>
 <label x="337.82" y="271.78" size="1.778" layer="95" rot="R90"/>
 <pinref part="U6" gate="G$1" pin="77"/>
-</segment>
-</net>
-<net name="P2.4" class="0">
-<segment>
-<wire x1="360.68" y1="175.26" x2="360.68" y2="185.42" width="0.1524" layer="91"/>
-<label x="360.68" y="175.26" size="1.778" layer="95" rot="R90"/>
-<pinref part="U6" gate="G$1" pin="33"/>
-</segment>
-</net>
-<net name="P2.3" class="0">
-<segment>
-<wire x1="358.14" y1="175.26" x2="358.14" y2="185.42" width="0.1524" layer="91"/>
-<label x="358.14" y="175.26" size="1.778" layer="95" rot="R90"/>
-<pinref part="U6" gate="G$1" pin="32"/>
-</segment>
-</net>
-<net name="P2.1" class="0">
-<segment>
-<wire x1="353.06" y1="175.26" x2="353.06" y2="185.42" width="0.1524" layer="91"/>
-<label x="353.06" y="175.26" size="1.778" layer="95" rot="R90"/>
-<pinref part="U6" gate="G$1" pin="30"/>
-</segment>
-</net>
-<net name="P2.2" class="0">
-<segment>
-<wire x1="355.6" y1="175.26" x2="355.6" y2="185.42" width="0.1524" layer="91"/>
-<label x="355.6" y="175.26" size="1.778" layer="95" rot="R90"/>
-<pinref part="U6" gate="G$1" pin="31"/>
 </segment>
 </net>
 <net name="P3.7" class="0">
@@ -21105,12 +21025,22 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <wire x1="304.8" y1="-7.62" x2="297.18" y2="-7.62" width="0.1524" layer="91"/>
 <label x="297.18" y="-7.62" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U6" gate="G$1" pin="15"/>
+<wire x1="312.42" y1="215.9" x2="309.88" y2="215.9" width="0.1524" layer="91"/>
+<label x="309.88" y="215.9" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="M2IN1" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="BIN1_/_BPHASE"/>
 <wire x1="304.8" y1="-15.24" x2="297.18" y2="-15.24" width="0.1524" layer="91"/>
 <label x="297.18" y="-15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U6" gate="G$1" pin="16"/>
+<wire x1="312.42" y1="213.36" x2="309.88" y2="213.36" width="0.1524" layer="91"/>
+<label x="309.88" y="213.36" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$49" class="0">
@@ -21206,7 +21136,7 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <pinref part="P+3" gate="VCC" pin="VCC"/>
 </segment>
 </net>
-<net name="M12SLEEP" class="0">
+<net name="M1234SLEEP" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="NSLEEP"/>
 <wire x1="304.8" y1="0" x2="299.72" y2="0" width="0.1524" layer="91"/>
@@ -21216,6 +21146,20 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <wire x1="304.8" y1="-2.54" x2="299.72" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="299.72" y1="-2.54" x2="299.72" y2="0" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U4" gate="A" pin="NSLEEP"/>
+<wire x1="401.32" y1="0" x2="396.24" y2="0" width="0.1524" layer="91"/>
+<wire x1="396.24" y1="0" x2="393.7" y2="0" width="0.1524" layer="91"/>
+<label x="393.7" y="0" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U4" gate="A" pin="MODE"/>
+<wire x1="401.32" y1="-2.54" x2="396.24" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="396.24" y1="-2.54" x2="396.24" y2="0" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="330.2" y1="185.42" x2="330.2" y2="170.18" width="0.1524" layer="91"/>
+<label x="330.2" y="170.18" size="1.778" layer="95" rot="R90"/>
+<pinref part="U6" gate="G$1" pin="21"/>
+</segment>
 </net>
 <net name="M1IN2" class="0">
 <segment>
@@ -21223,12 +21167,22 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <wire x1="304.8" y1="-10.16" x2="297.18" y2="-10.16" width="0.1524" layer="91"/>
 <label x="297.18" y="-10.16" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<wire x1="332.74" y1="185.42" x2="332.74" y2="175.26" width="0.1524" layer="91"/>
+<label x="332.74" y="175.26" size="1.778" layer="95" rot="R90"/>
+<pinref part="U6" gate="G$1" pin="22"/>
+</segment>
 </net>
 <net name="M2IN2" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="BIN2_/_BENBL"/>
 <wire x1="304.8" y1="-17.78" x2="297.18" y2="-17.78" width="0.1524" layer="91"/>
 <label x="297.18" y="-17.78" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="335.28" y1="185.42" x2="335.28" y2="175.26" width="0.1524" layer="91"/>
+<label x="335.28" y="175.26" size="1.778" layer="95" rot="R90"/>
+<pinref part="U6" gate="G$1" pin="23"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -21315,22 +21269,16 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <wire x1="642.62" y1="-2.54" x2="635" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="M34SLEEP" class="0">
-<segment>
-<pinref part="U4" gate="A" pin="NSLEEP"/>
-<wire x1="401.32" y1="0" x2="396.24" y2="0" width="0.1524" layer="91"/>
-<wire x1="396.24" y1="0" x2="393.7" y2="0" width="0.1524" layer="91"/>
-<label x="393.7" y="0" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U4" gate="A" pin="MODE"/>
-<wire x1="401.32" y1="-2.54" x2="396.24" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="396.24" y1="-2.54" x2="396.24" y2="0" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="M3IN1" class="0">
 <segment>
 <pinref part="U4" gate="A" pin="AIN1_/_APHASE"/>
 <wire x1="401.32" y1="-7.62" x2="393.7" y2="-7.62" width="0.1524" layer="91"/>
 <label x="393.7" y="-7.62" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U6" gate="G$1" pin="17"/>
+<wire x1="312.42" y1="210.82" x2="309.88" y2="210.82" width="0.1524" layer="91"/>
+<label x="309.88" y="210.82" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="M3IN2" class="0">
@@ -21339,12 +21287,22 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <wire x1="401.32" y1="-10.16" x2="393.7" y2="-10.16" width="0.1524" layer="91"/>
 <label x="393.7" y="-10.16" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<wire x1="337.82" y1="175.26" x2="337.82" y2="185.42" width="0.1524" layer="91"/>
+<label x="337.82" y="175.26" size="1.778" layer="95" rot="R90"/>
+<pinref part="U6" gate="G$1" pin="24"/>
+</segment>
 </net>
 <net name="M4IN1" class="0">
 <segment>
 <pinref part="U4" gate="A" pin="BIN1_/_BPHASE"/>
 <wire x1="401.32" y1="-15.24" x2="393.7" y2="-15.24" width="0.1524" layer="91"/>
 <label x="393.7" y="-15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="340.36" y1="175.26" x2="340.36" y2="185.42" width="0.1524" layer="91"/>
+<label x="340.36" y="175.26" size="1.778" layer="95" rot="R90"/>
+<pinref part="U6" gate="G$1" pin="25"/>
 </segment>
 </net>
 <net name="M4IN2" class="0">
@@ -21353,16 +21311,10 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <wire x1="401.32" y1="-17.78" x2="393.7" y2="-17.78" width="0.1524" layer="91"/>
 <label x="393.7" y="-17.78" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
-</net>
-<net name="M56SLEEP" class="0">
 <segment>
-<pinref part="U5" gate="A" pin="NSLEEP"/>
-<wire x1="492.76" y1="0" x2="487.68" y2="0" width="0.1524" layer="91"/>
-<wire x1="487.68" y1="0" x2="485.14" y2="0" width="0.1524" layer="91"/>
-<label x="485.14" y="0" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U5" gate="A" pin="MODE"/>
-<wire x1="492.76" y1="-2.54" x2="487.68" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="487.68" y1="-2.54" x2="487.68" y2="0" width="0.1524" layer="91"/>
+<wire x1="342.9" y1="175.26" x2="342.9" y2="185.42" width="0.1524" layer="91"/>
+<label x="342.9" y="175.26" size="1.778" layer="95" rot="R90"/>
+<pinref part="U6" gate="G$1" pin="26"/>
 </segment>
 </net>
 <net name="M5IN1" class="0">
@@ -21371,12 +21323,22 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <wire x1="492.76" y1="-7.62" x2="485.14" y2="-7.62" width="0.1524" layer="91"/>
 <label x="485.14" y="-7.62" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<wire x1="345.44" y1="170.18" x2="345.44" y2="185.42" width="0.1524" layer="91"/>
+<label x="345.44" y="170.18" size="1.778" layer="95" rot="R90"/>
+<pinref part="U6" gate="G$1" pin="27"/>
+</segment>
 </net>
 <net name="M5IN2" class="0">
 <segment>
 <pinref part="U5" gate="A" pin="AIN2_/_AENBL"/>
 <wire x1="492.76" y1="-10.16" x2="485.14" y2="-10.16" width="0.1524" layer="91"/>
 <label x="485.14" y="-10.16" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="347.98" y1="175.26" x2="347.98" y2="185.42" width="0.1524" layer="91"/>
+<label x="347.98" y="175.26" size="1.778" layer="95" rot="R90"/>
+<pinref part="U6" gate="G$1" pin="28"/>
 </segment>
 </net>
 <net name="M6IN1" class="0">
@@ -21385,6 +21347,11 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <wire x1="492.76" y1="-15.24" x2="485.14" y2="-15.24" width="0.1524" layer="91"/>
 <label x="485.14" y="-15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<wire x1="350.52" y1="175.26" x2="350.52" y2="185.42" width="0.1524" layer="91"/>
+<label x="350.52" y="175.26" size="1.778" layer="95" rot="R90"/>
+<pinref part="U6" gate="G$1" pin="29"/>
+</segment>
 </net>
 <net name="M6IN2" class="0">
 <segment>
@@ -21392,16 +21359,10 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <wire x1="492.76" y1="-17.78" x2="485.14" y2="-17.78" width="0.1524" layer="91"/>
 <label x="485.14" y="-17.78" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
-</net>
-<net name="M78SLEEP" class="0">
 <segment>
-<pinref part="U7" gate="A" pin="NSLEEP"/>
-<wire x1="589.28" y1="0" x2="584.2" y2="0" width="0.1524" layer="91"/>
-<wire x1="584.2" y1="0" x2="581.66" y2="0" width="0.1524" layer="91"/>
-<label x="581.66" y="0" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U7" gate="A" pin="MODE"/>
-<wire x1="589.28" y1="-2.54" x2="584.2" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="584.2" y1="-2.54" x2="584.2" y2="0" width="0.1524" layer="91"/>
+<wire x1="353.06" y1="175.26" x2="353.06" y2="185.42" width="0.1524" layer="91"/>
+<label x="353.06" y="175.26" size="1.778" layer="95" rot="R90"/>
+<pinref part="U6" gate="G$1" pin="30"/>
 </segment>
 </net>
 <net name="M7IN1" class="0">
@@ -21410,12 +21371,22 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <wire x1="589.28" y1="-7.62" x2="581.66" y2="-7.62" width="0.1524" layer="91"/>
 <label x="581.66" y="-7.62" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<wire x1="355.6" y1="175.26" x2="355.6" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="U6" gate="G$1" pin="31"/>
+<label x="355.6" y="175.26" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
 </net>
 <net name="M7IN2" class="0">
 <segment>
 <pinref part="U7" gate="A" pin="AIN2_/_AENBL"/>
 <wire x1="589.28" y1="-10.16" x2="581.66" y2="-10.16" width="0.1524" layer="91"/>
 <label x="581.66" y="-10.16" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="358.14" y1="175.26" x2="358.14" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="U6" gate="G$1" pin="32"/>
+<label x="358.14" y="175.26" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="M8IN1" class="0">
@@ -21424,12 +21395,22 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <wire x1="589.28" y1="-15.24" x2="581.66" y2="-15.24" width="0.1524" layer="91"/>
 <label x="581.66" y="-15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<wire x1="360.68" y1="175.26" x2="360.68" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="U6" gate="G$1" pin="33"/>
+<label x="360.68" y="175.26" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
 </net>
 <net name="M8IN2" class="0">
 <segment>
 <pinref part="U7" gate="A" pin="BIN2_/_BENBL"/>
 <wire x1="589.28" y1="-17.78" x2="581.66" y2="-17.78" width="0.1524" layer="91"/>
 <label x="581.66" y="-17.78" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="363.22" y1="175.26" x2="363.22" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="U6" gate="G$1" pin="34"/>
+<label x="363.22" y="175.26" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 </nets>

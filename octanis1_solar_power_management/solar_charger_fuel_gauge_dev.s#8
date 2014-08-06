@@ -25016,11 +25016,11 @@ W = angled&lt;p&gt;
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="TEMP2" library="varistor" deviceset="THERMISTOR" device="-2,5" value="103AT"/>
 <part name="RSBAT" library="resistor" deviceset="R-EU_" device="R1206" value="0.01"/>
-<part name="RG2" library="resistor" deviceset="R-EU_" device="R1206"/>
-<part name="RG1" library="resistor" deviceset="R-EU_" device="R1206"/>
-<part name="RG5" library="resistor" deviceset="R-EU_" device="R1206" value="100"/>
-<part name="RG6" library="resistor" deviceset="R-EU_" device="R1206" value="100"/>
-<part name="RG3" library="resistor" deviceset="R-EU_" device="R1206" value="1k"/>
+<part name="RG2" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="RG1" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="RG5" library="rcl" deviceset="R-EU_" device="R0603" value="100"/>
+<part name="RG6" library="rcl" deviceset="R-EU_" device="R0603" value="100"/>
+<part name="RG3" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="CG2" library="rcl" deviceset="C-EU" device="C1206" value="33nF"/>
 <part name="CG1" library="rcl" deviceset="C-EU" device="C1206" value="0.1uF"/>
@@ -25039,7 +25039,7 @@ W = angled&lt;p&gt;
 <part name="C4" library="adafruit" deviceset="C-US" device="C0603K" value="10nF"/>
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
 <part name="R3" library="adafruit" deviceset="R-US_" device="R0603" value="402k"/>
-<part name="R5" library="adafruit" deviceset="R-US_" device="R0603" value="100k"/>
+<part name="R5" library="rcl" deviceset="R-EU_" device="R0603" value="100k"/>
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
 <part name="C5" library="adafruit" deviceset="C-US" device="C0603K" value="22uF"/>
 <part name="C6" library="adafruit" deviceset="C-US" device="C0603K" value="22uF"/>

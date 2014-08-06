@@ -22272,44 +22272,24 @@ W = angled&lt;p&gt;
 <wire x1="635" y1="53.34" x2="627.38" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="627.38" y1="53.34" x2="627.38" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="SUPPLY6" gate="+5V" pin="+5V"/>
-<pinref part="U3" gate="A" pin="MODE"/>
-<label x="627.38" y="45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="635" y1="45.72" x2="607.06" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="607.06" y1="45.72" x2="607.06" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="607.06" y1="53.34" x2="627.38" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
+<pinref part="SUPPLY8" gate="+5V" pin="+5V"/>
 <pinref part="U4" gate="A" pin="VCC"/>
 <wire x1="731.52" y1="53.34" x2="723.9" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="723.9" y1="53.34" x2="723.9" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="SUPPLY8" gate="+5V" pin="+5V"/>
-<pinref part="U4" gate="A" pin="MODE"/>
-<label x="723.9" y="45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="731.52" y1="45.72" x2="706.12" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="706.12" y1="45.72" x2="706.12" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="706.12" y1="53.34" x2="723.9" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U5" gate="A" pin="VCC"/>
 <wire x1="822.96" y1="53.34" x2="815.34" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="815.34" y1="53.34" x2="815.34" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="SUPPLY9" gate="+5V" pin="+5V"/>
-<pinref part="U5" gate="A" pin="MODE"/>
-<label x="815.34" y="45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="822.96" y1="45.72" x2="797.56" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="797.56" y1="45.72" x2="797.56" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="797.56" y1="53.34" x2="815.34" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U7" gate="A" pin="VCC"/>
 <wire x1="919.48" y1="53.34" x2="911.86" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="911.86" y1="53.34" x2="911.86" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="SUPPLY10" gate="+5V" pin="+5V"/>
-<pinref part="U7" gate="A" pin="MODE"/>
-<label x="911.86" y="45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="919.48" y1="45.72" x2="894.08" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="894.08" y1="45.72" x2="894.08" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="894.08" y1="53.34" x2="911.86" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="HUB_DM1" class="0">
@@ -23006,9 +22986,12 @@ W = angled&lt;p&gt;
 <net name="M12SLEEP" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="NSLEEP"/>
-<wire x1="635" y1="48.26" x2="627.38" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="627.38" y1="48.26" x2="627.38" y2="50.8" width="0.1524" layer="91"/>
-<label x="627.38" y="50.8" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="635" y1="48.26" x2="629.92" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="629.92" y1="48.26" x2="627.38" y2="48.26" width="0.1524" layer="91"/>
+<label x="627.38" y="48.26" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U3" gate="A" pin="MODE"/>
+<wire x1="635" y1="45.72" x2="629.92" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="629.92" y1="45.72" x2="629.92" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="M1IN2" class="0">
@@ -23112,9 +23095,12 @@ W = angled&lt;p&gt;
 <net name="M34SLEEP" class="0">
 <segment>
 <pinref part="U4" gate="A" pin="NSLEEP"/>
-<wire x1="731.52" y1="48.26" x2="723.9" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="723.9" y1="48.26" x2="723.9" y2="50.8" width="0.1524" layer="91"/>
-<label x="723.9" y="50.8" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="731.52" y1="48.26" x2="726.44" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="726.44" y1="48.26" x2="723.9" y2="48.26" width="0.1524" layer="91"/>
+<label x="723.9" y="48.26" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U4" gate="A" pin="MODE"/>
+<wire x1="731.52" y1="45.72" x2="726.44" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="726.44" y1="45.72" x2="726.44" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="M3IN1" class="0">
@@ -23148,9 +23134,12 @@ W = angled&lt;p&gt;
 <net name="M56SLEEP" class="0">
 <segment>
 <pinref part="U5" gate="A" pin="NSLEEP"/>
-<wire x1="822.96" y1="48.26" x2="815.34" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="815.34" y1="48.26" x2="815.34" y2="50.8" width="0.1524" layer="91"/>
-<label x="815.34" y="50.8" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="822.96" y1="48.26" x2="817.88" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="817.88" y1="48.26" x2="815.34" y2="48.26" width="0.1524" layer="91"/>
+<label x="815.34" y="48.26" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U5" gate="A" pin="MODE"/>
+<wire x1="822.96" y1="45.72" x2="817.88" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="817.88" y1="45.72" x2="817.88" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="M5IN1" class="0">
@@ -23184,9 +23173,12 @@ W = angled&lt;p&gt;
 <net name="M78SLEEP" class="0">
 <segment>
 <pinref part="U7" gate="A" pin="NSLEEP"/>
-<wire x1="919.48" y1="48.26" x2="911.86" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="911.86" y1="48.26" x2="911.86" y2="50.8" width="0.1524" layer="91"/>
-<label x="911.86" y="50.8" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="919.48" y1="48.26" x2="914.4" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="914.4" y1="48.26" x2="911.86" y2="48.26" width="0.1524" layer="91"/>
+<label x="911.86" y="48.26" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U7" gate="A" pin="MODE"/>
+<wire x1="919.48" y1="45.72" x2="914.4" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="914.4" y1="45.72" x2="914.4" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="M7IN1" class="0">
