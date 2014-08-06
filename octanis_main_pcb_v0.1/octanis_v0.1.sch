@@ -26276,10 +26276,10 @@ Typical applications:&lt;p&gt;
 <part name="R2" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
 <part name="TEMP1" library="varistor" deviceset="THERMISTOR" device="-2,5" value="103AT"/>
 <part name="RT1" library="resistor" deviceset="R-EU_" device="R1206" value="21.5k"/>
-<part name="BATTERY" library="pinhead" deviceset="PINHD-1X2" device="" value="BAT"/>
+<part name="BATTERY" library="pinhead" deviceset="PINHD-1X2" device="" value="-  BAT  +"/>
 <part name="RVDM" library="resistor" deviceset="R-EU_" device="R1206" value="float"/>
 <part name="R4" library="resistor" deviceset="R-EU_" device="R1206" value="500"/>
-<part name="SOLAR" library="pinhead" deviceset="PINHD-1X2" device="" value="SOLAR"/>
+<part name="SOLAR" library="pinhead" deviceset="PINHD-1X2" device="" value="- SOLAR + "/>
 <part name="U2" library="bq27510_drz_12" deviceset="BQ27510_DRZ_12" device=""/>
 <part name="C14" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="C18" library="rcl" deviceset="C-EU" device="C0603" value="470n"/>
@@ -26308,8 +26308,8 @@ Typical applications:&lt;p&gt;
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="TEMP2" library="varistor" deviceset="THERMISTOR" device="-2,5" value="103AT"/>
 <part name="RSBAT" library="resistor" deviceset="R-EU_" device="R1206" value="0.01"/>
-<part name="RG2" library="rcl" deviceset="R-EU_" device="R0603"/>
-<part name="RG1" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="RG2" library="rcl" deviceset="R-EU_" device="R0603" value="18.2k"/>
+<part name="RG1" library="rcl" deviceset="R-EU_" device="R0603" value="1.8M"/>
 <part name="RG5" library="rcl" deviceset="R-EU_" device="R0603" value="100"/>
 <part name="RG6" library="rcl" deviceset="R-EU_" device="R0603" value="100"/>
 <part name="RG3" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
@@ -26336,14 +26336,14 @@ Typical applications:&lt;p&gt;
 <part name="C5" library="rcl" deviceset="C-EU" device="C0603" value="22uF"/>
 <part name="C6" library="rcl" deviceset="C-EU" device="C0603" value="22uF"/>
 <part name="SUPPLY4" library="supply2" deviceset="GND" device=""/>
-<part name="LED3" library="adafruit" deviceset="LED" device="CHIPLED_0603"/>
+<part name="LED3" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="5V-ok"/>
 <part name="R6" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
 <part name="SUPPLY7" library="supply2" deviceset="GND" device=""/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="T2" library="transistor" deviceset="BC547" device=""/>
 <part name="P+1" library="supply1" deviceset="VCC" device="" value="BAT+"/>
 <part name="P+3" library="supply1" deviceset="VCC" device="" value="VCC"/>
-<part name="HEATPAD" library="con-molex" deviceset="22-23-2021" device=""/>
+<part name="HEATPAD" library="con-molex" deviceset="22-23-2021" device="" value="HEATPAD"/>
 <part name="U3" library="DRV8834" deviceset="DRV8836DSSR" device=""/>
 <part name="SV1" library="con-lstb" deviceset="MA04-1" device=""/>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
@@ -26366,7 +26366,7 @@ Typical applications:&lt;p&gt;
 <part name="SV4" library="con-lstb" deviceset="MA04-1" device=""/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="supply2" deviceset="+5V" device=""/>
-<part name="JP1" library="pinhead" deviceset="PINHD-1X2" device="" value="SBW"/>
+<part name="JP1" library="pinhead" deviceset="PINHD-1X2" device="" value="d SBW clk"/>
 <part name="Q1" library="crystal" deviceset="FC-12M" device="" value="32.768kHz">
 <attribute name="URL" value="http://www.mouser.ch/ProductDetail/ECS/ECS-327-125-12-TR/?qs=sGAEpiMZZMsBj6bBr9Q9adKxTNdvE4KvM1b8HDkgjuY%3d"/>
 </part>
@@ -26377,14 +26377,14 @@ Typical applications:&lt;p&gt;
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
-<part name="COMPASS" library="HMC5883L" deviceset="HMC5883L" device=""/>
+<part name="COMPASS" library="HMC5883L" deviceset="HMC5883L" device="" value="HMC5883L "/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
-<part name="C13" library="rcl" deviceset="C-EU" device="C0603" value="0.22µ"/>
-<part name="C10" library="rcl" deviceset="C-EU" device="C0603" value="4.7µ"/>
-<part name="C15" library="rcl" deviceset="C-EU" device="C0603" value="0.1µ"/>
+<part name="C13" library="rcl" deviceset="C-EU" device="C0603" value="0.22uF"/>
+<part name="C10" library="rcl" deviceset="C-EU" device="C0603" value="4.7uF"/>
+<part name="C15" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="IC2" library="seb" deviceset="MPU-6050" device=""/>
+<part name="MPU-6050" library="seb" deviceset="MPU-6050" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
@@ -26399,7 +26399,7 @@ Typical applications:&lt;p&gt;
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
 <part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND32" library="supply1" deviceset="GND" device=""/>
-<part name="I2C" library="pinhead" deviceset="PINHD-1X2" device="" value="I2C"/>
+<part name="I2C" library="pinhead" deviceset="PINHD-1X2" device="" value="SCL SDA"/>
 <part name="JP2" library="pinhead" deviceset="PINHD-1X4" device="" value="SERIAL"/>
 <part name="ANALOG" library="pinhead" deviceset="PINHD-1X6" device="" value="ANALOG"/>
 <part name="DIGITAL1" library="pinhead" deviceset="PINHD-1X6" device="" value="DIGITAL1"/>
@@ -26598,7 +26598,7 @@ Typical applications:&lt;p&gt;
 <instance part="C10" gate="G$1" x="873.76" y="261.62"/>
 <instance part="C15" gate="G$1" x="853.44" y="292.1"/>
 <instance part="GND7" gate="1" x="883.92" y="299.72" rot="R90"/>
-<instance part="IC2" gate="G$1" x="838.2" y="137.16"/>
+<instance part="MPU-6050" gate="G$1" x="838.2" y="137.16"/>
 <instance part="GND9" gate="1" x="800.1" y="154.94" rot="R270"/>
 <instance part="GND10" gate="1" x="789.94" y="124.46" rot="R270"/>
 <instance part="GND12" gate="1" x="789.94" y="129.54" rot="R270"/>
@@ -26900,17 +26900,17 @@ Typical applications:&lt;p&gt;
 </segment>
 <segment>
 <wire x1="802.64" y1="154.94" x2="805.18" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="1"/>
+<pinref part="MPU-6050" gate="G$1" pin="1"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 </segment>
 <segment>
 <wire x1="792.48" y1="124.46" x2="805.18" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="18"/>
+<pinref part="MPU-6050" gate="G$1" pin="18"/>
 <pinref part="GND10" gate="1" pin="GND"/>
 </segment>
 <segment>
 <wire x1="792.48" y1="129.54" x2="805.18" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="P"/>
+<pinref part="MPU-6050" gate="G$1" pin="P"/>
 <pinref part="GND12" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -26933,11 +26933,11 @@ Typical applications:&lt;p&gt;
 <segment>
 <wire x1="866.14" y1="116.84" x2="863.6" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="GND15" gate="1" pin="GND"/>
-<pinref part="IC2" gate="G$1" pin="11"/>
+<pinref part="MPU-6050" gate="G$1" pin="11"/>
 </segment>
 <segment>
 <wire x1="863.6" y1="147.32" x2="866.14" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="9"/>
+<pinref part="MPU-6050" gate="G$1" pin="9"/>
 <pinref part="GND32" gate="1" pin="GND"/>
 </segment>
 </net>
@@ -27728,10 +27728,10 @@ Typical applications:&lt;p&gt;
 <junction x="800.1" y="114.3"/>
 <junction x="805.18" y="134.62"/>
 <junction x="784.86" y="134.62"/>
-<pinref part="IC2" gate="G$1" pin="8"/>
+<pinref part="MPU-6050" gate="G$1" pin="8"/>
 <pinref part="C17" gate="G$1" pin="2"/>
 <pinref part="C20" gate="G$1" pin="1"/>
-<pinref part="IC2" gate="G$1" pin="13"/>
+<pinref part="MPU-6050" gate="G$1" pin="13"/>
 <pinref part="+3V8" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
@@ -28064,7 +28064,7 @@ Typical applications:&lt;p&gt;
 <wire x1="863.6" y1="137.16" x2="896.62" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="896.62" y1="137.16" x2="896.62" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="896.62" y1="139.7" x2="909.32" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="24"/>
+<pinref part="MPU-6050" gate="G$1" pin="24"/>
 <label x="889" y="137.16" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -28092,7 +28092,7 @@ Typical applications:&lt;p&gt;
 </segment>
 <segment>
 <wire x1="863.6" y1="142.24" x2="909.32" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="23"/>
+<pinref part="MPU-6050" gate="G$1" pin="23"/>
 <label x="889" y="142.24" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -28135,13 +28135,13 @@ Typical applications:&lt;p&gt;
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="10"/>
+<pinref part="MPU-6050" gate="G$1" pin="10"/>
 <pinref part="C16" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="20"/>
+<pinref part="MPU-6050" gate="G$1" pin="20"/>
 <pinref part="C21" gate="G$1" pin="1"/>
 <wire x1="805.18" y1="142.24" x2="802.64" y2="142.24" width="0.1524" layer="91"/>
 </segment>
