@@ -23382,6 +23382,12 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="78.74" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
 <text x="38.4556" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;NAME</text>
 <text x="37.5158" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;VALUE</text>
+<pin name="EPAD1" x="58.42" y="-25.4" length="middle" direction="pwr" rot="R90"/>
+<pin name="EPAD2" x="55.88" y="-25.4" length="middle" direction="pwr" rot="R90"/>
+<pin name="EPAD3" x="53.34" y="-25.4" length="middle" direction="pwr" rot="R90"/>
+<pin name="EPAD4" x="50.8" y="-25.4" length="middle" direction="pwr" rot="R90"/>
+<pin name="EPAD5" x="48.26" y="-25.4" length="middle" direction="pwr" rot="R90"/>
+<pin name="EPAD6" x="45.72" y="-25.4" length="middle" direction="pwr" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -23396,6 +23402,12 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="A" pin="BAT_LOW/BAT_GD" pad="12"/>
 <connect gate="A" pin="BI/TOUT" pad="1"/>
 <connect gate="A" pin="EPAD" pad="13"/>
+<connect gate="A" pin="EPAD1" pad="V"/>
+<connect gate="A" pin="EPAD2" pad="V_2"/>
+<connect gate="A" pin="EPAD3" pad="V_3"/>
+<connect gate="A" pin="EPAD4" pad="V_4"/>
+<connect gate="A" pin="EPAD5" pad="V_5"/>
+<connect gate="A" pin="EPAD6" pad="V_6"/>
 <connect gate="A" pin="REG25" pad="2"/>
 <connect gate="A" pin="REGIN" pad="3"/>
 <connect gate="A" pin="SCL" pad="11"/>
@@ -26404,6 +26416,7 @@ Typical applications:&lt;p&gt;
 <part name="ANALOG" library="pinhead" deviceset="PINHD-1X6" device="" value="ANALOG"/>
 <part name="DIGITAL1" library="pinhead" deviceset="PINHD-1X6" device="" value="DIGITAL1"/>
 <part name="DIGITAL2" library="pinhead" deviceset="PINHD-1X8" device="" value="DIGITAL2"/>
+<part name="GND31" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -26621,6 +26634,7 @@ Typical applications:&lt;p&gt;
 <instance part="ANALOG" gate="A" x="281.94" y="261.62" rot="R180"/>
 <instance part="DIGITAL1" gate="A" x="391.16" y="157.48" rot="R270"/>
 <instance part="DIGITAL2" gate="A" x="416.56" y="241.3"/>
+<instance part="GND31" gate="1" x="91.44" y="185.42"/>
 </instances>
 <busses>
 </busses>
@@ -26940,6 +26954,27 @@ Typical applications:&lt;p&gt;
 <pinref part="MPU-6050" gate="G$1" pin="9"/>
 <pinref part="GND32" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="U2" gate="A" pin="EPAD6"/>
+<pinref part="U2" gate="A" pin="EPAD1"/>
+<wire x1="78.74" y1="193.04" x2="81.28" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="193.04" x2="83.82" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="193.04" x2="86.36" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="193.04" x2="88.9" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="193.04" x2="91.44" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="193.04" x2="91.44" y2="187.96" width="0.1524" layer="91"/>
+<pinref part="GND31" gate="1" pin="GND"/>
+<junction x="78.74" y="193.04"/>
+<pinref part="U2" gate="A" pin="EPAD5"/>
+<junction x="81.28" y="193.04"/>
+<pinref part="U2" gate="A" pin="EPAD4"/>
+<junction x="83.82" y="193.04"/>
+<pinref part="U2" gate="A" pin="EPAD3"/>
+<junction x="86.36" y="193.04"/>
+<pinref part="U2" gate="A" pin="EPAD2"/>
+<junction x="88.9" y="193.04"/>
+<junction x="91.44" y="193.04"/>
+</segment>
 </net>
 <net name="BAT+" class="3">
 <segment>
@@ -27062,11 +27097,15 @@ Typical applications:&lt;p&gt;
 <wire x1="20.32" y1="76.2" x2="20.32" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="EN" class="0">
+<net name="CHG_EN" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="*EN"/>
 <wire x1="86.36" y1="73.66" x2="93.98" y2="73.66" width="0.1524" layer="91"/>
 <label x="91.44" y="73.66" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U6" gate="G$1" pin="5"/>
+<wire x1="312.42" y1="241.3" x2="307.34" y2="241.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -27521,11 +27560,15 @@ Typical applications:&lt;p&gt;
 <wire x1="124.46" y1="203.2" x2="119.38" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="EN5V" class="0">
+<net name="5VEN" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="EN"/>
 <wire x1="55.88" y1="-15.24" x2="50.8" y2="-15.24" width="0.1524" layer="91"/>
 <label x="50.8" y="-15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U6" gate="G$1" pin="6"/>
+<wire x1="312.42" y1="238.76" x2="307.34" y2="238.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="IND" class="0">
