@@ -317,6 +317,29 @@ Source: coiltronics_dr_series.pdf</description>
 <rectangle x1="1.7215" y1="-2.559" x2="2.8215" y2="-1.984" layer="21" rot="R225"/>
 <rectangle x1="1.7215" y1="1.984" x2="2.8215" y2="2.559" layer="21" rot="R315"/>
 </package>
+<package name="TSOT23-6">
+<description>&lt;b&gt;S6 Package 6-Lead Plastic TSOT-23&lt;/b&gt;&lt;p&gt;
+Source: http://cds.linear.com/docs/Datasheet/623012fb.pdf</description>
+<wire x1="1.422" y1="-0.781" x2="-1.423" y2="-0.781" width="0.1524" layer="51"/>
+<wire x1="-1.423" y1="-0.781" x2="-1.423" y2="0.781" width="0.1524" layer="21"/>
+<wire x1="-1.423" y1="0.781" x2="1.422" y2="0.781" width="0.1524" layer="51"/>
+<wire x1="1.422" y1="0.781" x2="1.422" y2="-0.781" width="0.1524" layer="21"/>
+<circle x="-1.15" y="-0.5" radius="0.1" width="0" layer="21"/>
+<smd name="1" x="-0.95" y="-1.3" dx="0.62" dy="1.22" layer="1"/>
+<smd name="2" x="0" y="-1.3" dx="0.62" dy="1.22" layer="1"/>
+<smd name="3" x="0.95" y="-1.3" dx="0.62" dy="1.22" layer="1"/>
+<smd name="4" x="0.95" y="1.3" dx="0.62" dy="1.22" layer="1"/>
+<smd name="5" x="0" y="1.3" dx="0.62" dy="1.22" layer="1"/>
+<smd name="6" x="-0.95" y="1.3" dx="0.62" dy="1.22" layer="1"/>
+<text x="2.8575" y="-1.5875" size="1.016" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<text x="-1.5875" y="-1.5875" size="1.016" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<rectangle x1="-1.175" y1="-1.4" x2="-0.725" y2="-0.8" layer="51"/>
+<rectangle x1="-0.225" y1="-1.4" x2="0.225" y2="-0.8" layer="51"/>
+<rectangle x1="0.725" y1="-1.4" x2="1.175" y2="-0.8" layer="51"/>
+<rectangle x1="0.725" y1="0.8" x2="1.175" y2="1.4" layer="51"/>
+<rectangle x1="-0.225" y1="0.8" x2="0.225" y2="1.4" layer="51"/>
+<rectangle x1="-1.175" y1="0.8" x2="-0.725" y2="1.4" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MAX4276F">
@@ -473,6 +496,33 @@ Amplifiers with Internal Gain</description>
 <rectangle x1="-3.81" y1="-0.889" x2="3.81" y2="0.889" layer="94"/>
 <pin name="2" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="TPS2022">
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<pin name="GND" x="-12.7" y="2.54" length="middle"/>
+<pin name="IN1" x="-12.7" y="0" length="middle"/>
+<pin name="IN2" x="-12.7" y="-2.54" length="middle"/>
+<pin name="EN" x="-12.7" y="-5.08" length="middle"/>
+<pin name="OC" x="12.7" y="-5.08" length="middle" rot="R180"/>
+<pin name="OUT1" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="OUT2" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="OUT3" x="12.7" y="2.54" length="middle" rot="R180"/>
+<text x="-7.62" y="6.35" size="1.778" layer="94">&gt;VALUE</text>
+</symbol>
+<symbol name="ADR127">
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<pin name="NC1" x="-12.7" y="2.54" length="middle"/>
+<pin name="GND" x="-12.7" y="0" length="middle"/>
+<pin name="VIN" x="-12.7" y="-2.54" length="middle"/>
+<pin name="VOUT" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="NC2" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="NC3" x="12.7" y="2.54" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -687,9 +737,41 @@ Source: coiltronics_dr_series.pdf</description>
 <deviceset name="TPS2022D">
 <description>TEXAS INSTRUMENTS - TPS2022D - IC, 1.5A PWR DIST SWITCH 8SOIC</description>
 <gates>
+<gate name="G$1" symbol="TPS2022" x="0" y="0"/>
 </gates>
 <devices>
-<device name="">
+<device name="" package="SO8">
+<connects>
+<connect gate="G$1" pin="EN" pad="4"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN1" pad="2"/>
+<connect gate="G$1" pin="IN2" pad="3"/>
+<connect gate="G$1" pin="OC" pad="5"/>
+<connect gate="G$1" pin="OUT1" pad="6"/>
+<connect gate="G$1" pin="OUT2" pad="7"/>
+<connect gate="G$1" pin="OUT3" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ADR127B">
+<description>ANALOG DEVICES - ADR127BUJZ-REEL7 - VOLTAGE REFERENCE, SERIES, 3.3V, TSOT-6</description>
+<gates>
+<gate name="G$1" symbol="ADR127" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TSOT23-6">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="NC1" pad="1"/>
+<connect gate="G$1" pin="NC2" pad="5"/>
+<connect gate="G$1" pin="NC3" pad="6"/>
+<connect gate="G$1" pin="VIN" pad="3"/>
+<connect gate="G$1" pin="VOUT" pad="4"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
