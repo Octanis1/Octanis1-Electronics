@@ -14145,13 +14145,12 @@ Source: coiltronics_dr_series.pdf</description>
 <part name="U$12" library="Octanis1_EPS" deviceset="IRFR3711ZTRPBF" device=""/>
 <part name="U$20" library="Octanis1_EPS" deviceset="IRFR3711ZTRPBF" device=""/>
 <part name="U$21" library="Octanis1_EPS" deviceset="IRFR3711ZTRPBF" device=""/>
-<part name="U$9" library="Octanis1_EPS" deviceset="MBRM120LTIG" device=""/>
-<part name="U$11" library="Octanis1_EPS" deviceset="MBRM120LTIG" device=""/>
 <part name="HEAT1" library="jumper" deviceset="JP1E" device=""/>
 <part name="HEAT2" library="jumper" deviceset="JP1E" device=""/>
 <part name="HEAT3" library="jumper" deviceset="JP1E" device=""/>
 <part name="HEAT_SINK" library="jumper" deviceset="JP1E" device=""/>
 <part name="SUPPLY50" library="supply2" deviceset="GND" device=""/>
+<part name="U$9" library="Octanis1_EPS" deviceset="MBRM120LTIG" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14389,13 +14388,12 @@ Source: coiltronics_dr_series.pdf</description>
 <instance part="U$12" gate="G$1" x="-2.54" y="63.5"/>
 <instance part="U$20" gate="G$1" x="53.34" y="63.5"/>
 <instance part="U$21" gate="G$1" x="-2.54" y="53.34"/>
-<instance part="U$9" gate="G$1" x="203.2" y="68.58" rot="R270"/>
-<instance part="U$11" gate="G$1" x="203.2" y="25.4" rot="R270"/>
 <instance part="HEAT1" gate="A" x="391.16" y="71.12" rot="R180"/>
 <instance part="HEAT2" gate="A" x="401.32" y="71.12" rot="R180"/>
 <instance part="HEAT3" gate="A" x="411.48" y="71.12" rot="R180"/>
 <instance part="HEAT_SINK" gate="A" x="421.64" y="71.12" rot="R180"/>
 <instance part="SUPPLY50" gate="GND" x="406.4" y="78.74" rot="R180"/>
+<instance part="U$9" gate="G$1" x="50.8" y="76.2" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -15654,30 +15652,6 @@ Source: coiltronics_dr_series.pdf</description>
 <wire x1="373.38" y1="-177.8" x2="373.38" y2="-172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="DISSIP1" class="0">
-<segment>
-<pinref part="IC9" gate="A" pin="-IN"/>
-<wire x1="167.64" y1="27.94" x2="167.64" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G$1" pin="E"/>
-<wire x1="203.2" y1="38.1" x2="203.2" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="27.94" x2="203.2" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="U$11" gate="G$1" pin="A"/>
-<junction x="203.2" y="27.94"/>
-</segment>
-</net>
-<net name="DISSIP2" class="0">
-<segment>
-<wire x1="165.1" y1="76.2" x2="165.1" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="71.12" x2="203.2" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="E"/>
-<wire x1="203.2" y1="71.12" x2="203.2" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="IC9" gate="B" pin="-IN"/>
-<wire x1="165.1" y1="76.2" x2="167.64" y2="76.2" width="0.1524" layer="91"/>
-<label x="203.2" y="66.04" size="1.778" layer="95"/>
-<pinref part="U$9" gate="G$1" pin="A"/>
-<junction x="203.2" y="71.12"/>
-</segment>
-</net>
 <net name="N$30" class="0">
 <segment>
 <pinref part="IC9" gate="B" pin="OUT"/>
@@ -15771,18 +15745,6 @@ Source: coiltronics_dr_series.pdf</description>
 </net>
 <net name="DISSIP" class="0">
 <segment>
-<pinref part="U$11" gate="G$1" pin="K"/>
-<wire x1="203.2" y1="22.86" x2="203.2" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="U$9" gate="G$1" pin="K"/>
-<wire x1="203.2" y1="10.16" x2="203.2" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="66.04" x2="210.82" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="66.04" x2="210.82" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="10.16" x2="203.2" y2="10.16" width="0.1524" layer="91"/>
-<junction x="203.2" y="10.16"/>
-<wire x1="203.2" y1="2.54" x2="157.48" y2="2.54" width="0.1524" layer="91"/>
-<label x="160.02" y="2.54" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$8" gate="G$1" pin="K"/>
 <wire x1="15.24" y1="71.12" x2="7.62" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="U$21" gate="G$1" pin="D"/>
@@ -15797,15 +15759,44 @@ Source: coiltronics_dr_series.pdf</description>
 <wire x1="2.54" y1="71.12" x2="2.54" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="71.12" x2="2.54" y2="71.12" width="0.1524" layer="91"/>
 <junction x="7.62" y="71.12"/>
-<wire x1="50.8" y1="71.12" x2="50.8" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="U$9" gate="G$1" pin="K"/>
+<wire x1="50.8" y1="73.66" x2="50.8" y2="71.12" width="0.1524" layer="91"/>
 <junction x="50.8" y="71.12"/>
-<wire x1="50.8" y1="81.28" x2="76.2" y2="81.28" width="0.1524" layer="91"/>
-<label x="66.04" y="81.28" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="HEAT_SINK" gate="A" pin="2"/>
 <wire x1="419.1" y1="73.66" x2="419.1" y2="58.42" width="0.1524" layer="91"/>
 <label x="419.1" y="58.42" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<wire x1="165.1" y1="76.2" x2="165.1" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="71.12" x2="203.2" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="U$6" gate="G$1" pin="E"/>
+<wire x1="203.2" y1="71.12" x2="203.2" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="IC9" gate="B" pin="-IN"/>
+<wire x1="165.1" y1="76.2" x2="167.64" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="27.94" x2="203.2" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="10.16" x2="203.2" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="66.04" x2="210.82" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="66.04" x2="210.82" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="10.16" x2="203.2" y2="10.16" width="0.1524" layer="91"/>
+<junction x="203.2" y="10.16"/>
+<wire x1="203.2" y1="2.54" x2="157.48" y2="2.54" width="0.1524" layer="91"/>
+<label x="160.02" y="2.54" size="1.778" layer="95"/>
+<wire x1="203.2" y1="71.12" x2="203.2" y2="66.04" width="0.1524" layer="91"/>
+<junction x="203.2" y="71.12"/>
+<pinref part="IC9" gate="A" pin="-IN"/>
+<wire x1="167.64" y1="27.94" x2="167.64" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="U$7" gate="G$1" pin="E"/>
+<wire x1="203.2" y1="38.1" x2="203.2" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="27.94" x2="203.2" y2="27.94" width="0.1524" layer="91"/>
+<junction x="203.2" y="27.94"/>
+</segment>
+<segment>
+<wire x1="50.8" y1="81.28" x2="76.2" y2="81.28" width="0.1524" layer="91"/>
+<label x="66.04" y="81.28" size="1.778" layer="95"/>
+<pinref part="U$9" gate="G$1" pin="A"/>
+<wire x1="50.8" y1="81.28" x2="50.8" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="HEAT3" class="0">
