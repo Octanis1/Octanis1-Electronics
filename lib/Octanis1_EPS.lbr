@@ -436,6 +436,94 @@ Source: http://www.analog.com/static/imported-files/data_sheets/ADA4853-1_4853-2
 <text x="-1.15" y="2.45" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.2" y="-3.75" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="TSSOP38">
+<description>&lt;b&gt;38-Lead Thin Shrink Small Outline Package&lt;/b&gt; [TSSOP] RU-38&lt;p&gt;
+Source: http://www.analog.com/UploadedFiles/Packages/415413609854197792024125RU38.pdf&lt;br&gt;
+COMPLIANT TO JEDEC STANDARDS MS-153BD-1</description>
+<wire x1="-4.75" y1="-2.1" x2="4.75" y2="-2.1" width="0.254" layer="21"/>
+<wire x1="4.75" y1="-2.1" x2="4.75" y2="2.1" width="0.254" layer="21"/>
+<wire x1="4.75" y1="2.1" x2="-4.75" y2="2.1" width="0.254" layer="21"/>
+<wire x1="-4.75" y1="2.1" x2="-4.75" y2="-2.1" width="0.254" layer="21"/>
+<circle x="-4.1" y="-1.4" radius="0.1118" width="0.254" layer="21"/>
+<smd name="1" x="-4.5" y="-2.9" dx="0.3" dy="1.2" layer="1"/>
+<smd name="2" x="-4" y="-2.9" dx="0.3" dy="1.2" layer="1"/>
+<smd name="3" x="-3.5" y="-2.9" dx="0.3" dy="1.2" layer="1"/>
+<smd name="4" x="-3" y="-2.9" dx="0.3" dy="1.2" layer="1"/>
+<smd name="5" x="-2.5" y="-2.9" dx="0.3" dy="1.2" layer="1"/>
+<smd name="6" x="-2" y="-2.9" dx="0.3" dy="1.2" layer="1"/>
+<smd name="7" x="-1.5" y="-2.9" dx="0.3" dy="1.2" layer="1"/>
+<smd name="8" x="-1" y="-2.9" dx="0.3" dy="1.2" layer="1"/>
+<smd name="9" x="-0.5" y="-2.9" dx="0.3" dy="1.2" layer="1"/>
+<smd name="10" x="0" y="-2.9" dx="0.3" dy="1.2" layer="1"/>
+<smd name="11" x="0.5" y="-2.9" dx="0.3" dy="1.2" layer="1"/>
+<smd name="12" x="1" y="-2.9" dx="0.3" dy="1.2" layer="1"/>
+<smd name="13" x="1.5" y="-2.9" dx="0.3" dy="1.2" layer="1"/>
+<smd name="14" x="2" y="-2.9" dx="0.3" dy="1.2" layer="1"/>
+<smd name="15" x="2.5" y="-2.9" dx="0.3" dy="1.2" layer="1"/>
+<smd name="16" x="3" y="-2.9" dx="0.3" dy="1.2" layer="1"/>
+<smd name="17" x="3.5" y="-2.9" dx="0.3" dy="1.2" layer="1"/>
+<smd name="18" x="4" y="-2.9" dx="0.3" dy="1.2" layer="1"/>
+<smd name="19" x="4.5" y="-2.9" dx="0.3" dy="1.2" layer="1"/>
+<smd name="20" x="4.5" y="2.9" dx="0.3" dy="1.2" layer="1" rot="R180"/>
+<smd name="21" x="4" y="2.9" dx="0.3" dy="1.2" layer="1" rot="R180"/>
+<smd name="22" x="3.5" y="2.9" dx="0.3" dy="1.2" layer="1" rot="R180"/>
+<smd name="23" x="3" y="2.9" dx="0.3" dy="1.2" layer="1" rot="R180"/>
+<smd name="24" x="2.5" y="2.9" dx="0.3" dy="1.2" layer="1" rot="R180"/>
+<smd name="25" x="2" y="2.9" dx="0.3" dy="1.2" layer="1" rot="R180"/>
+<smd name="26" x="1.5" y="2.9" dx="0.3" dy="1.2" layer="1" rot="R180"/>
+<smd name="27" x="1" y="2.9" dx="0.3" dy="1.2" layer="1" rot="R180"/>
+<smd name="28" x="0.5" y="2.9" dx="0.3" dy="1.2" layer="1" rot="R180"/>
+<smd name="29" x="0" y="2.9" dx="0.3" dy="1.2" layer="1" rot="R180"/>
+<smd name="30" x="-0.5" y="2.9" dx="0.3" dy="1.2" layer="1" rot="R180"/>
+<smd name="31" x="-1" y="2.9" dx="0.3" dy="1.2" layer="1" rot="R180"/>
+<smd name="32" x="-1.5" y="2.9" dx="0.3" dy="1.2" layer="1" rot="R180"/>
+<smd name="33" x="-2" y="2.9" dx="0.3" dy="1.2" layer="1" rot="R180"/>
+<smd name="34" x="-2.5" y="2.9" dx="0.3" dy="1.2" layer="1" rot="R180"/>
+<smd name="35" x="-3" y="2.9" dx="0.3" dy="1.2" layer="1" rot="R180"/>
+<smd name="36" x="-3.5" y="2.9" dx="0.3" dy="1.2" layer="1" rot="R180"/>
+<smd name="37" x="-4" y="2.9" dx="0.3" dy="1.2" layer="1" rot="R180"/>
+<smd name="38" x="-4.5" y="2.9" dx="0.3" dy="1.2" layer="1" rot="R180"/>
+<text x="-3.556" y="0.254" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.556" y="-1.524" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-4.635" y1="-3.25" x2="-4.365" y2="-2.2" layer="51"/>
+<rectangle x1="-4.135" y1="-3.25" x2="-3.865" y2="-2.2" layer="51"/>
+<rectangle x1="-3.635" y1="-3.25" x2="-3.365" y2="-2.2" layer="51"/>
+<rectangle x1="-3.135" y1="-3.25" x2="-2.865" y2="-2.2" layer="51"/>
+<rectangle x1="-2.635" y1="-3.25" x2="-2.365" y2="-2.2" layer="51"/>
+<rectangle x1="-2.135" y1="-3.25" x2="-1.865" y2="-2.2" layer="51"/>
+<rectangle x1="-1.635" y1="-3.25" x2="-1.365" y2="-2.2" layer="51"/>
+<rectangle x1="-1.135" y1="-3.25" x2="-0.865" y2="-2.2" layer="51"/>
+<rectangle x1="-0.635" y1="-3.25" x2="-0.365" y2="-2.2" layer="51"/>
+<rectangle x1="-0.135" y1="-3.25" x2="0.135" y2="-2.2" layer="51"/>
+<rectangle x1="0.365" y1="-3.25" x2="0.635" y2="-2.2" layer="51"/>
+<rectangle x1="0.865" y1="-3.25" x2="1.135" y2="-2.2" layer="51"/>
+<rectangle x1="1.365" y1="-3.25" x2="1.635" y2="-2.2" layer="51"/>
+<rectangle x1="1.865" y1="-3.25" x2="2.135" y2="-2.2" layer="51"/>
+<rectangle x1="2.365" y1="-3.25" x2="2.635" y2="-2.2" layer="51"/>
+<rectangle x1="2.865" y1="-3.25" x2="3.135" y2="-2.2" layer="51"/>
+<rectangle x1="3.365" y1="-3.25" x2="3.635" y2="-2.2" layer="51"/>
+<rectangle x1="3.865" y1="-3.25" x2="4.135" y2="-2.2" layer="51"/>
+<rectangle x1="4.365" y1="-3.25" x2="4.635" y2="-2.2" layer="51"/>
+<rectangle x1="4.365" y1="2.2" x2="4.635" y2="3.25" layer="51" rot="R180"/>
+<rectangle x1="3.865" y1="2.2" x2="4.135" y2="3.25" layer="51" rot="R180"/>
+<rectangle x1="3.365" y1="2.2" x2="3.635" y2="3.25" layer="51" rot="R180"/>
+<rectangle x1="2.865" y1="2.2" x2="3.135" y2="3.25" layer="51" rot="R180"/>
+<rectangle x1="2.365" y1="2.2" x2="2.635" y2="3.25" layer="51" rot="R180"/>
+<rectangle x1="1.865" y1="2.2" x2="2.135" y2="3.25" layer="51" rot="R180"/>
+<rectangle x1="1.365" y1="2.2" x2="1.635" y2="3.25" layer="51" rot="R180"/>
+<rectangle x1="0.865" y1="2.2" x2="1.135" y2="3.25" layer="51" rot="R180"/>
+<rectangle x1="0.365" y1="2.2" x2="0.635" y2="3.25" layer="51" rot="R180"/>
+<rectangle x1="-0.135" y1="2.2" x2="0.135" y2="3.25" layer="51" rot="R180"/>
+<rectangle x1="-0.635" y1="2.2" x2="-0.365" y2="3.25" layer="51" rot="R180"/>
+<rectangle x1="-1.135" y1="2.2" x2="-0.865" y2="3.25" layer="51" rot="R180"/>
+<rectangle x1="-1.635" y1="2.2" x2="-1.365" y2="3.25" layer="51" rot="R180"/>
+<rectangle x1="-2.135" y1="2.2" x2="-1.865" y2="3.25" layer="51" rot="R180"/>
+<rectangle x1="-2.635" y1="2.2" x2="-2.365" y2="3.25" layer="51" rot="R180"/>
+<rectangle x1="-3.135" y1="2.2" x2="-2.865" y2="3.25" layer="51" rot="R180"/>
+<rectangle x1="-3.635" y1="2.2" x2="-3.365" y2="3.25" layer="51" rot="R180"/>
+<rectangle x1="-4.135" y1="2.2" x2="-3.865" y2="3.25" layer="51" rot="R180"/>
+<rectangle x1="-4.635" y1="2.2" x2="-4.365" y2="3.25" layer="51" rot="R180"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MAX4276F">
@@ -717,6 +805,53 @@ Synchronous Boost Converter</description>
 <pin name="D" x="5.08" y="2.54" visible="off" length="middle" direction="pas" rot="R180"/>
 <pin name="S" x="5.08" y="-2.54" visible="off" length="middle" direction="pas" rot="R180"/>
 <pin name="G" x="-5.08" y="-2.54" visible="off" length="short" direction="pas"/>
+</symbol>
+<symbol name="MSP430GXX44">
+<description>MSP430G2x44
+Mixed-Signal
+Microcontrollers</description>
+<wire x1="-30.48" y1="25.4" x2="30.48" y2="25.4" width="0.254" layer="94"/>
+<wire x1="30.48" y1="25.4" x2="30.48" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="30.48" y1="-25.4" x2="-30.48" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-30.48" y1="-25.4" x2="-30.48" y2="25.4" width="0.254" layer="94"/>
+<pin name="TEST/SBWTCK" x="-35.56" y="22.86" length="middle"/>
+<pin name="DVCC" x="-35.56" y="20.32" length="middle"/>
+<pin name="P2.5/ROSC" x="-35.56" y="17.78" length="middle"/>
+<pin name="DVSS" x="-35.56" y="15.24" length="middle"/>
+<pin name="XOUT/P2.7" x="-35.56" y="12.7" length="middle"/>
+<pin name="XIN/P2.6" x="-35.56" y="10.16" length="middle"/>
+<pin name="RST/NMI/SBWTDIO" x="-35.56" y="7.62" length="middle"/>
+<pin name="P2.0/ACLK/A0" x="-35.56" y="5.08" length="middle"/>
+<pin name="P2.1/TAINCLK/SMCLK/A1" x="-35.56" y="2.54" length="middle"/>
+<pin name="P2.2/TA0/A2" x="-35.56" y="0" length="middle"/>
+<pin name="P3.0/UCB0STE/UCA0CLK/A5" x="-35.56" y="-2.54" length="middle"/>
+<pin name="P3.1/UCB0SIMO/UCB0SDA" x="-35.56" y="-5.08" length="middle"/>
+<pin name="P3.2/UCB0SOMI/UCB0SCL" x="-35.56" y="-7.62" length="middle"/>
+<pin name="P3.3/UCB0CLK/UCA0STE" x="-35.56" y="-10.16" length="middle"/>
+<pin name="AVSS" x="-35.56" y="-12.7" length="middle"/>
+<pin name="AVCC" x="-35.56" y="-15.24" length="middle"/>
+<pin name="P4.0/TB0" x="-35.56" y="-17.78" length="middle"/>
+<pin name="P4.1/TB1" x="-35.56" y="-20.32" length="middle"/>
+<pin name="P4.2/TB2" x="-35.56" y="-22.86" length="middle"/>
+<pin name="P4.3/TB0/A12" x="35.56" y="-22.86" length="middle" rot="R180"/>
+<pin name="P4.4/TB1/A13" x="35.56" y="-20.32" length="middle" rot="R180"/>
+<pin name="P4.5/TB2/A14" x="35.56" y="-17.78" length="middle" rot="R180"/>
+<pin name="P4.6/TBOUTH/A15" x="35.56" y="-15.24" length="middle" rot="R180"/>
+<pin name="P4.7/TBCLK" x="35.56" y="-12.7" length="middle" rot="R180"/>
+<pin name="P3.4/UCA0TXD/UCA0SIMO" x="35.56" y="-10.16" length="middle" rot="R180"/>
+<pin name="P3.5/UCA0RXD/UCA0SOMI" x="35.56" y="-7.62" length="middle" rot="R180"/>
+<pin name="P3.6/A6" x="35.56" y="-5.08" length="middle" rot="R180"/>
+<pin name="P3.7/A7" x="35.56" y="-2.54" length="middle" rot="R180"/>
+<pin name="P2.3/TA1/A3/VREF−/VEREF-" x="35.56" y="0" length="middle" rot="R180"/>
+<pin name="P2.4/TA2/A4/VREF+/VEREF+" x="35.56" y="2.54" length="middle" rot="R180"/>
+<pin name="P1.0/TACLK/ADC10CLK" x="35.56" y="5.08" length="middle" rot="R180"/>
+<pin name="P1.1/TA0" x="35.56" y="7.62" length="middle" rot="R180"/>
+<pin name="P1.2/TA1" x="35.56" y="10.16" length="middle" rot="R180"/>
+<pin name="P1.3/TA2" x="35.56" y="12.7" length="middle" rot="R180"/>
+<pin name="P1.4/SMCLK/TCK" x="35.56" y="15.24" length="middle" rot="R180"/>
+<pin name="P1.5/TA0/TMS" x="35.56" y="17.78" length="middle" rot="R180"/>
+<pin name="P1.6/TA1/TDI" x="35.56" y="20.32" length="middle" rot="R180"/>
+<pin name="P1.7/TA2/TDO/TDI" x="35.56" y="22.86" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1136,6 +1271,61 @@ Synchronous Boost Converter</description>
 <connect gate="G$1" pin="D" pad="2"/>
 <connect gate="G$1" pin="G" pad="1"/>
 <connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MSP430G2544">
+<description>MSP430G2x44
+Mixed-Signal
+Microcontrollers</description>
+<gates>
+<gate name="G$1" symbol="MSP430GXX44" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="TSSOP38">
+<connects>
+<connect gate="G$1" pin="AVCC" pad="16"/>
+<connect gate="G$1" pin="AVSS" pad="15"/>
+<connect gate="G$1" pin="DVCC" pad="2"/>
+<connect gate="G$1" pin="DVSS" pad="4"/>
+<connect gate="G$1" pin="P1.0/TACLK/ADC10CLK" pad="31"/>
+<connect gate="G$1" pin="P1.1/TA0" pad="32"/>
+<connect gate="G$1" pin="P1.2/TA1" pad="33"/>
+<connect gate="G$1" pin="P1.3/TA2" pad="34"/>
+<connect gate="G$1" pin="P1.4/SMCLK/TCK" pad="35"/>
+<connect gate="G$1" pin="P1.5/TA0/TMS" pad="36"/>
+<connect gate="G$1" pin="P1.6/TA1/TDI" pad="37"/>
+<connect gate="G$1" pin="P1.7/TA2/TDO/TDI" pad="38"/>
+<connect gate="G$1" pin="P2.0/ACLK/A0" pad="8"/>
+<connect gate="G$1" pin="P2.1/TAINCLK/SMCLK/A1" pad="9"/>
+<connect gate="G$1" pin="P2.2/TA0/A2" pad="10"/>
+<connect gate="G$1" pin="P2.3/TA1/A3/VREF−/VEREF-" pad="29"/>
+<connect gate="G$1" pin="P2.4/TA2/A4/VREF+/VEREF+" pad="30"/>
+<connect gate="G$1" pin="P2.5/ROSC" pad="3"/>
+<connect gate="G$1" pin="P3.0/UCB0STE/UCA0CLK/A5" pad="11"/>
+<connect gate="G$1" pin="P3.1/UCB0SIMO/UCB0SDA" pad="12"/>
+<connect gate="G$1" pin="P3.2/UCB0SOMI/UCB0SCL" pad="13"/>
+<connect gate="G$1" pin="P3.3/UCB0CLK/UCA0STE" pad="14"/>
+<connect gate="G$1" pin="P3.4/UCA0TXD/UCA0SIMO" pad="25"/>
+<connect gate="G$1" pin="P3.5/UCA0RXD/UCA0SOMI" pad="26"/>
+<connect gate="G$1" pin="P3.6/A6" pad="27"/>
+<connect gate="G$1" pin="P3.7/A7" pad="28"/>
+<connect gate="G$1" pin="P4.0/TB0" pad="17"/>
+<connect gate="G$1" pin="P4.1/TB1" pad="18"/>
+<connect gate="G$1" pin="P4.2/TB2" pad="19"/>
+<connect gate="G$1" pin="P4.3/TB0/A12" pad="20"/>
+<connect gate="G$1" pin="P4.4/TB1/A13" pad="21"/>
+<connect gate="G$1" pin="P4.5/TB2/A14" pad="22"/>
+<connect gate="G$1" pin="P4.6/TBOUTH/A15" pad="23"/>
+<connect gate="G$1" pin="P4.7/TBCLK" pad="24"/>
+<connect gate="G$1" pin="RST/NMI/SBWTDIO" pad="7"/>
+<connect gate="G$1" pin="TEST/SBWTCK" pad="1"/>
+<connect gate="G$1" pin="XIN/P2.6" pad="6"/>
+<connect gate="G$1" pin="XOUT/P2.7" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>
