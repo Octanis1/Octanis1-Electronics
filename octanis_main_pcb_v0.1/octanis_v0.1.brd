@@ -6799,11 +6799,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="10.4394" y="8.9088" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="10.4394" y="8.4262" size="0.8128" layer="27" rot="R90"/>
 </element>
-<element name="R3" library="rcl" package="R0603" value="402k" x="16.7386" y="9.9822" smashed="yes" rot="R270">
+<element name="R3" library="rcl" package="R0603" value="270k" x="16.7386" y="9.9822" smashed="yes" rot="R270">
 <attribute name="NAME" x="17.3736" y="10.6172" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="15.1892" y="11.2268" size="0.8128" layer="27" rot="R270"/>
 </element>
-<element name="R5" library="rcl" package="R0603" value="100k" x="13.843" y="9.6012" smashed="yes" rot="R270">
+<element name="R5" library="rcl" package="R0603" value="68k" x="13.843" y="9.6012" smashed="yes" rot="R270">
 <attribute name="NAME" x="14.478" y="10.2362" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="12.2936" y="10.7188" size="0.8128" layer="27" rot="R270"/>
 </element>

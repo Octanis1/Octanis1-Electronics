@@ -26342,8 +26342,8 @@ Typical applications:&lt;p&gt;
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
 <part name="C4" library="rcl" deviceset="C-EU" device="C0603" value="10nF"/>
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="R0603" value="402k"/>
-<part name="R5" library="rcl" deviceset="R-EU_" device="R0603" value="100k"/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="R0603" value="270k"/>
+<part name="R5" library="rcl" deviceset="R-EU_" device="R0603" value="68k"/>
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
 <part name="C5" library="rcl" deviceset="C-EU" device="C0603" value="22uF"/>
 <part name="C6" library="rcl" deviceset="C-EU" device="C0603" value="22uF"/>
