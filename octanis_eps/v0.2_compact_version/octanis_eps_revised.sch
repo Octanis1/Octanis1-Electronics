@@ -14304,6 +14304,7 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <part name="SUPPLY52" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY53" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY54" library="supply2" deviceset="GND" device=""/>
+<part name="R45" library="rcl" deviceset="R-EU_" device="R0603" value="0Ohm"/>
 </parts>
 <sheets>
 <sheet>
@@ -14541,6 +14542,7 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <instance part="SUPPLY52" gate="GND" x="-30.48" y="38.1"/>
 <instance part="SUPPLY53" gate="GND" x="33.02" y="48.26"/>
 <instance part="SUPPLY54" gate="GND" x="-33.02" y="50.8"/>
+<instance part="R45" gate="G$1" x="299.72" y="-167.64" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -15120,15 +15122,13 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <segment>
 <pinref part="U$5" gate="G$1" pin="VIN"/>
 <pinref part="C9" gate="G$1" pin="2"/>
-<wire x1="312.42" y1="-162.56" x2="304.8" y2="-162.56" width="0.1524" layer="91"/>
-<wire x1="304.8" y1="-162.56" x2="289.56" y2="-162.56" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="-162.56" x2="299.72" y2="-162.56" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="-162.56" x2="289.56" y2="-162.56" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="-162.56" x2="276.86" y2="-162.56" width="0.1524" layer="91"/>
 <junction x="289.56" y="-162.56"/>
 <label x="276.86" y="-162.56" size="1.778" layer="95"/>
-<pinref part="U$5" gate="G$1" pin="EN"/>
-<wire x1="312.42" y1="-167.64" x2="304.8" y2="-167.64" width="0.1524" layer="91"/>
-<wire x1="304.8" y1="-167.64" x2="304.8" y2="-162.56" width="0.1524" layer="91"/>
-<junction x="304.8" y="-162.56"/>
+<pinref part="R45" gate="G$1" pin="1"/>
+<junction x="299.72" y="-162.56"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="1"/>
@@ -15898,6 +15898,15 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <wire x1="-33.02" y1="-213.36" x2="-35.56" y2="-213.36" width="0.1524" layer="91"/>
 <wire x1="-35.56" y1="-213.36" x2="-35.56" y2="-185.42" width="0.1524" layer="91"/>
 <label x="-35.56" y="-190.5" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="N$30" class="0">
+<segment>
+<pinref part="U$5" gate="G$1" pin="EN"/>
+<wire x1="312.42" y1="-167.64" x2="304.8" y2="-167.64" width="0.1524" layer="91"/>
+<pinref part="R45" gate="G$1" pin="2"/>
+<wire x1="299.72" y1="-172.72" x2="304.8" y2="-172.72" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="-172.72" x2="304.8" y2="-167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
