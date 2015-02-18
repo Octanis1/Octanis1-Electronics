@@ -14298,6 +14298,12 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <part name="SUPPLY51" library="supply2" deviceset="GND" device=""/>
 <part name="VREF" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="VCC" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="R42" library="rcl" deviceset="R-EU_" device="R0603" value="1M"/>
+<part name="R43" library="rcl" deviceset="R-EU_" device="R0603" value="1M"/>
+<part name="R44" library="rcl" deviceset="R-EU_" device="R0603" value="1M"/>
+<part name="SUPPLY52" library="supply2" deviceset="GND" device=""/>
+<part name="SUPPLY53" library="supply2" deviceset="GND" device=""/>
+<part name="SUPPLY54" library="supply2" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14529,6 +14535,12 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <instance part="SUPPLY51" gate="GND" x="66.04" y="-210.82"/>
 <instance part="VREF" gate="G$1" x="439.42" y="-86.36"/>
 <instance part="VCC" gate="G$1" x="289.56" y="-12.7" rot="R270"/>
+<instance part="R42" gate="G$1" x="-33.02" y="58.42" rot="R270"/>
+<instance part="R43" gate="G$1" x="-30.48" y="45.72" rot="R270"/>
+<instance part="R44" gate="G$1" x="33.02" y="55.88" rot="R270"/>
+<instance part="SUPPLY52" gate="GND" x="-30.48" y="38.1"/>
+<instance part="SUPPLY53" gate="GND" x="33.02" y="48.26"/>
+<instance part="SUPPLY54" gate="GND" x="-33.02" y="50.8"/>
 </instances>
 <busses>
 </busses>
@@ -14785,6 +14797,18 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <segment>
 <pinref part="IC1" gate="P" pin="V-"/>
 <pinref part="SUPPLY49" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R43" gate="G$1" pin="2"/>
+<pinref part="SUPPLY52" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R44" gate="G$1" pin="2"/>
+<pinref part="SUPPLY53" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R42" gate="G$1" pin="2"/>
+<pinref part="SUPPLY54" gate="GND" pin="GND"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -15620,6 +15644,8 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <wire x1="-25.4" y1="63.5" x2="-33.02" y2="63.5" width="0.1524" layer="91"/>
 <label x="-33.02" y="71.12" size="1.778" layer="95" rot="R90"/>
 <wire x1="-33.02" y1="63.5" x2="-33.02" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="R42" gate="G$1" pin="1"/>
+<junction x="-33.02" y="63.5"/>
 </segment>
 <segment>
 <pinref part="U$6" gate="G$1" pin="P1.1/TA0"/>
@@ -15633,6 +15659,8 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <wire x1="-25.4" y1="50.8" x2="-30.48" y2="50.8" width="0.1524" layer="91"/>
 <label x="-30.48" y="71.12" size="1.778" layer="95" rot="R90"/>
 <wire x1="-30.48" y1="50.8" x2="-30.48" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="R43" gate="G$1" pin="1"/>
+<junction x="-30.48" y="50.8"/>
 </segment>
 <segment>
 <pinref part="U$6" gate="G$1" pin="P1.2/TA1"/>
@@ -15652,6 +15680,8 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="33.02" y1="60.96" x2="33.02" y2="76.2" width="0.1524" layer="91"/>
 <label x="33.02" y="60.96" size="1.778" layer="95" rot="R90"/>
+<pinref part="R44" gate="G$1" pin="1"/>
+<junction x="33.02" y="60.96"/>
 </segment>
 <segment>
 <pinref part="U$6" gate="G$1" pin="P1.3/TA2"/>
