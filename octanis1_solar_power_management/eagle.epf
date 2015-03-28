@@ -1,5 +1,5 @@
 [Eagle]
-Version="06 06 00"
+Version="07 02 00"
 Platform="Mac OS X"
 Serial="62191E841E-LSR-WLM-1EL"
 Globals="Globals"
@@ -7,6 +7,9 @@ Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
+UsedLibrary="/Users/raffael/Desktop/Octanis/octanis-pcb/Octanis1-Electronics/lib/TPS61240DRVT.lbr"
+UsedLibrary="/Users/raffael/Desktop/Octanis/octanis-pcb/Octanis1-Electronics/lib/bq24210_dqc_10.lbr"
+UsedLibrary="/Users/raffael/Desktop/Octanis/octanis-pcb/Octanis1-Electronics/lib/bq27510_drz_12.lbr"
 UsedLibrary="/Applications/EAGLE-6.6.0/lbr/19inch.lbr"
 UsedLibrary="/Applications/EAGLE-6.6.0/lbr/40xx.lbr"
 UsedLibrary="/Applications/EAGLE-6.6.0/lbr/41xx.lbr"
@@ -343,17 +346,14 @@ UsedLibrary="/Applications/EAGLE-6.6.0/lbr/xilinx-xc9.lbr"
 UsedLibrary="/Applications/EAGLE-6.6.0/lbr/xilinx-xcv.lbr"
 UsedLibrary="/Applications/EAGLE-6.6.0/lbr/zetex.lbr"
 UsedLibrary="/Applications/EAGLE-6.6.0/lbr/zilog.lbr"
-UsedLibrary="/Users/raffael/Desktop/Octanis/octanis-pcb/Octanis1-Electronics/lib/TPS61240DRVT.lbr"
-UsedLibrary="/Users/raffael/Desktop/Octanis/octanis-pcb/Octanis1-Electronics/lib/bq24210_dqc_10.lbr"
-UsedLibrary="/Users/raffael/Desktop/Octanis/octanis-pcb/Octanis1-Electronics/lib/bq27510_drz_12.lbr"
 UsedLibrary="/Users/raffael/Downloads/schule_xl.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="455 84 1054 483"
-State=2
+Loc="16 51 1279 799"
+State=1
 Number=0
 
 [Desktop]
-Screen="1280 800"
+Screen="1680 1050"
 Window="Win_1"

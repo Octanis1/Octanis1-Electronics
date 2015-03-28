@@ -1,0 +1,84 @@
+# Created by Ultra Librarian Gold 5.3.88 Copyright © 1999-2010
+# Tanvir Mohammed, Premier Farnell
+
+Grid mil;
+Set Wire_Bend 2;
+
+
+Edit 'DFN300X300X110-7N.pac';
+Layer 1;
+Smd '1' 28 16 -0 R0 (-57 39);
+Layer 1;
+Smd '2' 28 16 -0 R0 (-57 0);
+Layer 1;
+Smd '3' 28 16 -0 R0 (-57 -39);
+Layer 1;
+Smd '4' 28 16 -0 R180 (57 -39);
+Layer 1;
+Smd '5' 28 16 -0 R180 (57 0);
+Layer 1;
+Smd '6' 28 16 -0 R180 (57 39);
+Layer 1;
+Smd '7' 59 94 -0 R0 (0 0);
+Layer 21;
+Wire 6 (-87 39) -180 (-103 39);
+Wire 6 (-103 39) -180 (-87 39);
+Layer 51;
+Wire 6 (-39 59) (-59 39);
+Wire 6 (-59 -59) (59 -59);
+Wire 6 (59 -59) (59 59);
+Wire 6 (59 59) (-59 59);
+Wire 6 (-59 59) (-59 -59);
+Wire 6 (-87 39) -180 (-103 39);
+Wire 6 (-103 39) -180 (-87 39);
+Layer 25;
+Change Size 82;
+Change Ratio 10;
+Text '>NAME' SR0 (-180 81);
+Layer 27;
+Change Size 82;
+Change Ratio 10;
+Text '>VALUE' SR0 (-227 -169);
+
+Edit 'SHT21.sym';
+Layer 94;
+Pin 'VDD' Pwr None Middle R0 Both 0 (-700 300);
+Pin 'SCL' In None Middle R0 Both 0 (-700 100);
+Pin 'NC_2' NC None Middle R0 Both 0 (-700 -100);
+Pin 'NC' NC None Middle R0 Both 0 (-700 -200);
+Pin 'VSS' Pwr None Middle R0 Both 0 (-700 -400);
+Pin 'Epad' Pas None Middle R0 Both 0 (-700 -600);
+Pin 'SDA' I/O None Middle R180 Both 0 (700 300);
+Wire 16 (-500 500) (-500 -800);
+Wire 16 (-500 -800) (500 -800);
+Wire 16 (500 -800) (500 500);
+Wire 16 (500 500) (-500 500);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 10;
+Text '>NAME' SR0 (-186 659);
+Layer 96;
+Change Size 82;
+Change Ratio 10;
+Text '>VALUE' SR0 (-199 -977);
+
+Edit 'SHT21.dev';
+Prefix 'U';
+Description 'SENSOR, HUMIDITY & TEMP';
+Value Off;
+Add SHT21 'A' Next  0 (0 0);
+Package 'DFN300X300X110-7N';
+Technology '';
+Attribute Package 'DFN-6';
+Attribute OC_FARNELL '1855468';
+Attribute MPN 'SHT21';
+Attribute Supplier 'SENSIRION';
+Attribute OC_NEWARK '20T1172';
+Connect 'A.SDA' '1';
+Connect 'A.VSS' '2';
+Connect 'A.NC' '3';
+Connect 'A.NC_2' '4';
+Connect 'A.VDD' '5';
+Connect 'A.SCL' '6';
+Connect 'A.Epad' '7';
