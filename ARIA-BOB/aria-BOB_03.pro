@@ -1,9 +1,9 @@
 EAGLE AutoRouter Statistics:
 
-Job           : C:/Users/Beat/Documents/eagle/ARIA-BOB/ARIA-BOB/aria-BOB.brd
+Job           : /Users/raffael/Desktop/Octanis/octanis-pcb/Octanis1-Electronics/ARIA-BOB/aria-BOB.brd
 
-Start at      : 23:43:07 (19.03.2015)
-End at        : 23:43:11 (19.03.2015)
+Start at      : 23:43:07 (19/03/15)
+End at        : 22:18:00 (01/04/15)
 Elapsed time  : 00:00:00
 
 Signals       :    90   RoutingGrid: 25 mil  Layers: 2
