@@ -22842,8 +22842,8 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND67" library="supply1" deviceset="GND" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
-<part name="RPUD" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
-<part name="RPUC" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="RPUD2" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="RPUC2" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
 <part name="U$1" library="texas" deviceset="TPS61230" device=""/>
 <part name="L1" library="Coilcraft" deviceset="XFL4020" device="" value="1uH"/>
@@ -22918,8 +22918,8 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <part name="+3V9" library="supply1" deviceset="+3V3" device=""/>
 <part name="Q2" library="microcrystal" deviceset="MS3V-T1R" device="" value="32.768kHz"/>
 <part name="JP2" library="pinhead" deviceset="PINHD-1X2" device=""/>
-<part name="RPUD1" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
-<part name="RPUC1" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="RPUD" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="RPUC" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="JP3" library="pinhead" deviceset="PINHD-1X6" device=""/>
 <part name="C24" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
@@ -23018,8 +23018,8 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <instance part="+3V3" gate="G$1" x="436.88" y="266.7" smashed="yes">
 <attribute name="VALUE" x="436.88" y="266.7" size="1.778" layer="96"/>
 </instance>
-<instance part="RPUD" gate="G$1" x="558.8" y="312.42" rot="R90"/>
-<instance part="RPUC" gate="G$1" x="566.42" y="312.42" rot="R90"/>
+<instance part="RPUD2" gate="G$1" x="558.8" y="312.42" rot="R90"/>
+<instance part="RPUC2" gate="G$1" x="566.42" y="312.42" rot="R90"/>
 <instance part="+3V6" gate="G$1" x="558.8" y="327.66" smashed="yes">
 <attribute name="VALUE" x="558.8" y="327.66" size="1.778" layer="96"/>
 </instance>
@@ -23117,8 +23117,8 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <attribute name="VALUE" x="251.46" y="256.54" size="1.524" layer="96"/>
 </instance>
 <instance part="JP2" gate="G$1" x="426.72" y="231.14"/>
-<instance part="RPUD1" gate="G$1" x="520.7" y="312.42" rot="R90"/>
-<instance part="RPUC1" gate="G$1" x="528.32" y="312.42" rot="R90"/>
+<instance part="RPUD" gate="G$1" x="520.7" y="312.42" rot="R90"/>
+<instance part="RPUC" gate="G$1" x="528.32" y="312.42" rot="R90"/>
 <instance part="+3V1" gate="G$1" x="520.7" y="327.66" smashed="yes">
 <attribute name="VALUE" x="520.7" y="327.66" size="1.778" layer="96"/>
 </instance>
@@ -23652,9 +23652,9 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 </segment>
 <segment>
 <pinref part="+3V6" gate="G$1" pin="+3V3"/>
-<pinref part="RPUD" gate="G$1" pin="2"/>
+<pinref part="RPUD2" gate="G$1" pin="2"/>
 <wire x1="558.8" y1="325.12" x2="558.8" y2="320.04" width="0.1524" layer="91"/>
-<pinref part="RPUC" gate="G$1" pin="2"/>
+<pinref part="RPUC2" gate="G$1" pin="2"/>
 <wire x1="558.8" y1="320.04" x2="558.8" y2="317.5" width="0.1524" layer="91"/>
 <wire x1="558.8" y1="320.04" x2="566.42" y2="320.04" width="0.1524" layer="91"/>
 <wire x1="566.42" y1="320.04" x2="566.42" y2="317.5" width="0.1524" layer="91"/>
@@ -23718,9 +23718,9 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 </segment>
 <segment>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
-<pinref part="RPUD1" gate="G$1" pin="2"/>
+<pinref part="RPUD" gate="G$1" pin="2"/>
 <wire x1="520.7" y1="325.12" x2="520.7" y2="320.04" width="0.1524" layer="91"/>
-<pinref part="RPUC1" gate="G$1" pin="2"/>
+<pinref part="RPUC" gate="G$1" pin="2"/>
 <wire x1="520.7" y1="320.04" x2="520.7" y2="317.5" width="0.1524" layer="91"/>
 <wire x1="520.7" y1="320.04" x2="528.32" y2="320.04" width="0.1524" layer="91"/>
 <wire x1="528.32" y1="320.04" x2="528.32" y2="317.5" width="0.1524" layer="91"/>
@@ -24026,7 +24026,7 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <label x="716.28" y="142.24" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="RPUD1" gate="G$1" pin="1"/>
+<pinref part="RPUD" gate="G$1" pin="1"/>
 <wire x1="520.7" y1="307.34" x2="525.78" y2="307.34" width="0.1524" layer="91"/>
 <label x="525.78" y="289.56" size="1.778" layer="95" rot="R90"/>
 <wire x1="525.78" y1="307.34" x2="525.78" y2="274.32" width="0.1524" layer="91"/>
@@ -24060,7 +24060,7 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <label x="665.48" y="137.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="RPUC1" gate="G$1" pin="1"/>
+<pinref part="RPUC" gate="G$1" pin="1"/>
 <label x="528.32" y="289.56" size="1.778" layer="95" rot="R90"/>
 <wire x1="528.32" y1="307.34" x2="528.32" y2="274.32" width="0.1524" layer="91"/>
 <pinref part="JP3" gate="A" pin="1"/>
@@ -24156,7 +24156,7 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <segment>
 <label x="558.8" y="297.18" size="1.778" layer="95" rot="R90"/>
 <wire x1="558.8" y1="307.34" x2="558.8" y2="294.64" width="0.1524" layer="91"/>
-<pinref part="RPUD" gate="G$1" pin="1"/>
+<pinref part="RPUD2" gate="G$1" pin="1"/>
 <wire x1="558.8" y1="304.8" x2="558.8" y2="307.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -24173,7 +24173,7 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <label x="401.32" y="274.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="RPUC" gate="G$1" pin="1"/>
+<pinref part="RPUC2" gate="G$1" pin="1"/>
 <label x="566.42" y="297.18" size="1.778" layer="95" rot="R90"/>
 <wire x1="566.42" y1="307.34" x2="566.42" y2="294.64" width="0.1524" layer="91"/>
 </segment>
