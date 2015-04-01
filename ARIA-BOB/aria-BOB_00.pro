@@ -1,15 +1,17 @@
 EAGLE AutoRouter Statistics:
 
-Job           : /Users/raffael/Desktop/Octanis/octanis-pcb/Octanis1-Electronics/ARIA-BOB/aria-BOB.brd
+Job           : C:/Users/Beat/Documents/eagle/ARIA-BOB/ARIA-BOB/aria-BOB.brd
 
-Start at      : 23:43:06 (19/03/15)
-End at        : 22:18:00 (01/04/15)
+Start at      : 23:43:06 (19.03.2015)
+End at        : 23:43:21 (19.03.2015)
 Elapsed time  : 00:00:00
 
 Signals       :    90   RoutingGrid: 9 mil  Layers: 2
 Connections   :   119   predefined:  119 ( 9 Vias )
 
 Router memory :   733184
+
+Job has been interrupted!
 
 Passname          : TopRouter
 

@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,17 +39,17 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -249,119 +249,6 @@
 <smd name="BAT-" x="0" y="0" dx="9" dy="9" layer="1" roundness="100"/>
 <smd name="BAT+" x="-7.5" y="0" dx="3" dy="4" layer="1"/>
 <smd name="BAT1+" x="7.5" y="0" dx="3" dy="4" layer="1"/>
-</package>
-<package name="ARIA-TROUGHHOLE">
-<smd name="H1" x="-17.8" y="17.8" dx="3.5" dy="3.5" layer="1" roundness="10"/>
-<smd name="H4" x="-17.8" y="-17.8" dx="3.5" dy="3.5" layer="1" roundness="10"/>
-<smd name="H2" x="17.8" y="17.8" dx="3.5" dy="3.5" layer="1" roundness="10"/>
-<smd name="H3" x="17.8" y="-17.8" dx="3.5" dy="3.5" layer="1" roundness="10"/>
-<wire x1="-20" y1="20" x2="-20" y2="16" width="0.6096" layer="21"/>
-<wire x1="-20" y1="20" x2="-16" y2="20" width="0.6096" layer="21"/>
-<wire x1="16" y1="20" x2="20" y2="20" width="0.6096" layer="21"/>
-<wire x1="20" y1="20" x2="20" y2="16" width="0.6096" layer="21"/>
-<wire x1="20" y1="-16" x2="20" y2="-20" width="0.6096" layer="21"/>
-<wire x1="20" y1="-20" x2="16" y2="-20" width="0.6096" layer="21"/>
-<wire x1="-20" y1="-20" x2="-20" y2="-16" width="0.6096" layer="21"/>
-<wire x1="-20" y1="-20" x2="-16" y2="-20" width="0.6096" layer="21"/>
-<circle x="-13.97" y="13.97" radius="1.27" width="0.6096" layer="21"/>
-<text x="-20.32" y="21.59" size="2.54" layer="25">name</text>
-<text x="-20.32" y="-24.13" size="2.54" layer="27">value</text>
-<pad name="N1" x="-14.605" y="19.05" drill="0.5" diameter="0.8128" shape="offset" rot="R90"/>
-<pad name="N2" x="-13.335" y="19.05" drill="0.5" diameter="0.8128" shape="offset" rot="R90"/>
-<pad name="N3" x="-12.065" y="19.05" drill="0.5" diameter="0.8128" shape="offset" rot="R90"/>
-<pad name="N4" x="-10.795" y="19.05" drill="0.5" diameter="0.8128" shape="offset" rot="R90"/>
-<pad name="N5" x="-9.525" y="19.05" drill="0.5" diameter="0.8128" shape="offset" rot="R90"/>
-<pad name="N6" x="-8.255" y="19.05" drill="0.5" diameter="0.8128" shape="offset" rot="R90"/>
-<pad name="N7" x="-6.985" y="19.05" drill="0.5" diameter="0.8128" shape="offset" rot="R90"/>
-<pad name="N8" x="-5.715" y="19.05" drill="0.5" diameter="0.8128" shape="offset" rot="R90"/>
-<pad name="N9" x="-4.445" y="19.05" drill="0.5" diameter="0.8128" shape="offset" rot="R90"/>
-<pad name="N10" x="-3.175" y="19.05" drill="0.5" diameter="0.8128" shape="offset" rot="R90"/>
-<pad name="N11" x="-1.905" y="19.05" drill="0.5" diameter="0.8128" shape="offset" rot="R90"/>
-<pad name="N12" x="-0.635" y="19.05" drill="0.5" diameter="0.8128" shape="offset" rot="R90"/>
-<pad name="N13" x="0.635" y="19.05" drill="0.5" diameter="0.8128" shape="offset" rot="R90"/>
-<pad name="N14" x="1.905" y="19.05" drill="0.5" diameter="0.8128" shape="offset" rot="R90"/>
-<pad name="N15" x="3.175" y="19.05" drill="0.5" diameter="0.8128" shape="offset" rot="R90"/>
-<pad name="N16" x="4.445" y="19.05" drill="0.5" diameter="0.8128" shape="offset" rot="R90"/>
-<pad name="N17" x="5.715" y="19.05" drill="0.5" diameter="0.8128" shape="offset" rot="R90"/>
-<pad name="N18" x="6.985" y="19.05" drill="0.5" diameter="0.8128" shape="offset" rot="R90"/>
-<pad name="N19" x="8.255" y="19.05" drill="0.5" diameter="0.8128" shape="offset" rot="R90"/>
-<pad name="N20" x="9.525" y="19.05" drill="0.5" diameter="0.8128" shape="offset" rot="R90"/>
-<pad name="N21" x="10.795" y="19.05" drill="0.5" diameter="0.8128" shape="offset" rot="R90"/>
-<pad name="N22" x="12.065" y="19.05" drill="0.5" diameter="0.8128" shape="offset" rot="R90"/>
-<pad name="N23" x="13.335" y="19.05" drill="0.5" diameter="0.8128" shape="offset" rot="R90"/>
-<pad name="N24" x="14.605" y="19.05" drill="0.5" diameter="0.8128" shape="offset" rot="R90"/>
-<pad name="E1" x="19.05" y="14.605" drill="0.5" diameter="0.8128" shape="offset"/>
-<pad name="E2" x="19.05" y="13.335" drill="0.5" diameter="0.8128" shape="offset"/>
-<pad name="E3" x="19.05" y="12.065" drill="0.5" diameter="0.8128" shape="offset"/>
-<pad name="E4" x="19.05" y="10.795" drill="0.5" diameter="0.8128" shape="offset"/>
-<pad name="E5" x="19.05" y="9.525" drill="0.5" diameter="0.8128" shape="offset"/>
-<pad name="E6" x="19.05" y="8.255" drill="0.5" diameter="0.8128" shape="offset"/>
-<pad name="E7" x="19.05" y="6.985" drill="0.5" diameter="0.8128" shape="offset"/>
-<pad name="E8" x="19.05" y="5.715" drill="0.5" diameter="0.8128" shape="offset"/>
-<pad name="E9" x="19.05" y="4.445" drill="0.5" diameter="0.8128" shape="offset"/>
-<pad name="E10" x="19.05" y="3.175" drill="0.5" diameter="0.8128" shape="offset"/>
-<pad name="E11" x="19.05" y="1.905" drill="0.5" diameter="0.8128" shape="offset"/>
-<pad name="E12" x="19.05" y="0.635" drill="0.5" diameter="0.8128" shape="offset"/>
-<pad name="E13" x="19.05" y="-0.635" drill="0.5" diameter="0.8128" shape="offset"/>
-<pad name="E14" x="19.05" y="-1.905" drill="0.5" diameter="0.8128" shape="offset"/>
-<pad name="E15" x="19.05" y="-3.175" drill="0.5" diameter="0.8128" shape="offset"/>
-<pad name="E16" x="19.05" y="-4.445" drill="0.5" diameter="0.8128" shape="offset"/>
-<pad name="E17" x="19.05" y="-5.715" drill="0.5" diameter="0.8128" shape="offset"/>
-<pad name="E18" x="19.05" y="-6.985" drill="0.5" diameter="0.8128" shape="offset"/>
-<pad name="E19" x="19.05" y="-8.255" drill="0.5" diameter="0.8128" shape="offset"/>
-<pad name="E20" x="19.05" y="-9.525" drill="0.5" diameter="0.8128" shape="offset"/>
-<pad name="E21" x="19.05" y="-10.795" drill="0.5" diameter="0.8128" shape="offset"/>
-<pad name="E22" x="19.05" y="-12.065" drill="0.5" diameter="0.8128" shape="offset"/>
-<pad name="E23" x="19.05" y="-13.335" drill="0.5" diameter="0.8128" shape="offset"/>
-<pad name="E24" x="19.05" y="-14.605" drill="0.5" diameter="0.8128" shape="offset"/>
-<pad name="S1" x="14.605" y="-19.05" drill="0.5" diameter="0.8128" shape="offset" rot="R270"/>
-<pad name="S2" x="13.335" y="-19.05" drill="0.5" diameter="0.8128" shape="offset" rot="R270"/>
-<pad name="S3" x="12.065" y="-19.05" drill="0.5" diameter="0.8128" shape="offset" rot="R270"/>
-<pad name="S4" x="10.795" y="-19.05" drill="0.5" diameter="0.8128" shape="offset" rot="R270"/>
-<pad name="S5" x="9.525" y="-19.05" drill="0.5" diameter="0.8128" shape="offset" rot="R270"/>
-<pad name="S6" x="8.255" y="-19.05" drill="0.5" diameter="0.8128" shape="offset" rot="R270"/>
-<pad name="S7" x="6.985" y="-19.05" drill="0.5" diameter="0.8128" shape="offset" rot="R270"/>
-<pad name="S8" x="5.715" y="-19.05" drill="0.5" diameter="0.8128" shape="offset" rot="R270"/>
-<pad name="S9" x="4.445" y="-19.05" drill="0.5" diameter="0.8128" shape="offset" rot="R270"/>
-<pad name="S10" x="3.175" y="-19.05" drill="0.5" diameter="0.8128" shape="offset" rot="R270"/>
-<pad name="S11" x="1.905" y="-19.05" drill="0.5" diameter="0.8128" shape="offset" rot="R270"/>
-<pad name="S12" x="0.635" y="-19.05" drill="0.5" diameter="0.8128" shape="offset" rot="R270"/>
-<pad name="S13" x="-0.635" y="-19.05" drill="0.5" diameter="0.8128" shape="offset" rot="R270"/>
-<pad name="S14" x="-1.905" y="-19.05" drill="0.5" diameter="0.8128" shape="offset" rot="R270"/>
-<pad name="S15" x="-3.175" y="-19.05" drill="0.5" diameter="0.8128" shape="offset" rot="R270"/>
-<pad name="S16" x="-4.445" y="-19.05" drill="0.5" diameter="0.8128" shape="offset" rot="R270"/>
-<pad name="S17" x="-5.715" y="-19.05" drill="0.5" diameter="0.8128" shape="offset" rot="R270"/>
-<pad name="S18" x="-6.985" y="-19.05" drill="0.5" diameter="0.8128" shape="offset" rot="R270"/>
-<pad name="S19" x="-8.255" y="-19.05" drill="0.5" diameter="0.8128" shape="offset" rot="R270"/>
-<pad name="S20" x="-9.525" y="-19.05" drill="0.5" diameter="0.8128" shape="offset" rot="R270"/>
-<pad name="S21" x="-10.795" y="-19.05" drill="0.5" diameter="0.8128" shape="offset" rot="R270"/>
-<pad name="S22" x="-12.065" y="-19.05" drill="0.5" diameter="0.8128" shape="offset" rot="R270"/>
-<pad name="S23" x="-13.335" y="-19.05" drill="0.5" diameter="0.8128" shape="offset" rot="R270"/>
-<pad name="S24" x="-14.605" y="-19.05" drill="0.5" diameter="0.8128" shape="offset" rot="R270"/>
-<pad name="W1" x="-19.05" y="-14.605" drill="0.5" diameter="0.8128" shape="offset" rot="R180"/>
-<pad name="W2" x="-19.05" y="-13.335" drill="0.5" diameter="0.8128" shape="offset" rot="R180"/>
-<pad name="W3" x="-19.05" y="-12.065" drill="0.5" diameter="0.8128" shape="offset" rot="R180"/>
-<pad name="W4" x="-19.05" y="-10.795" drill="0.5" diameter="0.8128" shape="offset" rot="R180"/>
-<pad name="W5" x="-19.05" y="-9.525" drill="0.5" diameter="0.8128" shape="offset" rot="R180"/>
-<pad name="W6" x="-19.05" y="-8.255" drill="0.5" diameter="0.8128" shape="offset" rot="R180"/>
-<pad name="W7" x="-19.05" y="-6.985" drill="0.5" diameter="0.8128" shape="offset" rot="R180"/>
-<pad name="W8" x="-19.05" y="-5.715" drill="0.5" diameter="0.8128" shape="offset" rot="R180"/>
-<pad name="W9" x="-19.05" y="-4.445" drill="0.5" diameter="0.8128" shape="offset" rot="R180"/>
-<pad name="W10" x="-19.05" y="-3.175" drill="0.5" diameter="0.8128" shape="offset" rot="R180"/>
-<pad name="W11" x="-19.05" y="-1.905" drill="0.5" diameter="0.8128" shape="offset" rot="R180"/>
-<pad name="W12" x="-19.05" y="-0.635" drill="0.5" diameter="0.8128" shape="offset" rot="R180"/>
-<pad name="W13" x="-19.05" y="0.635" drill="0.5" diameter="0.8128" shape="offset" rot="R180"/>
-<pad name="W14" x="-19.05" y="1.905" drill="0.5" diameter="0.8128" shape="offset" rot="R180"/>
-<pad name="W15" x="-19.05" y="3.175" drill="0.5" diameter="0.8128" shape="offset" rot="R180"/>
-<pad name="W16" x="-19.05" y="4.445" drill="0.5" diameter="0.8128" shape="offset" rot="R180"/>
-<pad name="W17" x="-19.05" y="5.715" drill="0.5" diameter="0.8128" shape="offset" rot="R180"/>
-<pad name="W18" x="-19.05" y="6.985" drill="0.5" diameter="0.8128" shape="offset" rot="R180"/>
-<pad name="W19" x="-19.05" y="8.255" drill="0.5" diameter="0.8128" shape="offset" rot="R180"/>
-<pad name="W20" x="-19.05" y="9.525" drill="0.5" diameter="0.8128" shape="offset" rot="R180"/>
-<pad name="W21" x="-19.05" y="10.795" drill="0.5" diameter="0.8128" shape="offset" rot="R180"/>
-<pad name="W22" x="-19.05" y="12.065" drill="0.5" diameter="0.8128" shape="offset" rot="R180"/>
-<pad name="W23" x="-19.05" y="13.335" drill="0.5" diameter="0.8128" shape="offset" rot="R180"/>
-<pad name="W24" x="-19.05" y="14.605" drill="0.5" diameter="0.8128" shape="offset" rot="R180"/>
 </package>
 </packages>
 <symbols>
@@ -580,109 +467,6 @@
 </gates>
 <devices>
 <device name="" package="ARIA">
-<connects>
-<connect gate="G$1" pin="E1" pad="E1"/>
-<connect gate="G$1" pin="E10" pad="E10"/>
-<connect gate="G$1" pin="E11" pad="E11"/>
-<connect gate="G$1" pin="E12" pad="E12"/>
-<connect gate="G$1" pin="E13" pad="E13"/>
-<connect gate="G$1" pin="E14" pad="E14"/>
-<connect gate="G$1" pin="E15" pad="E15"/>
-<connect gate="G$1" pin="E16" pad="E16"/>
-<connect gate="G$1" pin="E17" pad="E17"/>
-<connect gate="G$1" pin="E18" pad="E18"/>
-<connect gate="G$1" pin="E19" pad="E19"/>
-<connect gate="G$1" pin="E2" pad="E2"/>
-<connect gate="G$1" pin="E20" pad="E20"/>
-<connect gate="G$1" pin="E21" pad="E21"/>
-<connect gate="G$1" pin="E22" pad="E22"/>
-<connect gate="G$1" pin="E23" pad="E23"/>
-<connect gate="G$1" pin="E24" pad="E24"/>
-<connect gate="G$1" pin="E3" pad="E3"/>
-<connect gate="G$1" pin="E4" pad="E4"/>
-<connect gate="G$1" pin="E5" pad="E5"/>
-<connect gate="G$1" pin="E6" pad="E6"/>
-<connect gate="G$1" pin="E7" pad="E7"/>
-<connect gate="G$1" pin="E8" pad="E8"/>
-<connect gate="G$1" pin="E9" pad="E9"/>
-<connect gate="G$1" pin="N1" pad="N1"/>
-<connect gate="G$1" pin="N10" pad="N10"/>
-<connect gate="G$1" pin="N11" pad="N11"/>
-<connect gate="G$1" pin="N12" pad="N12"/>
-<connect gate="G$1" pin="N13" pad="N13"/>
-<connect gate="G$1" pin="N14" pad="N14"/>
-<connect gate="G$1" pin="N15" pad="N15"/>
-<connect gate="G$1" pin="N16" pad="N16"/>
-<connect gate="G$1" pin="N17" pad="N17"/>
-<connect gate="G$1" pin="N18" pad="N18"/>
-<connect gate="G$1" pin="N19" pad="N19"/>
-<connect gate="G$1" pin="N2" pad="N2"/>
-<connect gate="G$1" pin="N20" pad="N20"/>
-<connect gate="G$1" pin="N21" pad="N21"/>
-<connect gate="G$1" pin="N22" pad="N22"/>
-<connect gate="G$1" pin="N23" pad="N23"/>
-<connect gate="G$1" pin="N24" pad="N24"/>
-<connect gate="G$1" pin="N3" pad="N3"/>
-<connect gate="G$1" pin="N4" pad="N4"/>
-<connect gate="G$1" pin="N5" pad="N5"/>
-<connect gate="G$1" pin="N6" pad="N6"/>
-<connect gate="G$1" pin="N7" pad="N7"/>
-<connect gate="G$1" pin="N8" pad="N8"/>
-<connect gate="G$1" pin="N9" pad="N9"/>
-<connect gate="G$1" pin="S1" pad="S1"/>
-<connect gate="G$1" pin="S10" pad="S10"/>
-<connect gate="G$1" pin="S11" pad="S11"/>
-<connect gate="G$1" pin="S12" pad="S12"/>
-<connect gate="G$1" pin="S13" pad="S13"/>
-<connect gate="G$1" pin="S14" pad="S14"/>
-<connect gate="G$1" pin="S15" pad="S15"/>
-<connect gate="G$1" pin="S16" pad="S16"/>
-<connect gate="G$1" pin="S17" pad="S17"/>
-<connect gate="G$1" pin="S18" pad="S18"/>
-<connect gate="G$1" pin="S19" pad="S19"/>
-<connect gate="G$1" pin="S2" pad="S2"/>
-<connect gate="G$1" pin="S20" pad="S20"/>
-<connect gate="G$1" pin="S21" pad="S21"/>
-<connect gate="G$1" pin="S22" pad="S22"/>
-<connect gate="G$1" pin="S23" pad="S23"/>
-<connect gate="G$1" pin="S24" pad="S24"/>
-<connect gate="G$1" pin="S3" pad="S3"/>
-<connect gate="G$1" pin="S4" pad="S4"/>
-<connect gate="G$1" pin="S5" pad="S5"/>
-<connect gate="G$1" pin="S6" pad="S6"/>
-<connect gate="G$1" pin="S7" pad="S7"/>
-<connect gate="G$1" pin="S8" pad="S8"/>
-<connect gate="G$1" pin="S9" pad="S9"/>
-<connect gate="G$1" pin="W1" pad="W1"/>
-<connect gate="G$1" pin="W10" pad="W10"/>
-<connect gate="G$1" pin="W11" pad="W11"/>
-<connect gate="G$1" pin="W12" pad="W12"/>
-<connect gate="G$1" pin="W13" pad="W13"/>
-<connect gate="G$1" pin="W14" pad="W14"/>
-<connect gate="G$1" pin="W15" pad="W15"/>
-<connect gate="G$1" pin="W16" pad="W16"/>
-<connect gate="G$1" pin="W17" pad="W17"/>
-<connect gate="G$1" pin="W18" pad="W18"/>
-<connect gate="G$1" pin="W19" pad="W19"/>
-<connect gate="G$1" pin="W2" pad="W2"/>
-<connect gate="G$1" pin="W20" pad="W20"/>
-<connect gate="G$1" pin="W21" pad="W21"/>
-<connect gate="G$1" pin="W22" pad="W22"/>
-<connect gate="G$1" pin="W23" pad="W23"/>
-<connect gate="G$1" pin="W24" pad="W24"/>
-<connect gate="G$1" pin="W3" pad="W3"/>
-<connect gate="G$1" pin="W4" pad="W4"/>
-<connect gate="G$1" pin="W5" pad="W5"/>
-<connect gate="G$1" pin="W6" pad="W6"/>
-<connect gate="G$1" pin="W7" pad="W7"/>
-<connect gate="G$1" pin="W8" pad="W8"/>
-<connect gate="G$1" pin="W9" pad="W9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="THROUGHHOLE" package="ARIA-TROUGHHOLE">
 <connects>
 <connect gate="G$1" pin="E1" pad="E1"/>
 <connect gate="G$1" pin="E10" pad="E10"/>
@@ -1619,11 +1403,9 @@ push-push type</description>
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
-<class number="1" name="power" width="0.8128" drill="0">
-</class>
 </classes>
 <parts>
-<part name="U$1" library="octanis-beat" deviceset="ARIA" device="THROUGHHOLE" value="ARIATHROUGHHOLE"/>
+<part name="U$1" library="octanis-beat" deviceset="ARIA" device=""/>
 <part name="E" library="con-lstb" deviceset="MA12-2" device=""/>
 <part name="N" library="con-lstb" deviceset="MA12-2" device=""/>
 <part name="S" library="con-lstb" deviceset="MA12-2" device=""/>
@@ -1879,16 +1661,76 @@ push-push type</description>
 <label x="58.42" y="149.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="USBA_P" class="0">
+<net name="USBC+" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="E19"/>
-<wire x1="137.16" y1="50.8" x2="142.24" y2="50.8" width="0.1524" layer="91"/>
-<label x="137.16" y="50.8" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="E12"/>
+<wire x1="137.16" y1="68.58" x2="142.24" y2="68.58" width="0.1524" layer="91"/>
+<label x="137.16" y="68.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="USBC" gate="1" pin="3"/>
+<wire x1="167.64" y1="99.06" x2="162.56" y2="99.06" width="0.1524" layer="91"/>
+<label x="162.56" y="99.06" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="USBC-" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="E13"/>
+<wire x1="137.16" y1="66.04" x2="142.24" y2="66.04" width="0.1524" layer="91"/>
+<label x="137.16" y="66.04" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="USBC" gate="1" pin="2"/>
+<wire x1="167.64" y1="101.6" x2="162.56" y2="101.6" width="0.1524" layer="91"/>
+<label x="162.56" y="101.6" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="USBB-" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="E15"/>
+<wire x1="137.16" y1="60.96" x2="142.24" y2="60.96" width="0.1524" layer="91"/>
+<label x="137.16" y="60.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="USBB" gate="1" pin="2"/>
+<wire x1="167.64" y1="83.82" x2="162.56" y2="83.82" width="0.1524" layer="91"/>
+<label x="162.56" y="83.82" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="USBB+" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="E16"/>
+<wire x1="137.16" y1="58.42" x2="142.24" y2="58.42" width="0.1524" layer="91"/>
+<label x="137.16" y="58.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="USBB" gate="1" pin="3"/>
+<wire x1="167.64" y1="81.28" x2="162.56" y2="81.28" width="0.1524" layer="91"/>
+<label x="162.56" y="81.28" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="USBA" gate="1" pin="3"/>
 <wire x1="167.64" y1="63.5" x2="162.56" y2="63.5" width="0.1524" layer="91"/>
 <label x="162.56" y="63.5" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="USBA-" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="E18"/>
+<wire x1="137.16" y1="53.34" x2="142.24" y2="53.34" width="0.1524" layer="91"/>
+<label x="137.16" y="53.34" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="USBA" gate="1" pin="2"/>
+<wire x1="167.64" y1="66.04" x2="162.56" y2="66.04" width="0.1524" layer="91"/>
+<label x="162.56" y="66.04" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="USBA+" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="E19"/>
+<wire x1="137.16" y1="50.8" x2="142.24" y2="50.8" width="0.1524" layer="91"/>
+<label x="137.16" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VBAT" class="0">
@@ -1928,7 +1770,7 @@ push-push type</description>
 <wire x1="137.16" y1="40.64" x2="167.64" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VCC" class="1">
+<net name="VCC" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="E24"/>
 <label x="137.16" y="38.1" size="1.778" layer="95"/>
@@ -2763,66 +2605,6 @@ push-push type</description>
 <wire x1="220.98" y1="86.36" x2="203.2" y2="86.36" width="0.1524" layer="91"/>
 <label x="210.82" y="86.36" size="1.778" layer="95"/>
 <pinref part="JP1" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="USBB_N" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="E15"/>
-<wire x1="137.16" y1="60.96" x2="142.24" y2="60.96" width="0.1524" layer="91"/>
-<label x="137.16" y="60.96" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="USBB" gate="1" pin="2"/>
-<wire x1="167.64" y1="83.82" x2="162.56" y2="83.82" width="0.1524" layer="91"/>
-<label x="162.56" y="83.82" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="USBB_P" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="E16"/>
-<wire x1="137.16" y1="58.42" x2="142.24" y2="58.42" width="0.1524" layer="91"/>
-<label x="137.16" y="58.42" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="USBB" gate="1" pin="3"/>
-<wire x1="167.64" y1="81.28" x2="162.56" y2="81.28" width="0.1524" layer="91"/>
-<label x="162.56" y="81.28" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="USBA_N" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="E18"/>
-<wire x1="137.16" y1="53.34" x2="142.24" y2="53.34" width="0.1524" layer="91"/>
-<label x="137.16" y="53.34" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="USBA" gate="1" pin="2"/>
-<wire x1="167.64" y1="66.04" x2="162.56" y2="66.04" width="0.1524" layer="91"/>
-<label x="162.56" y="66.04" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="USBC_P" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="E12"/>
-<wire x1="137.16" y1="68.58" x2="142.24" y2="68.58" width="0.1524" layer="91"/>
-<label x="137.16" y="68.58" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="USBC" gate="1" pin="3"/>
-<wire x1="167.64" y1="99.06" x2="162.56" y2="99.06" width="0.1524" layer="91"/>
-<label x="162.56" y="99.06" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="USBC_N" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="E13"/>
-<wire x1="137.16" y1="66.04" x2="142.24" y2="66.04" width="0.1524" layer="91"/>
-<label x="137.16" y="66.04" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="USBC" gate="1" pin="2"/>
-<wire x1="167.64" y1="101.6" x2="162.56" y2="101.6" width="0.1524" layer="91"/>
-<label x="162.56" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
