@@ -19874,83 +19874,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="texas">
-<packages>
-<package name="DRC-S-PVSON-N11">
-<wire x1="-1.475" y1="1.475" x2="1.475" y2="1.475" width="0.2032" layer="51"/>
-<wire x1="1.475" y1="1.475" x2="1.475" y2="-1.475" width="0.2032" layer="51"/>
-<wire x1="1.475" y1="-1.475" x2="-1.475" y2="-1.475" width="0.2032" layer="51"/>
-<wire x1="-1.475" y1="-1.475" x2="-1.475" y2="1.475" width="0.2032" layer="51"/>
-<wire x1="-1.475" y1="0.9761" x2="-1.475" y2="1.475" width="0.2032" layer="21"/>
-<wire x1="1.475" y1="-0.9761" x2="1.475" y2="-1.475" width="0.2032" layer="21"/>
-<wire x1="-1.475" y1="-1.475" x2="-1.475" y2="-0.9761" width="0.2032" layer="21"/>
-<wire x1="1.475" y1="1.475" x2="1.475" y2="0.9761" width="0.2032" layer="21"/>
-<smd name="GND" x="0" y="0" dx="3.0988" dy="1.65" layer="1" cream="no"/>
-<smd name="1" x="-1" y="-1.475" dx="0.85" dy="0.28" layer="1" roundness="50" rot="R90" cream="no"/>
-<smd name="2" x="-0.5" y="-1.475" dx="0.85" dy="0.28" layer="1" roundness="50" rot="R90" cream="no"/>
-<smd name="3" x="0" y="-1.475" dx="0.85" dy="0.28" layer="1" roundness="50" rot="R90" cream="no"/>
-<smd name="4" x="0.5" y="-1.475" dx="0.85" dy="0.28" layer="1" roundness="50" rot="R90" cream="no"/>
-<smd name="5" x="1" y="-1.475" dx="0.85" dy="0.28" layer="1" roundness="50" rot="R90" cream="no"/>
-<smd name="6" x="1" y="1.475" dx="0.85" dy="0.28" layer="1" roundness="50" rot="R270" cream="no"/>
-<smd name="7" x="0.5" y="1.475" dx="0.85" dy="0.28" layer="1" roundness="50" rot="R270" cream="no"/>
-<smd name="8" x="0" y="1.475" dx="0.85" dy="0.28" layer="1" roundness="50" rot="R270" cream="no"/>
-<smd name="9" x="-0.5" y="1.475" dx="0.85" dy="0.28" layer="1" roundness="50" rot="R270" cream="no"/>
-<smd name="10" x="-1" y="1.475" dx="0.85" dy="0.28" layer="1" roundness="50" rot="R270" cream="no"/>
-<text x="-2.5" y="2" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.5" y="-3.5" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.575" y1="-1.575" x2="0" y2="0" layer="51"/>
-<pad name="GND@2" x="-0.762" y="0.4318" drill="0.381" diameter="0.5588" stop="no"/>
-<pad name="GND@1" x="0" y="0" drill="0.381" diameter="0.5588" stop="no"/>
-<pad name="GND@4" x="0.762" y="0.4318" drill="0.381" diameter="0.5588" stop="no"/>
-<pad name="GND@5" x="0.762" y="-0.4318" drill="0.381" diameter="0.5588" stop="no"/>
-<pad name="GND@3" x="-0.762" y="-0.4318" drill="0.381" diameter="0.5588" stop="no"/>
-</package>
-</packages>
-<symbols>
-<symbol name="TPS61230">
-<wire x1="-10.16" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
-<wire x1="10.16" y1="12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
-<text x="-10.16" y="13.97" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="VIN" x="-12.7" y="10.16" length="short" direction="in"/>
-<pin name="EN" x="-12.7" y="5.08" length="short" direction="in"/>
-<pin name="HYS" x="-12.7" y="0" length="short" direction="in"/>
-<pin name="SS" x="-12.7" y="-5.08" length="short" direction="in"/>
-<pin name="FB" x="12.7" y="0" length="short" direction="in" rot="R180"/>
-<pin name="VOUT" x="12.7" y="5.08" length="short" direction="pas" rot="R180"/>
-<pin name="SW" x="12.7" y="10.16" length="short" direction="in" rot="R180"/>
-<pin name="GND" x="-12.7" y="-10.16" length="short" direction="pwr"/>
-<pin name="PG" x="12.7" y="-10.16" length="short" direction="pwr" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="TPS61230">
-<gates>
-<gate name="G$1" symbol="TPS61230" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="DRC-S-PVSON-N11">
-<connects>
-<connect gate="G$1" pin="EN" pad="9"/>
-<connect gate="G$1" pin="FB" pad="7"/>
-<connect gate="G$1" pin="GND" pad="GND GND@1 GND@2 GND@3 GND@4 GND@5"/>
-<connect gate="G$1" pin="HYS" pad="8"/>
-<connect gate="G$1" pin="PG" pad="5"/>
-<connect gate="G$1" pin="SS" pad="6"/>
-<connect gate="G$1" pin="SW" pad="1 2"/>
-<connect gate="G$1" pin="VIN" pad="10"/>
-<connect gate="G$1" pin="VOUT" pad="3 4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="Coilcraft">
 <description>&lt;b&gt;Coilcraft SMD Inductors&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
@@ -22812,6 +22735,198 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="jumper">
+<description>&lt;b&gt;Jumpers&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="SJ_2W">
+<description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
+<wire x1="3.175" y1="-1.524" x2="-3.175" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="1.524" x2="3.429" y2="1.27" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-3.429" y1="1.27" x2="-3.175" y2="1.524" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-3.429" y1="-1.27" x2="-3.175" y2="-1.524" width="0.1524" layer="21" curve="90"/>
+<wire x1="3.175" y1="-1.524" x2="3.429" y2="-1.27" width="0.1524" layer="21" curve="90"/>
+<wire x1="3.429" y1="-1.27" x2="3.429" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-3.429" y1="-1.27" x2="-3.429" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="1.524" x2="3.175" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="2.794" y1="0" x2="3.302" y2="0" width="0.1524" layer="51"/>
+<wire x1="-2.794" y1="0" x2="-3.302" y2="0" width="0.1524" layer="51"/>
+<wire x1="0" y1="0.762" x2="0" y2="1.397" width="0.1524" layer="51"/>
+<wire x1="0" y1="-1.397" x2="0" y2="-0.762" width="0.1524" layer="51"/>
+<wire x1="2.032" y1="0.127" x2="2.032" y2="-0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<wire x1="-2.032" y1="-0.127" x2="-2.032" y2="0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<smd name="1" x="-2.54" y="0" dx="1.27" dy="2.54" layer="1"/>
+<smd name="2" x="0" y="0" dx="1.27" dy="2.54" layer="1"/>
+<smd name="3" x="2.54" y="0" dx="1.27" dy="2.54" layer="1"/>
+<text x="-3.429" y="1.778" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-0.1001" y="0" size="0.02" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.508" y1="-0.762" x2="0.508" y2="0.762" layer="51"/>
+</package>
+<package name="SJ_2">
+<description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
+<wire x1="2.159" y1="-1.016" x2="-2.159" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="2.159" y1="1.016" x2="2.413" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.413" y1="0.762" x2="-2.159" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.413" y1="-0.762" x2="-2.159" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.159" y1="-1.016" x2="2.413" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.413" y1="-0.762" x2="2.413" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-2.413" y1="-0.762" x2="-2.413" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-2.159" y1="1.016" x2="2.159" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="1.778" y1="0" x2="2.286" y2="0" width="0.1524" layer="51"/>
+<wire x1="-1.778" y1="0" x2="-2.286" y2="0" width="0.1524" layer="51"/>
+<wire x1="0" y1="0.762" x2="0" y2="1.016" width="0.1524" layer="51"/>
+<wire x1="0" y1="-1.016" x2="0" y2="-0.762" width="0.1524" layer="51"/>
+<wire x1="1.016" y1="0.127" x2="1.016" y2="-0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<wire x1="-1.016" y1="-0.127" x2="-1.016" y2="0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<smd name="1" x="-1.524" y="0" dx="1.1684" dy="1.6002" layer="1"/>
+<smd name="2" x="0" y="0" dx="1.1684" dy="1.6002" layer="1"/>
+<smd name="3" x="1.524" y="0" dx="1.1684" dy="1.6002" layer="1"/>
+<text x="-2.413" y="1.27" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-0.1001" y="0" size="0.02" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.508" y1="-0.762" x2="0.508" y2="0.762" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SJ_2">
+<wire x1="-0.635" y1="-1.397" x2="0.635" y2="-1.397" width="1.27" layer="94" curve="180" cap="flat"/>
+<wire x1="-0.635" y1="1.397" x2="0.635" y2="1.397" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="1.27" y1="-0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-0.635" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0.635" x2="1.27" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<text x="2.54" y="0.381" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-1.905" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-1.27" y1="-0.635" x2="1.27" y2="0.635" layer="94"/>
+<pin name="3" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="1" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SJ2W" prefix="SJ" uservalue="yes">
+<description>SMD solder &lt;b&gt;JUMPER&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="SJ_2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="W" package="SJ_2W">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="SJ_2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="texasinstruments">
+<packages>
+<package name="S-PVSON-N10">
+<description>S-PVSON-N10</description>
+<smd name="EXPAD" x="0" y="0" dx="1.6" dy="2.15" layer="1" rot="R90"/>
+<smd name="1" x="-1" y="-1.4625" dx="0.825" dy="0.28" layer="1" roundness="1" rot="R90"/>
+<smd name="2" x="-0.5" y="-1.4625" dx="0.825" dy="0.28" layer="1" roundness="1" rot="R90"/>
+<smd name="3" x="0" y="-1.4625" dx="0.825" dy="0.28" layer="1" roundness="1" rot="R90"/>
+<smd name="4" x="0.5" y="-1.4625" dx="0.825" dy="0.28" layer="1" roundness="1" rot="R90"/>
+<smd name="5" x="1" y="-1.4625" dx="0.825" dy="0.28" layer="1" roundness="1" rot="R90"/>
+<smd name="6" x="1" y="1.4625" dx="0.825" dy="0.28" layer="1" roundness="1" rot="R90"/>
+<smd name="7" x="0.5" y="1.4625" dx="0.825" dy="0.28" layer="1" roundness="1" rot="R90"/>
+<smd name="8" x="0" y="1.4625" dx="0.825" dy="0.28" layer="1" roundness="1" rot="R90"/>
+<smd name="9" x="-0.5" y="1.4625" dx="0.825" dy="0.28" layer="1" roundness="1" rot="R90"/>
+<smd name="10" x="-1" y="1.4625" dx="0.825" dy="0.28" layer="1" roundness="1" rot="R90"/>
+<hole x="-0.75" y="0.5" drill="0.3"/>
+<hole x="0.75" y="0.5" drill="0.3"/>
+<hole x="0.75" y="-0.5" drill="0.3"/>
+<hole x="-0.75" y="-0.5" drill="0.3"/>
+<hole x="0" y="0" drill="0.3"/>
+<wire x1="-1.5" y1="1.5" x2="-1.5" y2="-1" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-1" x2="-1.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.27" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-1.5" x2="1.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-1.5" x2="1.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="1.5" x2="1.27" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="1.5" x2="-1.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-1" x2="-0.9" y2="-1" width="0.127" layer="21"/>
+<wire x1="-0.9" y1="-1.3" x2="-0.9" y2="-1" width="0.127" layer="21"/>
+<text x="-2.54" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="TPS61232">
+<wire x1="-10.16" y1="10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<pin name="VIN" x="-15.24" y="7.62" length="middle" direction="in"/>
+<pin name="EN" x="-15.24" y="5.08" length="middle" direction="in"/>
+<pin name="HYS" x="-15.24" y="0" length="middle" direction="out"/>
+<pin name="SS" x="-15.24" y="-5.08" length="middle"/>
+<pin name="GND" x="-15.24" y="-7.62" length="middle" direction="pwr"/>
+<pin name="SW" x="15.24" y="7.62" length="middle" direction="pwr" rot="R180"/>
+<pin name="FB" x="15.24" y="-5.08" length="middle" direction="in" rot="R180"/>
+<pin name="PG" x="15.24" y="-7.62" length="middle" direction="out" rot="R180"/>
+<pin name="VOUT" x="15.24" y="5.08" length="middle" direction="pwr" rot="R180"/>
+<text x="-10.16" y="12.7" size="1.27" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-12.7" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TPS61232">
+<description>Up to 96% Efficiency Synchronous Boost Converter
+    3.3 V to 5 V Power Conversion with 2.1 A Output Current
+    Input Supply Voltage Supervisor with Adjustable Threshold/
+    Hysteresis
+    Power Save Mode for Light Load Efficiency
+    Load Disconnect During Shutdown
+    Output Over Voltage Protection
+    Programmable Soft Start
+    Power Good Output
+    Input Voltage Range: 2.3 V to 5.5 V
+    Output Voltage Range: 2.5 V to 5.5 V
+    2 MHz Switching Frequency
+    Output Capacitor Discharge (TPS61231)
+    3 mm × 3 mm × 0.9 mm SON Package</description>
+<gates>
+<gate name="G$1" symbol="TPS61232" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="S-PVSON-N10">
+<connects>
+<connect gate="G$1" pin="EN" pad="9"/>
+<connect gate="G$1" pin="FB" pad="7"/>
+<connect gate="G$1" pin="GND" pad="EXPAD"/>
+<connect gate="G$1" pin="HYS" pad="8"/>
+<connect gate="G$1" pin="PG" pad="5"/>
+<connect gate="G$1" pin="SS" pad="6"/>
+<connect gate="G$1" pin="SW" pad="1 2"/>
+<connect gate="G$1" pin="VIN" pad="10"/>
+<connect gate="G$1" pin="VOUT" pad="3 4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -22842,18 +22957,12 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND67" library="supply1" deviceset="GND" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
-<part name="RPUD2" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
-<part name="RPUC2" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
-<part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
-<part name="U$1" library="texas" deviceset="TPS61230" device=""/>
+<part name="U$1" library="texasinstruments" deviceset="TPS61232" device=""/>
 <part name="L1" library="Coilcraft" deviceset="XFL4020" device="" value="1uH"/>
 <part name="C3" library="rcl" deviceset="C-EU" device="C0603" value="22uF"/>
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
 <part name="C4" library="rcl" deviceset="C-EU" device="C0603" value="10nF"/>
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="R0603" value="270k"/>
-<part name="R5" library="rcl" deviceset="R-EU_" device="R0603" value="68k"/>
-<part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
 <part name="C5" library="rcl" deviceset="C-EU" device="C0603" value="22uF"/>
 <part name="C6" library="rcl" deviceset="C-EU" device="C0603" value="22uF"/>
 <part name="SUPPLY4" library="supply2" deviceset="GND" device=""/>
@@ -22868,15 +22977,12 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <part name="U4" library="DRV8834" deviceset="DRV8836DSSR" device=""/>
 <part name="SV2" library="con-lstb" deviceset="MA04-1" device=""/>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
-<part name="SUPPLY8" library="supply2" deviceset="+5V" device=""/>
 <part name="U5" library="DRV8834" deviceset="DRV8836DSSR" device=""/>
 <part name="SV3" library="con-lstb" deviceset="MA04-1" device=""/>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
-<part name="SUPPLY9" library="supply2" deviceset="+5V" device=""/>
 <part name="U7" library="DRV8834" deviceset="DRV8836DSSR" device=""/>
 <part name="SV4" library="con-lstb" deviceset="MA04-1" device=""/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
-<part name="SUPPLY10" library="supply2" deviceset="+5V" device=""/>
 <part name="JP1" library="pinhead" deviceset="PINHD-1X2" device="" value="RST TST"/>
 <part name="U9" library="SparkFun-Sensors" deviceset="BMP180" device=""/>
 <part name="C11" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF"/>
@@ -22890,7 +22996,7 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 <part name="C13" library="rcl" deviceset="C-EU" device="C0603" value="0.22uF"/>
 <part name="C10" library="rcl" deviceset="C-EU" device="C0603" value="4.7uF"/>
-<part name="C15" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF"/>
+<part name="C15" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="MPU-6050" library="seb" deviceset="MPU-6050" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
@@ -22928,11 +23034,8 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <part name="C25" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
 <part name="+3V11" library="supply1" deviceset="+3V3" device=""/>
-<part name="P+2" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
-<part name="P+6" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="R16" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
-<part name="P+7" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="R17" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
 <part name="R18" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="P+4" library="SparkFun" deviceset="3.3V" device=""/>
@@ -22945,8 +23048,6 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <part name="JP4" library="pinhead" deviceset="PINHD-2X7" device=""/>
 <part name="SUPPLY11" library="supply2" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="P+5" library="SparkFun" deviceset="3.3V" device=""/>
-<part name="P+8" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="SUPPLY12" library="supply2" deviceset="+5V" device=""/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R0603" value="1M"/>
 <part name="GREEN" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="3V-ok"/>
@@ -22958,19 +23059,30 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="LED1"/>
 <part name="R9" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
 <part name="SUPPLY15" library="supply2" deviceset="GND" device=""/>
-<part name="P+9" library="SparkFun" deviceset="3.3V" device=""/>
+<part name="SJ1" library="jumper" deviceset="SJ2W" device=""/>
+<part name="+3V12" library="supply1" deviceset="+3V3" device=""/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
+<part name="SUPPLY8" library="supply2" deviceset="+5V" device=""/>
+<part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="GND8" library="supply1" deviceset="GND" device=""/>
+<part name="RFGND" library="supply2" deviceset="GND" device=""/>
+<part name="SUPPLY10" library="supply2" deviceset="GND" device=""/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="R0603" value="1M"/>
+<part name="C7" library="rcl" deviceset="C-EU" device="C0603" value="22uF"/>
+<part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
+<part name="+3V13" library="supply1" deviceset="+3V3" device=""/>
+<part name="+3V14" library="supply1" deviceset="+3V3" device=""/>
+<part name="+3V15" library="supply1" deviceset="+3V3" device=""/>
+<part name="+3V16" library="supply1" deviceset="+3V3" device=""/>
+<part name="C8" library="rcl" deviceset="C-EU" device="C0603" value="470n"/>
+<part name="C26" library="rcl" deviceset="C-EU" device="C0603" value="470n"/>
+<part name="C27" library="rcl" deviceset="C-EU" device="C0603" value="470n"/>
+<part name="C28" library="rcl" deviceset="C-EU" device="C0603" value="470n"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<wire x1="187.96" y1="144.78" x2="187.96" y2="50.8" width="0.1524" layer="96"/>
-<wire x1="187.96" y1="144.78" x2="561.34" y2="144.78" width="0.1524" layer="95"/>
 <wire x1="187.96" y1="276.86" x2="185.42" y2="276.86" width="0.1524" layer="95"/>
-<wire x1="552.45" y1="300.99" x2="552.45" y2="331.47" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="585.47" y1="331.47" x2="552.45" y2="331.47" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="585.47" y1="331.47" x2="585.47" y2="300.99" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="585.47" y1="300.99" x2="552.45" y2="300.99" width="0.1524" layer="97" style="shortdash"/>
-<text x="561.34" y="322.58" size="1.778" layer="97">I2C Pull-up Resistor for EPS</text>
 <text x="665.48" y="271.78" size="1.778" layer="91">Pressure Sensor</text>
 <text x="886.46" y="284.48" size="1.778" layer="91">compass</text>
 <text x="242.57" y="266.192" size="2.54" layer="95">LFXTCLK</text>
@@ -23018,20 +23130,12 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <instance part="+3V3" gate="G$1" x="436.88" y="266.7" smashed="yes">
 <attribute name="VALUE" x="436.88" y="266.7" size="1.778" layer="96"/>
 </instance>
-<instance part="RPUD2" gate="G$1" x="558.8" y="312.42" rot="R90"/>
-<instance part="RPUC2" gate="G$1" x="566.42" y="312.42" rot="R90"/>
-<instance part="+3V6" gate="G$1" x="558.8" y="327.66" smashed="yes">
-<attribute name="VALUE" x="558.8" y="327.66" size="1.778" layer="96"/>
-</instance>
 <instance part="U$1" gate="G$1" x="335.28" y="429.26"/>
 <instance part="L1" gate="L$1" x="335.28" y="449.58"/>
 <instance part="C3" gate="G$1" x="274.32" y="434.34"/>
 <instance part="SUPPLY1" gate="GND" x="274.32" y="424.18"/>
 <instance part="C4" gate="G$1" x="314.96" y="421.64"/>
 <instance part="SUPPLY2" gate="GND" x="314.96" y="411.48"/>
-<instance part="R3" gate="G$1" x="360.68" y="426.72" rot="R90"/>
-<instance part="R5" gate="G$1" x="360.68" y="414.02" rot="R90"/>
-<instance part="SUPPLY3" gate="GND" x="360.68" y="403.86"/>
 <instance part="C5" gate="G$1" x="375.92" y="429.26"/>
 <instance part="C6" gate="G$1" x="383.54" y="429.26"/>
 <instance part="SUPPLY4" gate="GND" x="383.54" y="416.56"/>
@@ -23042,19 +23146,16 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <instance part="SV1" gate="1" x="299.72" y="104.14" rot="R180"/>
 <instance part="GND23" gate="1" x="233.68" y="68.58"/>
 <instance part="SUPPLY5" gate="+5V" x="416.56" y="436.88"/>
-<instance part="SUPPLY6" gate="+5V" x="231.14" y="116.84"/>
+<instance part="SUPPLY6" gate="+5V" x="223.52" y="134.62"/>
 <instance part="U4" gate="A" x="358.14" y="96.52"/>
 <instance part="SV2" gate="1" x="396.24" y="104.14" rot="R180"/>
 <instance part="GND26" gate="1" x="330.2" y="68.58"/>
-<instance part="SUPPLY8" gate="+5V" x="327.66" y="116.84"/>
 <instance part="U5" gate="A" x="449.58" y="96.52"/>
 <instance part="SV3" gate="1" x="487.68" y="104.14" rot="R180"/>
 <instance part="GND27" gate="1" x="421.64" y="68.58"/>
-<instance part="SUPPLY9" gate="+5V" x="419.1" y="116.84"/>
 <instance part="U7" gate="A" x="546.1" y="96.52"/>
 <instance part="SV4" gate="1" x="584.2" y="104.14" rot="R180"/>
 <instance part="GND28" gate="1" x="518.16" y="68.58"/>
-<instance part="SUPPLY10" gate="+5V" x="515.62" y="116.84"/>
 <instance part="JP1" gate="G$1" x="342.9" y="325.12" rot="R90"/>
 <instance part="U9" gate="G$1" x="673.1" y="251.46"/>
 <instance part="C11" gate="G$1" x="716.28" y="241.3"/>
@@ -23139,11 +23240,8 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <instance part="+3V11" gate="G$1" x="358.14" y="190.5" smashed="yes">
 <attribute name="VALUE" x="358.14" y="190.5" size="1.778" layer="96"/>
 </instance>
-<instance part="P+2" gate="G$1" x="754.38" y="434.34"/>
 <instance part="R1" gate="G$1" x="774.7" y="434.34" rot="R90"/>
-<instance part="P+6" gate="G$1" x="774.7" y="441.96"/>
 <instance part="R16" gate="G$1" x="706.12" y="436.88" rot="R90"/>
-<instance part="P+7" gate="G$1" x="706.12" y="444.5"/>
 <instance part="R17" gate="G$1" x="693.42" y="431.8" rot="R180"/>
 <instance part="R18" gate="G$1" x="759.46" y="424.18" rot="R180"/>
 <instance part="P+4" gate="G$1" x="695.96" y="424.18" rot="R90"/>
@@ -23158,8 +23256,6 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <instance part="JP4" gate="A" x="223.52" y="434.34"/>
 <instance part="SUPPLY11" gate="GND" x="238.76" y="439.42" rot="R90"/>
 <instance part="GND3" gate="1" x="703.58" y="416.56"/>
-<instance part="P+5" gate="G$1" x="236.22" y="434.34" rot="R270"/>
-<instance part="P+8" gate="G$1" x="269.24" y="439.42"/>
 <instance part="SUPPLY12" gate="+5V" x="238.76" y="426.72" rot="R270"/>
 <instance part="R2" gate="G$1" x="289.56" y="434.34" rot="R90"/>
 <instance part="GREEN" gate="G$1" x="518.16" y="439.42"/>
@@ -23171,7 +23267,56 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <instance part="LED1" gate="G$1" x="558.8" y="439.42"/>
 <instance part="R9" gate="G$1" x="558.8" y="426.72" rot="R90"/>
 <instance part="SUPPLY15" gate="GND" x="558.8" y="416.56"/>
-<instance part="P+9" gate="G$1" x="518.16" y="444.5"/>
+<instance part="SJ1" gate="G$1" x="210.82" y="132.08" rot="R90"/>
+<instance part="+3V12" gate="G$1" x="195.58" y="134.62" smashed="yes">
+<attribute name="VALUE" x="198.12" y="134.62" size="1.778" layer="96"/>
+</instance>
+<instance part="C1" gate="G$1" x="652.78" y="134.62" smashed="yes">
+<attribute name="NAME" x="655.574" y="135.001" size="1.778" layer="95"/>
+<attribute name="VALUE" x="655.574" y="132.461" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY8" gate="+5V" x="894.08" y="408.94"/>
+<instance part="C2" gate="G$1" x="901.7" y="401.32"/>
+<instance part="GND8" gate="1" x="901.7" y="391.16"/>
+<instance part="RFGND" gate="GND" x="881.38" y="406.4" smashed="yes">
+<attribute name="VALUE" x="876.935" y="403.225" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY10" gate="GND" x="886.46" y="406.4" smashed="yes">
+<attribute name="VALUE" x="884.555" y="403.225" size="1.778" layer="96"/>
+</instance>
+<instance part="R3" gate="G$1" x="360.68" y="426.72" rot="R90"/>
+<instance part="C7" gate="G$1" x="368.3" y="429.26"/>
+<instance part="+3V6" gate="G$1" x="241.3" y="431.8" smashed="yes" rot="R270">
+<attribute name="VALUE" x="241.3" y="431.8" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="+3V13" gate="G$1" x="269.24" y="441.96" smashed="yes">
+<attribute name="VALUE" x="269.24" y="441.96" size="1.778" layer="96"/>
+</instance>
+<instance part="+3V14" gate="G$1" x="518.16" y="447.04" smashed="yes">
+<attribute name="VALUE" x="518.16" y="447.04" size="1.778" layer="96"/>
+</instance>
+<instance part="+3V15" gate="G$1" x="706.12" y="447.04" smashed="yes">
+<attribute name="VALUE" x="706.12" y="447.04" size="1.778" layer="96"/>
+</instance>
+<instance part="+3V16" gate="G$1" x="774.7" y="444.5" smashed="yes">
+<attribute name="VALUE" x="774.7" y="444.5" size="1.778" layer="96"/>
+</instance>
+<instance part="C8" gate="G$1" x="177.8" y="99.06" smashed="yes" rot="R180">
+<attribute name="NAME" x="178.054" y="101.981" size="1.778" layer="95"/>
+<attribute name="VALUE" x="179.324" y="96.901" size="1.778" layer="96"/>
+</instance>
+<instance part="C26" gate="G$1" x="193.04" y="99.06" smashed="yes" rot="R180">
+<attribute name="NAME" x="193.294" y="101.981" size="1.778" layer="95"/>
+<attribute name="VALUE" x="194.564" y="96.901" size="1.778" layer="96"/>
+</instance>
+<instance part="C27" gate="G$1" x="185.42" y="99.06" smashed="yes" rot="R180">
+<attribute name="NAME" x="185.674" y="101.981" size="1.778" layer="95"/>
+<attribute name="VALUE" x="186.944" y="96.901" size="1.778" layer="96"/>
+</instance>
+<instance part="C28" gate="G$1" x="170.18" y="99.06" smashed="yes" rot="R180">
+<attribute name="NAME" x="170.434" y="101.981" size="1.778" layer="95"/>
+<attribute name="VALUE" x="171.704" y="96.901" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -23208,17 +23353,12 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND"/>
-<wire x1="322.58" y1="419.1" x2="322.58" y2="416.56" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="421.64" x2="322.58" y2="416.56" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="322.58" y1="416.56" x2="314.96" y2="416.56" width="0.1524" layer="91"/>
 <wire x1="314.96" y1="416.56" x2="314.96" y2="414.02" width="0.1524" layer="91"/>
 <junction x="314.96" y="416.56"/>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
-</segment>
-<segment>
-<pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="360.68" y1="408.94" x2="360.68" y2="406.4" width="0.1524" layer="91"/>
-<pinref part="SUPPLY3" gate="GND" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="2"/>
@@ -23230,6 +23370,9 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <wire x1="383.54" y1="419.1" x2="383.54" y2="421.64" width="0.1524" layer="91"/>
 <junction x="383.54" y="421.64"/>
 <junction x="383.54" y="421.64"/>
+<wire x1="375.92" y1="421.64" x2="368.3" y2="421.64" width="0.1524" layer="91"/>
+<pinref part="C7" gate="G$1" pin="2"/>
+<wire x1="368.3" y1="421.64" x2="368.3" y2="424.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY7" gate="GND" pin="GND"/>
@@ -23244,6 +23387,22 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <wire x1="233.68" y1="76.2" x2="238.76" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="76.2" x2="233.68" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="GND23" gate="1" pin="GND"/>
+<pinref part="C28" gate="G$1" pin="1"/>
+<wire x1="170.18" y1="96.52" x2="170.18" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="81.28" x2="177.8" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="C8" gate="G$1" pin="1"/>
+<wire x1="185.42" y1="81.28" x2="193.04" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="81.28" x2="233.68" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="96.52" x2="177.8" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="81.28" x2="185.42" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="C27" gate="G$1" pin="1"/>
+<wire x1="185.42" y1="96.52" x2="185.42" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="C26" gate="G$1" pin="1"/>
+<wire x1="193.04" y1="96.52" x2="193.04" y2="81.28" width="0.1524" layer="91"/>
+<junction x="177.8" y="81.28"/>
+<junction x="185.42" y="81.28"/>
+<junction x="193.04" y="81.28"/>
+<junction x="233.68" y="81.28"/>
 </segment>
 <segment>
 <pinref part="U4" gate="A" pin="EPAD"/>
@@ -23400,6 +23559,10 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="675.64" y1="124.46" x2="660.4" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="660.4" y1="124.46" x2="660.4" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="2"/>
+<wire x1="660.4" y1="124.46" x2="652.78" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="652.78" y1="124.46" x2="652.78" y2="129.54" width="0.1524" layer="91"/>
+<junction x="660.4" y="124.46"/>
 </segment>
 <segment>
 <pinref part="SUPPLY11" gate="GND" pin="GND"/>
@@ -23419,6 +23582,13 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <pinref part="JP4" gate="A" pin="6"/>
 <pinref part="JP4" gate="A" pin="11"/>
 <wire x1="220.98" y1="429.26" x2="228.6" y2="429.26" width="0.1524" layer="91"/>
+<junction x="233.68" y="439.42"/>
+<junction x="220.98" y="436.88"/>
+<junction x="228.6" y="436.88"/>
+<junction x="228.6" y="439.42"/>
+<junction x="220.98" y="439.42"/>
+<junction x="220.98" y="429.26"/>
+<junction x="228.6" y="429.26"/>
 </segment>
 <segment>
 <pinref part="SUPPLY13" gate="GND" pin="GND"/>
@@ -23434,6 +23604,15 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <pinref part="SUPPLY15" gate="GND" pin="GND"/>
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="558.8" y1="419.1" x2="558.8" y2="421.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="0V"/>
+<wire x1="904.24" y1="416.56" x2="904.24" y2="393.7" width="0.1524" layer="91"/>
+<wire x1="904.24" y1="393.7" x2="901.7" y2="393.7" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="901.7" y1="393.7" x2="901.7" y2="396.24" width="0.1524" layer="91"/>
+<pinref part="GND8" gate="1" pin="GND"/>
+<junction x="901.7" y="393.7"/>
 </segment>
 </net>
 <net name="VCORE" class="2">
@@ -23453,6 +23632,11 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <wire x1="424.18" y1="231.14" x2="406.4" y2="231.14" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="G$1" pin="2"/>
 </segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="TXD"/>
+<wire x1="906.78" y1="416.56" x2="906.78" y2="406.4" width="0.1524" layer="91"/>
+<label x="906.78" y="406.4" size="1.778" layer="95" rot="R90"/>
+</segment>
 </net>
 <net name="RX" class="0">
 <segment>
@@ -23465,7 +23649,7 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <pinref part="JP2" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="SPI_SLAVE_EN" class="0">
+<net name="SPI_EXTSLAVE_TE" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="71"/>
 <wire x1="398.78" y1="276.86" x2="406.4" y2="276.86" width="0.1524" layer="91"/>
@@ -23480,9 +23664,10 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <net name="+5V" class="3">
 <segment>
 <pinref part="U$1" gate="G$1" pin="VOUT"/>
-<wire x1="347.98" y1="434.34" x2="360.68" y2="434.34" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="360.68" y1="434.34" x2="375.92" y2="434.34" width="0.1524" layer="91"/>
+<wire x1="350.52" y1="434.34" x2="355.6" y2="434.34" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="434.34" x2="360.68" y2="434.34" width="0.1524" layer="91"/>
+<wire x1="360.68" y1="434.34" x2="368.3" y2="434.34" width="0.1524" layer="91"/>
+<wire x1="368.3" y1="434.34" x2="375.92" y2="434.34" width="0.1524" layer="91"/>
 <wire x1="375.92" y1="434.34" x2="383.54" y2="434.34" width="0.1524" layer="91"/>
 <wire x1="360.68" y1="431.8" x2="360.68" y2="434.34" width="0.1524" layer="91"/>
 <junction x="360.68" y="434.34"/>
@@ -23498,30 +23683,15 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <wire x1="403.86" y1="434.34" x2="416.56" y2="434.34" width="0.1524" layer="91"/>
 <label x="414.02" y="434.34" size="1.778" layer="95"/>
 <pinref part="SUPPLY5" gate="+5V" pin="+5V"/>
-</segment>
-<segment>
-<pinref part="U3" gate="A" pin="VCC"/>
-<wire x1="238.76" y1="109.22" x2="231.14" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="109.22" x2="231.14" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="SUPPLY6" gate="+5V" pin="+5V"/>
-</segment>
-<segment>
-<pinref part="SUPPLY8" gate="+5V" pin="+5V"/>
-<pinref part="U4" gate="A" pin="VCC"/>
-<wire x1="335.28" y1="109.22" x2="327.66" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="327.66" y1="109.22" x2="327.66" y2="114.3" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U5" gate="A" pin="VCC"/>
-<wire x1="426.72" y1="109.22" x2="419.1" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="419.1" y1="109.22" x2="419.1" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="SUPPLY9" gate="+5V" pin="+5V"/>
-</segment>
-<segment>
-<pinref part="U7" gate="A" pin="VCC"/>
-<wire x1="523.24" y1="109.22" x2="515.62" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="515.62" y1="109.22" x2="515.62" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="SUPPLY10" gate="+5V" pin="+5V"/>
+<pinref part="U$1" gate="G$1" pin="FB"/>
+<wire x1="350.52" y1="424.18" x2="355.6" y2="424.18" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="424.18" x2="355.6" y2="434.34" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="C7" gate="G$1" pin="1"/>
+<wire x1="368.3" y1="431.8" x2="368.3" y2="434.34" width="0.1524" layer="91"/>
+<junction x="355.6" y="434.34"/>
+<junction x="368.3" y="434.34"/>
+<junction x="403.86" y="434.34"/>
 </segment>
 <segment>
 <pinref part="SUPPLY12" gate="+5V" pin="+5V"/>
@@ -23529,25 +23699,46 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <wire x1="236.22" y1="426.72" x2="228.6" y2="426.72" width="0.1524" layer="91"/>
 <pinref part="JP4" gate="A" pin="14"/>
 <wire x1="228.6" y1="426.72" x2="220.98" y2="426.72" width="0.1524" layer="91"/>
+<junction x="228.6" y="426.72"/>
+<junction x="220.98" y="426.72"/>
+</segment>
+<segment>
+<pinref part="SUPPLY6" gate="+5V" pin="+5V"/>
+<pinref part="SJ1" gate="G$1" pin="3"/>
+<wire x1="215.9" y1="132.08" x2="223.52" y2="132.08" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="VCC"/>
+<wire x1="901.7" y1="416.56" x2="901.7" y2="403.86" width="0.1524" layer="91"/>
+<wire x1="901.7" y1="403.86" x2="894.08" y2="403.86" width="0.1524" layer="91"/>
+<wire x1="894.08" y1="403.86" x2="894.08" y2="406.4" width="0.1524" layer="91"/>
+<pinref part="SUPPLY8" gate="+5V" pin="+5V"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<junction x="901.7" y="403.86"/>
 </segment>
 </net>
 <net name="5VEN" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="EN"/>
-<wire x1="322.58" y1="434.34" x2="312.42" y2="434.34" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="434.34" x2="312.42" y2="434.34" width="0.1524" layer="91"/>
 <label x="309.88" y="434.34" size="1.778" layer="95" rot="R180" xref="yes"/>
 <wire x1="312.42" y1="434.34" x2="309.88" y2="434.34" width="0.1524" layer="91"/>
 <wire x1="312.42" y1="434.34" x2="312.42" y2="426.72" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="312.42" y1="426.72" x2="289.56" y2="426.72" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="426.72" x2="289.56" y2="429.26" width="0.1524" layer="91"/>
+<junction x="312.42" y="434.34"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="17"/>
+<wire x1="309.88" y1="246.38" x2="287.02" y2="246.38" width="0.1524" layer="91"/>
+<label x="287.02" y="246.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IND" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="SW"/>
-<wire x1="347.98" y1="439.42" x2="350.52" y2="439.42" width="0.1524" layer="91"/>
-<wire x1="350.52" y1="439.42" x2="350.52" y2="449.58" width="0.1524" layer="91"/>
+<wire x1="350.52" y1="436.88" x2="350.52" y2="449.58" width="0.1524" layer="91"/>
 <pinref part="L1" gate="L$1" pin="2"/>
 <wire x1="350.52" y1="449.58" x2="342.9" y2="449.58" width="0.1524" layer="91"/>
 </segment>
@@ -23556,19 +23747,8 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <segment>
 <pinref part="U$1" gate="G$1" pin="SS"/>
 <pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="322.58" y1="424.18" x2="314.96" y2="424.18" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$43" class="0">
-<segment>
-<pinref part="R5" gate="G$1" pin="2"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="360.68" y1="419.1" x2="360.68" y2="421.64" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="FB"/>
-<wire x1="347.98" y1="429.26" x2="353.06" y2="429.26" width="0.1524" layer="91"/>
-<wire x1="353.06" y1="429.26" x2="353.06" y2="421.64" width="0.1524" layer="91"/>
-<wire x1="353.06" y1="421.64" x2="360.68" y2="421.64" width="0.1524" layer="91"/>
-<junction x="360.68" y="421.64"/>
+<wire x1="320.04" y1="424.18" x2="314.96" y2="424.18" width="0.1524" layer="91"/>
+<junction x="314.96" y="424.18"/>
 </segment>
 </net>
 <net name="N$44" class="0">
@@ -23585,9 +23765,9 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <label x="231.14" y="96.52" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="19"/>
-<wire x1="309.88" y1="241.3" x2="302.26" y2="241.3" width="0.1524" layer="91"/>
-<label x="302.26" y="241.3" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="25"/>
+<wire x1="309.88" y1="226.06" x2="302.26" y2="226.06" width="0.1524" layer="91"/>
+<label x="302.26" y="226.06" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="M2IN1" class="0">
@@ -23597,9 +23777,9 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <label x="231.14" y="88.9" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="21"/>
-<wire x1="309.88" y1="236.22" x2="302.26" y2="236.22" width="0.1524" layer="91"/>
-<label x="302.26" y="236.22" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="27"/>
+<wire x1="327.66" y1="213.36" x2="327.66" y2="205.74" width="0.1524" layer="91"/>
+<label x="327.66" y="205.74" size="1.016" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="N$49" class="0">
@@ -23630,7 +23810,7 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <wire x1="292.1" y1="101.6" x2="284.48" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="+3V3" class="0">
+<net name="+3V3" class="1">
 <segment>
 <pinref part="C30" gate="G$1" pin="+"/>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
@@ -23651,16 +23831,6 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <junction x="436.88" y="261.62"/>
 </segment>
 <segment>
-<pinref part="+3V6" gate="G$1" pin="+3V3"/>
-<pinref part="RPUD2" gate="G$1" pin="2"/>
-<wire x1="558.8" y1="325.12" x2="558.8" y2="320.04" width="0.1524" layer="91"/>
-<pinref part="RPUC2" gate="G$1" pin="2"/>
-<wire x1="558.8" y1="320.04" x2="558.8" y2="317.5" width="0.1524" layer="91"/>
-<wire x1="558.8" y1="320.04" x2="566.42" y2="320.04" width="0.1524" layer="91"/>
-<wire x1="566.42" y1="320.04" x2="566.42" y2="317.5" width="0.1524" layer="91"/>
-<junction x="558.8" y="320.04"/>
-</segment>
-<segment>
 <pinref part="U9" gate="G$1" pin="VDD"/>
 <wire x1="688.34" y1="256.54" x2="695.96" y2="256.54" width="0.1524" layer="91"/>
 <wire x1="695.96" y1="256.54" x2="695.96" y2="246.38" width="0.1524" layer="91"/>
@@ -23674,6 +23844,8 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <wire x1="716.28" y1="256.54" x2="716.28" y2="251.46" width="0.1524" layer="91"/>
 <wire x1="695.96" y1="256.54" x2="716.28" y2="256.54" width="0.1524" layer="91"/>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
+<junction x="695.96" y="256.54"/>
+<junction x="716.28" y="256.54"/>
 </segment>
 <segment>
 <pinref part="COMPASS" gate="G$1" pin="VDD"/>
@@ -23744,6 +23916,81 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <wire x1="358.14" y1="185.42" x2="355.6" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="355.6" y1="185.42" x2="355.6" y2="213.36" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="SJ1" gate="G$1" pin="1"/>
+<wire x1="205.74" y1="132.08" x2="195.58" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="+3V12" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="U1" gate="A" pin="VDD"/>
+<wire x1="675.64" y1="142.24" x2="668.02" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="668.02" y1="142.24" x2="668.02" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="+3V7" gate="G$1" pin="+3V3"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="652.78" y1="137.16" x2="652.78" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="652.78" y1="142.24" x2="668.02" y2="142.24" width="0.1524" layer="91"/>
+<junction x="668.02" y="142.24"/>
+</segment>
+<segment>
+<pinref part="L1" gate="L$1" pin="1"/>
+<wire x1="327.66" y1="449.58" x2="320.04" y2="449.58" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="449.58" x2="320.04" y2="439.42" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="VIN"/>
+<wire x1="320.04" y1="439.42" x2="320.04" y2="436.88" width="0.1524" layer="91"/>
+<junction x="320.04" y="439.42"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="320.04" y1="439.42" x2="289.56" y2="439.42" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="439.42" x2="274.32" y2="439.42" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="436.88" x2="274.32" y2="439.42" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="439.42" x2="274.32" y2="439.42" width="0.1524" layer="91"/>
+<junction x="274.32" y="439.42"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<junction x="289.56" y="439.42"/>
+<pinref part="+3V13" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="GREEN" gate="G$1" pin="A"/>
+<wire x1="518.16" y1="441.96" x2="518.16" y2="444.5" width="0.1524" layer="91"/>
+<pinref part="+3V14" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="R16" gate="G$1" pin="2"/>
+<wire x1="706.12" y1="444.5" x2="706.12" y2="441.96" width="0.1524" layer="91"/>
+<pinref part="+3V15" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="774.7" y1="441.96" x2="774.7" y2="439.42" width="0.1524" layer="91"/>
+<pinref part="+3V16" gate="G$1" pin="+3V3"/>
+<wire x1="744.22" y1="429.26" x2="754.38" y2="429.26" width="0.1524" layer="91"/>
+<wire x1="754.38" y1="429.26" x2="754.38" y2="431.8" width="0.1524" layer="91"/>
+<wire x1="754.38" y1="431.8" x2="754.38" y2="434.34" width="0.1524" layer="91"/>
+<wire x1="744.22" y1="426.72" x2="754.38" y2="426.72" width="0.1524" layer="91"/>
+<wire x1="754.38" y1="426.72" x2="754.38" y2="429.26" width="0.1524" layer="91"/>
+<junction x="754.38" y="429.26"/>
+<pinref part="U$3" gate="G$1" pin="VCC"/>
+<pinref part="U$3" gate="G$1" pin="HOLD"/>
+<wire x1="774.7" y1="441.96" x2="754.38" y2="441.96" width="0.1524" layer="91"/>
+<wire x1="754.38" y1="441.96" x2="754.38" y2="434.34" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="+3V6" gate="G$1" pin="+3V3"/>
+<pinref part="JP4" gate="A" pin="9"/>
+<wire x1="238.76" y1="431.8" x2="231.14" y2="431.8" width="0.1524" layer="91"/>
+<pinref part="JP4" gate="A" pin="7"/>
+<wire x1="231.14" y1="431.8" x2="228.6" y2="431.8" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="431.8" x2="220.98" y2="431.8" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="431.8" x2="220.98" y2="434.34" width="0.1524" layer="91"/>
+<pinref part="JP4" gate="A" pin="8"/>
+<wire x1="220.98" y1="434.34" x2="228.6" y2="434.34" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="434.34" x2="231.14" y2="434.34" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="434.34" x2="231.14" y2="431.8" width="0.1524" layer="91"/>
+<pinref part="JP4" gate="A" pin="10"/>
+<junction x="228.6" y="431.8"/>
+<junction x="228.6" y="434.34"/>
+<junction x="220.98" y="434.34"/>
+<junction x="220.98" y="431.8"/>
+</segment>
 </net>
 <net name="M1IN2" class="0">
 <segment>
@@ -23752,9 +23999,9 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <label x="231.14" y="93.98" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="20"/>
-<wire x1="309.88" y1="238.76" x2="302.26" y2="238.76" width="0.1524" layer="91"/>
-<label x="302.26" y="238.76" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="26"/>
+<wire x1="325.12" y1="213.36" x2="325.12" y2="205.74" width="0.1524" layer="91"/>
+<label x="325.12" y="205.74" size="1.016" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="M2IN2" class="0">
@@ -23764,9 +24011,9 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <label x="231.14" y="86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="22"/>
-<wire x1="309.88" y1="233.68" x2="302.26" y2="233.68" width="0.1524" layer="91"/>
-<label x="302.26" y="233.68" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="28"/>
+<wire x1="330.2" y1="213.36" x2="330.2" y2="205.74" width="0.1524" layer="91"/>
+<label x="330.2" y="205.74" size="1.016" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -23860,9 +24107,9 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <label x="327.66" y="96.52" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="24"/>
-<wire x1="309.88" y1="228.6" x2="302.26" y2="228.6" width="0.1524" layer="91"/>
-<label x="302.26" y="228.6" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="42"/>
+<wire x1="365.76" y1="213.36" x2="365.76" y2="205.74" width="0.1524" layer="91"/>
+<label x="365.76" y="205.74" size="1.016" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="M3IN2" class="0">
@@ -23872,9 +24119,9 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <label x="327.66" y="93.98" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="26"/>
-<wire x1="325.12" y1="213.36" x2="325.12" y2="205.74" width="0.1524" layer="91"/>
-<label x="325.12" y="205.74" size="1.016" layer="95" rot="R270" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="43"/>
+<wire x1="368.3" y1="213.36" x2="368.3" y2="205.74" width="0.1524" layer="91"/>
+<label x="368.3" y="205.74" size="1.016" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="M4IN1" class="0">
@@ -23884,9 +24131,9 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <label x="327.66" y="88.9" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="27"/>
-<wire x1="327.66" y1="213.36" x2="327.66" y2="205.74" width="0.1524" layer="91"/>
-<label x="327.66" y="205.74" size="1.016" layer="95" rot="R270" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="44"/>
+<wire x1="370.84" y1="213.36" x2="370.84" y2="205.74" width="0.1524" layer="91"/>
+<label x="370.84" y="205.74" size="1.016" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="M4IN2" class="0">
@@ -23896,9 +24143,9 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <label x="327.66" y="86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="28"/>
-<wire x1="330.2" y1="213.36" x2="330.2" y2="205.74" width="0.1524" layer="91"/>
-<label x="330.2" y="205.74" size="1.016" layer="95" rot="R270" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="45"/>
+<wire x1="373.38" y1="213.36" x2="373.38" y2="205.74" width="0.1524" layer="91"/>
+<label x="373.38" y="205.74" size="1.016" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="M5IN1" class="0">
@@ -23908,9 +24155,9 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <label x="419.1" y="96.52" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="41"/>
-<wire x1="363.22" y1="213.36" x2="363.22" y2="205.74" width="0.1524" layer="91"/>
-<label x="363.22" y="205.74" size="1.016" layer="95" rot="R270" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="46"/>
+<wire x1="375.92" y1="213.36" x2="375.92" y2="205.74" width="0.1524" layer="91"/>
+<label x="375.92" y="205.74" size="1.016" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="M5IN2" class="0">
@@ -23920,9 +24167,9 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <label x="419.1" y="93.98" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="42"/>
-<wire x1="365.76" y1="213.36" x2="365.76" y2="205.74" width="0.1524" layer="91"/>
-<label x="365.76" y="205.74" size="1.016" layer="95" rot="R270" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="47"/>
+<wire x1="378.46" y1="213.36" x2="378.46" y2="205.74" width="0.1524" layer="91"/>
+<label x="378.46" y="205.74" size="1.016" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="M6IN1" class="0">
@@ -23932,9 +24179,9 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <label x="419.1" y="88.9" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="43"/>
-<wire x1="368.3" y1="213.36" x2="368.3" y2="205.74" width="0.1524" layer="91"/>
-<label x="368.3" y="205.74" size="1.016" layer="95" rot="R270" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="48"/>
+<wire x1="381" y1="213.36" x2="381" y2="205.74" width="0.1524" layer="91"/>
+<label x="381" y="205.74" size="1.016" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="M6IN2" class="0">
@@ -23944,9 +24191,9 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <label x="419.1" y="86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="44"/>
-<wire x1="370.84" y1="213.36" x2="370.84" y2="205.74" width="0.1524" layer="91"/>
-<label x="370.84" y="205.74" size="1.016" layer="95" rot="R270" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="49"/>
+<wire x1="383.54" y1="213.36" x2="383.54" y2="205.74" width="0.1524" layer="91"/>
+<label x="383.54" y="205.74" size="1.016" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="M7IN1" class="0">
@@ -23956,9 +24203,9 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <label x="515.62" y="96.52" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="46"/>
-<wire x1="375.92" y1="213.36" x2="375.92" y2="205.74" width="0.1524" layer="91"/>
-<label x="375.92" y="205.74" size="1.016" layer="95" rot="R270" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="56"/>
+<wire x1="398.78" y1="238.76" x2="406.4" y2="238.76" width="0.1524" layer="91"/>
+<label x="406.4" y="238.76" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="M7IN2" class="0">
@@ -23968,9 +24215,9 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <label x="515.62" y="93.98" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="47"/>
-<wire x1="378.46" y1="213.36" x2="378.46" y2="205.74" width="0.1524" layer="91"/>
-<label x="378.46" y="205.74" size="1.016" layer="95" rot="R270" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="57"/>
+<wire x1="398.78" y1="241.3" x2="406.4" y2="241.3" width="0.1524" layer="91"/>
+<label x="406.4" y="241.3" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="M8IN1" class="0">
@@ -23980,9 +24227,9 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <label x="515.62" y="88.9" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="48"/>
-<wire x1="381" y1="213.36" x2="381" y2="205.74" width="0.1524" layer="91"/>
-<label x="381" y="205.74" size="1.016" layer="95" rot="R270" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="58"/>
+<wire x1="398.78" y1="243.84" x2="406.4" y2="243.84" width="0.1524" layer="91"/>
+<label x="406.4" y="243.84" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="M8IN2" class="0">
@@ -23992,9 +24239,9 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <label x="515.62" y="86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="49"/>
-<wire x1="383.54" y1="213.36" x2="383.54" y2="205.74" width="0.1524" layer="91"/>
-<label x="383.54" y="205.74" size="1.016" layer="95" rot="R270" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="59"/>
+<wire x1="398.78" y1="246.38" x2="406.4" y2="246.38" width="0.1524" layer="91"/>
+<label x="406.4" y="246.38" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -24032,6 +24279,13 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <wire x1="525.78" y1="307.34" x2="525.78" y2="274.32" width="0.1524" layer="91"/>
 <pinref part="JP3" gate="A" pin="2"/>
 </segment>
+<segment>
+<pinref part="JP4" gate="A" pin="1"/>
+<wire x1="220.98" y1="441.96" x2="218.44" y2="441.96" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="441.96" x2="218.44" y2="449.58" width="0.1524" layer="91"/>
+<label x="218.44" y="449.58" size="1.778" layer="95"/>
+<junction x="220.98" y="441.96"/>
+</segment>
 </net>
 <net name="SCL" class="0">
 <segment>
@@ -24064,6 +24318,13 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <label x="528.32" y="289.56" size="1.778" layer="95" rot="R90"/>
 <wire x1="528.32" y1="307.34" x2="528.32" y2="274.32" width="0.1524" layer="91"/>
 <pinref part="JP3" gate="A" pin="1"/>
+</segment>
+<segment>
+<pinref part="JP4" gate="A" pin="2"/>
+<wire x1="228.6" y1="441.96" x2="231.14" y2="441.96" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="441.96" x2="231.14" y2="449.58" width="0.1524" layer="91"/>
+<label x="231.14" y="449.58" size="1.778" layer="95"/>
+<junction x="228.6" y="441.96"/>
 </segment>
 </net>
 <net name="N$25" class="0">
@@ -24153,35 +24414,12 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <wire x1="398.78" y1="271.78" x2="406.4" y2="271.78" width="0.1524" layer="91"/>
 <label x="401.32" y="271.78" size="1.778" layer="95"/>
 </segment>
-<segment>
-<label x="558.8" y="297.18" size="1.778" layer="95" rot="R90"/>
-<wire x1="558.8" y1="307.34" x2="558.8" y2="294.64" width="0.1524" layer="91"/>
-<pinref part="RPUD2" gate="G$1" pin="1"/>
-<wire x1="558.8" y1="304.8" x2="558.8" y2="307.34" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="JP4" gate="A" pin="1"/>
-<wire x1="220.98" y1="441.96" x2="218.44" y2="441.96" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="441.96" x2="218.44" y2="449.58" width="0.1524" layer="91"/>
-<label x="218.44" y="449.58" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="SCL2" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="70"/>
 <wire x1="398.78" y1="274.32" x2="406.4" y2="274.32" width="0.1524" layer="91"/>
 <label x="401.32" y="274.32" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="RPUC2" gate="G$1" pin="1"/>
-<label x="566.42" y="297.18" size="1.778" layer="95" rot="R90"/>
-<wire x1="566.42" y1="307.34" x2="566.42" y2="294.64" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="JP4" gate="A" pin="2"/>
-<wire x1="228.6" y1="441.96" x2="231.14" y2="441.96" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="441.96" x2="231.14" y2="449.58" width="0.1524" layer="91"/>
-<label x="231.14" y="449.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SPI_SOMI" class="0">
@@ -24382,70 +24620,6 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <junction x="358.14" y="185.42"/>
 </segment>
 </net>
-<net name="M78SLEEP" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="45"/>
-<wire x1="373.38" y1="213.36" x2="373.38" y2="205.74" width="0.1524" layer="91"/>
-<label x="373.38" y="205.74" size="1.016" layer="95" rot="R270" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U5" gate="A" pin="NSLEEP"/>
-<wire x1="426.72" y1="104.14" x2="421.64" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="421.64" y1="104.14" x2="419.1" y2="104.14" width="0.1524" layer="91"/>
-<label x="419.1" y="104.14" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U5" gate="A" pin="MODE"/>
-<wire x1="426.72" y1="101.6" x2="421.64" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="421.64" y1="101.6" x2="421.64" y2="104.14" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U7" gate="A" pin="NSLEEP"/>
-<wire x1="523.24" y1="104.14" x2="518.16" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="518.16" y1="104.14" x2="515.62" y2="104.14" width="0.1524" layer="91"/>
-<label x="515.62" y="104.14" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U7" gate="A" pin="MODE"/>
-<wire x1="523.24" y1="101.6" x2="518.16" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="518.16" y1="101.6" x2="518.16" y2="104.14" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="M56SLEEP" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="40"/>
-<wire x1="360.68" y1="213.36" x2="360.68" y2="205.74" width="0.1524" layer="91"/>
-<label x="360.68" y="205.74" size="1.016" layer="95" rot="R270" xref="yes"/>
-</segment>
-</net>
-<net name="M12SLEEP" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="18"/>
-<wire x1="309.88" y1="243.84" x2="302.26" y2="243.84" width="0.1524" layer="91"/>
-<label x="302.26" y="243.84" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U3" gate="A" pin="NSLEEP"/>
-<wire x1="238.76" y1="104.14" x2="233.68" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="233.68" y1="104.14" x2="231.14" y2="104.14" width="0.1524" layer="91"/>
-<label x="231.14" y="104.14" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U3" gate="A" pin="MODE"/>
-<wire x1="238.76" y1="101.6" x2="233.68" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="233.68" y1="101.6" x2="233.68" y2="104.14" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="M34SLEEP" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="23"/>
-<wire x1="309.88" y1="231.14" x2="302.26" y2="231.14" width="0.1524" layer="91"/>
-<label x="302.26" y="231.14" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U4" gate="A" pin="NSLEEP"/>
-<wire x1="335.28" y1="104.14" x2="330.2" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="330.2" y1="104.14" x2="327.66" y2="104.14" width="0.1524" layer="91"/>
-<label x="327.66" y="104.14" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U4" gate="A" pin="MODE"/>
-<wire x1="335.28" y1="101.6" x2="330.2" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="330.2" y1="101.6" x2="330.2" y2="104.14" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="SPI_SCK" class="0">
 <segment>
 <pinref part="R18" gate="G$1" pin="1"/>
@@ -24472,58 +24646,9 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 </net>
 <net name="3.3V" class="1">
 <segment>
-<pinref part="P+2" gate="G$1" pin="3.3V"/>
-<wire x1="744.22" y1="429.26" x2="754.38" y2="429.26" width="0.1524" layer="91"/>
-<wire x1="754.38" y1="429.26" x2="754.38" y2="434.34" width="0.1524" layer="91"/>
-<wire x1="744.22" y1="426.72" x2="754.38" y2="426.72" width="0.1524" layer="91"/>
-<wire x1="754.38" y1="426.72" x2="754.38" y2="429.26" width="0.1524" layer="91"/>
-<junction x="754.38" y="429.26"/>
-<pinref part="U$3" gate="G$1" pin="VCC"/>
-<pinref part="U$3" gate="G$1" pin="HOLD"/>
-</segment>
-<segment>
-<pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="P+6" gate="G$1" pin="3.3V"/>
-<wire x1="774.7" y1="441.96" x2="774.7" y2="439.42" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R16" gate="G$1" pin="2"/>
-<pinref part="P+7" gate="G$1" pin="3.3V"/>
-<wire x1="706.12" y1="444.5" x2="706.12" y2="441.96" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <wire x1="713.74" y1="424.18" x2="695.96" y2="424.18" width="0.1524" layer="91"/>
 <pinref part="P+4" gate="G$1" pin="3.3V"/>
 <pinref part="U$3" gate="G$1" pin="WP"/>
-</segment>
-<segment>
-<pinref part="L1" gate="L$1" pin="1"/>
-<wire x1="327.66" y1="449.58" x2="320.04" y2="449.58" width="0.1524" layer="91"/>
-<wire x1="320.04" y1="449.58" x2="320.04" y2="439.42" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="VIN"/>
-<wire x1="320.04" y1="439.42" x2="322.58" y2="439.42" width="0.1524" layer="91"/>
-<junction x="320.04" y="439.42"/>
-<pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="320.04" y1="439.42" x2="289.56" y2="439.42" width="0.1524" layer="91"/>
-<wire x1="289.56" y1="439.42" x2="274.32" y2="439.42" width="0.1524" layer="91"/>
-<wire x1="274.32" y1="436.88" x2="274.32" y2="439.42" width="0.1524" layer="91"/>
-<wire x1="269.24" y1="439.42" x2="274.32" y2="439.42" width="0.1524" layer="91"/>
-<junction x="274.32" y="439.42"/>
-<pinref part="P+8" gate="G$1" pin="3.3V"/>
-<pinref part="R2" gate="G$1" pin="2"/>
-<junction x="289.56" y="439.42"/>
-</segment>
-<segment>
-<pinref part="P+5" gate="G$1" pin="3.3V"/>
-<pinref part="JP4" gate="A" pin="7"/>
-<wire x1="236.22" y1="434.34" x2="228.6" y2="434.34" width="0.1524" layer="91"/>
-<pinref part="JP4" gate="A" pin="8"/>
-<wire x1="228.6" y1="434.34" x2="220.98" y2="434.34" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GREEN" gate="G$1" pin="A"/>
-<wire x1="518.16" y1="441.96" x2="518.16" y2="444.5" width="0.1524" layer="91"/>
-<pinref part="P+9" gate="G$1" pin="3.3V"/>
 </segment>
 </net>
 <net name="FMOSI" class="0">
@@ -24551,11 +24676,16 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <pinref part="U$3" gate="G$1" pin="CS"/>
 </segment>
 </net>
-<net name="CS" class="0">
+<net name="SPI_FLASH_CS" class="0">
 <segment>
 <pinref part="R17" gate="G$1" pin="2"/>
 <wire x1="688.34" y1="431.8" x2="683.26" y2="431.8" width="0.1524" layer="91"/>
 <label x="683.26" y="431.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="75"/>
+<wire x1="398.78" y1="287.02" x2="408.94" y2="287.02" width="0.1524" layer="91"/>
+<label x="403.86" y="287.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -24563,13 +24693,6 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <pinref part="R18" gate="G$1" pin="2"/>
 <wire x1="754.38" y1="424.18" x2="744.22" y2="424.18" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="SCK"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="VDD"/>
-<wire x1="675.64" y1="142.24" x2="668.02" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="668.02" y1="142.24" x2="668.02" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -24591,15 +24714,6 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <pinref part="R9" gate="G$1" pin="2"/>
 <pinref part="LED1" gate="G$1" pin="C"/>
 <wire x1="558.8" y1="431.8" x2="558.8" y2="434.34" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$7" class="1">
-<segment>
-<wire x1="233.68" y1="434.34" x2="233.68" y2="431.8" width="0.1524" layer="91"/>
-<pinref part="JP4" gate="A" pin="9"/>
-<wire x1="233.68" y1="431.8" x2="228.6" y2="431.8" width="0.1524" layer="91"/>
-<pinref part="JP4" gate="A" pin="10"/>
-<wire x1="228.6" y1="431.8" x2="220.98" y2="431.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED1" class="0">
@@ -24626,18 +24740,119 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 <label x="538.48" y="444.5" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="HX1TX" class="0">
-<segment>
-<pinref part="U$4" gate="G$1" pin="TXD"/>
-<wire x1="906.78" y1="416.56" x2="906.78" y2="406.4" width="0.1524" layer="91"/>
-<label x="906.78" y="406.4" size="1.778" layer="95" rot="R90"/>
-</segment>
-</net>
 <net name="HX1EN" class="0">
 <segment>
 <pinref part="U$4" gate="G$1" pin="EN"/>
 <wire x1="899.16" y1="416.56" x2="899.16" y2="406.4" width="0.1524" layer="91"/>
 <label x="899.16" y="406.4" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="V_MOTOR" class="3">
+<segment>
+<pinref part="U3" gate="A" pin="VCC"/>
+<pinref part="SJ1" gate="G$1" pin="2"/>
+<wire x1="210.82" y1="127" x2="210.82" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="109.22" x2="238.76" y2="109.22" width="0.1524" layer="91"/>
+<label x="215.9" y="109.22" size="1.778" layer="95"/>
+<pinref part="C28" gate="G$1" pin="2"/>
+<wire x1="210.82" y1="109.22" x2="193.04" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="109.22" x2="185.42" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="109.22" x2="177.8" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="109.22" x2="170.18" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="109.22" x2="170.18" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="C8" gate="G$1" pin="2"/>
+<wire x1="177.8" y1="104.14" x2="177.8" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="C27" gate="G$1" pin="2"/>
+<wire x1="185.42" y1="104.14" x2="185.42" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="C26" gate="G$1" pin="2"/>
+<wire x1="193.04" y1="104.14" x2="193.04" y2="109.22" width="0.1524" layer="91"/>
+<junction x="177.8" y="109.22"/>
+<junction x="185.42" y="109.22"/>
+<junction x="193.04" y="109.22"/>
+</segment>
+<segment>
+<pinref part="U4" gate="A" pin="VCC"/>
+<wire x1="335.28" y1="109.22" x2="327.66" y2="109.22" width="0.1524" layer="91"/>
+<label x="325.12" y="109.22" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U5" gate="A" pin="VCC"/>
+<wire x1="426.72" y1="109.22" x2="419.1" y2="109.22" width="0.1524" layer="91"/>
+<label x="416.56" y="109.22" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U7" gate="A" pin="VCC"/>
+<wire x1="523.24" y1="109.22" x2="515.62" y2="109.22" width="0.1524" layer="91"/>
+<label x="510.54" y="109.22" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="RFGND" class="1">
+<segment>
+<pinref part="U$4" gate="G$1" pin="RFGND"/>
+<wire x1="881.38" y1="416.56" x2="881.38" y2="408.94" width="0.1524" layer="91"/>
+<pinref part="RFGND" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="RFGND2"/>
+<wire x1="886.46" y1="416.56" x2="886.46" y2="408.94" width="0.1524" layer="91"/>
+<pinref part="SUPPLY10" gate="GND" pin="GND"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="U$1" gate="G$1" pin="PG"/>
+<wire x1="360.68" y1="421.64" x2="350.52" y2="421.64" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="M1234SLEEP" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="24"/>
+<wire x1="309.88" y1="228.6" x2="302.26" y2="228.6" width="0.1524" layer="91"/>
+<label x="302.26" y="228.6" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U3" gate="A" pin="NSLEEP"/>
+<wire x1="238.76" y1="104.14" x2="233.68" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="104.14" x2="231.14" y2="104.14" width="0.1524" layer="91"/>
+<label x="231.14" y="104.14" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U3" gate="A" pin="MODE"/>
+<wire x1="238.76" y1="101.6" x2="233.68" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="101.6" x2="233.68" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U4" gate="A" pin="NSLEEP"/>
+<wire x1="335.28" y1="104.14" x2="330.2" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="330.2" y1="104.14" x2="327.66" y2="104.14" width="0.1524" layer="91"/>
+<label x="327.66" y="104.14" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U4" gate="A" pin="MODE"/>
+<wire x1="335.28" y1="101.6" x2="330.2" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="330.2" y1="101.6" x2="330.2" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="M5678SLEEP" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="50"/>
+<wire x1="386.08" y1="213.36" x2="386.08" y2="205.74" width="0.1524" layer="91"/>
+<label x="386.08" y="205.74" size="1.016" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U5" gate="A" pin="NSLEEP"/>
+<wire x1="426.72" y1="104.14" x2="421.64" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="421.64" y1="104.14" x2="419.1" y2="104.14" width="0.1524" layer="91"/>
+<label x="419.1" y="104.14" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U5" gate="A" pin="MODE"/>
+<wire x1="426.72" y1="101.6" x2="421.64" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="421.64" y1="101.6" x2="421.64" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U7" gate="A" pin="NSLEEP"/>
+<wire x1="523.24" y1="104.14" x2="518.16" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="518.16" y1="104.14" x2="515.62" y2="104.14" width="0.1524" layer="91"/>
+<label x="515.62" y="104.14" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U7" gate="A" pin="MODE"/>
+<wire x1="523.24" y1="101.6" x2="518.16" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="518.16" y1="101.6" x2="518.16" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
