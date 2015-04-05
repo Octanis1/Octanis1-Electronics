@@ -69,7 +69,7 @@
 <wire x1="25.4" y1="7.62" x2="25.4" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="25.4" y1="-2.54" x2="-17.78" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="-17.78" y1="-2.54" x2="-17.78" y2="7.62" width="0.127" layer="21"/>
-<text x="-1.27" y="-2.54" size="1.27" layer="25">HX1</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27">HX1</text>
 </package>
 </packages>
 <symbols>
