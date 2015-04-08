@@ -11234,6 +11234,59 @@ Typical applications:&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="phMeter">
+<packages>
+<package name="SOT-23-6">
+<wire x1="0" y1="0" x2="2.9" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="1.5" width="0.127" layer="21"/>
+<wire x1="0" y1="1.5" x2="2.85" y2="1.5" width="0.127" layer="21"/>
+<wire x1="2.9" y1="1.5" x2="2.9" y2="0" width="0.127" layer="21"/>
+<smd name="VSS" x="1.5" y="-0.45" dx="0.9" dy="0.3048" layer="1" rot="R270"/>
+<smd name="SCL" x="2.45" y="-0.45" dx="0.9" dy="0.3048" layer="1" rot="R270"/>
+<smd name="VIN+" x="0.6" y="-0.45" dx="0.9" dy="0.3048" layer="1" rot="R270"/>
+<smd name="VDD" x="1.5" y="1.95" dx="0.9" dy="0.3048" layer="1" rot="R270"/>
+<smd name="SDA" x="2.45" y="1.95" dx="0.9" dy="0.3048" layer="1" rot="R270"/>
+<smd name="VIN-" x="0.6" y="1.95" dx="0.9" dy="0.3048" layer="1" rot="R270"/>
+<circle x="0.3632375" y="0.341078125" radius="0.127" width="0.0254" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MCP3425">
+<wire x1="-15.24" y1="7.62" x2="-15.24" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="-15.24" y2="7.62" width="0.254" layer="94"/>
+<pin name="VIN+" x="-20.32" y="5.08" length="middle"/>
+<pin name="VSS" x="-20.32" y="0" length="middle"/>
+<pin name="SCL" x="-20.32" y="-5.08" length="middle"/>
+<pin name="VIN-" x="10.16" y="5.08" length="middle" rot="R180"/>
+<pin name="VDD" x="10.16" y="0" length="middle" rot="R180"/>
+<pin name="SDA" x="10.16" y="-5.08" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MCP3425">
+<gates>
+<gate name="G$1" symbol="MCP3425" x="5.08" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-23-6">
+<connects>
+<connect gate="G$1" pin="SCL" pad="SCL"/>
+<connect gate="G$1" pin="SDA" pad="SDA"/>
+<connect gate="G$1" pin="VDD" pad="VDD"/>
+<connect gate="G$1" pin="VIN+" pad="VIN+"/>
+<connect gate="G$1" pin="VIN-" pad="VIN-"/>
+<connect gate="G$1" pin="VSS" pad="VSS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -11271,6 +11324,7 @@ Typical applications:&lt;p&gt;
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
+<part name="U$5" library="phMeter" deviceset="MCP3425" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11310,6 +11364,7 @@ Typical applications:&lt;p&gt;
 <instance part="+3V4" gate="G$1" x="175.26" y="165.1" smashed="yes">
 <attribute name="VALUE" x="175.26" y="165.1" size="1.778" layer="96"/>
 </instance>
+<instance part="U$5" gate="G$1" x="53.34" y="20.32"/>
 </instances>
 <busses>
 </busses>
@@ -11398,22 +11453,12 @@ Typical applications:&lt;p&gt;
 <wire x1="63.5" y1="60.96" x2="63.5" y2="58.42" width="0.1524" layer="91"/>
 <junction x="63.5" y="58.42"/>
 </segment>
-<segment>
-<wire x1="43.18" y1="111.76" x2="38.1" y2="111.76" width="0.1524" layer="91"/>
-<label x="38.1" y="111.76" size="1.27" layer="95" rot="MR0" xref="yes"/>
-<pinref part="JP2" gate="G$1" pin="4"/>
-</segment>
 </net>
 <net name="OUT" class="0">
 <segment>
 <pinref part="U1" gate="U1" pin="OUT"/>
 <wire x1="60.96" y1="48.26" x2="63.5" y2="48.26" width="0.1524" layer="91"/>
 <label x="63.5" y="48.26" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<wire x1="43.18" y1="114.3" x2="38.1" y2="114.3" width="0.1524" layer="91"/>
-<label x="38.1" y="114.3" size="1.27" layer="95" rot="MR0" xref="yes"/>
-<pinref part="JP2" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -11464,6 +11509,11 @@ Typical applications:&lt;p&gt;
 <wire x1="116.84" y1="137.16" x2="106.68" y2="137.16" width="0.1524" layer="91"/>
 <label x="106.68" y="137.16" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="43.18" y1="114.3" x2="38.1" y2="114.3" width="0.1524" layer="91"/>
+<label x="38.1" y="114.3" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<pinref part="JP2" gate="G$1" pin="3"/>
+</segment>
 </net>
 <net name="SCL" class="0">
 <segment>
@@ -11475,6 +11525,11 @@ Typical applications:&lt;p&gt;
 <pinref part="U9" gate="G$1" pin="SCL"/>
 <wire x1="116.84" y1="132.08" x2="106.68" y2="132.08" width="0.1524" layer="91"/>
 <label x="106.68" y="132.08" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="43.18" y1="111.76" x2="38.1" y2="111.76" width="0.1524" layer="91"/>
+<label x="38.1" y="111.76" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<pinref part="JP2" gate="G$1" pin="4"/>
 </segment>
 </net>
 </nets>
