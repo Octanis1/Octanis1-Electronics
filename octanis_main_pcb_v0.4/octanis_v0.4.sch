@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,19 +39,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -16716,6 +16716,43 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 </deviceset>
 </devicesets>
 </library>
+<library name="lpatiny">
+<packages>
+<package name="STAR">
+<smd name="AGND" x="0.635" y="-0.635" dx="0.3048" dy="0.1524" layer="1" roundness="5" rot="R90"/>
+<smd name="DGND" x="0.635" y="0.635" dx="0.3048" dy="0.1524" layer="1" roundness="5" rot="R90"/>
+<rectangle x1="0" y1="-1.27" x2="1.27" y2="1.27" layer="1"/>
+<smd name="GND" x="0.635" y="0" dx="0.3048" dy="0.1524" layer="1" roundness="5" rot="R180"/>
+</package>
+</packages>
+<symbols>
+<symbol name="STARGND">
+<pin name="GND" x="-5.08" y="0" length="middle" direction="sup"/>
+<pin name="AGND" x="7.62" y="2.54" length="middle" direction="out" rot="R180"/>
+<pin name="DGND" x="7.62" y="-2.54" length="middle" direction="out" rot="R180"/>
+<rectangle x1="0" y1="-2.54" x2="2.54" y2="2.54" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="STARGND">
+<gates>
+<gate name="G$1" symbol="STARGND" x="-5.08" y="0"/>
+</gates>
+<devices>
+<device name="" package="STAR">
+<connects>
+<connect gate="G$1" pin="AGND" pad="AGND"/>
+<connect gate="G$1" pin="DGND" pad="DGND"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -16860,13 +16897,14 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="R10" library="rcl" deviceset="R-EU_" device="R0402" value="91 kW, 0.1%, ±25 ppm/°C"/>
 <part name="AGND1" library="supply1" deviceset="AGND" device=""/>
-<part name="SJ3" library="jumper" deviceset="SJ" device=""/>
 <part name="SUPPLY9" library="supply2" deviceset="GND" device=""/>
 <part name="AGND2" library="supply1" deviceset="AGND" device=""/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="JP1" library="Headerlibrary" deviceset="PINHD-1X7" device="2MM"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
+<part name="U$2" library="lpatiny" deviceset="STARGND" device=""/>
+<part name="GND19" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -16962,13 +17000,13 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <attribute name="NAME" x="636.778" y="253.238" size="1.778" layer="95"/>
 <attribute name="VALUE" x="637.286" y="250.698" size="1.778" layer="96"/>
 </instance>
-<instance part="C9" gate="G$1" x="647.7" y="215.9" smashed="yes" rot="R270">
-<attribute name="NAME" x="648.97" y="220.345" size="1.524" layer="95" rot="R180"/>
-<attribute name="VALUE" x="648.97" y="222.123" size="1.524" layer="96" rot="R180"/>
+<instance part="C9" gate="G$1" x="647.7" y="210.82" smashed="yes" rot="R270">
+<attribute name="NAME" x="648.97" y="215.265" size="1.524" layer="95" rot="R180"/>
+<attribute name="VALUE" x="648.97" y="217.043" size="1.524" layer="96" rot="R180"/>
 </instance>
-<instance part="C22" gate="G$1" x="647.7" y="210.82" smashed="yes" rot="R270">
-<attribute name="NAME" x="648.97" y="205.105" size="1.524" layer="95" rot="R180"/>
-<attribute name="VALUE" x="645.16" y="205.867" size="1.524" layer="96"/>
+<instance part="C22" gate="G$1" x="647.7" y="215.9" smashed="yes" rot="R270">
+<attribute name="NAME" x="648.97" y="210.185" size="1.524" layer="95" rot="R180"/>
+<attribute name="VALUE" x="645.16" y="210.947" size="1.524" layer="96"/>
 </instance>
 <instance part="C23" gate="G$1" x="635" y="241.3" smashed="yes" rot="MR0">
 <attribute name="NAME" x="637.794" y="240.919" size="1.778" layer="95" rot="MR180"/>
@@ -17096,9 +17134,8 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <attribute name="VALUE" x="652.018" y="259.334" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="AGND1" gate="VR1" x="635" y="228.6"/>
-<instance part="SJ3" gate="1" x="228.6" y="408.94"/>
-<instance part="SUPPLY9" gate="GND" x="218.44" y="403.86"/>
-<instance part="AGND2" gate="VR1" x="238.76" y="403.86"/>
+<instance part="SUPPLY9" gate="GND" x="213.36" y="386.08"/>
+<instance part="AGND2" gate="VR1" x="238.76" y="388.62"/>
 <instance part="C1" gate="G$1" x="627.38" y="241.3" smashed="yes" rot="MR0">
 <attribute name="NAME" x="630.174" y="240.919" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="628.904" y="238.379" size="1.778" layer="96" rot="MR180"/>
@@ -17108,6 +17145,8 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <instance part="+3V3" gate="G$1" x="599.44" y="184.15" smashed="yes" rot="R180">
 <attribute name="VALUE" x="596.9" y="185.42" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="U$2" gate="G$1" x="223.52" y="388.62"/>
+<instance part="GND19" gate="1" x="236.22" y="383.54"/>
 </instances>
 <busses>
 </busses>
@@ -17354,15 +17393,15 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <junction x="234.95" y="455.93"/>
 </segment>
 <segment>
+<wire x1="650.24" y1="213.36" x2="657.86" y2="213.36" width="0.1524" layer="91"/>
+<pinref part="GND1" gate="1" pin="GND"/>
 <pinref part="C22" gate="G$1" pin="1"/>
 <pinref part="C9" gate="G$1" pin="1"/>
 <wire x1="650.24" y1="215.9" x2="650.24" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="650.24" y1="213.36" x2="650.24" y2="210.82" width="0.1524" layer="91"/>
-<junction x="650.24" y="213.36"/>
-<wire x1="650.24" y1="213.36" x2="657.86" y2="213.36" width="0.1524" layer="91"/>
-<pinref part="GND1" gate="1" pin="GND"/>
-<junction x="650.24" y="215.9"/>
 <junction x="650.24" y="210.82"/>
+<junction x="650.24" y="213.36"/>
+<wire x1="650.24" y1="213.36" x2="650.24" y2="210.82" width="0.1524" layer="91"/>
+<junction x="650.24" y="215.9"/>
 </segment>
 <segment>
 <pinref part="MSP1" gate="MSP432" pin="DVSS1"/>
@@ -17382,6 +17421,7 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <pinref part="Q2" gate="&gt;NAME" pin="GND"/>
 <wire x1="629.92" y1="213.36" x2="619.76" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
+<junction x="629.92" y="213.36"/>
 </segment>
 <segment>
 <pinref part="C25" gate="G$1" pin="-"/>
@@ -17394,17 +17434,21 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <junction x="617.22" y="259.08"/>
 </segment>
 <segment>
-<pinref part="SUPPLY9" gate="GND" pin="GND"/>
-<pinref part="SJ3" gate="1" pin="1"/>
-<wire x1="218.44" y1="406.4" x2="218.44" y2="408.94" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="408.94" x2="223.52" y2="408.94" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="JP1" gate="A" pin="1"/>
 <wire x1="609.6" y1="203.2" x2="599.44" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="599.44" y1="203.2" x2="599.44" y2="205.74" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <junction x="599.44" y="203.2"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="GND"/>
+<pinref part="SUPPLY9" gate="GND" pin="GND"/>
+<wire x1="218.44" y1="388.62" x2="213.36" y2="388.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="DGND"/>
+<pinref part="GND19" gate="1" pin="GND"/>
+<wire x1="236.22" y1="386.08" x2="231.14" y2="386.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TX" class="0">
@@ -17433,6 +17477,11 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <wire x1="713.74" y1="285.75" x2="713.74" y2="298.45" width="0.1524" layer="91"/>
 <label x="713.74" y="290.83" size="1.778" layer="95" rot="R90"/>
 <pinref part="JP3" gate="A" pin="2"/>
+</segment>
+<segment>
+<pinref part="MSP1" gate="MSP432" pin="P6.2/UCB1STE/C1.5"/>
+<wire x1="497.84" y1="215.9" x2="472.44" y2="215.9" width="0.1524" layer="91"/>
+<label x="472.44" y="215.9" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+5V" class="3">
@@ -18228,6 +18277,11 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <label x="716.28" y="290.83" size="1.778" layer="95" rot="R90"/>
 <pinref part="JP3" gate="A" pin="1"/>
 </segment>
+<segment>
+<pinref part="MSP1" gate="MSP432" pin="P6.3/UCB1CLK/C1.4"/>
+<wire x1="497.84" y1="213.36" x2="474.98" y2="213.36" width="0.1524" layer="91"/>
+<label x="477.52" y="213.36" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SPI_MISO" class="0">
 <segment>
@@ -18243,6 +18297,11 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <wire x1="708.66" y1="285.75" x2="708.66" y2="298.45" width="0.1524" layer="91"/>
 <label x="708.66" y="290.83" size="1.778" layer="95" rot="R90"/>
 <pinref part="JP3" gate="A" pin="4"/>
+</segment>
+<segment>
+<pinref part="MSP1" gate="MSP432" pin="P6.5/UCB1SOMI/UCB1SCL/C1.2"/>
+<wire x1="497.84" y1="208.28" x2="474.98" y2="208.28" width="0.1524" layer="91"/>
+<label x="477.52" y="208.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="3.3V" class="1">
@@ -18266,6 +18325,11 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <segment>
 <wire x1="400.05" y1="288.29" x2="410.21" y2="288.29" width="0.1524" layer="91"/>
 <label x="405.13" y="288.29" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="MSP1" gate="MSP432" pin="P6.6/TA2.3/UCB3SIMO/UCB3SDA/C1.1"/>
+<wire x1="497.84" y1="205.74" x2="474.98" y2="205.74" width="0.1524" layer="91"/>
+<label x="477.52" y="205.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -18453,6 +18517,11 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <label x="711.2" y="290.83" size="1.778" layer="95" rot="R90"/>
 <pinref part="JP3" gate="A" pin="3"/>
 </segment>
+<segment>
+<pinref part="MSP1" gate="MSP432" pin="P6.4/UCB1SIMO/UCB1SDA/C1.3"/>
+<wire x1="497.84" y1="210.82" x2="474.98" y2="210.82" width="0.1524" layer="91"/>
+<label x="477.52" y="210.82" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$16" class="0">
 <segment>
@@ -18477,24 +18546,24 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="C9" gate="G$1" pin="2"/>
-<wire x1="642.62" y1="215.9" x2="635" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="MSP1" gate="MSP432" pin="PJ.0/LFXIN"/>
 <wire x1="635" y1="215.9" x2="591.82" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="591.82" y1="215.9" x2="591.82" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="591.82" y1="213.36" x2="584.2" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="Q2" gate="&gt;NAME" pin="2"/>
+<pinref part="C22" gate="G$1" pin="2"/>
+<wire x1="642.62" y1="215.9" x2="635" y2="215.9" width="0.1524" layer="91"/>
 <junction x="635" y="215.9"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="C22" gate="G$1" pin="2"/>
 <pinref part="MSP1" gate="MSP432" pin="PJ.1/LFXOUT"/>
-<wire x1="642.62" y1="210.82" x2="635" y2="210.82" width="0.1524" layer="91"/>
 <pinref part="Q2" gate="&gt;NAME" pin="1"/>
-<junction x="635" y="210.82"/>
 <wire x1="635" y1="210.82" x2="584.2" y2="210.82" width="0.1524" layer="91"/>
+<pinref part="C9" gate="G$1" pin="2"/>
+<wire x1="635" y1="210.82" x2="642.62" y2="210.82" width="0.1524" layer="91"/>
+<junction x="635" y="210.82"/>
 </segment>
 </net>
 <net name="N$34" class="0">
@@ -18559,10 +18628,9 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <wire x1="650.24" y1="233.68" x2="635" y2="233.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SJ3" gate="1" pin="2"/>
+<pinref part="U$2" gate="G$1" pin="AGND"/>
+<wire x1="231.14" y1="391.16" x2="238.76" y2="391.16" width="0.1524" layer="91"/>
 <pinref part="AGND2" gate="VR1" pin="AGND"/>
-<wire x1="233.68" y1="408.94" x2="238.76" y2="408.94" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="408.94" x2="238.76" y2="406.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$27" class="0">
@@ -18704,26 +18772,26 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 </net>
 <net name="A14" class="0">
 <segment>
-<pinref part="MSP1" gate="MSP432" pin="P6.0/A15"/>
-<wire x1="497.84" y1="220.98" x2="490.22" y2="220.98" width="0.1524" layer="91"/>
-<label x="490.22" y="220.98" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="DIGITAL2" gate="A" pin="7"/>
 <wire x1="459.74" y1="269.24" x2="472.44" y2="269.24" width="0.1524" layer="91"/>
 <label x="467.36" y="269.24" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="A15" class="0">
 <segment>
 <pinref part="MSP1" gate="MSP432" pin="P6.1/A14"/>
 <wire x1="497.84" y1="218.44" x2="490.22" y2="218.44" width="0.1524" layer="91"/>
 <label x="490.22" y="218.44" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="A15" class="0">
 <segment>
 <pinref part="DIGITAL2" gate="A" pin="8"/>
 <wire x1="459.74" y1="271.78" x2="472.44" y2="271.78" width="0.1524" layer="91"/>
 <label x="467.36" y="271.78" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="MSP1" gate="MSP432" pin="P6.0/A15"/>
+<wire x1="497.84" y1="220.98" x2="490.22" y2="220.98" width="0.1524" layer="91"/>
+<label x="490.22" y="220.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A16" class="0">
