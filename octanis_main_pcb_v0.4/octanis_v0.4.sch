@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -16826,8 +16826,8 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
 <part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND32" library="supply1" deviceset="GND" device=""/>
-<part name="ANALOG" library="pinhead" deviceset="PINHD-1X8" device="" value="A7:A0"/>
-<part name="DIGITAL2" library="pinhead" deviceset="PINHD-1X11" device="" value="DIGITAL I/O"/>
+<part name="GPIO1" library="pinhead" deviceset="PINHD-1X8" device="" value="A7:A0"/>
+<part name="GPIO2" library="pinhead" deviceset="PINHD-1X11" device="" value="A18:A8"/>
 <part name="R7" library="rcl" deviceset="R-EU_" device="R0402" value="0R"/>
 <part name="C9" library="rcl" deviceset="C-EU" device="C0402" value="12p"/>
 <part name="C22" library="rcl" deviceset="C-EU" device="C0402" value="12p"/>
@@ -16855,7 +16855,7 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="LED1"/>
 <part name="R9" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
 <part name="SUPPLY15" library="supply2" deviceset="GND" device=""/>
-<part name="SJ1" library="jumper" deviceset="SJ2W" device=""/>
+<part name="SJ1" library="jumper" deviceset="SJ2W" device="" value="3V3  V_Motor  5V"/>
 <part name="+3V12" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY8" library="supply2" deviceset="+5V" device=""/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
@@ -16895,7 +16895,7 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <part name="C18" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="C25" library="rcl" deviceset="CPOL-EU" device="A/3216-18R" value="10u"/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
-<part name="R10" library="rcl" deviceset="R-EU_" device="R0402" value="91 kW, 0.1%, ±25 ppm/°C"/>
+<part name="R10" library="rcl" deviceset="R-EU_" device="R0402" value="91k 0.1% ±25 ppm/°C"/>
 <part name="AGND1" library="supply1" deviceset="AGND" device=""/>
 <part name="SUPPLY9" library="supply2" deviceset="GND" device=""/>
 <part name="AGND2" library="supply1" deviceset="AGND" device=""/>
@@ -16992,8 +16992,8 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <instance part="GND30" gate="1" x="1037.59" y="128.27"/>
 <instance part="+3V8" gate="G$1" x="1022.35" y="161.29"/>
 <instance part="GND32" gate="1" x="1106.17" y="171.45" rot="R90"/>
-<instance part="ANALOG" gate="A" x="474.98" y="241.3" rot="R180"/>
-<instance part="DIGITAL2" gate="A" x="457.2" y="266.7" smashed="yes" rot="R180">
+<instance part="GPIO1" gate="A" x="474.98" y="241.3" rot="R180"/>
+<instance part="GPIO2" gate="A" x="457.2" y="266.7" smashed="yes" rot="R180">
 <attribute name="NAME" x="452.755" y="265.43" size="1.778" layer="95" rot="R270"/>
 </instance>
 <instance part="R7" gate="G$1" x="635" y="251.46" smashed="yes" rot="R90">
@@ -17470,10 +17470,6 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 </net>
 <net name="SPI_EXTSLAVE_TE" class="0">
 <segment>
-<wire x1="400.05" y1="278.13" x2="407.67" y2="278.13" width="0.1524" layer="91"/>
-<label x="402.59" y="278.13" size="1.778" layer="95"/>
-</segment>
-<segment>
 <wire x1="713.74" y1="285.75" x2="713.74" y2="298.45" width="0.1524" layer="91"/>
 <label x="713.74" y="290.83" size="1.778" layer="95" rot="R90"/>
 <pinref part="JP3" gate="A" pin="2"/>
@@ -17553,8 +17549,9 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <junction x="313.69" y="435.61"/>
 </segment>
 <segment>
-<wire x1="311.15" y1="232.41" x2="303.53" y2="232.41" width="0.1524" layer="91"/>
-<label x="303.53" y="232.41" size="1.778" layer="95"/>
+<pinref part="MSP1" gate="MSP432" pin="P2.1/PM_UCA1CLK"/>
+<wire x1="497.84" y1="309.88" x2="486.41" y2="309.88" width="0.1524" layer="91"/>
+<label x="486.41" y="309.88" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="IND" class="0">
@@ -17587,13 +17584,11 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <label x="232.41" y="97.79" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="311.15" y1="227.33" x2="303.53" y2="227.33" width="0.1524" layer="91"/>
-<label x="303.53" y="227.33" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="MSP1" gate="MSP432" pin="P2.1/PM_UCA1CLK"/>
-<wire x1="497.84" y1="309.88" x2="486.41" y2="309.88" width="0.1524" layer="91"/>
-<label x="486.41" y="309.88" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="499.11" y1="304.8" x2="497.84" y2="304.8" width="0.1524" layer="91"/>
+<pinref part="MSP1" gate="MSP432" pin="P2.3/PM_UCA1TXD/PM_UCA1SIMO"/>
+<wire x1="497.84" y1="304.8" x2="486.41" y2="304.8" width="0.1524" layer="91"/>
+<junction x="497.84" y="304.8"/>
+<label x="485.14" y="304.8" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="M2IN1" class="0">
@@ -17601,10 +17596,6 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <pinref part="U3" gate="A" pin="BIN1_/_BPHASE"/>
 <wire x1="240.03" y1="90.17" x2="232.41" y2="90.17" width="0.1524" layer="91"/>
 <label x="232.41" y="90.17" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<wire x1="328.93" y1="214.63" x2="328.93" y2="207.01" width="0.1524" layer="91"/>
-<label x="328.93" y="207.01" size="1.016" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
 <pinref part="MSP1" gate="MSP432" pin="P2.5/PM_TA0.2"/>
@@ -17811,10 +17802,6 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <label x="232.41" y="95.25" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="326.39" y1="214.63" x2="326.39" y2="207.01" width="0.1524" layer="91"/>
-<label x="326.39" y="207.01" size="1.016" layer="95" rot="R270" xref="yes"/>
-</segment>
-<segment>
 <pinref part="MSP1" gate="MSP432" pin="P2.4/PM_TA0.1"/>
 <wire x1="497.84" y1="302.26" x2="486.41" y2="302.26" width="0.1524" layer="91"/>
 <label x="486.41" y="302.26" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -17825,10 +17812,6 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <pinref part="U3" gate="A" pin="BIN2_/_BENBL"/>
 <wire x1="240.03" y1="87.63" x2="232.41" y2="87.63" width="0.1524" layer="91"/>
 <label x="232.41" y="87.63" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<wire x1="331.47" y1="214.63" x2="331.47" y2="207.01" width="0.1524" layer="91"/>
-<label x="331.47" y="207.01" size="1.016" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
 <pinref part="MSP1" gate="MSP432" pin="P2.6/PM_TA0.3"/>
@@ -17927,10 +17910,6 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <label x="328.93" y="97.79" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="367.03" y1="214.63" x2="367.03" y2="207.01" width="0.1524" layer="91"/>
-<label x="367.03" y="207.01" size="1.016" layer="95" rot="R270" xref="yes"/>
-</segment>
-<segment>
 <pinref part="MSP1" gate="MSP432" pin="P2.7/PM_TA0.4"/>
 <wire x1="497.84" y1="294.64" x2="486.41" y2="294.64" width="0.1524" layer="91"/>
 <label x="486.41" y="294.64" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -17941,10 +17920,6 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <pinref part="U4" gate="A" pin="AIN2_/_AENBL"/>
 <wire x1="336.55" y1="95.25" x2="328.93" y2="95.25" width="0.1524" layer="91"/>
 <label x="328.93" y="95.25" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<wire x1="369.57" y1="214.63" x2="369.57" y2="207.01" width="0.1524" layer="91"/>
-<label x="369.57" y="207.01" size="1.016" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
 <pinref part="MSP1" gate="MSP432" pin="P10.4/TA3.0/C0.7"/>
@@ -17959,10 +17934,6 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <label x="328.93" y="90.17" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="372.11" y1="214.63" x2="372.11" y2="207.01" width="0.1524" layer="91"/>
-<label x="372.11" y="207.01" size="1.016" layer="95" rot="R270" xref="yes"/>
-</segment>
-<segment>
 <pinref part="MSP1" gate="MSP432" pin="P10.5/TA3.1/C0.6"/>
 <wire x1="584.2" y1="276.86" x2="596.9" y2="276.86" width="0.1524" layer="91"/>
 <label x="596.9" y="276.86" size="1.27" layer="95" xref="yes"/>
@@ -17973,10 +17944,6 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <pinref part="U4" gate="A" pin="BIN2_/_BENBL"/>
 <wire x1="336.55" y1="87.63" x2="328.93" y2="87.63" width="0.1524" layer="91"/>
 <label x="328.93" y="87.63" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<wire x1="374.65" y1="214.63" x2="374.65" y2="207.01" width="0.1524" layer="91"/>
-<label x="374.65" y="207.01" size="1.016" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
 <pinref part="MSP1" gate="MSP432" pin="P7.4/PM_TA1.4/C0.5"/>
@@ -17991,10 +17958,6 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <label x="420.37" y="97.79" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="377.19" y1="214.63" x2="377.19" y2="207.01" width="0.1524" layer="91"/>
-<label x="377.19" y="207.01" size="1.016" layer="95" rot="R270" xref="yes"/>
-</segment>
-<segment>
 <pinref part="MSP1" gate="MSP432" pin="P7.5/PM_TA1.3/C0.4"/>
 <wire x1="497.84" y1="185.42" x2="486.41" y2="185.42" width="0.1524" layer="91"/>
 <label x="486.41" y="185.42" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -18005,10 +17968,6 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <pinref part="U5" gate="A" pin="AIN2_/_AENBL"/>
 <wire x1="427.99" y1="95.25" x2="420.37" y2="95.25" width="0.1524" layer="91"/>
 <label x="420.37" y="95.25" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<wire x1="379.73" y1="214.63" x2="379.73" y2="207.01" width="0.1524" layer="91"/>
-<label x="379.73" y="207.01" size="1.016" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
 <pinref part="MSP1" gate="MSP432" pin="P7.6/PM_TA1.2/C0.3"/>
@@ -18023,10 +17982,6 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <label x="420.37" y="90.17" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="382.27" y1="214.63" x2="382.27" y2="207.01" width="0.1524" layer="91"/>
-<label x="382.27" y="207.01" size="1.016" layer="95" rot="R270" xref="yes"/>
-</segment>
-<segment>
 <pinref part="MSP1" gate="MSP432" pin="P7.7/PM_TA1.1/C0.2"/>
 <wire x1="497.84" y1="180.34" x2="486.41" y2="180.34" width="0.1524" layer="91"/>
 <label x="486.41" y="180.34" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -18037,10 +17992,6 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <pinref part="U5" gate="A" pin="BIN2_/_BENBL"/>
 <wire x1="427.99" y1="87.63" x2="420.37" y2="87.63" width="0.1524" layer="91"/>
 <label x="420.37" y="87.63" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<wire x1="384.81" y1="214.63" x2="384.81" y2="207.01" width="0.1524" layer="91"/>
-<label x="384.81" y="207.01" size="1.016" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
 <pinref part="MSP1" gate="MSP432" pin="P8.0/UCB3STE/TA1.0/C0.1"/>
@@ -18055,10 +18006,6 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <label x="516.89" y="97.79" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="400.05" y1="240.03" x2="407.67" y2="240.03" width="0.1524" layer="91"/>
-<label x="407.67" y="240.03" size="1.016" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="MSP1" gate="MSP432" pin="P3.0/PM_UCA2STE"/>
 <wire x1="497.84" y1="289.56" x2="490.22" y2="289.56" width="0.1524" layer="91"/>
 <label x="490.22" y="289.56" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -18069,10 +18016,6 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <pinref part="U7" gate="A" pin="AIN2_/_AENBL"/>
 <wire x1="524.51" y1="95.25" x2="516.89" y2="95.25" width="0.1524" layer="91"/>
 <label x="516.89" y="95.25" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<wire x1="400.05" y1="242.57" x2="407.67" y2="242.57" width="0.1524" layer="91"/>
-<label x="407.67" y="242.57" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="MSP1" gate="MSP432" pin="P8.1/UCB3CLK/TA2.0/C0.0"/>
@@ -18087,10 +18030,6 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <label x="516.89" y="90.17" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="400.05" y1="245.11" x2="407.67" y2="245.11" width="0.1524" layer="91"/>
-<label x="407.67" y="245.11" size="1.016" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="MSP1" gate="MSP432" pin="P3.1/PM_UCA2CLK"/>
 <wire x1="497.84" y1="287.02" x2="490.22" y2="287.02" width="0.1524" layer="91"/>
 <label x="490.22" y="287.02" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -18101,10 +18040,6 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <pinref part="U7" gate="A" pin="BIN2_/_BENBL"/>
 <wire x1="524.51" y1="87.63" x2="516.89" y2="87.63" width="0.1524" layer="91"/>
 <label x="516.89" y="87.63" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<wire x1="400.05" y1="247.65" x2="407.67" y2="247.65" width="0.1524" layer="91"/>
-<label x="407.67" y="247.65" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="MSP1" gate="MSP432" pin="P8.2/TA3.2/A23"/>
@@ -18250,27 +18185,11 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <wire x1="627.38" y1="243.84" x2="627.38" y2="246.38" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SDA2" class="0">
-<segment>
-<wire x1="400.05" y1="273.05" x2="407.67" y2="273.05" width="0.1524" layer="91"/>
-<label x="402.59" y="273.05" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SCL2" class="0">
-<segment>
-<wire x1="400.05" y1="275.59" x2="407.67" y2="275.59" width="0.1524" layer="91"/>
-<label x="402.59" y="275.59" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="SPI_SCK" class="0">
 <segment>
 <label x="1352.55" y="303.53" size="1.778" layer="95"/>
 <pinref part="U$3" gate="G$1" pin="SCK"/>
 <wire x1="1357.63" y1="303.53" x2="1332.23" y2="303.53" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="400.05" y1="270.51" x2="407.67" y2="270.51" width="0.1524" layer="91"/>
-<label x="402.59" y="270.51" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="716.28" y1="285.75" x2="716.28" y2="298.45" width="0.1524" layer="91"/>
@@ -18288,10 +18207,6 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <wire x1="1301.75" y1="306.07" x2="1266.19" y2="306.07" width="0.1524" layer="91"/>
 <label x="1268.73" y="306.07" size="1.778" layer="95"/>
 <pinref part="U$3" gate="G$1" pin="MISO"/>
-</segment>
-<segment>
-<wire x1="400.05" y1="283.21" x2="407.67" y2="283.21" width="0.1524" layer="91"/>
-<label x="402.59" y="283.21" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="708.66" y1="285.75" x2="708.66" y2="298.45" width="0.1524" layer="91"/>
@@ -18323,10 +18238,6 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <wire x1="1276.35" y1="308.61" x2="1276.35" y2="311.15" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="400.05" y1="288.29" x2="410.21" y2="288.29" width="0.1524" layer="91"/>
-<label x="405.13" y="288.29" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="MSP1" gate="MSP432" pin="P6.6/TA2.3/UCB3SIMO/UCB3SDA/C1.1"/>
 <wire x1="497.84" y1="205.74" x2="474.98" y2="205.74" width="0.1524" layer="91"/>
 <label x="477.52" y="205.74" size="1.778" layer="95"/>
@@ -18351,39 +18262,6 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <pinref part="R9" gate="G$1" pin="2"/>
 <pinref part="LED1" gate="G$1" pin="C"/>
 <wire x1="560.07" y1="433.07" x2="560.07" y2="435.61" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="LED1" class="0">
-<segment>
-<wire x1="595.63" y1="445.77" x2="618.49" y2="445.77" width="0.1524" layer="91"/>
-<label x="618.49" y="445.77" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="LED1" gate="G$1" pin="A"/>
-<wire x1="560.07" y1="443.23" x2="560.07" y2="445.77" width="0.1524" layer="91"/>
-<label x="560.07" y="445.77" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
-</net>
-<net name="LED0" class="0">
-<segment>
-<wire x1="595.63" y1="443.23" x2="618.49" y2="443.23" width="0.1524" layer="91"/>
-<label x="618.49" y="443.23" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="LED0" gate="G$1" pin="A"/>
-<wire x1="539.75" y1="443.23" x2="539.75" y2="445.77" width="0.1524" layer="91"/>
-<label x="539.75" y="445.77" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
-</net>
-<net name="HX1EN" class="0">
-<segment>
-<pinref part="U$4" gate="G$1" pin="EN"/>
-<wire x1="1076.96" y1="436.88" x2="1076.96" y2="429.26" width="0.1524" layer="91"/>
-<label x="1076.96" y="429.26" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<wire x1="400.05" y1="229.87" x2="410.21" y2="229.87" width="0.1524" layer="91"/>
-<label x="405.13" y="229.87" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="V_MOTOR" class="3">
@@ -18451,10 +18329,6 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 </net>
 <net name="M1234SLEEP" class="0">
 <segment>
-<wire x1="311.15" y1="229.87" x2="303.53" y2="229.87" width="0.1524" layer="91"/>
-<label x="303.53" y="229.87" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U3" gate="A" pin="NSLEEP"/>
 <wire x1="240.03" y1="105.41" x2="234.95" y2="105.41" width="0.1524" layer="91"/>
 <wire x1="234.95" y1="105.41" x2="232.41" y2="105.41" width="0.1524" layer="91"/>
@@ -18472,12 +18346,13 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <wire x1="336.55" y1="102.87" x2="331.47" y2="102.87" width="0.1524" layer="91"/>
 <wire x1="331.47" y1="102.87" x2="331.47" y2="105.41" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="MSP1" gate="MSP432" pin="P2.2/PM_UCA1RXD/PM_UCA1SOMI"/>
+<wire x1="497.84" y1="307.34" x2="486.41" y2="307.34" width="0.1524" layer="91"/>
+<label x="485.14" y="307.34" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="M5678SLEEP" class="0">
-<segment>
-<wire x1="387.35" y1="214.63" x2="387.35" y2="207.01" width="0.1524" layer="91"/>
-<label x="387.35" y="207.01" size="1.016" layer="95" rot="R270" xref="yes"/>
-</segment>
 <segment>
 <pinref part="U5" gate="A" pin="NSLEEP"/>
 <wire x1="427.99" y1="105.41" x2="422.91" y2="105.41" width="0.1524" layer="91"/>
@@ -18509,10 +18384,6 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <pinref part="U$3" gate="G$1" pin="MOSI"/>
 </segment>
 <segment>
-<wire x1="400.05" y1="280.67" x2="407.67" y2="280.67" width="0.1524" layer="91"/>
-<label x="402.59" y="280.67" size="1.778" layer="95"/>
-</segment>
-<segment>
 <wire x1="711.2" y1="285.75" x2="711.2" y2="298.45" width="0.1524" layer="91"/>
 <label x="711.2" y="290.83" size="1.778" layer="95" rot="R90"/>
 <pinref part="JP3" gate="A" pin="3"/>
@@ -18521,27 +18392,6 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <pinref part="MSP1" gate="MSP432" pin="P6.4/UCB1SIMO/UCB1SDA/C1.3"/>
 <wire x1="497.84" y1="210.82" x2="474.98" y2="210.82" width="0.1524" layer="91"/>
 <label x="477.52" y="210.82" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$16" class="0">
-<segment>
-<pinref part="MSP1" gate="MSP432" pin="P2.2/PM_UCA1RXD/PM_UCA1SOMI"/>
-<wire x1="497.84" y1="307.34" x2="486.41" y2="307.34" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$29" class="0">
-<segment>
-<wire x1="499.11" y1="304.8" x2="497.84" y2="304.8" width="0.1524" layer="91"/>
-<pinref part="MSP1" gate="MSP432" pin="P2.3/PM_UCA1TXD/PM_UCA1SIMO"/>
-<wire x1="497.84" y1="304.8" x2="486.41" y2="304.8" width="0.1524" layer="91"/>
-<junction x="497.84" y="304.8"/>
-</segment>
-</net>
-<net name="M12SLEEP" class="0">
-<segment>
-<pinref part="MSP1" gate="MSP432" pin="P2.0/PM_UCA1STE"/>
-<wire x1="497.84" y1="312.42" x2="486.41" y2="312.42" width="0.1524" layer="91"/>
-<label x="486.41" y="312.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -18636,42 +18486,42 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <net name="N$27" class="0">
 <segment>
 <pinref part="MSP1" gate="MSP432" pin="P5.5/A0"/>
-<pinref part="ANALOG" gate="A" pin="1"/>
+<pinref part="GPIO1" gate="A" pin="1"/>
 <wire x1="477.52" y1="231.14" x2="497.84" y2="231.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$28" class="0">
 <segment>
 <pinref part="MSP1" gate="MSP432" pin="P5.4/A1"/>
-<pinref part="ANALOG" gate="A" pin="2"/>
+<pinref part="GPIO1" gate="A" pin="2"/>
 <wire x1="477.52" y1="233.68" x2="497.84" y2="233.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$30" class="0">
 <segment>
 <pinref part="MSP1" gate="MSP432" pin="P5.3/A2"/>
-<pinref part="ANALOG" gate="A" pin="3"/>
+<pinref part="GPIO1" gate="A" pin="3"/>
 <wire x1="477.52" y1="236.22" x2="497.84" y2="236.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$35" class="0">
 <segment>
 <pinref part="MSP1" gate="MSP432" pin="P5.2/A3"/>
-<pinref part="ANALOG" gate="A" pin="4"/>
+<pinref part="GPIO1" gate="A" pin="4"/>
 <wire x1="477.52" y1="238.76" x2="497.84" y2="238.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$36" class="0">
 <segment>
 <pinref part="MSP1" gate="MSP432" pin="P5.1/A4"/>
-<pinref part="ANALOG" gate="A" pin="5"/>
+<pinref part="GPIO1" gate="A" pin="5"/>
 <wire x1="477.52" y1="241.3" x2="497.84" y2="241.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$37" class="0">
 <segment>
 <pinref part="MSP1" gate="MSP432" pin="P5.0/A5"/>
-<pinref part="ANALOG" gate="A" pin="6"/>
+<pinref part="GPIO1" gate="A" pin="6"/>
 <wire x1="477.52" y1="243.84" x2="497.84" y2="243.84" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -18680,7 +18530,7 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <pinref part="MSP1" gate="MSP432" pin="P4.6/A7"/>
 <wire x1="497.84" y1="251.46" x2="482.6" y2="251.46" width="0.1524" layer="91"/>
 <wire x1="482.6" y1="251.46" x2="482.6" y2="248.92" width="0.1524" layer="91"/>
-<pinref part="ANALOG" gate="A" pin="8"/>
+<pinref part="GPIO1" gate="A" pin="8"/>
 <wire x1="482.6" y1="248.92" x2="477.52" y2="248.92" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -18689,49 +18539,49 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <pinref part="MSP1" gate="MSP432" pin="P4.7/A6"/>
 <wire x1="497.84" y1="248.92" x2="485.14" y2="248.92" width="0.1524" layer="91"/>
 <wire x1="485.14" y1="248.92" x2="485.14" y2="246.38" width="0.1524" layer="91"/>
-<pinref part="ANALOG" gate="A" pin="7"/>
+<pinref part="GPIO1" gate="A" pin="7"/>
 <wire x1="485.14" y1="246.38" x2="477.52" y2="246.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
 <pinref part="MSP1" gate="MSP432" pin="P4.5/A8"/>
-<pinref part="DIGITAL2" gate="A" pin="1"/>
+<pinref part="GPIO2" gate="A" pin="1"/>
 <wire x1="459.74" y1="254" x2="497.84" y2="254" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
 <pinref part="MSP1" gate="MSP432" pin="P4.4/HSMCLK/SVMHOUT/A9"/>
-<pinref part="DIGITAL2" gate="A" pin="2"/>
+<pinref part="GPIO2" gate="A" pin="2"/>
 <wire x1="459.74" y1="256.54" x2="497.84" y2="256.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
 <pinref part="MSP1" gate="MSP432" pin="P4.3/MCLK/RTCCLK/A10"/>
-<pinref part="DIGITAL2" gate="A" pin="3"/>
+<pinref part="GPIO2" gate="A" pin="3"/>
 <wire x1="459.74" y1="259.08" x2="497.84" y2="259.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
 <pinref part="MSP1" gate="MSP432" pin="P4.2/ACLK/TA2CLK/A11"/>
-<pinref part="DIGITAL2" gate="A" pin="4"/>
+<pinref part="GPIO2" gate="A" pin="4"/>
 <wire x1="459.74" y1="261.62" x2="497.84" y2="261.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
 <pinref part="MSP1" gate="MSP432" pin="P4.1/A12"/>
-<pinref part="DIGITAL2" gate="A" pin="5"/>
+<pinref part="GPIO2" gate="A" pin="5"/>
 <wire x1="459.74" y1="264.16" x2="497.84" y2="264.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
 <pinref part="MSP1" gate="MSP432" pin="P4.0/A13"/>
-<pinref part="DIGITAL2" gate="A" pin="6"/>
+<pinref part="GPIO2" gate="A" pin="6"/>
 <wire x1="459.74" y1="266.7" x2="497.84" y2="266.7" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -18772,7 +18622,7 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 </net>
 <net name="A14" class="0">
 <segment>
-<pinref part="DIGITAL2" gate="A" pin="7"/>
+<pinref part="GPIO2" gate="A" pin="7"/>
 <wire x1="459.74" y1="269.24" x2="472.44" y2="269.24" width="0.1524" layer="91"/>
 <label x="467.36" y="269.24" size="1.778" layer="95"/>
 </segment>
@@ -18784,7 +18634,7 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 </net>
 <net name="A15" class="0">
 <segment>
-<pinref part="DIGITAL2" gate="A" pin="8"/>
+<pinref part="GPIO2" gate="A" pin="8"/>
 <wire x1="459.74" y1="271.78" x2="472.44" y2="271.78" width="0.1524" layer="91"/>
 <label x="467.36" y="271.78" size="1.778" layer="95"/>
 </segment>
@@ -18801,7 +18651,7 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <label x="589.28" y="309.88" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="DIGITAL2" gate="A" pin="9"/>
+<pinref part="GPIO2" gate="A" pin="9"/>
 <wire x1="459.74" y1="274.32" x2="472.44" y2="274.32" width="0.1524" layer="91"/>
 <label x="467.36" y="274.32" size="1.778" layer="95"/>
 </segment>
@@ -18813,7 +18663,7 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <label x="589.28" y="312.42" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="DIGITAL2" gate="A" pin="10"/>
+<pinref part="GPIO2" gate="A" pin="10"/>
 <wire x1="459.74" y1="276.86" x2="472.44" y2="276.86" width="0.1524" layer="91"/>
 <label x="467.36" y="276.86" size="1.778" layer="95"/>
 </segment>
@@ -18825,7 +18675,7 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <label x="589.28" y="317.5" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="DIGITAL2" gate="A" pin="11"/>
+<pinref part="GPIO2" gate="A" pin="11"/>
 <wire x1="459.74" y1="279.4" x2="472.44" y2="279.4" width="0.1524" layer="91"/>
 <label x="467.36" y="279.4" size="1.778" layer="95"/>
 </segment>
@@ -18856,6 +18706,42 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <pinref part="MSP1" gate="MSP432" pin="P8.3/TA3CLK/A22"/>
 <wire x1="584.2" y1="327.66" x2="594.36" y2="327.66" width="0.1524" layer="91"/>
 <label x="589.28" y="327.66" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LED1" class="0">
+<segment>
+<pinref part="LED1" gate="G$1" pin="A"/>
+<wire x1="560.07" y1="443.23" x2="560.07" y2="445.77" width="0.1524" layer="91"/>
+<label x="560.07" y="445.77" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MSP1" gate="MSP432" pin="P5.7/TA2.2/VREF-/VEREF-/C1.6"/>
+<wire x1="497.84" y1="226.06" x2="487.68" y2="226.06" width="0.1524" layer="91"/>
+<label x="487.68" y="226.06" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="HX1_EN" class="0">
+<segment>
+<pinref part="U$4" gate="G$1" pin="EN"/>
+<wire x1="1076.96" y1="436.88" x2="1076.96" y2="429.26" width="0.1524" layer="91"/>
+<label x="1076.96" y="429.26" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="MSP1" gate="MSP432" pin="P5.6/TA2.1/VREF+/VEREF+/C1.7"/>
+<wire x1="497.84" y1="228.6" x2="487.68" y2="228.6" width="0.1524" layer="91"/>
+<label x="487.68" y="228.6" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LED0" class="0">
+<segment>
+<pinref part="MSP1" gate="MSP432" pin="P9.3/TA3.4"/>
+<wire x1="584.2" y1="304.8" x2="594.36" y2="304.8" width="0.1524" layer="91"/>
+<label x="589.28" y="304.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="LED0" gate="G$1" pin="A"/>
+<wire x1="539.75" y1="443.23" x2="539.75" y2="445.77" width="0.1524" layer="91"/>
+<label x="539.75" y="445.77" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 </nets>
