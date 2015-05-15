@@ -132,7 +132,6 @@
 <wire x1="33.96" y1="1.27" x2="33.96" y2="16.5" width="0" layer="20"/>
 <wire x1="33.96" y1="16.5" x2="-1.27" y2="16.5" width="0" layer="20"/>
 <wire x1="-1.27" y1="16.5" x2="-1.27" y2="1.27" width="0" layer="20"/>
-<dimension x1="0" y1="0" x2="0" y2="20.32" x3="-7.62" y3="10.16" textsize="1.778" layer="27"/>
 <text x="24.765" y="10.795" size="1.016" layer="27">MCP3425</text>
 <text x="27.94" y="6.35" size="1.016" layer="27">ML8511 </text>
 <text x="0.635" y="2.54" size="0.8128" layer="27" rot="R90">3V3 GND SDA SCL UVEN</text>

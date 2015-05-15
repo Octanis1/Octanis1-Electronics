@@ -360,8 +360,8 @@ UsedLibrary="adafruit.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="70 83 1919 1199"
-State=1
+Loc="4 23 1683 1027"
+State=2
 Number=0
 
 [Desktop]
