@@ -134,7 +134,6 @@
 <wire x1="100" y1="1.27" x2="100" y2="76.19" width="0" layer="20"/>
 <wire x1="100" y1="76.19" x2="0" y2="76.19" width="0" layer="20"/>
 <wire x1="0" y1="76.19" x2="0" y2="1.27" width="0" layer="20"/>
-<dimension x1="0" y1="1.27" x2="0" y2="76.2" x3="-5.08" y3="38.735" textsize="1.778" layer="20"/>
 <rectangle x1="90.4621" y1="12.2809" x2="91.3257" y2="12.3063" layer="200"/>
 <rectangle x1="90.2843" y1="12.3063" x2="91.5035" y2="12.3317" layer="200"/>
 <rectangle x1="90.1573" y1="12.3317" x2="91.6559" y2="12.3571" layer="200"/>
@@ -2027,7 +2026,6 @@
 <rectangle x1="90.4875" y1="19.7739" x2="91.3257" y2="19.7993" layer="200"/>
 <text x="94.6404" y="11.176" size="0.8128" layer="27" font="fixed" rot="R180">octanis.org</text>
 <text x="85.6488" y="20.7264" size="0.8128" layer="27" font="fixed">Aria Breakout v1</text>
-<hole x="0" y="0" drill="3"/>
 <hole x="5.08" y="71.12" drill="3"/>
 <hole x="93.98" y="71.12" drill="3"/>
 <hole x="93.98" y="5.08" drill="3"/>
