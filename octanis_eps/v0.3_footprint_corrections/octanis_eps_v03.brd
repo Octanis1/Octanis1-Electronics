@@ -4718,8 +4718,8 @@ design rules under a new name.</description>
 <vertex x="20.32" y="38.735"/>
 <vertex x="20.32" y="40.005"/>
 <vertex x="2.54" y="40.005"/>
-<vertex x="2.54" y="45.72"/>
-<vertex x="11.43" y="45.72"/>
+<vertex x="2.54" y="45.5676"/>
+<vertex x="11.43" y="45.5676"/>
 <vertex x="11.43" y="42.545"/>
 <vertex x="19.685" y="42.545"/>
 </polygon>
