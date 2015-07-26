@@ -12506,40 +12506,6 @@ Source: Texas Instruments (Burr-Brown) .. U11 opa333 Operational Amp.pdf</descri
 </deviceset>
 </devicesets>
 </library>
-<library name="supply1">
-<description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
- GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
- Please keep in mind, that these devices are necessary for the
- automatic wiring of the supply signals.&lt;p&gt;
- The pin name defined in the symbol is identical to the net which is to be wired automatically.&lt;p&gt;
- In this library the device names are the same as the pin names of the symbols, therefore the correct signal names appear next to the supply symbols in the schematic.&lt;p&gt;
- &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-</packages>
-<symbols>
-<symbol name="+3V3">
-<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="+3V3" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="+3V3" prefix="+3V3">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="+3V3" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="Octanis1_EPS">
 <packages>
 <package name="SO8">
@@ -14208,7 +14174,6 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <part name="SUPPLY40" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY41" library="supply2" deviceset="VCC" device=""/>
 <part name="SUPPLY42" library="supply2" deviceset="GND" device=""/>
-<part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY58" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY66" library="supply2" deviceset="VCC" device=""/>
 <part name="SUPPLY67" library="supply2" deviceset="VCC" device=""/>
@@ -14331,6 +14296,9 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <part name="SUPPLY53" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY54" library="supply2" deviceset="GND" device=""/>
 <part name="R45" library="rcl" deviceset="R-EU_" device="R0603" value="0Ohm"/>
+<part name="R46" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="SUPPLY55" library="supply2" deviceset="VCC" device=""/>
+<part name="SUPPLY56" library="supply2" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14442,7 +14410,6 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <instance part="SUPPLY40" gate="GND" x="2.54" y="-208.28"/>
 <instance part="SUPPLY41" gate="G$1" x="101.6" y="88.9"/>
 <instance part="SUPPLY42" gate="GND" x="101.6" y="22.86"/>
-<instance part="+3V3" gate="G$1" x="261.62" y="45.72"/>
 <instance part="SUPPLY58" gate="GND" x="261.62" y="27.94"/>
 <instance part="SUPPLY66" gate="G$1" x="81.28" y="-127"/>
 <instance part="SUPPLY67" gate="G$1" x="104.14" y="-60.96"/>
@@ -14569,6 +14536,9 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <instance part="SUPPLY53" gate="GND" x="33.02" y="48.26"/>
 <instance part="SUPPLY54" gate="GND" x="-33.02" y="50.8"/>
 <instance part="R45" gate="G$1" x="299.72" y="-167.64" rot="R270"/>
+<instance part="R46" gate="G$1" x="276.86" y="48.26"/>
+<instance part="SUPPLY55" gate="G$1" x="261.62" y="45.72"/>
+<instance part="SUPPLY56" gate="G$1" x="266.7" y="50.8"/>
 </instances>
 <busses>
 </busses>
@@ -15001,6 +14971,29 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <pinref part="SUPPLY50" gate="G$1" pin="VCC"/>
 <wire x1="66.04" y1="-195.58" x2="66.04" y2="-198.12" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="266.7" y1="43.18" x2="261.62" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="C22" gate="G$1" pin="1"/>
+<wire x1="261.62" y1="43.18" x2="256.54" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="43.18" x2="256.54" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="C24" gate="G$1" pin="+"/>
+<wire x1="266.7" y1="40.64" x2="266.7" y2="43.18" width="0.1524" layer="91"/>
+<junction x="266.7" y="43.18"/>
+<pinref part="U$6" gate="G$1" pin="DVCC"/>
+<wire x1="330.2" y1="43.18" x2="266.7" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="FERRITE_BEAD" gate="G$1" pin="1"/>
+<wire x1="264.16" y1="-2.54" x2="251.46" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="-2.54" x2="251.46" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="43.18" x2="256.54" y2="43.18" width="0.1524" layer="91"/>
+<junction x="256.54" y="43.18"/>
+<pinref part="SUPPLY55" gate="G$1" pin="VCC"/>
+<junction x="261.62" y="43.18"/>
+</segment>
+<segment>
+<pinref part="R46" gate="G$1" pin="1"/>
+<wire x1="266.7" y1="48.26" x2="271.78" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="SUPPLY56" gate="G$1" pin="VCC"/>
+</segment>
 </net>
 <net name="VREF" class="0">
 <segment>
@@ -15263,26 +15256,6 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <label x="307.34" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="+3V3" class="0">
-<segment>
-<pinref part="+3V3" gate="G$1" pin="+3V3"/>
-<wire x1="266.7" y1="43.18" x2="261.62" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="261.62" y1="43.18" x2="256.54" y2="43.18" width="0.1524" layer="91"/>
-<junction x="261.62" y="43.18"/>
-<pinref part="C22" gate="G$1" pin="1"/>
-<wire x1="256.54" y1="43.18" x2="256.54" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="C24" gate="G$1" pin="+"/>
-<wire x1="266.7" y1="40.64" x2="266.7" y2="43.18" width="0.1524" layer="91"/>
-<junction x="266.7" y="43.18"/>
-<pinref part="U$6" gate="G$1" pin="DVCC"/>
-<wire x1="330.2" y1="43.18" x2="266.7" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="FERRITE_BEAD" gate="G$1" pin="1"/>
-<wire x1="264.16" y1="-2.54" x2="251.46" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="-2.54" x2="251.46" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="43.18" x2="256.54" y2="43.18" width="0.1524" layer="91"/>
-<junction x="256.54" y="43.18"/>
-</segment>
-</net>
 <net name="N$45" class="0">
 <segment>
 <pinref part="U$7" gate="G$1" pin="B"/>
@@ -15338,11 +15311,14 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <segment>
 <label x="279.4" y="22.86" size="1.778" layer="95" rot="R90"/>
 <pinref part="JP7" gate="G$1" pin="1"/>
-<wire x1="281.94" y1="22.86" x2="281.94" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="22.86" x2="281.94" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="U$6" gate="G$1" pin="RST/NMI/SBWTDIO"/>
+<wire x1="281.94" y1="48.26" x2="281.94" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="330.2" y1="30.48" x2="312.42" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="312.42" y1="30.48" x2="312.42" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="312.42" y1="22.86" x2="281.94" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="R46" gate="G$1" pin="2"/>
+<junction x="281.94" y="48.26"/>
 </segment>
 </net>
 <net name="N$48" class="0">
