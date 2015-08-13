@@ -17676,7 +17676,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="R8" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
 <part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="LED1"/>
 <part name="R9" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
-<part name="SJ1" library="jumper" deviceset="SJ2W" device="" value="3V3  V_Motor  5V"/>
+<part name="VMOT_SEL" library="jumper" deviceset="SJ2W" device="" value="3V3  V_Motor  5V"/>
 <part name="+3V12" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY8" library="supply2" deviceset="+5V" device=""/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
@@ -17693,7 +17693,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="C26" library="rcl" deviceset="C-EU" device="C0603" value="470n"/>
 <part name="C27" library="rcl" deviceset="C-EU" device="C0603" value="470n"/>
 <part name="C28" library="rcl" deviceset="C-EU" device="C0603" value="470n"/>
-<part name="SJ2" library="jumper" deviceset="SJ" device=""/>
+<part name="RF_J" library="jumper" deviceset="SJ" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="IC1" library="bosch-bme280" deviceset="BME280" device=""/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -17724,7 +17724,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="U$2" library="lpatiny" deviceset="STARGND" device=""/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
-<part name="SJ3" library="jumper" deviceset="SJ" device=""/>
+<part name="LED_J2" library="jumper" deviceset="SJ" device=""/>
 <part name="SUPPLY13" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY15" library="supply2" deviceset="GND" device=""/>
@@ -17758,13 +17758,13 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
 <part name="ANALOG_IO" library="pinhead" deviceset="PINHD-2X12" device=""/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
-<part name="SJ6" library="jumper" deviceset="SJ" device=""/>
+<part name="MOT_J" library="jumper" deviceset="SJ" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="+3V20" library="supply1" deviceset="+3V3" device=""/>
 <part name="R11" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="R12" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
-<part name="SJ7" library="jumper" deviceset="SJ" device=""/>
+<part name="LED_J1" library="jumper" deviceset="SJ" device=""/>
 <part name="C10" library="rcl" deviceset="CPOL-EU" device="A/3216-18R" value="10u"/>
 <part name="RFGND1" library="supply2" deviceset="GND" device=""/>
 <part name="SPI" library="pinhead" deviceset="PINHD-2X2" device=""/>
@@ -17900,7 +17900,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="R8" gate="G$1" x="541.02" y="426.72" rot="R90"/>
 <instance part="LED1" gate="G$1" x="561.34" y="439.42"/>
 <instance part="R9" gate="G$1" x="561.34" y="426.72" rot="R90"/>
-<instance part="SJ1" gate="G$1" x="213.36" y="132.08" rot="R90"/>
+<instance part="VMOT_SEL" gate="G$1" x="213.36" y="132.08" rot="R90"/>
 <instance part="+3V12" gate="G$1" x="198.12" y="134.62" smashed="yes">
 <attribute name="VALUE" x="200.66" y="134.62" size="1.778" layer="96"/>
 </instance>
@@ -17945,7 +17945,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="NAME" x="172.974" y="101.981" size="1.778" layer="95"/>
 <attribute name="VALUE" x="174.244" y="96.901" size="1.778" layer="96"/>
 </instance>
-<instance part="SJ2" gate="1" x="668.02" y="419.1"/>
+<instance part="RF_J" gate="1" x="668.02" y="419.1"/>
 <instance part="GND11" gate="1" x="657.86" y="411.48"/>
 <instance part="IC1" gate="G$1" x="822.96" y="421.64"/>
 <instance part="GND13" gate="1" x="805.18" y="408.94"/>
@@ -18003,7 +18003,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </instance>
 <instance part="U$2" gate="G$1" x="223.52" y="388.62"/>
 <instance part="GND19" gate="1" x="236.22" y="383.54"/>
-<instance part="SJ3" gate="1" x="518.16" y="414.02" rot="R90"/>
+<instance part="LED_J2" gate="1" x="518.16" y="414.02" rot="R90"/>
 <instance part="SUPPLY13" gate="GND" x="518.16" y="406.4"/>
 <instance part="SUPPLY14" gate="GND" x="541.02" y="406.4"/>
 <instance part="SUPPLY15" gate="GND" x="561.34" y="406.4"/>
@@ -18039,7 +18039,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="+3V5" gate="G$1" x="236.22" y="119.38" smashed="yes">
 <attribute name="VALUE" x="238.76" y="119.38" size="1.778" layer="96"/>
 </instance>
-<instance part="SJ6" gate="1" x="421.64" y="109.22" rot="R180"/>
+<instance part="MOT_J" gate="1" x="421.64" y="109.22" rot="R180"/>
 <instance part="GND5" gate="1" x="492.76" y="111.76"/>
 <instance part="GND7" gate="1" x="500.38" y="111.76"/>
 <instance part="+3V20" gate="G$1" x="520.7" y="119.38" smashed="yes">
@@ -18047,7 +18047,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </instance>
 <instance part="R11" gate="G$1" x="520.7" y="109.22" rot="R90"/>
 <instance part="R12" gate="G$1" x="236.22" y="109.22" rot="R90"/>
-<instance part="SJ7" gate="1" x="406.4" y="406.4" rot="R90"/>
+<instance part="LED_J1" gate="1" x="406.4" y="406.4" rot="R90"/>
 <instance part="C10" gate="G$1" x="693.42" y="408.94" smashed="yes">
 <attribute name="VALUE" x="690.245" y="406.1714" size="1.524" layer="96" rot="R180"/>
 </instance>
@@ -18225,7 +18225,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <junction x="231.14" y="431.8"/>
 </segment>
 <segment>
-<pinref part="SJ2" gate="1" pin="1"/>
+<pinref part="RF_J" gate="1" pin="1"/>
 <wire x1="662.94" y1="419.1" x2="657.86" y2="419.1" width="0.1524" layer="91"/>
 <wire x1="657.86" y1="419.1" x2="657.86" y2="414.02" width="0.1524" layer="91"/>
 <pinref part="GND11" gate="1" pin="GND"/>
@@ -18311,7 +18311,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="236.22" y1="386.08" x2="231.14" y2="386.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SJ3" gate="1" pin="1"/>
+<pinref part="LED_J2" gate="1" pin="1"/>
 <pinref part="SUPPLY13" gate="GND" pin="GND"/>
 </segment>
 <segment>
@@ -18386,7 +18386,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="GND7" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="SJ7" gate="1" pin="1"/>
+<pinref part="LED_J1" gate="1" pin="1"/>
 <pinref part="SUPPLY7" gate="GND" pin="GND"/>
 <wire x1="406.4" y1="398.78" x2="406.4" y2="401.32" width="0.1524" layer="91"/>
 </segment>
@@ -18483,7 +18483,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </segment>
 <segment>
 <pinref part="SUPPLY6" gate="+5V" pin="+5V"/>
-<pinref part="SJ1" gate="G$1" pin="3"/>
+<pinref part="VMOT_SEL" gate="G$1" pin="3"/>
 <wire x1="218.44" y1="132.08" x2="226.06" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -18623,7 +18623,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <junction x="509.27" y="217.17"/>
 </segment>
 <segment>
-<pinref part="SJ1" gate="G$1" pin="1"/>
+<pinref part="VMOT_SEL" gate="G$1" pin="1"/>
 <wire x1="208.28" y1="132.08" x2="198.12" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="+3V12" gate="G$1" pin="+3V3"/>
 </segment>
@@ -19204,7 +19204,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <net name="V_MOTOR" class="3">
 <segment>
 <pinref part="U3" gate="A" pin="VCC"/>
-<pinref part="SJ1" gate="G$1" pin="2"/>
+<pinref part="VMOT_SEL" gate="G$1" pin="2"/>
 <wire x1="213.36" y1="127" x2="213.36" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="109.22" x2="241.3" y2="109.22" width="0.1524" layer="91"/>
 <label x="218.44" y="109.22" size="1.778" layer="95"/>
@@ -19225,7 +19225,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="327.66" y="109.22" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SJ6" gate="1" pin="2"/>
+<pinref part="MOT_J" gate="1" pin="2"/>
 <wire x1="416.56" y1="109.22" x2="406.4" y2="109.22" width="0.1524" layer="91"/>
 <label x="406.4" y="109.22" size="1.27" layer="95"/>
 </segment>
@@ -19236,7 +19236,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="678.18" y1="421.64" x2="678.18" y2="419.1" width="0.1524" layer="91"/>
 <pinref part="RFGND" gate="GND" pin="GND"/>
 <label x="671.83" y="412.75" size="1.778" layer="95"/>
-<pinref part="SJ2" gate="1" pin="2"/>
+<pinref part="RF_J" gate="1" pin="2"/>
 <wire x1="678.18" y1="419.1" x2="678.18" y2="414.02" width="0.1524" layer="91"/>
 <wire x1="673.1" y1="419.1" x2="678.18" y2="419.1" width="0.1524" layer="91"/>
 <junction x="678.18" y="419.1"/>
@@ -19770,7 +19770,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <net name="N$26" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
-<pinref part="SJ3" gate="1" pin="2"/>
+<pinref part="LED_J2" gate="1" pin="2"/>
 <wire x1="518.16" y1="421.64" x2="518.16" y2="419.1" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -19926,7 +19926,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="525.78" y1="109.22" x2="518.16" y2="109.22" width="0.1524" layer="91"/>
 <label x="452.12" y="121.92" size="1.778" layer="95"/>
 <pinref part="U5" gate="A" pin="VCC"/>
-<pinref part="SJ6" gate="1" pin="1"/>
+<pinref part="MOT_J" gate="1" pin="1"/>
 <wire x1="426.72" y1="109.22" x2="429.26" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="426.72" y1="109.22" x2="426.72" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="426.72" y1="121.92" x2="492.76" y2="121.92" width="0.1524" layer="91"/>
@@ -19944,7 +19944,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <net name="N$14" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="1"/>
-<pinref part="SJ7" gate="1" pin="2"/>
+<pinref part="LED_J1" gate="1" pin="2"/>
 <wire x1="406.4" y1="411.48" x2="406.4" y2="414.02" width="0.1524" layer="91"/>
 </segment>
 </net>
