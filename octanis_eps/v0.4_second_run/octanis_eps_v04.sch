@@ -14248,7 +14248,7 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <part name="C21" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="C22" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="C24" library="rcl" deviceset="CPOL-EU" device="A/3216-18R" value="10uF"/>
-<part name="FERRITE_BEAD" library="inductors" deviceset="BLM15H" device="" technology="D601SN1" value="100mH"/>
+<part name="FERRITE" library="inductors" deviceset="BLM15H" device="" technology="D601SN1" value="100mH"/>
 <part name="C26" library="rcl" deviceset="CPOL-EU" device="A/3216-18R" value="22uF"/>
 <part name="C29" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="SUPPLY117" library="supply2" deviceset="GND" device=""/>
@@ -14357,9 +14357,9 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <part name="R46" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="SUPPLY55" library="supply2" deviceset="VCC" device=""/>
 <part name="SUPPLY56" library="supply2" deviceset="VCC" device=""/>
-<part name="U$1" library="Octanis1_EPS" deviceset="CURRENT_RESISTOR" device="" value="50m"/>
-<part name="U$8" library="Octanis1_EPS" deviceset="CURRENT_RESISTOR" device="" value="50m"/>
-<part name="U$9" library="Octanis1_EPS" deviceset="CURRENT_RESISTOR" device="" value="50m"/>
+<part name="R_SENSE1" library="Octanis1_EPS" deviceset="CURRENT_RESISTOR" device="" value="RSENSE1"/>
+<part name="RSENSE2" library="Octanis1_EPS" deviceset="CURRENT_RESISTOR" device="" value="RSENSE2"/>
+<part name="RSENSE3" library="Octanis1_EPS" deviceset="CURRENT_RESISTOR" device="" value="RSENSE3"/>
 <part name="BT_CHG" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="DSP_CMD" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="JP2" library="jumper" deviceset="JP4Q" device=""/>
@@ -14487,7 +14487,7 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <instance part="C21" gate="G$1" x="304.8" y="2.54"/>
 <instance part="C22" gate="G$1" x="256.54" y="38.1"/>
 <instance part="C24" gate="G$1" x="266.7" y="38.1"/>
-<instance part="FERRITE_BEAD" gate="G$1" x="269.24" y="-2.54"/>
+<instance part="FERRITE" gate="G$1" x="269.24" y="-2.54"/>
 <instance part="C26" gate="G$1" x="238.76" y="-76.2"/>
 <instance part="C29" gate="G$1" x="246.38" y="-78.74" rot="R180"/>
 <instance part="SUPPLY117" gate="GND" x="243.84" y="-83.82"/>
@@ -14600,9 +14600,9 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <instance part="R46" gate="G$1" x="276.86" y="48.26"/>
 <instance part="SUPPLY55" gate="G$1" x="261.62" y="45.72"/>
 <instance part="SUPPLY56" gate="G$1" x="266.7" y="50.8"/>
-<instance part="U$1" gate="G$1" x="-22.86" y="-40.64" rot="R270"/>
-<instance part="U$8" gate="G$1" x="-20.32" y="-111.76" rot="R270"/>
-<instance part="U$9" gate="G$1" x="-35.56" y="-205.74" rot="R270"/>
+<instance part="R_SENSE1" gate="G$1" x="-22.86" y="-40.64" rot="R270"/>
+<instance part="RSENSE2" gate="G$1" x="-20.32" y="-111.76" rot="R270"/>
+<instance part="RSENSE3" gate="G$1" x="-35.56" y="-205.74" rot="R270"/>
 <instance part="BT_CHG" gate="G$1" x="187.96" y="-149.86" rot="R270"/>
 <instance part="DSP_CMD" gate="G$1" x="185.42" y="58.42" rot="R270"/>
 <instance part="JP2" gate="B" x="347.98" y="81.28" rot="R270"/>
@@ -14929,7 +14929,7 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <pinref part="SUPPLY66" gate="G$1" pin="VCC"/>
 <wire x1="81.28" y1="-129.54" x2="86.36" y2="-129.54" width="0.1524" layer="91"/>
 <junction x="81.28" y="-129.54"/>
-<pinref part="U$8" gate="G$1" pin="I2"/>
+<pinref part="RSENSE2" gate="G$1" pin="I2"/>
 </segment>
 <segment>
 <pinref part="R14" gate="G$1" pin="2"/>
@@ -14942,7 +14942,7 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 </segment>
 <segment>
 <pinref part="SUPPLY119" gate="G$1" pin="VCC"/>
-<pinref part="U$1" gate="G$1" pin="I1"/>
+<pinref part="R_SENSE1" gate="G$1" pin="I1"/>
 <wire x1="-25.4" y1="-20.32" x2="-25.4" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -15022,7 +15022,7 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <wire x1="307.34" y1="-2.54" x2="304.8" y2="-2.54" width="0.1524" layer="91"/>
 <pinref part="C21" gate="G$1" pin="2"/>
 <junction x="304.8" y="-2.54"/>
-<pinref part="FERRITE_BEAD" gate="G$1" pin="2"/>
+<pinref part="FERRITE" gate="G$1" pin="2"/>
 <wire x1="304.8" y1="-2.54" x2="289.56" y2="-2.54" width="0.1524" layer="91"/>
 <pinref part="VCC" gate="G$1" pin="1"/>
 <wire x1="289.56" y1="-2.54" x2="274.32" y2="-2.54" width="0.1524" layer="91"/>
@@ -15053,7 +15053,7 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <junction x="266.7" y="43.18"/>
 <pinref part="U$6" gate="G$1" pin="DVCC"/>
 <wire x1="330.2" y1="43.18" x2="266.7" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="FERRITE_BEAD" gate="G$1" pin="1"/>
+<pinref part="FERRITE" gate="G$1" pin="1"/>
 <wire x1="264.16" y1="-2.54" x2="251.46" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="-2.54" x2="251.46" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="43.18" x2="256.54" y2="43.18" width="0.1524" layer="91"/>
@@ -15105,7 +15105,7 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <segment>
 <wire x1="-22.86" y1="-96.52" x2="-22.86" y2="-91.44" width="0.1524" layer="91"/>
 <label x="-25.4" y="-88.9" size="1.778" layer="95"/>
-<pinref part="U$8" gate="G$1" pin="I1"/>
+<pinref part="RSENSE2" gate="G$1" pin="I1"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="5"/>
@@ -15227,7 +15227,7 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 </segment>
 <segment>
 <label x="-33.02" y="-190.5" size="1.778" layer="95" rot="R90"/>
-<pinref part="U$9" gate="G$1" pin="V1"/>
+<pinref part="RSENSE3" gate="G$1" pin="V1"/>
 <wire x1="-33.02" y1="-185.42" x2="-33.02" y2="-190.5" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -15481,7 +15481,7 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <wire x1="-25.4" y1="-60.96" x2="83.82" y2="-60.96" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="-45.72" x2="-25.4" y2="-60.96" width="0.1524" layer="91"/>
 <label x="78.74" y="-60.96" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="I2"/>
+<pinref part="R_SENSE1" gate="G$1" pin="I2"/>
 </segment>
 <segment>
 <pinref part="C26" gate="G$1" pin="+"/>
@@ -15958,7 +15958,7 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <segment>
 <label x="-22.86" y="-215.9" size="1.778" layer="95" rot="R180"/>
 <wire x1="-25.4" y1="-215.9" x2="-33.02" y2="-215.9" width="0.1524" layer="91"/>
-<pinref part="U$9" gate="G$1" pin="V2"/>
+<pinref part="RSENSE3" gate="G$1" pin="V2"/>
 <wire x1="-33.02" y1="-210.82" x2="-33.02" y2="-215.9" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -15975,12 +15975,12 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <segment>
 <wire x1="-20.32" y1="-25.4" x2="-10.16" y2="-25.4" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="IN+"/>
-<pinref part="U$1" gate="G$1" pin="V1"/>
+<pinref part="R_SENSE1" gate="G$1" pin="V1"/>
 </segment>
 </net>
 <net name="N$33" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="V2"/>
+<pinref part="R_SENSE1" gate="G$1" pin="V2"/>
 <wire x1="-20.32" y1="-45.72" x2="-20.32" y2="-53.34" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="-53.34" x2="-12.7" y2="-53.34" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="-53.34" x2="-12.7" y2="-30.48" width="0.1524" layer="91"/>
@@ -15990,14 +15990,14 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 </net>
 <net name="N$34" class="0">
 <segment>
-<pinref part="U$8" gate="G$1" pin="V1"/>
+<pinref part="RSENSE2" gate="G$1" pin="V1"/>
 <pinref part="U$3" gate="G$1" pin="IN+"/>
 <wire x1="-17.78" y1="-96.52" x2="-10.16" y2="-96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$35" class="0">
 <segment>
-<pinref part="U$8" gate="G$1" pin="V2"/>
+<pinref part="RSENSE2" gate="G$1" pin="V2"/>
 <wire x1="-17.78" y1="-116.84" x2="-12.7" y2="-116.84" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="-116.84" x2="-12.7" y2="-101.6" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="IN-"/>
@@ -16008,7 +16008,7 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <segment>
 <wire x1="-25.4" y1="-213.36" x2="-25.4" y2="-210.82" width="0.1524" layer="91"/>
 <pinref part="R38" gate="G$1" pin="1"/>
-<pinref part="U$9" gate="G$1" pin="I2"/>
+<pinref part="RSENSE3" gate="G$1" pin="I2"/>
 <wire x1="-38.1" y1="-210.82" x2="-38.1" y2="-213.36" width="0.1524" layer="91"/>
 <wire x1="-38.1" y1="-213.36" x2="-25.4" y2="-213.36" width="0.1524" layer="91"/>
 </segment>
@@ -16018,7 +16018,7 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <pinref part="R39" gate="G$1" pin="1"/>
 <wire x1="-25.4" y1="-200.66" x2="-27.94" y2="-200.66" width="0.1524" layer="91"/>
 <wire x1="-27.94" y1="-200.66" x2="-27.94" y2="-193.04" width="0.1524" layer="91"/>
-<pinref part="U$9" gate="G$1" pin="I1"/>
+<pinref part="RSENSE3" gate="G$1" pin="I1"/>
 <wire x1="-38.1" y1="-190.5" x2="-35.56" y2="-190.5" width="0.1524" layer="91"/>
 <wire x1="-35.56" y1="-190.5" x2="-35.56" y2="-193.04" width="0.1524" layer="91"/>
 <wire x1="-35.56" y1="-193.04" x2="-27.94" y2="-193.04" width="0.1524" layer="91"/>
