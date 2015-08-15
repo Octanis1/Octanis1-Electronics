@@ -10248,39 +10248,51 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <vertex x="-3.05" y="-2.475"/>
 </polygon>
 </package>
-<package name="C01005">
+<package name="C1005">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
+<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
+<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
+<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
+<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
+<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
+<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-<smd name="1" x="-0.1625" y="0" dx="0.2" dy="0.25" layer="1"/>
-<smd name="2" x="0.1625" y="0" dx="0.2" dy="0.25" layer="1"/>
-<text x="-0.4" y="0.3" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.4" y="-1.6" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.2" y1="-0.1" x2="-0.075" y2="0.1" layer="51"/>
-<rectangle x1="0.075" y1="-0.1" x2="0.2" y2="0.1" layer="51"/>
-<rectangle x1="-0.15" y1="0.05" x2="0.15" y2="0.1" layer="51"/>
-<rectangle x1="-0.15" y1="-0.1" x2="0.15" y2="-0.05" layer="51"/>
 </package>
-<package name="PRL1632">
-<description>&lt;b&gt;PRL1632 are realized as 1W for 3.2 × 1.6mm(1206)&lt;/b&gt;&lt;p&gt;
-Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
-<wire x1="0.7275" y1="-1.5228" x2="-0.7277" y2="-1.5228" width="0.1524" layer="51"/>
-<wire x1="0.7275" y1="1.5228" x2="-0.7152" y2="1.5228" width="0.1524" layer="51"/>
-<smd name="2" x="0.822" y="0" dx="1" dy="3.2" layer="1"/>
-<smd name="1" x="-0.822" y="0" dx="1" dy="3.2" layer="1"/>
-<text x="-1.4" y="1.8" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.4" y="-3" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.8" y1="-1.6" x2="-0.4" y2="1.6" layer="51"/>
-<rectangle x1="0.4" y1="-1.6" x2="0.8" y2="1.6" layer="51"/>
+<package name="0402">
+<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
+<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
+<wire x1="-1.173" y1="0.483" x2="1.173" y2="0.483" width="0.0508" layer="39"/>
+<wire x1="1.173" y1="0.483" x2="1.173" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="1.173" y1="-0.483" x2="-1.173" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="-1.173" y1="-0.483" x2="-1.173" y2="0.483" width="0.0508" layer="39"/>
+<smd name="1" x="-0.6" y="0" dx="0.8" dy="0.7" layer="1"/>
+<smd name="2" x="0.6" y="0" dx="0.8" dy="0.7" layer="1"/>
+<text x="-0.635" y="0.762" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
 </package>
-<package name="R01005">
-<smd name="1" x="-0.1625" y="0" dx="0.2" dy="0.25" layer="1"/>
-<smd name="2" x="0.1625" y="0" dx="0.2" dy="0.25" layer="1"/>
-<text x="-0.4" y="0.3" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.4" y="-1.6" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.2" y1="-0.1" x2="-0.075" y2="0.1" layer="51"/>
-<rectangle x1="0.075" y1="-0.1" x2="0.2" y2="0.1" layer="51"/>
-<rectangle x1="-0.15" y1="0.05" x2="0.15" y2="0.1" layer="51"/>
-<rectangle x1="-0.15" y1="-0.1" x2="0.15" y2="-0.05" layer="51"/>
+<package name="R1005">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
+<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
+<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
+<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
+<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
+<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
+<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
 </packages>
 <symbols>
@@ -10352,6 +10364,15 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technologies>
 </device>
 <device name="C0805" package="C0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="C1005" package="C1005">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -11026,7 +11047,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="01005" package="C01005">
+<device name="CM0402" package="0402">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -11071,6 +11092,15 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technologies>
 </device>
 <device name="R0805W" package="R0805W">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="R1005" package="R1005">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -11799,16 +11829,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="PRL1632" package="PRL1632">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="01005" package="R01005">
+<device name="RM0402" package="0402">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -17783,6 +17804,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="+3V24" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
 <part name="GND34" library="supply1" deviceset="GND" device=""/>
+<part name="C15" library="rcl" deviceset="C-EU" device="CM0402" value="1n"/>
+<part name="GND40" library="supply1" deviceset="GND" device=""/>
+<part name="+3V25" library="supply1" deviceset="+3V3" device=""/>
+<part name="R13" library="rcl" deviceset="R-EU_" device="RM0402" value="47k"/>
 </parts>
 <sheets>
 <sheet>
@@ -17818,6 +17843,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 - Groundplane polygon around all pins with greater isolation space. 
 </text>
 <text x="228.6" y="228.6" size="1.27" layer="97">VeREF- (recommended to connect to GND)</text>
+<text x="424.942" y="188.976" size="2.54" layer="95">RESET</text>
+<wire x1="421.64" y1="148.59" x2="421.64" y2="193.04" width="0.1524" layer="95" style="shortdash"/>
+<wire x1="421.64" y1="193.04" x2="440.69" y2="193.04" width="0.1524" layer="95" style="shortdash"/>
+<wire x1="440.69" y1="193.04" x2="440.69" y2="148.59" width="0.1524" layer="95" style="shortdash"/>
+<wire x1="440.69" y1="148.59" x2="421.64" y2="148.59" width="0.1524" layer="95" style="shortdash"/>
 </plain>
 <instances>
 <instance part="C19" gate="G$1" x="462.28" y="238.76" smashed="yes" rot="R180">
@@ -18078,6 +18108,18 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </instance>
 <instance part="GND33" gate="1" x="205.74" y="215.9" rot="R90"/>
 <instance part="GND34" gate="1" x="266.7" y="228.6" rot="R270"/>
+<instance part="C15" gate="G$1" x="430.53" y="166.37" smashed="yes">
+<attribute name="NAME" x="423.418" y="165.227" size="1.778" layer="95"/>
+<attribute name="VALUE" x="424.688" y="162.687" size="1.778" layer="96"/>
+</instance>
+<instance part="GND40" gate="1" x="430.53" y="153.67"/>
+<instance part="+3V25" gate="G$1" x="430.53" y="185.42" smashed="yes">
+<attribute name="VALUE" x="431.8" y="185.42" size="1.778" layer="96"/>
+</instance>
+<instance part="R13" gate="G$1" x="430.53" y="176.53" smashed="yes" rot="R90">
+<attribute name="NAME" x="429.0314" y="173.99" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="433.832" y="173.99" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -18426,6 +18468,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="RX3/TX3" gate="A" pin="1"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="401.32" y1="299.72" x2="411.48" y2="299.72" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND40" gate="1" pin="GND"/>
+<pinref part="C15" gate="G$1" pin="2"/>
+<wire x1="430.53" y1="156.21" x2="430.53" y2="158.75" width="0.1524" layer="91"/>
+<wire x1="430.53" y1="158.75" x2="430.53" y2="161.29" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SPI_EXTSLAVE_TE" class="0">
@@ -18786,6 +18834,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="RX3/TX3" gate="A" pin="3"/>
 <pinref part="+3V23" gate="G$1" pin="+3V3"/>
 <wire x1="398.78" y1="297.18" x2="411.48" y2="297.18" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="+3V25" gate="G$1" pin="+3V3"/>
+<wire x1="430.53" y1="182.88" x2="430.53" y2="181.61" width="0.1524" layer="91"/>
+<pinref part="R13" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="M1IN2" class="0">
@@ -19534,13 +19587,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="172.72" y="254" size="1.27" layer="95"/>
 </segment>
 </net>
-<net name="N$75" class="0">
-<segment>
-<pinref part="U1" gate="MSP432" pin="RSTN/NMI"/>
-<wire x1="373.38" y1="198.12" x2="398.78" y2="198.12" width="0.1524" layer="91"/>
-<pinref part="PROG" gate="A" pin="4"/>
-</segment>
-</net>
 <net name="N$76" class="0">
 <segment>
 <pinref part="U1" gate="MSP432" pin="SWDIOTMS"/>
@@ -20200,6 +20246,22 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="187.96" y1="200.66" x2="177.8" y2="200.66" width="0.1524" layer="91"/>
 <label x="177.8" y="200.66" size="1.27" layer="95"/>
 <pinref part="DIGITAL_IO" gate="A" pin="13"/>
+</segment>
+</net>
+<net name="RST_N" class="0">
+<segment>
+<pinref part="C15" gate="G$1" pin="1"/>
+<wire x1="430.53" y1="168.91" x2="430.53" y2="171.45" width="0.1524" layer="91"/>
+<junction x="430.53" y="168.91"/>
+<pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="430.53" y1="168.91" x2="422.91" y2="168.91" width="0.1524" layer="91"/>
+<label x="422.91" y="168.91" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="MSP432" pin="RSTN/NMI"/>
+<wire x1="373.38" y1="198.12" x2="398.78" y2="198.12" width="0.1524" layer="91"/>
+<pinref part="PROG" gate="A" pin="4"/>
+<label x="378.46" y="198.12" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
