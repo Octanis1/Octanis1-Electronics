@@ -11128,13 +11128,13 @@ CAP-00811- 16V 10% (EIA-3216)</description>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="C3" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
-<part name="U9" library="SparkFun-Sensors" deviceset="BMP180" device=""/>
+<part name="U1" library="SparkFun-Sensors" deviceset="BMP180" device=""/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
-<part name="U$5" library="phMeter" deviceset="MCP3425" device=""/>
+<part name="U4" library="phMeter" deviceset="MCP3425" device=""/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C6" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
@@ -11144,11 +11144,11 @@ CAP-00811- 16V 10% (EIA-3216)</description>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 <part name="U3" library="SparkFun-Sensors" deviceset="ML8511-UV-SENSOR" device="SMD"/>
-<part name="IC1" library="AS3935" deviceset="AS3935" device="" value="AS3935"/>
+<part name="U6" library="AS3935" deviceset="AS3935" device="" value="AS3935"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="L1" library="AS3935" deviceset="COILCRAFT" device="" value="100uH"/>
-<part name="IC2" library="BNO055" deviceset="BNO055" device="A"/>
+<part name="U5" library="BNO055" deviceset="BNO055" device="A"/>
 <part name="+3V10" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="+3V11" library="supply1" deviceset="+3V3" device=""/>
@@ -11216,7 +11216,7 @@ CAP-00811- 16V 10% (EIA-3216)</description>
 <attribute name="NAME" x="101.854" y="132.461" size="1.778" layer="95"/>
 <attribute name="VALUE" x="101.854" y="129.921" size="1.778" layer="96"/>
 </instance>
-<instance part="U9" gate="G$1" x="20.32" y="134.62"/>
+<instance part="U1" gate="G$1" x="20.32" y="134.62"/>
 <instance part="C2" gate="G$1" x="63.5" y="127"/>
 <instance part="GND6" gate="1" x="38.1" y="114.3"/>
 <instance part="GND7" gate="1" x="50.8" y="114.3"/>
@@ -11224,7 +11224,7 @@ CAP-00811- 16V 10% (EIA-3216)</description>
 <instance part="+3V4" gate="G$1" x="63.5" y="165.1" smashed="yes">
 <attribute name="VALUE" x="63.5" y="165.1" size="1.778" layer="96"/>
 </instance>
-<instance part="U$5" gate="G$1" x="284.48" y="129.54"/>
+<instance part="U4" gate="G$1" x="284.48" y="129.54"/>
 <instance part="GND9" gate="1" x="259.08" y="127"/>
 <instance part="GND10" gate="1" x="299.72" y="134.62" rot="R90"/>
 <instance part="C6" gate="G$1" x="302.26" y="124.46" smashed="yes">
@@ -11243,7 +11243,7 @@ CAP-00811- 16V 10% (EIA-3216)</description>
 <attribute name="VALUE" x="15.24" y="215.9" size="1.778" layer="96"/>
 </instance>
 <instance part="U3" gate="U1" x="231.14" y="132.08"/>
-<instance part="IC1" gate="IC" x="518.16" y="134.62" smashed="yes">
+<instance part="U6" gate="IC" x="518.16" y="134.62" smashed="yes">
 <attribute name="NAME" x="520.7" y="112.268" size="1.27" layer="95"/>
 <attribute name="VALUE" x="520.7" y="110.236" size="1.27" layer="96"/>
 </instance>
@@ -11257,7 +11257,7 @@ CAP-00811- 16V 10% (EIA-3216)</description>
 <attribute name="NAME" x="492.506" y="109.474" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="492.506" y="114.3" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="IC2" gate="G$1" x="396.24" y="129.54"/>
+<instance part="U5" gate="G$1" x="396.24" y="129.54"/>
 <instance part="+3V10" gate="G$1" x="398.78" y="172.72"/>
 <instance part="GND21" gate="1" x="426.72" y="132.08" rot="R90"/>
 <instance part="+3V11" gate="G$1" x="434.34" y="147.32" rot="R270"/>
@@ -11346,7 +11346,7 @@ CAP-00811- 16V 10% (EIA-3216)</description>
 <junction x="106.68" y="121.92"/>
 </segment>
 <segment>
-<pinref part="U9" gate="G$1" pin="GND"/>
+<pinref part="U1" gate="G$1" pin="GND"/>
 <wire x1="35.56" y1="129.54" x2="38.1" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="129.54" x2="38.1" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
@@ -11362,7 +11362,7 @@ CAP-00811- 16V 10% (EIA-3216)</description>
 <wire x1="63.5" y1="121.92" x2="63.5" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$5" gate="G$1" pin="VSS"/>
+<pinref part="U4" gate="G$1" pin="VSS"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="264.16" y1="129.54" x2="259.08" y2="129.54" width="0.1524" layer="91"/>
 </segment>
@@ -11403,26 +11403,26 @@ CAP-00811- 16V 10% (EIA-3216)</description>
 <junction x="513.08" y="106.68"/>
 <junction x="505.46" y="106.68"/>
 <junction x="497.84" y="106.68"/>
-<pinref part="IC1" gate="IC" pin="EXPAD"/>
+<pinref part="U6" gate="IC" pin="EXPAD"/>
 <pinref part="GND12" gate="1" pin="GND"/>
-<pinref part="IC1" gate="IC" pin="GND"/>
-<pinref part="IC1" gate="IC" pin="INN"/>
+<pinref part="U6" gate="IC" pin="GND"/>
+<pinref part="U6" gate="IC" pin="INN"/>
 <pinref part="L1" gate="L" pin="2"/>
 <pinref part="C15" gate="G$1" pin="2"/>
 <pinref part="C14" gate="G$1" pin="2"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="GNDIO"/>
+<pinref part="U5" gate="G$1" pin="GNDIO"/>
 <pinref part="GND21" gate="1" pin="GND"/>
 <wire x1="424.18" y1="132.08" x2="419.1" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="PS1"/>
+<pinref part="U5" gate="G$1" pin="PS1"/>
 <pinref part="GND14" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="PS0"/>
+<pinref part="U5" gate="G$1" pin="PS0"/>
 <pinref part="GND15" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -11434,22 +11434,22 @@ CAP-00811- 16V 10% (EIA-3216)</description>
 <pinref part="GND17" gate="1" pin="GND"/>
 <pinref part="C8" gate="G$1" pin="2"/>
 <wire x1="408.94" y1="165.1" x2="411.48" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="GND"/>
+<pinref part="U5" gate="G$1" pin="GND"/>
 <wire x1="411.48" y1="165.1" x2="414.02" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="403.86" y1="160.02" x2="411.48" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="411.48" y1="160.02" x2="411.48" y2="165.1" width="0.1524" layer="91"/>
 <junction x="411.48" y="165.1"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="PIN10"/>
+<pinref part="U5" gate="G$1" pin="PIN10"/>
 <pinref part="GND18" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="PIN15"/>
+<pinref part="U5" gate="G$1" pin="PIN15"/>
 <pinref part="GND19" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="PIN16"/>
+<pinref part="U5" gate="G$1" pin="PIN16"/>
 <pinref part="GND20" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -11468,17 +11468,17 @@ CAP-00811- 16V 10% (EIA-3216)</description>
 <wire x1="426.72" y1="157.48" x2="426.72" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="COM2"/>
+<pinref part="U5" gate="G$1" pin="COM2"/>
 <pinref part="GND30" gate="1" pin="GND"/>
 </segment>
 <segment>
 <wire x1="553.72" y1="134.62" x2="549.91" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="IC" pin="EN_VREG"/>
+<pinref part="U6" gate="IC" pin="EN_VREG"/>
 <pinref part="GND23" gate="1" pin="GND"/>
 <wire x1="553.72" y1="134.62" x2="548.64" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$5" gate="G$1" pin="VIN-"/>
+<pinref part="U4" gate="G$1" pin="VIN-"/>
 <pinref part="GND10" gate="1" pin="GND"/>
 <wire x1="297.18" y1="134.62" x2="294.64" y2="134.62" width="0.1524" layer="91"/>
 </segment>
@@ -11527,7 +11527,7 @@ CAP-00811- 16V 10% (EIA-3216)</description>
 <junction x="114.3" y="139.7"/>
 </segment>
 <segment>
-<pinref part="U9" gate="G$1" pin="VDD"/>
+<pinref part="U1" gate="G$1" pin="VDD"/>
 <wire x1="35.56" y1="139.7" x2="40.64" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="139.7" x2="43.18" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="134.62" x2="63.5" y2="129.54" width="0.1524" layer="91"/>
@@ -11537,7 +11537,7 @@ CAP-00811- 16V 10% (EIA-3216)</description>
 <wire x1="43.18" y1="139.7" x2="63.5" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
 <junction x="63.5" y="139.7"/>
-<pinref part="U9" gate="G$1" pin="VDDIO"/>
+<pinref part="U1" gate="G$1" pin="VDDIO"/>
 <wire x1="35.56" y1="134.62" x2="40.64" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="40.64" y1="134.62" x2="50.8" y2="134.62" width="0.1524" layer="91"/>
@@ -11565,7 +11565,7 @@ CAP-00811- 16V 10% (EIA-3216)</description>
 <pinref part="JP1" gate="A" pin="1"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="VDDIO"/>
+<pinref part="U5" gate="G$1" pin="VDDIO"/>
 <pinref part="+3V11" gate="G$1" pin="+3V3"/>
 <wire x1="431.8" y1="147.32" x2="426.72" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="C9" gate="G$1" pin="1"/>
@@ -11574,7 +11574,7 @@ CAP-00811- 16V 10% (EIA-3216)</description>
 </segment>
 <segment>
 <pinref part="+3V10" gate="G$1" pin="+3V3"/>
-<pinref part="IC2" gate="G$1" pin="VDD"/>
+<pinref part="U5" gate="G$1" pin="VDD"/>
 <wire x1="398.78" y1="170.18" x2="398.78" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="398.78" y1="165.1" x2="398.78" y2="160.02" width="0.1524" layer="91"/>
@@ -11593,35 +11593,35 @@ CAP-00811- 16V 10% (EIA-3216)</description>
 </segment>
 <segment>
 <wire x1="548.64" y1="121.92" x2="566.42" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="IC" pin="SI"/>
+<pinref part="U6" gate="IC" pin="SI"/>
 <pinref part="+3V6" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
 <pinref part="+3V9" gate="G$1" pin="+3V3"/>
 <wire x1="515.62" y1="142.24" x2="515.62" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="IC" pin="VREG"/>
+<pinref part="U6" gate="IC" pin="VREG"/>
 <wire x1="515.62" y1="139.7" x2="515.62" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="515.62" y1="134.62" x2="515.62" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="515.62" y1="132.08" x2="518.16" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="510.54" y1="139.7" x2="515.62" y2="139.7" width="0.1524" layer="91"/>
 <junction x="515.62" y="139.7"/>
-<pinref part="IC1" gate="IC" pin="VDD"/>
+<pinref part="U6" gate="IC" pin="VDD"/>
 <wire x1="518.16" y1="134.62" x2="515.62" y2="134.62" width="0.1524" layer="91"/>
 <junction x="515.62" y="134.62"/>
 <pinref part="C12" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="IC" pin="ADD1"/>
+<pinref part="U6" gate="IC" pin="ADD1"/>
 <pinref part="+3V12" gate="G$1" pin="+3V3"/>
 <wire x1="518.16" y1="127" x2="515.62" y2="127" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="IC" pin="ADD0"/>
+<pinref part="U6" gate="IC" pin="ADD0"/>
 <wire x1="515.62" y1="127" x2="513.08" y2="127" width="0.1524" layer="91"/>
 <wire x1="518.16" y1="124.46" x2="515.62" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="515.62" y1="124.46" x2="515.62" y2="127" width="0.1524" layer="91"/>
 <junction x="515.62" y="127"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="COM3"/>
+<pinref part="U5" gate="G$1" pin="COM3"/>
 <pinref part="+3V13" gate="G$1" pin="+3V3"/>
 <wire x1="393.7" y1="96.52" x2="393.7" y2="99.06" width="0.1524" layer="91"/>
 </segment>
@@ -11631,7 +11631,7 @@ CAP-00811- 16V 10% (EIA-3216)</description>
 <wire x1="312.42" y1="127" x2="312.42" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="312.42" y1="129.54" x2="312.42" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="312.42" y1="132.08" x2="312.42" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="VDD"/>
+<pinref part="U4" gate="G$1" pin="VDD"/>
 <wire x1="304.8" y1="129.54" x2="302.26" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="302.26" y1="129.54" x2="294.64" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="312.42" y1="129.54" x2="304.8" y2="129.54" width="0.1524" layer="91"/>
@@ -11646,7 +11646,7 @@ CAP-00811- 16V 10% (EIA-3216)</description>
 <label x="162.56" y="139.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U9" gate="G$1" pin="SDA"/>
+<pinref part="U1" gate="G$1" pin="SDA"/>
 <wire x1="5.08" y1="137.16" x2="-5.08" y2="137.16" width="0.1524" layer="91"/>
 <label x="-5.08" y="137.16" size="1.778" layer="95"/>
 </segment>
@@ -11656,17 +11656,17 @@ CAP-00811- 16V 10% (EIA-3216)</description>
 <pinref part="JP1" gate="A" pin="3"/>
 </segment>
 <segment>
-<pinref part="U$5" gate="G$1" pin="SDA"/>
+<pinref part="U4" gate="G$1" pin="SDA"/>
 <wire x1="294.64" y1="124.46" x2="297.18" y2="124.46" width="0.1524" layer="91"/>
 <label x="294.64" y="124.46" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="548.64" y1="129.54" x2="566.42" y2="129.54" width="0.1524" layer="91"/>
 <label x="566.42" y="129.54" size="0.6096" layer="95" xref="yes"/>
-<pinref part="IC1" gate="IC" pin="I2CD/MOSI"/>
+<pinref part="U6" gate="IC" pin="I2CD/MOSI"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="COM0"/>
+<pinref part="U5" gate="G$1" pin="COM0"/>
 <wire x1="419.1" y1="106.68" x2="426.72" y2="106.68" width="0.1524" layer="91"/>
 <label x="421.64" y="106.68" size="1.27" layer="95"/>
 </segment>
@@ -11678,7 +11678,7 @@ CAP-00811- 16V 10% (EIA-3216)</description>
 <label x="111.76" y="134.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U9" gate="G$1" pin="SCL"/>
+<pinref part="U1" gate="G$1" pin="SCL"/>
 <wire x1="5.08" y1="132.08" x2="-5.08" y2="132.08" width="0.1524" layer="91"/>
 <label x="-5.08" y="132.08" size="1.778" layer="95"/>
 </segment>
@@ -11688,7 +11688,7 @@ CAP-00811- 16V 10% (EIA-3216)</description>
 <pinref part="JP1" gate="A" pin="4"/>
 </segment>
 <segment>
-<pinref part="U$5" gate="G$1" pin="SCL"/>
+<pinref part="U4" gate="G$1" pin="SCL"/>
 <wire x1="264.16" y1="124.46" x2="264.16" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="114.3" x2="256.54" y2="114.3" width="0.1524" layer="91"/>
 <label x="259.08" y="114.3" size="1.778" layer="95"/>
@@ -11697,17 +11697,17 @@ CAP-00811- 16V 10% (EIA-3216)</description>
 <wire x1="548.64" y1="132.08" x2="562.61" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="562.61" y1="132.08" x2="566.42" y2="132.08" width="0.1524" layer="91"/>
 <label x="566.42" y="132.08" size="0.6096" layer="95" xref="yes"/>
-<pinref part="IC1" gate="IC" pin="I2CL/SCL"/>
+<pinref part="U6" gate="IC" pin="I2CL/SCL"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="COM1"/>
+<pinref part="U5" gate="G$1" pin="COM1"/>
 <wire x1="403.86" y1="99.06" x2="403.86" y2="93.98" width="0.1524" layer="91"/>
 <label x="403.86" y="93.98" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="U$5" gate="G$1" pin="VIN+"/>
+<pinref part="U4" gate="G$1" pin="VIN+"/>
 <wire x1="264.16" y1="134.62" x2="254" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="254" y1="134.62" x2="254" y2="127" width="0.1524" layer="91"/>
 <wire x1="254" y1="127" x2="246.38" y2="127" width="0.1524" layer="91"/>
@@ -11728,7 +11728,7 @@ CAP-00811- 16V 10% (EIA-3216)</description>
 <junction x="513.08" y="121.92"/>
 <junction x="505.46" y="121.92"/>
 <junction x="497.84" y="121.92"/>
-<pinref part="IC1" gate="IC" pin="INP"/>
+<pinref part="U6" gate="IC" pin="INP"/>
 <pinref part="L1" gate="L" pin="1"/>
 <pinref part="C15" gate="G$1" pin="1"/>
 <pinref part="C14" gate="G$1" pin="1"/>
@@ -11738,7 +11738,7 @@ CAP-00811- 16V 10% (EIA-3216)</description>
 <net name="N$2" class="0">
 <segment>
 <wire x1="518.16" y1="129.54" x2="510.54" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="IC" pin="ACG"/>
+<pinref part="U6" gate="IC" pin="ACG"/>
 <pinref part="C13" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -11746,7 +11746,7 @@ CAP-00811- 16V 10% (EIA-3216)</description>
 <segment>
 <wire x1="548.64" y1="119.38" x2="566.42" y2="119.38" width="0.1524" layer="91"/>
 <label x="574.548" y="119.38" size="0.6096" layer="95" rot="R180" xref="yes"/>
-<pinref part="IC1" gate="IC" pin="IRQ"/>
+<pinref part="U6" gate="IC" pin="IRQ"/>
 </segment>
 <segment>
 <wire x1="22.86" y1="198.12" x2="12.7" y2="198.12" width="0.1524" layer="91"/>
@@ -11756,7 +11756,7 @@ CAP-00811- 16V 10% (EIA-3216)</description>
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="CAP"/>
+<pinref part="U5" gate="G$1" pin="CAP"/>
 <pinref part="C7" gate="G$1" pin="2"/>
 <wire x1="365.76" y1="137.16" x2="373.38" y2="137.16" width="0.1524" layer="91"/>
 </segment>
@@ -11764,7 +11764,7 @@ CAP-00811- 16V 10% (EIA-3216)</description>
 <net name="N$73" class="0">
 <segment>
 <pinref part="Q1" gate="G$1" pin="1"/>
-<pinref part="IC2" gate="G$1" pin="XOUT32"/>
+<pinref part="U5" gate="G$1" pin="XOUT32"/>
 <wire x1="439.42" y1="137.16" x2="419.1" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="C11" gate="G$1" pin="1"/>
 <wire x1="447.04" y1="137.16" x2="439.42" y2="137.16" width="0.1524" layer="91"/>
@@ -11773,7 +11773,7 @@ CAP-00811- 16V 10% (EIA-3216)</description>
 </net>
 <net name="N$19" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="XIN32"/>
+<pinref part="U5" gate="G$1" pin="XIN32"/>
 <pinref part="C10" gate="G$1" pin="1"/>
 <wire x1="419.1" y1="142.24" x2="439.42" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="2"/>
@@ -11783,7 +11783,7 @@ CAP-00811- 16V 10% (EIA-3216)</description>
 </net>
 <net name="ACCEL_N_RST" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="RESET"/>
+<pinref part="U5" gate="G$1" pin="RESET"/>
 <wire x1="373.38" y1="127" x2="363.22" y2="127" width="0.1524" layer="91"/>
 <label x="360.68" y="127" size="1.27" layer="95"/>
 <pinref part="R2" gate="G$1" pin="2"/>
@@ -11794,7 +11794,7 @@ CAP-00811- 16V 10% (EIA-3216)</description>
 </net>
 <net name="ACCEL_N_BOOTLD" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="BOOT_LOAD_PIN"/>
+<pinref part="U5" gate="G$1" pin="BOOT_LOAD_PIN"/>
 <wire x1="393.7" y1="160.02" x2="393.7" y2="175.26" width="0.1524" layer="91"/>
 <label x="393.7" y="160.02" size="1.27" layer="95" rot="R90"/>
 <pinref part="R3" gate="G$1" pin="1"/>
@@ -11810,7 +11810,7 @@ CAP-00811- 16V 10% (EIA-3216)</description>
 <label x="12.7" y="195.58" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="INT"/>
+<pinref part="U5" gate="G$1" pin="INT"/>
 <wire x1="373.38" y1="111.76" x2="360.68" y2="111.76" width="0.1524" layer="91"/>
 <label x="360.68" y="111.76" size="1.27" layer="95"/>
 </segment>
