@@ -350,10 +350,10 @@ UsedLibrary="/Users/raffael/Downloads/schule_xl.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="16 51 1279 799"
-State=1
+Loc="512 336 1830 735"
+State=2
 Number=0
 
 [Desktop]
-Screen="1680 1050"
+Screen="1920 1200"
 Window="Win_1"
