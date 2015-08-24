@@ -102,6 +102,30 @@
 <rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
 <rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
 </package>
+<package name="RN2483">
+<wire x1="0" y1="26.67" x2="17.8" y2="26.67" width="0.127" layer="21"/>
+<wire x1="17.8" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<smd name="P$1" x="17.78" y="1.27" dx="1.016" dy="1.524" layer="1" rot="R90"/>
+<smd name="P$6" x="17.78" y="7.62" dx="1.016" dy="1.524" layer="1" rot="R90"/>
+<smd name="P$7" x="17.78" y="8.89" dx="1.016" dy="1.524" layer="1" rot="R90"/>
+<smd name="P$8" x="17.78" y="10.16" dx="1.016" dy="1.524" layer="1" rot="R90"/>
+<smd name="P$11" x="17.78" y="13.97" dx="1.016" dy="1.524" layer="1" rot="R90"/>
+<smd name="P$12" x="17.78" y="15.24" dx="1.016" dy="1.524" layer="1" rot="R90"/>
+<smd name="P$20" x="17.78" y="25.4" dx="1.016" dy="1.524" layer="1" rot="R90"/>
+<smd name="P$21" x="12.7" y="26.67" dx="1.016" dy="1.524" layer="1" rot="R180"/>
+<smd name="P$22" x="11.43" y="26.67" dx="1.016" dy="1.524" layer="1" rot="R180"/>
+<smd name="P$23" x="10.16" y="26.67" dx="1.016" dy="1.524" layer="1" rot="R180"/>
+<smd name="P$24" x="8.89" y="26.67" dx="1.016" dy="1.524" layer="1" rot="R180"/>
+<smd name="P$25" x="7.62" y="26.67" dx="1.016" dy="1.524" layer="1" rot="R180"/>
+<smd name="P$26" x="6.35" y="26.67" dx="1.016" dy="1.524" layer="1" rot="R180"/>
+<smd name="P$27" x="5.08" y="26.67" dx="1.016" dy="1.524" layer="1" rot="R180"/>
+<smd name="P$28" x="0" y="25.4" dx="1.016" dy="1.524" layer="1" rot="R270"/>
+<smd name="P$32" x="0" y="20.32" dx="1.016" dy="1.524" layer="1" rot="R270"/>
+<smd name="P$33" x="0" y="19.05" dx="1.016" dy="1.524" layer="1" rot="R270"/>
+<smd name="P$34" x="0" y="17.78" dx="1.016" dy="1.524" layer="1" rot="R270"/>
+<smd name="P$41" x="0" y="8.89" dx="1.016" dy="1.524" layer="1" rot="R270"/>
+<smd name="P$47" x="0" y="1.27" dx="1.016" dy="1.524" layer="1" rot="R270"/>
+</package>
 </packages>
 <symbols>
 <symbol name="HX1">
@@ -129,6 +153,36 @@
 <pin name="IN" x="-7.62" y="2.54" length="short" direction="in"/>
 <pin name="OUT" x="-7.62" y="-2.54" length="short" direction="out"/>
 <pin name="GND" x="10.16" y="0" length="short" direction="pwr" rot="R180"/>
+</symbol>
+<symbol name="RN2483">
+<description>Low-Power Long Range LoRaTM Technology Transceiver Module</description>
+<wire x1="-17.78" y1="27.94" x2="17.78" y2="27.94" width="0.254" layer="94"/>
+<wire x1="17.78" y1="27.94" x2="17.78" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-25.4" x2="-17.78" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-25.4" x2="-17.78" y2="22.86" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="22.86" x2="-17.78" y2="27.94" width="0.254" layer="94"/>
+<pin name="P$1" x="22.86" y="-22.86" length="middle" rot="R180"/>
+<pin name="P$6" x="22.86" y="-10.16" length="middle" rot="R180"/>
+<pin name="P$7" x="22.86" y="-7.62" length="middle" rot="R180"/>
+<pin name="P$8" x="22.86" y="-5.08" length="middle" rot="R180"/>
+<pin name="P$11" x="22.86" y="2.54" length="middle" rot="R180"/>
+<pin name="P$12" x="22.86" y="5.08" length="middle" rot="R180"/>
+<pin name="P$20" x="22.86" y="25.4" length="middle" rot="R180"/>
+<pin name="P$21" x="7.62" y="33.02" length="middle" rot="R270"/>
+<pin name="P$22" x="5.08" y="33.02" length="middle" rot="R270"/>
+<pin name="P$23" x="2.54" y="33.02" length="middle" rot="R270"/>
+<pin name="P$24" x="0" y="33.02" length="middle" rot="R270"/>
+<pin name="P$25" x="-2.54" y="33.02" length="middle" rot="R270"/>
+<pin name="P$26" x="-5.08" y="33.02" length="middle" rot="R270"/>
+<pin name="P$27" x="-7.62" y="33.02" length="middle" rot="R270"/>
+<pin name="P$28" x="-22.86" y="25.4" length="middle"/>
+<pin name="P$32" x="-22.86" y="15.24" length="middle"/>
+<pin name="P$33" x="-22.86" y="12.7" length="middle"/>
+<pin name="P$34" x="-22.86" y="10.16" length="middle"/>
+<pin name="P$41" x="-22.86" y="-7.62" length="middle"/>
+<pin name="P$47" x="-22.86" y="-22.86" length="middle"/>
+<text x="-5.08" y="13.97" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -183,6 +237,43 @@ VHF Narrow Band FM 300mW Transmitter. HX1-144.390-3</description>
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RN2483" prefix="U">
+<description>Microchip Low-Power Long Range LoRaTM Technology Transceiver Module</description>
+<gates>
+<gate name="G$1" symbol="RN2483" x="-2.54" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="RN2483">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$11" pad="P$11"/>
+<connect gate="G$1" pin="P$12" pad="P$12"/>
+<connect gate="G$1" pin="P$20" pad="P$20"/>
+<connect gate="G$1" pin="P$21" pad="P$21"/>
+<connect gate="G$1" pin="P$22" pad="P$22"/>
+<connect gate="G$1" pin="P$23" pad="P$23"/>
+<connect gate="G$1" pin="P$24" pad="P$24"/>
+<connect gate="G$1" pin="P$25" pad="P$25"/>
+<connect gate="G$1" pin="P$26" pad="P$26"/>
+<connect gate="G$1" pin="P$27" pad="P$27"/>
+<connect gate="G$1" pin="P$28" pad="P$28"/>
+<connect gate="G$1" pin="P$32" pad="P$32"/>
+<connect gate="G$1" pin="P$33" pad="P$33"/>
+<connect gate="G$1" pin="P$34" pad="P$34"/>
+<connect gate="G$1" pin="P$41" pad="P$41"/>
+<connect gate="G$1" pin="P$47" pad="P$47"/>
+<connect gate="G$1" pin="P$6" pad="P$6"/>
+<connect gate="G$1" pin="P$7" pad="P$7"/>
+<connect gate="G$1" pin="P$8" pad="P$8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="RN2483"/>
+</technology>
 </technologies>
 </device>
 </devices>
