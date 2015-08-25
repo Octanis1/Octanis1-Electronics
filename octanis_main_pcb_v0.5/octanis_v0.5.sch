@@ -15012,6 +15012,18 @@ We've spent an enormous amount of time creating and checking these footprints an
 <smd name="P$41" x="0" y="8.89" dx="1.016" dy="1.524" layer="1" rot="R270"/>
 <smd name="P$47" x="0" y="1.27" dx="1.016" dy="1.524" layer="1" rot="R270"/>
 </package>
+<package name="WEATHER_STRIP_DOCU">
+<text x="-3.81" y="0" size="0.8128" layer="25" font="fixed">VDD     GND</text>
+<text x="-3.81" y="-1.27" size="0.8128" layer="25" font="fixed">SCL     SDA</text>
+<text x="-5.4102" y="1.27" size="0.8128" layer="25" font="fixed"> UV_EN  LIG_INT</text>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-1.905" width="0.127" layer="25"/>
+<wire x1="-5.08" y1="-1.905" x2="0" y2="-1.905" width="0.127" layer="25"/>
+<wire x1="0" y1="-1.905" x2="5.08" y2="-1.905" width="0.127" layer="25"/>
+<wire x1="5.08" y1="-1.905" x2="5.08" y2="2.54" width="0.127" layer="25"/>
+<wire x1="5.08" y1="2.54" x2="0" y2="2.54" width="0.127" layer="25"/>
+<wire x1="0" y1="2.54" x2="-5.08" y2="2.54" width="0.127" layer="25"/>
+<wire x1="0" y1="2.54" x2="0" y2="-1.905" width="0.127" layer="25"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MAX6001">
@@ -15055,6 +15067,13 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pin name="P$47" x="-22.86" y="-22.86" length="middle"/>
 <text x="-5.08" y="13.97" size="1.778" layer="95">&gt;NAME</text>
 <text x="-5.08" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="WEATHER_STRIP_DOCU">
+<text x="-15.24" y="2.54" size="1.778" layer="94">Weather Strip header description</text>
+<wire x1="-17.78" y1="7.62" x2="25.4" y2="7.62" width="0.254" layer="94"/>
+<wire x1="25.4" y1="7.62" x2="25.4" y2="0" width="0.254" layer="94"/>
+<wire x1="25.4" y1="0" x2="-17.78" y2="0" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="0" x2="-17.78" y2="7.62" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -15108,6 +15127,18 @@ We've spent an enormous amount of time creating and checking these footprints an
 <technology name="">
 <attribute name="VALUE" value="RN2483"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WEATHER_STRIP_DOCU">
+<gates>
+<gate name="G$1" symbol="WEATHER_STRIP_DOCU" x="-5.08" y="0"/>
+</gates>
+<devices>
+<device name="" package="WEATHER_STRIP_DOCU">
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -18265,7 +18296,7 @@ Monitor</description>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="U$100" library="lpatiny" deviceset="STARGND" device=""/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
-<part name="LED_J100" library="jumper" deviceset="SJ" device=""/>
+<part name="LED33_J" library="jumper" deviceset="SJ" device=""/>
 <part name="SUPPLY13" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY15" library="supply2" deviceset="GND" device=""/>
@@ -18299,7 +18330,7 @@ Monitor</description>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="LED_J101" library="jumper" deviceset="SJ" device=""/>
+<part name="LED5_J" library="jumper" deviceset="SJ" device=""/>
 <part name="SPI" library="pinhead" deviceset="PINHD-2X2" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
@@ -18312,23 +18343,21 @@ Monitor</description>
 <part name="BLP" library="testpad" deviceset="PTR1" device="B1,27"/>
 <part name="+3V24" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
-<part name="C8" library="rcl" deviceset="C-EU" device="CM0402" value="1n"/>
 <part name="GND40" library="supply1" deviceset="GND" device=""/>
 <part name="+3V25" library="supply1" deviceset="+3V3" device=""/>
-<part name="R8" library="rcl" deviceset="R-EU_" device="RM0402" value="47k"/>
-<part name="U12" library="Octanis1_EPS" deviceset="INA213" device=""/>
+<part name="U12" library="Octanis1_EPS" deviceset="INA213" device="" value="INA210"/>
 <part name="RS4" library="Octanis1_EPS" deviceset="CURRENT_RESISTOR" device="" value="RS1"/>
 <part name="ANALOG" library="pinhead" deviceset="PINHD-2X10" device=""/>
 <part name="AGND6" library="supply1" deviceset="AGND" device=""/>
-<part name="U11" library="Octanis1_EPS" deviceset="INA213" device=""/>
+<part name="U11" library="Octanis1_EPS" deviceset="INA213" device="" value="INA210"/>
 <part name="RS3" library="Octanis1_EPS" deviceset="CURRENT_RESISTOR" device="" value="RS2"/>
 <part name="AGND7" library="supply1" deviceset="AGND" device=""/>
-<part name="U10" library="Octanis1_EPS" deviceset="INA213" device=""/>
+<part name="U10" library="Octanis1_EPS" deviceset="INA213" device="" value="INA210"/>
 <part name="RS2" library="Octanis1_EPS" deviceset="CURRENT_RESISTOR" device="" value="RS3"/>
 <part name="AGND3" library="supply1" deviceset="AGND" device=""/>
 <part name="C34" library="rcl" deviceset="C-EU" device="C0603" value="10n"/>
 <part name="AGND5" library="supply1" deviceset="AGND" device=""/>
-<part name="U9" library="Octanis1_EPS" deviceset="INA213" device=""/>
+<part name="U9" library="Octanis1_EPS" deviceset="INA213" device="" value="INA210"/>
 <part name="RS1" library="Octanis1_EPS" deviceset="CURRENT_RESISTOR" device="" value="RS4"/>
 <part name="AGND4" library="supply1" deviceset="AGND" device=""/>
 <part name="C33" library="rcl" deviceset="C-EU" device="C0603" value="10n"/>
@@ -18359,7 +18388,7 @@ Monitor</description>
 <part name="RX2/TX2" library="pinhead-2" deviceset="PINHD-1X04" device="_2.54-S"/>
 <part name="J1" library="Seeed-OPL-Connector" deviceset="SMD-BLUE-FEMALE-HEADER-VERT(2X3P-2.54)" device=""/>
 <part name="RX1/TX1" library="pinhead-2" deviceset="PINHD-1X04" device="_2.54-S"/>
-<part name="JP1" library="Headerlibrary" deviceset="PINHD-1X7" device="2MM_SMD"/>
+<part name="PROG" library="Headerlibrary" deviceset="PINHD-1X7" device="2MM_SMD"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="GND34" library="supply1" deviceset="GND" device=""/>
 <part name="GND35" library="supply1" deviceset="GND" device=""/>
@@ -18381,12 +18410,15 @@ Monitor</description>
 <part name="433MHZ" library="Headerlibrary" deviceset="PINHD-1X1" device=""/>
 <part name="868MHZ" library="Headerlibrary" deviceset="PINHD-1X1" device=""/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
-<part name="MOT_J1" library="jumper" deviceset="SJ" device=""/>
+<part name="5V_EN_J" library="jumper" deviceset="SJ" device=""/>
 <part name="SUPPLY8" library="supply2" deviceset="+5V" device=""/>
 <part name="VMOT_SEL2" library="jumper" deviceset="SJ2W" device="" value="3V3  V_Motor  5V"/>
 <part name="LORA_RST_N" library="Headerlibrary" deviceset="PINHD-1X1" device=""/>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND47" library="supply1" deviceset="GND" device=""/>
+<part name="U$1" library="Octanis1" deviceset="WEATHER_STRIP_DOCU" device=""/>
+<part name="R10" library="rcl" deviceset="R-EU_" device="R0603" value="47k"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C0603" value="1n"/>
 </parts>
 <sheets>
 <sheet>
@@ -18413,7 +18445,7 @@ Monitor</description>
 <text x="391.922" y="271.526" size="2.54" layer="95">DC-DC</text>
 <text x="820.42" y="106.68" size="1.27" layer="95">COM3 low: I2C address 0x28 selected (high-&gt;0x29)</text>
 <text x="228.6" y="228.6" size="1.27" layer="97">VeREF- (recommended to connect to GND)</text>
-<text x="424.942" y="188.976" size="2.54" layer="95">RESET</text>
+<text x="426.72" y="190.5" size="2.54" layer="95">RESET</text>
 <wire x1="421.64" y1="148.59" x2="421.64" y2="193.04" width="0.1524" layer="95" style="shortdash"/>
 <wire x1="421.64" y1="193.04" x2="440.69" y2="193.04" width="0.1524" layer="95" style="shortdash"/>
 <wire x1="440.69" y1="193.04" x2="440.69" y2="148.59" width="0.1524" layer="95" style="shortdash"/>
@@ -18577,7 +18609,7 @@ Monitor</description>
 </instance>
 <instance part="U$100" gate="G$1" x="223.52" y="388.62"/>
 <instance part="GND19" gate="1" x="236.22" y="383.54"/>
-<instance part="LED_J100" gate="1" x="518.16" y="414.02" rot="R90"/>
+<instance part="LED33_J" gate="1" x="518.16" y="414.02" rot="R90"/>
 <instance part="SUPPLY13" gate="GND" x="518.16" y="406.4"/>
 <instance part="SUPPLY14" gate="GND" x="541.02" y="406.4"/>
 <instance part="SUPPLY15" gate="GND" x="561.34" y="406.4"/>
@@ -18611,7 +18643,7 @@ Monitor</description>
 <instance part="GND30" gate="1" x="833.12" y="114.3"/>
 <instance part="GND5" gate="1" x="563.88" y="111.76"/>
 <instance part="GND7" gate="1" x="579.12" y="111.76"/>
-<instance part="LED_J101" gate="1" x="406.4" y="406.4" rot="R90"/>
+<instance part="LED5_J" gate="1" x="406.4" y="406.4" rot="R90"/>
 <instance part="SPI" gate="A" x="828.04" y="254"/>
 <instance part="GND8" gate="1" x="426.72" y="294.64" rot="R90"/>
 <instance part="GND31" gate="1" x="248.92" y="281.94" rot="R90"/>
@@ -18630,17 +18662,9 @@ Monitor</description>
 <attribute name="VALUE" x="175.26" y="218.44" size="1.778" layer="96"/>
 </instance>
 <instance part="GND33" gate="1" x="205.74" y="215.9" rot="R90"/>
-<instance part="C8" gate="G$1" x="430.53" y="166.37" smashed="yes">
-<attribute name="NAME" x="423.418" y="165.227" size="1.778" layer="95"/>
-<attribute name="VALUE" x="424.688" y="162.687" size="1.778" layer="96"/>
-</instance>
-<instance part="GND40" gate="1" x="430.53" y="153.67"/>
-<instance part="+3V25" gate="G$1" x="430.53" y="185.42" smashed="yes">
-<attribute name="VALUE" x="431.8" y="185.42" size="1.778" layer="96"/>
-</instance>
-<instance part="R8" gate="G$1" x="430.53" y="176.53" smashed="yes" rot="R90">
-<attribute name="NAME" x="429.0314" y="173.99" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="433.832" y="173.99" size="1.778" layer="96" rot="R90"/>
+<instance part="GND40" gate="1" x="431.8" y="154.94"/>
+<instance part="+3V25" gate="G$1" x="431.8" y="187.96" smashed="yes">
+<attribute name="VALUE" x="433.07" y="187.96" size="1.778" layer="96"/>
 </instance>
 <instance part="U12" gate="G$1" x="497.84" y="139.7" rot="R270"/>
 <instance part="RS4" gate="G$1" x="502.92" y="111.76"/>
@@ -18709,7 +18733,7 @@ Monitor</description>
 <instance part="RX2/TX2" gate="A" x="233.68" y="287.02" rot="R180"/>
 <instance part="J1" gate="G$1" x="227.33" y="457.2"/>
 <instance part="RX1/TX1" gate="A" x="416.56" y="299.72" rot="R180"/>
-<instance part="JP1" gate="A" x="401.32" y="198.12"/>
+<instance part="PROG" gate="A" x="401.32" y="198.12"/>
 <instance part="GND11" gate="1" x="167.64" y="454.66" rot="R90"/>
 <instance part="GND34" gate="1" x="167.64" y="431.8" rot="R90"/>
 <instance part="GND35" gate="1" x="167.64" y="424.18" rot="R90"/>
@@ -18739,7 +18763,7 @@ Monitor</description>
 <instance part="+3V5" gate="G$1" x="241.3" y="444.5" smashed="yes">
 <attribute name="VALUE" x="238.76" y="444.5" size="1.778" layer="96"/>
 </instance>
-<instance part="MOT_J1" gate="1" x="304.8" y="436.88" rot="R180"/>
+<instance part="5V_EN_J" gate="1" x="304.8" y="436.88" rot="R180"/>
 <instance part="SUPPLY8" gate="+5V" x="243.84" y="292.1"/>
 <instance part="VMOT_SEL2" gate="G$1" x="421.64" y="114.3" rot="R90"/>
 <instance part="LORA_RST_N" gate="G$1" x="106.68" y="454.66" rot="R90"/>
@@ -18747,6 +18771,12 @@ Monitor</description>
 <attribute name="VALUE" x="170.18" y="193.04" size="1.778" layer="96"/>
 </instance>
 <instance part="GND47" gate="1" x="205.74" y="190.5" rot="R90"/>
+<instance part="U$1" gate="G$1" x="226.06" y="464.82"/>
+<instance part="R10" gate="G$1" x="431.8" y="177.8" rot="R270"/>
+<instance part="C1" gate="G$1" x="431.8" y="165.1" smashed="yes" rot="R180">
+<attribute name="NAME" x="434.34" y="167.64" size="1.778" layer="95"/>
+<attribute name="VALUE" x="433.324" y="162.941" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -18957,7 +18987,7 @@ Monitor</description>
 <wire x1="388.62" y1="205.74" x2="388.62" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <junction x="388.62" y="205.74"/>
-<pinref part="JP1" gate="A" pin="1"/>
+<pinref part="PROG" gate="A" pin="1"/>
 </segment>
 <segment>
 <pinref part="U$100" gate="G$1" pin="GND"/>
@@ -18970,7 +19000,7 @@ Monitor</description>
 <wire x1="236.22" y1="386.08" x2="231.14" y2="386.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="LED_J100" gate="1" pin="1"/>
+<pinref part="LED33_J" gate="1" pin="1"/>
 <pinref part="SUPPLY13" gate="GND" pin="GND"/>
 </segment>
 <segment>
@@ -19045,7 +19075,7 @@ Monitor</description>
 <pinref part="GND7" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="LED_J101" gate="1" pin="1"/>
+<pinref part="LED5_J" gate="1" pin="1"/>
 <pinref part="SUPPLY7" gate="GND" pin="GND"/>
 <wire x1="406.4" y1="398.78" x2="406.4" y2="401.32" width="0.1524" layer="91"/>
 </segment>
@@ -19073,9 +19103,10 @@ Monitor</description>
 </segment>
 <segment>
 <pinref part="GND40" gate="1" pin="GND"/>
-<pinref part="C8" gate="G$1" pin="2"/>
-<wire x1="430.53" y1="156.21" x2="430.53" y2="158.75" width="0.1524" layer="91"/>
-<wire x1="430.53" y1="158.75" x2="430.53" y2="161.29" width="0.1524" layer="91"/>
+<wire x1="431.8" y1="157.48" x2="431.8" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<junction x="431.8" y="162.56"/>
+<junction x="431.8" y="157.48"/>
 </segment>
 <segment>
 <pinref part="RX2/TX2" gate="A" pin="1"/>
@@ -19223,7 +19254,7 @@ Monitor</description>
 <segment>
 <label x="297.18" y="436.88" size="1.778" layer="95" rot="R180" xref="yes"/>
 <wire x1="299.72" y1="436.88" x2="297.18" y2="436.88" width="0.1524" layer="91"/>
-<pinref part="MOT_J1" gate="1" pin="2"/>
+<pinref part="5V_EN_J" gate="1" pin="2"/>
 </segment>
 <segment>
 <pinref part="U4" gate="MSP432" pin="P2.1/PM_UCA1CLK"/>
@@ -19398,7 +19429,7 @@ Monitor</description>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
 <wire x1="388.62" y1="189.23" x2="388.62" y2="187.96" width="0.1524" layer="91"/>
 <junction x="388.62" y="189.23"/>
-<pinref part="JP1" gate="A" pin="7"/>
+<pinref part="PROG" gate="A" pin="7"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="VDDIO"/>
@@ -19439,8 +19470,10 @@ Monitor</description>
 </segment>
 <segment>
 <pinref part="+3V25" gate="G$1" pin="+3V3"/>
-<wire x1="430.53" y1="182.88" x2="430.53" y2="181.61" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="431.8" y1="185.42" x2="431.8" y2="182.88" width="0.1524" layer="91"/>
+<pinref part="R10" gate="G$1" pin="1"/>
+<junction x="431.8" y="182.88"/>
+<junction x="431.8" y="185.42"/>
 </segment>
 <segment>
 <pinref part="RX1/TX1" gate="A" pin="4"/>
@@ -20207,7 +20240,7 @@ Monitor</description>
 <segment>
 <pinref part="U4" gate="MSP432" pin="SWDIOTMS"/>
 <wire x1="373.38" y1="193.04" x2="398.78" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="6"/>
+<pinref part="PROG" gate="A" pin="6"/>
 </segment>
 </net>
 <net name="N$77" class="0">
@@ -20216,7 +20249,7 @@ Monitor</description>
 <wire x1="383.54" y1="195.58" x2="383.54" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="U4" gate="MSP432" pin="SWCLKTCK"/>
 <wire x1="383.54" y1="190.5" x2="373.38" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="5"/>
+<pinref part="PROG" gate="A" pin="5"/>
 </segment>
 </net>
 <net name="A14" class="0">
@@ -20355,7 +20388,7 @@ Monitor</description>
 <segment>
 <wire x1="398.78" y1="203.2" x2="388.62" y2="203.2" width="0.1524" layer="91"/>
 <label x="388.62" y="203.2" size="1.778" layer="95"/>
-<pinref part="JP1" gate="A" pin="2"/>
+<pinref part="PROG" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="TX0" class="0">
@@ -20367,7 +20400,7 @@ Monitor</description>
 <segment>
 <wire x1="398.78" y1="200.66" x2="388.62" y2="200.66" width="0.1524" layer="91"/>
 <label x="388.62" y="200.66" size="1.778" layer="95"/>
-<pinref part="JP1" gate="A" pin="3"/>
+<pinref part="PROG" gate="A" pin="3"/>
 </segment>
 </net>
 <net name="RX3" class="0">
@@ -20397,7 +20430,7 @@ Monitor</description>
 <net name="N$26" class="0">
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
-<pinref part="LED_J100" gate="1" pin="2"/>
+<pinref part="LED33_J" gate="1" pin="2"/>
 <wire x1="518.16" y1="421.64" x2="518.16" y2="419.1" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -20571,7 +20604,7 @@ Monitor</description>
 <net name="N$14" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
-<pinref part="LED_J101" gate="1" pin="2"/>
+<pinref part="LED5_J" gate="1" pin="2"/>
 <wire x1="406.4" y1="411.48" x2="406.4" y2="414.02" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -20795,18 +20828,19 @@ Monitor</description>
 </net>
 <net name="RST_N" class="0">
 <segment>
-<pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="430.53" y1="168.91" x2="430.53" y2="171.45" width="0.1524" layer="91"/>
-<junction x="430.53" y="168.91"/>
-<pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="430.53" y1="168.91" x2="422.91" y2="168.91" width="0.1524" layer="91"/>
-<label x="422.91" y="168.91" size="1.778" layer="95"/>
+<wire x1="431.8" y1="170.18" x2="431.8" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="431.8" y1="170.18" x2="424.18" y2="170.18" width="0.1524" layer="91"/>
+<label x="424.18" y="170.18" size="1.778" layer="95"/>
+<pinref part="C1" gate="G$1" pin="2"/>
+<junction x="431.8" y="170.18"/>
+<pinref part="R10" gate="G$1" pin="2"/>
+<junction x="431.8" y="172.72"/>
 </segment>
 <segment>
 <pinref part="U4" gate="MSP432" pin="RSTN/NMI"/>
 <wire x1="373.38" y1="198.12" x2="398.78" y2="198.12" width="0.1524" layer="91"/>
 <label x="378.46" y="198.12" size="1.778" layer="95"/>
-<pinref part="JP1" gate="A" pin="4"/>
+<pinref part="PROG" gate="A" pin="4"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -21196,7 +21230,7 @@ Monitor</description>
 <net name="N$20" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="EN"/>
-<pinref part="MOT_J1" gate="1" pin="1"/>
+<pinref part="5V_EN_J" gate="1" pin="1"/>
 <wire x1="309.88" y1="436.88" x2="312.42" y2="436.88" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="312.42" y1="436.88" x2="322.58" y2="436.88" width="0.1524" layer="91"/>
