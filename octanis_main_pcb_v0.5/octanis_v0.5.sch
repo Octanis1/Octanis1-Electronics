@@ -18410,7 +18410,6 @@ Monitor</description>
 <part name="433MHZ" library="Headerlibrary" deviceset="PINHD-1X1" device=""/>
 <part name="868MHZ" library="Headerlibrary" deviceset="PINHD-1X1" device=""/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
-<part name="5V_EN_J" library="jumper" deviceset="SJ" device=""/>
 <part name="SUPPLY8" library="supply2" deviceset="+5V" device=""/>
 <part name="VMOT_SEL2" library="jumper" deviceset="SJ2W" device="" value="3V3  V_Motor  5V"/>
 <part name="LORA_RST_N" library="Headerlibrary" deviceset="PINHD-1X1" device=""/>
@@ -18763,7 +18762,6 @@ Monitor</description>
 <instance part="+3V5" gate="G$1" x="241.3" y="444.5" smashed="yes">
 <attribute name="VALUE" x="238.76" y="444.5" size="1.778" layer="96"/>
 </instance>
-<instance part="5V_EN_J" gate="1" x="304.8" y="436.88" rot="R180"/>
 <instance part="SUPPLY8" gate="+5V" x="243.84" y="292.1"/>
 <instance part="VMOT_SEL2" gate="G$1" x="421.64" y="114.3" rot="R90"/>
 <instance part="LORA_RST_N" gate="G$1" x="106.68" y="454.66" rot="R90"/>
@@ -18919,6 +18917,8 @@ Monitor</description>
 <wire x1="220.98" y1="439.42" x2="220.98" y2="431.8" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="431.8" x2="223.52" y2="431.8" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="439.42" x2="223.52" y2="439.42" width="0.1524" layer="91"/>
+<junction x="231.14" y="436.88"/>
+<junction x="223.52" y="436.88"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="GND"/>
@@ -19254,7 +19254,12 @@ Monitor</description>
 <segment>
 <label x="297.18" y="436.88" size="1.778" layer="95" rot="R180" xref="yes"/>
 <wire x1="299.72" y1="436.88" x2="297.18" y2="436.88" width="0.1524" layer="91"/>
-<pinref part="5V_EN_J" gate="1" pin="2"/>
+<pinref part="U1" gate="G$1" pin="EN"/>
+<wire x1="309.88" y1="436.88" x2="312.42" y2="436.88" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="312.42" y1="436.88" x2="322.58" y2="436.88" width="0.1524" layer="91"/>
+<junction x="312.42" y="436.88"/>
+<wire x1="299.72" y1="436.88" x2="309.88" y2="436.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U4" gate="MSP432" pin="P2.1/PM_UCA1CLK"/>
@@ -19744,6 +19749,7 @@ Monitor</description>
 <junction x="236.22" y="444.5"/>
 <wire x1="238.76" y1="454.66" x2="236.22" y2="454.66" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="4"/>
+<junction x="231.14" y="444.5"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -20924,6 +20930,7 @@ Monitor</description>
 <pinref part="C34" gate="G$1" pin="2"/>
 <wire x1="668.02" y1="157.48" x2="668.02" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="668.02" y1="157.48" x2="665.48" y2="157.48" width="0.1524" layer="91"/>
+<junction x="668.02" y="157.48"/>
 </segment>
 <segment>
 <pinref part="U9" gate="G$1" pin="VCC"/>
@@ -20932,6 +20939,7 @@ Monitor</description>
 <pinref part="C33" gate="G$1" pin="2"/>
 <wire x1="668.02" y1="53.34" x2="668.02" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="668.02" y1="53.34" x2="665.48" y2="53.34" width="0.1524" layer="91"/>
+<junction x="668.02" y="53.34"/>
 </segment>
 <segment>
 <pinref part="U4" gate="MSP432" pin="P8.6/A19"/>
@@ -21075,6 +21083,7 @@ Monitor</description>
 <wire x1="690.88" y1="86.36" x2="698.5" y2="86.36" width="0.1524" layer="91"/>
 <label x="698.5" y="86.36" size="1.778" layer="95" rot="MR0"/>
 <junction x="688.34" y="86.36"/>
+<junction x="690.88" y="86.36"/>
 </segment>
 </net>
 <net name="A23" class="0">
@@ -21084,6 +21093,7 @@ Monitor</description>
 <pinref part="C27" gate="G$1" pin="2"/>
 <wire x1="518.16" y1="124.46" x2="525.78" y2="124.46" width="0.1524" layer="91"/>
 <label x="525.78" y="124.46" size="1.778" layer="95" rot="R180"/>
+<junction x="518.16" y="124.46"/>
 </segment>
 <segment>
 <pinref part="U4" gate="MSP432" pin="P8.2/TA3.2/A23"/>
@@ -21099,6 +21109,7 @@ Monitor</description>
 <pinref part="C28" gate="G$1" pin="2"/>
 <wire x1="690.88" y1="124.46" x2="698.5" y2="124.46" width="0.1524" layer="91"/>
 <label x="698.5" y="124.46" size="1.778" layer="95" rot="R180"/>
+<junction x="690.88" y="124.46"/>
 </segment>
 <segment>
 <pinref part="U4" gate="MSP432" pin="P8.4/A21"/>
@@ -21113,6 +21124,7 @@ Monitor</description>
 <pinref part="C29" gate="G$1" pin="2"/>
 <wire x1="520.7" y1="86.36" x2="528.32" y2="86.36" width="0.1524" layer="91"/>
 <label x="528.32" y="86.36" size="1.778" layer="95" rot="MR0"/>
+<junction x="520.7" y="86.36"/>
 </segment>
 <segment>
 <pinref part="U4" gate="MSP432" pin="P8.3/TA3CLK/A22"/>
@@ -21225,16 +21237,6 @@ Monitor</description>
 <pinref part="VMOT_SEL2" gate="G$1" pin="1"/>
 <wire x1="416.56" y1="114.3" x2="398.78" y2="114.3" width="0.1524" layer="91"/>
 <label x="398.78" y="114.3" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$20" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="EN"/>
-<pinref part="5V_EN_J" gate="1" pin="1"/>
-<wire x1="309.88" y1="436.88" x2="312.42" y2="436.88" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="312.42" y1="436.88" x2="322.58" y2="436.88" width="0.1524" layer="91"/>
-<junction x="312.42" y="436.88"/>
 </segment>
 </net>
 <net name="EXT_UV_EN" class="0">
