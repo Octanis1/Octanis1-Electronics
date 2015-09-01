@@ -18346,19 +18346,19 @@ Monitor</description>
 <part name="GND40" library="supply1" deviceset="GND" device=""/>
 <part name="+3V25" library="supply1" deviceset="+3V3" device=""/>
 <part name="U12" library="Octanis1_EPS" deviceset="INA213" device="" value="INA210"/>
-<part name="RS4" library="Octanis1_EPS" deviceset="CURRENT_RESISTOR" device="" value="RS1"/>
+<part name="RS4" library="Octanis1_EPS" deviceset="CURRENT_RESISTOR" device="" value="0.05R"/>
 <part name="ANALOG" library="pinhead" deviceset="PINHD-2X10" device=""/>
 <part name="AGND6" library="supply1" deviceset="AGND" device=""/>
 <part name="U11" library="Octanis1_EPS" deviceset="INA213" device="" value="INA210"/>
-<part name="RS3" library="Octanis1_EPS" deviceset="CURRENT_RESISTOR" device="" value="RS2"/>
+<part name="RS3" library="Octanis1_EPS" deviceset="CURRENT_RESISTOR" device="" value="0.05R"/>
 <part name="AGND7" library="supply1" deviceset="AGND" device=""/>
 <part name="U10" library="Octanis1_EPS" deviceset="INA213" device="" value="INA210"/>
-<part name="RS2" library="Octanis1_EPS" deviceset="CURRENT_RESISTOR" device="" value="RS3"/>
+<part name="RS2" library="Octanis1_EPS" deviceset="CURRENT_RESISTOR" device="" value="0.05R"/>
 <part name="AGND3" library="supply1" deviceset="AGND" device=""/>
 <part name="C34" library="rcl" deviceset="C-EU" device="C0603" value="10n"/>
 <part name="AGND5" library="supply1" deviceset="AGND" device=""/>
 <part name="U9" library="Octanis1_EPS" deviceset="INA213" device="" value="INA210"/>
-<part name="RS1" library="Octanis1_EPS" deviceset="CURRENT_RESISTOR" device="" value="RS4"/>
+<part name="RS1" library="Octanis1_EPS" deviceset="CURRENT_RESISTOR" device="" value="0.05R"/>
 <part name="AGND4" library="supply1" deviceset="AGND" device=""/>
 <part name="C33" library="rcl" deviceset="C-EU" device="C0603" value="10n"/>
 <part name="AGND8" library="supply1" deviceset="AGND" device=""/>
