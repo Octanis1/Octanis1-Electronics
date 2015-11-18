@@ -18255,9 +18255,9 @@ Monitor</description>
 <part name="R4" library="rcl" deviceset="R-EU_" device="R0603" value="1M"/>
 <part name="3V" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="3V-ok"/>
 <part name="R9" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
-<part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="LED0"/>
+<part name="LED0" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="LED0"/>
 <part name="R7" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
-<part name="LED2" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="LED1"/>
+<part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="LED1"/>
 <part name="R6" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
 <part name="VMOT_SEL" library="jumper" deviceset="SJ2W" device="" value="3V3  V_Motor  5V"/>
 <part name="R5" library="rcl" deviceset="R-EU_" device="R0603" value="1M"/>
@@ -18522,9 +18522,9 @@ Monitor</description>
 <instance part="R4" gate="G$1" x="312.42" y="441.96" rot="R90"/>
 <instance part="3V" gate="G$1" x="518.16" y="439.42"/>
 <instance part="R9" gate="G$1" x="518.16" y="426.72" rot="R90"/>
-<instance part="LED1" gate="G$1" x="541.02" y="439.42"/>
+<instance part="LED0" gate="G$1" x="541.02" y="439.42"/>
 <instance part="R7" gate="G$1" x="541.02" y="426.72" rot="R90"/>
-<instance part="LED2" gate="G$1" x="561.34" y="439.42"/>
+<instance part="LED1" gate="G$1" x="561.34" y="439.42"/>
 <instance part="R6" gate="G$1" x="561.34" y="426.72" rot="R90"/>
 <instance part="VMOT_SEL" gate="G$1" x="213.36" y="132.08" rot="R90"/>
 <instance part="R5" gate="G$1" x="363.22" y="429.26" rot="R90"/>
@@ -19868,14 +19868,14 @@ Monitor</description>
 <net name="N$5" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
-<pinref part="LED1" gate="G$1" pin="C"/>
+<pinref part="LED0" gate="G$1" pin="C"/>
 <wire x1="541.02" y1="431.8" x2="541.02" y2="434.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
-<pinref part="LED2" gate="G$1" pin="C"/>
+<pinref part="LED1" gate="G$1" pin="C"/>
 <wire x1="561.34" y1="431.8" x2="561.34" y2="434.34" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -20345,7 +20345,7 @@ Monitor</description>
 </net>
 <net name="LED1" class="0">
 <segment>
-<pinref part="LED2" gate="G$1" pin="A"/>
+<pinref part="LED1" gate="G$1" pin="A"/>
 <wire x1="561.34" y1="441.96" x2="561.34" y2="447.04" width="0.1524" layer="91"/>
 <label x="561.34" y="447.04" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -20357,7 +20357,7 @@ Monitor</description>
 </net>
 <net name="LED0" class="0">
 <segment>
-<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="LED0" gate="G$1" pin="A"/>
 <wire x1="541.02" y1="441.96" x2="541.02" y2="447.04" width="0.1524" layer="91"/>
 <label x="541.02" y="447.04" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
