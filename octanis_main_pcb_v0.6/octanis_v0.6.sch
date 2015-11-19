@@ -14650,13 +14650,15 @@ We've spent an enormous amount of time creating and checking these footprints an
 <text x="-3.81" y="0" size="0.8128" layer="25" font="fixed">VDD     GND</text>
 <text x="-3.81" y="-1.27" size="0.8128" layer="25" font="fixed">SCL     SDA</text>
 <text x="-5.4102" y="1.27" size="0.8128" layer="25" font="fixed"> UV_EN  LIG_INT</text>
-<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-1.905" width="0.127" layer="25"/>
-<wire x1="-5.08" y1="-1.905" x2="0" y2="-1.905" width="0.127" layer="25"/>
-<wire x1="0" y1="-1.905" x2="5.08" y2="-1.905" width="0.127" layer="25"/>
-<wire x1="5.08" y1="-1.905" x2="5.08" y2="2.54" width="0.127" layer="25"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-4.445" width="0.127" layer="25"/>
+<wire x1="-5.08" y1="-4.445" x2="0" y2="-4.445" width="0.127" layer="25"/>
+<wire x1="0" y1="-4.445" x2="5.08" y2="-4.445" width="0.127" layer="25"/>
+<wire x1="5.08" y1="-4.445" x2="5.08" y2="2.54" width="0.127" layer="25"/>
 <wire x1="5.08" y1="2.54" x2="0" y2="2.54" width="0.127" layer="25"/>
 <wire x1="0" y1="2.54" x2="-5.08" y2="2.54" width="0.127" layer="25"/>
-<wire x1="0" y1="2.54" x2="0" y2="-1.905" width="0.127" layer="25"/>
+<wire x1="0" y1="2.54" x2="0" y2="-4.445" width="0.127" layer="25"/>
+<text x="-3.81" y="-2.54" size="0.8128" layer="25" font="fixed">SCL     SDA</text>
+<text x="-3.81" y="-3.81" size="0.8128" layer="25" font="fixed">VDD     VDD</text>
 </package>
 </packages>
 <symbols>
@@ -19343,7 +19345,7 @@ DDEController.pdf</description>
 <instance part="DIGITAL_IO2" gate="A" x="190.5" y="279.4"/>
 <instance part="JP1" gate="A" x="193.04" y="297.18"/>
 <instance part="V_MOT2" gate="A" x="563.88" y="142.24"/>
-<instance part="V_MOT1" gate="A" x="314.96" y="129.54"/>
+<instance part="V_MOT1" gate="A" x="236.22" y="132.08"/>
 <instance part="X3" gate="G$1" x="144.78" y="490.22" rot="R90"/>
 <instance part="JP4" gate="A" x="226.06" y="434.34"/>
 <instance part="JP5" gate="A" x="226.06" y="454.66"/>
@@ -19775,8 +19777,8 @@ DDEController.pdf</description>
 </segment>
 <segment>
 <pinref part="V_MOT1" gate="A" pin="1"/>
-<wire x1="312.42" y1="132.08" x2="299.72" y2="132.08" width="0.1524" layer="91"/>
-<label x="299.72" y="132.08" size="1.27" layer="95"/>
+<wire x1="233.68" y1="134.62" x2="220.98" y2="134.62" width="0.1524" layer="91"/>
+<label x="220.98" y="134.62" size="1.27" layer="95"/>
 </segment>
 <segment>
 <pinref part="X3" gate="G$1" pin="GND2"/>
@@ -20530,11 +20532,6 @@ DDEController.pdf</description>
 <pinref part="U3" gate="A" pin="VCC"/>
 <wire x1="337.82" y1="109.22" x2="330.2" y2="109.22" width="0.1524" layer="91"/>
 <label x="327.66" y="109.22" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="V_MOT1" gate="A" pin="2"/>
-<wire x1="312.42" y1="129.54" x2="299.72" y2="129.54" width="0.1524" layer="91"/>
-<label x="299.72" y="129.54" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -21892,6 +21889,15 @@ DDEController.pdf</description>
 <pinref part="DIGITAL_IO2" gate="A" pin="7"/>
 <wire x1="187.96" y1="276.86" x2="172.72" y2="276.86" width="0.1524" layer="91"/>
 <label x="172.72" y="276.86" size="1.27" layer="95"/>
+</segment>
+</net>
+<net name="V_MOTOR_ALT" class="3">
+<segment>
+<pinref part="V_MOT1" gate="A" pin="2"/>
+<wire x1="233.68" y1="132.08" x2="220.98" y2="132.08" width="0.1524" layer="91"/>
+<label x="220.98" y="132.08" size="1.27" layer="95"/>
+<pinref part="VMOT_SEL" gate="G$1" pin="3"/>
+<wire x1="220.98" y1="132.08" x2="218.44" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
