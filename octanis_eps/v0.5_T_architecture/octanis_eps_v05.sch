@@ -22975,9 +22975,9 @@ www.irf.com&lt;p&gt;
 <label x="452.12" y="175.26" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP6" gate="A" pin="2"/>
-<wire x1="33.02" y1="144.78" x2="48.26" y2="144.78" width="0.1524" layer="91"/>
-<label x="38.1" y="144.78" size="1.778" layer="95"/>
+<pinref part="JP6" gate="A" pin="6"/>
+<wire x1="33.02" y1="139.7" x2="48.26" y2="139.7" width="0.1524" layer="91"/>
+<label x="38.1" y="139.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -23047,9 +23047,9 @@ www.irf.com&lt;p&gt;
 <label x="388.62" y="109.22" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP6" gate="A" pin="4"/>
-<wire x1="33.02" y1="142.24" x2="48.26" y2="142.24" width="0.1524" layer="91"/>
-<label x="38.1" y="142.24" size="1.778" layer="95"/>
+<pinref part="JP6" gate="A" pin="8"/>
+<wire x1="33.02" y1="137.16" x2="48.26" y2="137.16" width="0.1524" layer="91"/>
+<label x="38.1" y="137.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+3V3_2" class="0">
@@ -23083,9 +23083,9 @@ www.irf.com&lt;p&gt;
 <label x="388.62" y="43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP6" gate="A" pin="6"/>
-<wire x1="33.02" y1="139.7" x2="48.26" y2="139.7" width="0.1524" layer="91"/>
-<label x="38.1" y="139.7" size="1.778" layer="95"/>
+<pinref part="JP6" gate="A" pin="10"/>
+<wire x1="33.02" y1="134.62" x2="48.26" y2="134.62" width="0.1524" layer="91"/>
+<label x="38.1" y="134.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -23397,9 +23397,9 @@ www.irf.com&lt;p&gt;
 <junction x="675.64" y="71.12"/>
 </segment>
 <segment>
-<pinref part="JP6" gate="A" pin="10"/>
-<wire x1="33.02" y1="134.62" x2="48.26" y2="134.62" width="0.1524" layer="91"/>
-<label x="38.1" y="134.62" size="1.778" layer="95"/>
+<pinref part="JP6" gate="A" pin="2"/>
+<wire x1="33.02" y1="144.78" x2="48.26" y2="144.78" width="0.1524" layer="91"/>
+<label x="38.1" y="144.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$48" class="0">
@@ -23483,9 +23483,9 @@ www.irf.com&lt;p&gt;
 <pinref part="C13" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="JP6" gate="A" pin="8"/>
-<wire x1="33.02" y1="137.16" x2="48.26" y2="137.16" width="0.1524" layer="91"/>
-<label x="38.1" y="137.16" size="1.778" layer="95"/>
+<pinref part="JP6" gate="A" pin="4"/>
+<wire x1="33.02" y1="142.24" x2="48.26" y2="142.24" width="0.1524" layer="91"/>
+<label x="38.1" y="142.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$38" class="0">
