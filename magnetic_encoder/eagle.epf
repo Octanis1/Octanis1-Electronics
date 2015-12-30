@@ -1,0 +1,21 @@
+[Eagle]
+Version="07 02 00"
+Platform="Mac OS X"
+Serial="62191E841E-LSR-WLM-1EL"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="/Users/raffael/Downloads/schule_xl.lbr"
+UsedLibrary="/Users/raffael/Desktop/Octanis/Octanis1-Electronics/lib/austriamicrosystems.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="871 361 1919 760"
+State=2
+Number=0
+
+[Desktop]
+Screen="1920 1200"
+Window="Win_1"
