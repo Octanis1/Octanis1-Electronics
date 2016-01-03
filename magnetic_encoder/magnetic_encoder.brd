@@ -159,6 +159,8 @@
 <text x="22.5" y="3.875" size="1.016" layer="25" font="fixed" rot="R180">AS5050A</text>
 <text x="15.74" y="11.3016" size="0.8128" layer="26" font="fixed" rot="SMR270">DIR SCL SDA PGO</text>
 <text x="8.4248" y="2.8768" size="0.8128" layer="26" font="fixed" rot="SMR90">GND  OUT 3V3</text>
+<text x="29.5" y="12" size="0.8128" layer="26" font="fixed" rot="MR0">Octanis 1 Magnetic Rotation Sensor</text>
+<text x="29" y="0.5" size="0.8128" layer="26" font="fixed" rot="MR0">www.octanis.org</text>
 </plain>
 <libraries>
 <library name="austriamicrosystems">
@@ -1695,8 +1697,8 @@ design rules under a new name.</description>
 <via x="25.5" y="2.875" extent="1-16" drill="0.3048"/>
 <via x="26.25" y="4.125" extent="1-16" drill="0.3048"/>
 <via x="27" y="5.25" extent="1-16" drill="0.3048"/>
-<via x="9.375" y="11.875" extent="1-16" drill="0.3048"/>
-<via x="26.635" y="11.76" extent="1-16" drill="0.3048"/>
+<via x="9.375" y="11.375" extent="1-16" drill="0.3048"/>
+<via x="26.635" y="11.26" extent="1-16" drill="0.3048"/>
 <via x="9.25" y="8.625" extent="1-16" drill="0.3048"/>
 <wire x1="22.25" y1="10.625" x2="9.25" y2="8.625" width="0" layer="19" extent="1-1"/>
 <via x="24.625" y="1.75" extent="1-16" drill="0.3048"/>
