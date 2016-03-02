@@ -22280,17 +22280,17 @@ capabilities up to
 </net>
 <net name="EXT_LIGHTNING_INT" class="0">
 <segment>
-<pinref part="U2" gate="MSP432" pin="P1.4/UCB0STE"/>
-<wire x1="287.02" y1="327.66" x2="271.78" y2="327.66" width="0.1524" layer="91"/>
-<label x="271.78" y="327.66" size="1.27" layer="95"/>
-<label x="271.78" y="327.66" size="1.27" layer="95"/>
-</segment>
-<segment>
 <wire x1="236.22" y1="459.74" x2="241.3" y2="459.74" width="0.1524" layer="91"/>
 <label x="238.76" y="459.74" size="1.778" layer="95"/>
 <wire x1="236.22" y1="459.74" x2="231.14" y2="459.74" width="0.1524" layer="91"/>
 <pinref part="JP4" gate="A" pin="2"/>
 <junction x="231.14" y="459.74"/>
+</segment>
+<segment>
+<pinref part="U2" gate="MSP432" pin="P2.0/PM_UCA1STE"/>
+<wire x1="287.02" y1="314.96" x2="276.86" y2="314.96" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="314.96" x2="274.32" y2="314.96" width="0.1524" layer="91"/>
+<label x="274.32" y="314.96" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="P1.0" class="0">
@@ -23116,10 +23116,10 @@ capabilities up to
 <label x="104.14" y="256.54" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U2" gate="MSP432" pin="P2.0/PM_UCA1STE"/>
-<wire x1="287.02" y1="314.96" x2="276.86" y2="314.96" width="0.1524" layer="91"/>
-<wire x1="276.86" y1="314.96" x2="274.32" y2="314.96" width="0.1524" layer="91"/>
-<label x="274.32" y="314.96" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U2" gate="MSP432" pin="P1.4/UCB0STE"/>
+<wire x1="287.02" y1="327.66" x2="271.78" y2="327.66" width="0.1524" layer="91"/>
+<label x="271.78" y="327.66" size="1.27" layer="95"/>
+<label x="271.78" y="327.66" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="N$47" class="0">
