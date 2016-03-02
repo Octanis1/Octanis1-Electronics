@@ -130,15 +130,16 @@
 <text x="-3.81" y="0" size="0.8128" layer="25" font="fixed">VDD     GND</text>
 <text x="-3.81" y="-1.27" size="0.8128" layer="25" font="fixed">SCL     SDA</text>
 <text x="-5.4102" y="1.27" size="0.8128" layer="25" font="fixed"> UV_EN  LIG_INT</text>
-<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-4.445" width="0.127" layer="25"/>
-<wire x1="-5.08" y1="-4.445" x2="0" y2="-4.445" width="0.127" layer="25"/>
-<wire x1="0" y1="-4.445" x2="5.08" y2="-4.445" width="0.127" layer="25"/>
-<wire x1="5.08" y1="-4.445" x2="5.08" y2="2.54" width="0.127" layer="25"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-5.715" width="0.127" layer="25"/>
+<wire x1="-5.08" y1="-5.715" x2="0" y2="-5.715" width="0.127" layer="25"/>
+<wire x1="0" y1="-5.715" x2="5.08" y2="-5.715" width="0.127" layer="25"/>
+<wire x1="5.08" y1="-5.715" x2="5.08" y2="2.54" width="0.127" layer="25"/>
 <wire x1="5.08" y1="2.54" x2="0" y2="2.54" width="0.127" layer="25"/>
 <wire x1="0" y1="2.54" x2="-5.08" y2="2.54" width="0.127" layer="25"/>
-<wire x1="0" y1="2.54" x2="0" y2="-4.445" width="0.127" layer="25"/>
+<wire x1="0" y1="2.54" x2="0" y2="-5.715" width="0.127" layer="25"/>
 <text x="-3.81" y="-2.54" size="0.8128" layer="25" font="fixed">SCL     SDA</text>
 <text x="-3.81" y="-3.81" size="0.8128" layer="25" font="fixed">VDD     VDD</text>
+<text x="-3.81" y="-5.08" size="0.8128" layer="25" font="fixed">GND     GND</text>
 </package>
 <package name="IM880A-L">
 <wire x1="0" y1="0" x2="0" y2="23.8" width="0.127" layer="21"/>
