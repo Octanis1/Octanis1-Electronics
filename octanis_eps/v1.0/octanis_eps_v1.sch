@@ -1362,94 +1362,6 @@ Source: http://www.diodes.com/datasheets/ds31262.pdf</description>
 <rectangle x1="-0.8801" y1="2" x2="-0.3899" y2="3.1001" layer="51"/>
 <rectangle x1="-2.1501" y1="2" x2="-1.6599" y2="3.1001" layer="51"/>
 </package>
-<package name="TSSOP38">
-<description>&lt;b&gt;38-Lead Thin Shrink Small Outline Package&lt;/b&gt; [TSSOP] RU-38&lt;p&gt;
-Source: http://www.analog.com/UploadedFiles/Packages/415413609854197792024125RU38.pdf&lt;br&gt;
-COMPLIANT TO JEDEC STANDARDS MS-153BD-1</description>
-<wire x1="-4.75" y1="-2.1" x2="4.75" y2="-2.1" width="0.254" layer="21"/>
-<wire x1="4.75" y1="-2.1" x2="4.75" y2="2.1" width="0.254" layer="21"/>
-<wire x1="4.75" y1="2.1" x2="-4.75" y2="2.1" width="0.254" layer="21"/>
-<wire x1="-4.75" y1="2.1" x2="-4.75" y2="-2.1" width="0.254" layer="21"/>
-<circle x="-4.1" y="-1.4" radius="0.1118" width="0.254" layer="21"/>
-<smd name="1" x="-4.5" y="-2.9" dx="0.3" dy="1.2" layer="1"/>
-<smd name="2" x="-4" y="-2.9" dx="0.3" dy="1.2" layer="1"/>
-<smd name="3" x="-3.5" y="-2.9" dx="0.3" dy="1.2" layer="1"/>
-<smd name="4" x="-3" y="-2.9" dx="0.3" dy="1.2" layer="1"/>
-<smd name="5" x="-2.5" y="-2.9" dx="0.3" dy="1.2" layer="1"/>
-<smd name="6" x="-2" y="-2.9" dx="0.3" dy="1.2" layer="1"/>
-<smd name="7" x="-1.5" y="-2.9" dx="0.3" dy="1.2" layer="1"/>
-<smd name="8" x="-1" y="-2.9" dx="0.3" dy="1.2" layer="1"/>
-<smd name="9" x="-0.5" y="-2.9" dx="0.3" dy="1.2" layer="1"/>
-<smd name="10" x="0" y="-2.9" dx="0.3" dy="1.2" layer="1"/>
-<smd name="11" x="0.5" y="-2.9" dx="0.3" dy="1.2" layer="1"/>
-<smd name="12" x="1" y="-2.9" dx="0.3" dy="1.2" layer="1"/>
-<smd name="13" x="1.5" y="-2.9" dx="0.3" dy="1.2" layer="1"/>
-<smd name="14" x="2" y="-2.9" dx="0.3" dy="1.2" layer="1"/>
-<smd name="15" x="2.5" y="-2.9" dx="0.3" dy="1.2" layer="1"/>
-<smd name="16" x="3" y="-2.9" dx="0.3" dy="1.2" layer="1"/>
-<smd name="17" x="3.5" y="-2.9" dx="0.3" dy="1.2" layer="1"/>
-<smd name="18" x="4" y="-2.9" dx="0.3" dy="1.2" layer="1"/>
-<smd name="19" x="4.5" y="-2.9" dx="0.3" dy="1.2" layer="1"/>
-<smd name="20" x="4.5" y="2.9" dx="0.3" dy="1.2" layer="1" rot="R180"/>
-<smd name="21" x="4" y="2.9" dx="0.3" dy="1.2" layer="1" rot="R180"/>
-<smd name="22" x="3.5" y="2.9" dx="0.3" dy="1.2" layer="1" rot="R180"/>
-<smd name="23" x="3" y="2.9" dx="0.3" dy="1.2" layer="1" rot="R180"/>
-<smd name="24" x="2.5" y="2.9" dx="0.3" dy="1.2" layer="1" rot="R180"/>
-<smd name="25" x="2" y="2.9" dx="0.3" dy="1.2" layer="1" rot="R180"/>
-<smd name="26" x="1.5" y="2.9" dx="0.3" dy="1.2" layer="1" rot="R180"/>
-<smd name="27" x="1" y="2.9" dx="0.3" dy="1.2" layer="1" rot="R180"/>
-<smd name="28" x="0.5" y="2.9" dx="0.3" dy="1.2" layer="1" rot="R180"/>
-<smd name="29" x="0" y="2.9" dx="0.3" dy="1.2" layer="1" rot="R180"/>
-<smd name="30" x="-0.5" y="2.9" dx="0.3" dy="1.2" layer="1" rot="R180"/>
-<smd name="31" x="-1" y="2.9" dx="0.3" dy="1.2" layer="1" rot="R180"/>
-<smd name="32" x="-1.5" y="2.9" dx="0.3" dy="1.2" layer="1" rot="R180"/>
-<smd name="33" x="-2" y="2.9" dx="0.3" dy="1.2" layer="1" rot="R180"/>
-<smd name="34" x="-2.5" y="2.9" dx="0.3" dy="1.2" layer="1" rot="R180"/>
-<smd name="35" x="-3" y="2.9" dx="0.3" dy="1.2" layer="1" rot="R180"/>
-<smd name="36" x="-3.5" y="2.9" dx="0.3" dy="1.2" layer="1" rot="R180"/>
-<smd name="37" x="-4" y="2.9" dx="0.3" dy="1.2" layer="1" rot="R180"/>
-<smd name="38" x="-4.5" y="2.9" dx="0.3" dy="1.2" layer="1" rot="R180"/>
-<text x="-3.556" y="0.254" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.556" y="-1.524" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-4.635" y1="-3.25" x2="-4.365" y2="-2.2" layer="51"/>
-<rectangle x1="-4.135" y1="-3.25" x2="-3.865" y2="-2.2" layer="51"/>
-<rectangle x1="-3.635" y1="-3.25" x2="-3.365" y2="-2.2" layer="51"/>
-<rectangle x1="-3.135" y1="-3.25" x2="-2.865" y2="-2.2" layer="51"/>
-<rectangle x1="-2.635" y1="-3.25" x2="-2.365" y2="-2.2" layer="51"/>
-<rectangle x1="-2.135" y1="-3.25" x2="-1.865" y2="-2.2" layer="51"/>
-<rectangle x1="-1.635" y1="-3.25" x2="-1.365" y2="-2.2" layer="51"/>
-<rectangle x1="-1.135" y1="-3.25" x2="-0.865" y2="-2.2" layer="51"/>
-<rectangle x1="-0.635" y1="-3.25" x2="-0.365" y2="-2.2" layer="51"/>
-<rectangle x1="-0.135" y1="-3.25" x2="0.135" y2="-2.2" layer="51"/>
-<rectangle x1="0.365" y1="-3.25" x2="0.635" y2="-2.2" layer="51"/>
-<rectangle x1="0.865" y1="-3.25" x2="1.135" y2="-2.2" layer="51"/>
-<rectangle x1="1.365" y1="-3.25" x2="1.635" y2="-2.2" layer="51"/>
-<rectangle x1="1.865" y1="-3.25" x2="2.135" y2="-2.2" layer="51"/>
-<rectangle x1="2.365" y1="-3.25" x2="2.635" y2="-2.2" layer="51"/>
-<rectangle x1="2.865" y1="-3.25" x2="3.135" y2="-2.2" layer="51"/>
-<rectangle x1="3.365" y1="-3.25" x2="3.635" y2="-2.2" layer="51"/>
-<rectangle x1="3.865" y1="-3.25" x2="4.135" y2="-2.2" layer="51"/>
-<rectangle x1="4.365" y1="-3.25" x2="4.635" y2="-2.2" layer="51"/>
-<rectangle x1="4.365" y1="2.2" x2="4.635" y2="3.25" layer="51" rot="R180"/>
-<rectangle x1="3.865" y1="2.2" x2="4.135" y2="3.25" layer="51" rot="R180"/>
-<rectangle x1="3.365" y1="2.2" x2="3.635" y2="3.25" layer="51" rot="R180"/>
-<rectangle x1="2.865" y1="2.2" x2="3.135" y2="3.25" layer="51" rot="R180"/>
-<rectangle x1="2.365" y1="2.2" x2="2.635" y2="3.25" layer="51" rot="R180"/>
-<rectangle x1="1.865" y1="2.2" x2="2.135" y2="3.25" layer="51" rot="R180"/>
-<rectangle x1="1.365" y1="2.2" x2="1.635" y2="3.25" layer="51" rot="R180"/>
-<rectangle x1="0.865" y1="2.2" x2="1.135" y2="3.25" layer="51" rot="R180"/>
-<rectangle x1="0.365" y1="2.2" x2="0.635" y2="3.25" layer="51" rot="R180"/>
-<rectangle x1="-0.135" y1="2.2" x2="0.135" y2="3.25" layer="51" rot="R180"/>
-<rectangle x1="-0.635" y1="2.2" x2="-0.365" y2="3.25" layer="51" rot="R180"/>
-<rectangle x1="-1.135" y1="2.2" x2="-0.865" y2="3.25" layer="51" rot="R180"/>
-<rectangle x1="-1.635" y1="2.2" x2="-1.365" y2="3.25" layer="51" rot="R180"/>
-<rectangle x1="-2.135" y1="2.2" x2="-1.865" y2="3.25" layer="51" rot="R180"/>
-<rectangle x1="-2.635" y1="2.2" x2="-2.365" y2="3.25" layer="51" rot="R180"/>
-<rectangle x1="-3.135" y1="2.2" x2="-2.865" y2="3.25" layer="51" rot="R180"/>
-<rectangle x1="-3.635" y1="2.2" x2="-3.365" y2="3.25" layer="51" rot="R180"/>
-<rectangle x1="-4.135" y1="2.2" x2="-3.865" y2="3.25" layer="51" rot="R180"/>
-<rectangle x1="-4.635" y1="2.2" x2="-4.365" y2="3.25" layer="51" rot="R180"/>
-</package>
 <package name="SC70-6">
 <description>&lt;b&gt;6-Lead Thin Shrink Small Outline Transistor Package SC70&lt;/b&gt;&lt;p&gt;
 Source: http://www.analog.com/static/imported-files/data_sheets/ADA4853-1_4853-2_4853-3.pdf</description>
@@ -1522,53 +1434,6 @@ Source: http://www.analog.com/static/imported-files/data_sheets/ADA4853-1_4853-2
 <pin name="OUT3" x="12.7" y="2.54" length="middle" rot="R180"/>
 <text x="-7.62" y="6.35" size="1.778" layer="94">&gt;VALUE</text>
 </symbol>
-<symbol name="MSP430GXX44">
-<description>MSP430G2x44
-Mixed-Signal
-Microcontrollers</description>
-<wire x1="-30.48" y1="25.4" x2="30.48" y2="25.4" width="0.254" layer="94"/>
-<wire x1="30.48" y1="25.4" x2="30.48" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="30.48" y1="-25.4" x2="-30.48" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="-30.48" y1="-25.4" x2="-30.48" y2="25.4" width="0.254" layer="94"/>
-<pin name="TEST/SBWTCK" x="-35.56" y="22.86" length="middle"/>
-<pin name="DVCC" x="-35.56" y="20.32" length="middle"/>
-<pin name="P2.5/ROSC" x="-35.56" y="17.78" length="middle"/>
-<pin name="DVSS" x="-35.56" y="15.24" length="middle"/>
-<pin name="XOUT/P2.7" x="-35.56" y="12.7" length="middle"/>
-<pin name="XIN/P2.6" x="-35.56" y="10.16" length="middle"/>
-<pin name="RST/NMI/SBWTDIO" x="-35.56" y="7.62" length="middle"/>
-<pin name="P2.0/ACLK/A0" x="-35.56" y="5.08" length="middle"/>
-<pin name="P2.1/TAINCLK/SMCLK/A1" x="-35.56" y="2.54" length="middle"/>
-<pin name="P2.2/TA0/A2" x="-35.56" y="0" length="middle"/>
-<pin name="P3.0/UCB0STE/UCA0CLK/A5" x="-35.56" y="-2.54" length="middle"/>
-<pin name="P3.1/UCB0SIMO/UCB0SDA" x="-35.56" y="-5.08" length="middle"/>
-<pin name="P3.2/UCB0SOMI/UCB0SCL" x="-35.56" y="-7.62" length="middle"/>
-<pin name="P3.3/UCB0CLK/UCA0STE" x="-35.56" y="-10.16" length="middle"/>
-<pin name="AVSS" x="-35.56" y="-12.7" length="middle"/>
-<pin name="AVCC" x="-35.56" y="-15.24" length="middle"/>
-<pin name="P4.0/TB0" x="-35.56" y="-17.78" length="middle"/>
-<pin name="P4.1/TB1" x="-35.56" y="-20.32" length="middle"/>
-<pin name="P4.2/TB2" x="-35.56" y="-22.86" length="middle"/>
-<pin name="P4.3/TB0/A12" x="35.56" y="-22.86" length="middle" rot="R180"/>
-<pin name="P4.4/TB1/A13" x="35.56" y="-20.32" length="middle" rot="R180"/>
-<pin name="P4.5/TB2/A14" x="35.56" y="-17.78" length="middle" rot="R180"/>
-<pin name="P4.6/TBOUTH/A15" x="35.56" y="-15.24" length="middle" rot="R180"/>
-<pin name="P4.7/TBCLK" x="35.56" y="-12.7" length="middle" rot="R180"/>
-<pin name="P3.4/UCA0TXD/UCA0SIMO" x="35.56" y="-10.16" length="middle" rot="R180"/>
-<pin name="P3.5/UCA0RXD/UCA0SOMI" x="35.56" y="-7.62" length="middle" rot="R180"/>
-<pin name="P3.6/A6" x="35.56" y="-5.08" length="middle" rot="R180"/>
-<pin name="P3.7/A7" x="35.56" y="-2.54" length="middle" rot="R180"/>
-<pin name="P2.3/TA1/A3/VREF−/VEREF-" x="35.56" y="0" length="middle" rot="R180"/>
-<pin name="P2.4/TA2/A4/VREF+/VEREF+" x="35.56" y="2.54" length="middle" rot="R180"/>
-<pin name="P1.0/TACLK/ADC10CLK" x="35.56" y="5.08" length="middle" rot="R180"/>
-<pin name="P1.1/TA0" x="35.56" y="7.62" length="middle" rot="R180"/>
-<pin name="P1.2/TA1" x="35.56" y="10.16" length="middle" rot="R180"/>
-<pin name="P1.3/TA2" x="35.56" y="12.7" length="middle" rot="R180"/>
-<pin name="P1.4/SMCLK/TCK" x="35.56" y="15.24" length="middle" rot="R180"/>
-<pin name="P1.5/TA0/TMS" x="35.56" y="17.78" length="middle" rot="R180"/>
-<pin name="P1.6/TA1/TDI" x="35.56" y="20.32" length="middle" rot="R180"/>
-<pin name="P1.7/TA2/TDO/TDI" x="35.56" y="22.86" length="middle" rot="R180"/>
-</symbol>
 <symbol name="INA213">
 <description>Voltage
 Output,
@@ -1635,61 +1500,6 @@ Monitor</description>
 <connect gate="G$1" pin="OUT1" pad="6"/>
 <connect gate="G$1" pin="OUT2" pad="7"/>
 <connect gate="G$1" pin="OUT3" pad="8"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MSP430G2544">
-<description>MSP430G2x44
-Mixed-Signal
-Microcontrollers</description>
-<gates>
-<gate name="G$1" symbol="MSP430GXX44" x="0" y="-2.54"/>
-</gates>
-<devices>
-<device name="" package="TSSOP38">
-<connects>
-<connect gate="G$1" pin="AVCC" pad="16"/>
-<connect gate="G$1" pin="AVSS" pad="15"/>
-<connect gate="G$1" pin="DVCC" pad="2"/>
-<connect gate="G$1" pin="DVSS" pad="4"/>
-<connect gate="G$1" pin="P1.0/TACLK/ADC10CLK" pad="31"/>
-<connect gate="G$1" pin="P1.1/TA0" pad="32"/>
-<connect gate="G$1" pin="P1.2/TA1" pad="33"/>
-<connect gate="G$1" pin="P1.3/TA2" pad="34"/>
-<connect gate="G$1" pin="P1.4/SMCLK/TCK" pad="35"/>
-<connect gate="G$1" pin="P1.5/TA0/TMS" pad="36"/>
-<connect gate="G$1" pin="P1.6/TA1/TDI" pad="37"/>
-<connect gate="G$1" pin="P1.7/TA2/TDO/TDI" pad="38"/>
-<connect gate="G$1" pin="P2.0/ACLK/A0" pad="8"/>
-<connect gate="G$1" pin="P2.1/TAINCLK/SMCLK/A1" pad="9"/>
-<connect gate="G$1" pin="P2.2/TA0/A2" pad="10"/>
-<connect gate="G$1" pin="P2.3/TA1/A3/VREF−/VEREF-" pad="29"/>
-<connect gate="G$1" pin="P2.4/TA2/A4/VREF+/VEREF+" pad="30"/>
-<connect gate="G$1" pin="P2.5/ROSC" pad="3"/>
-<connect gate="G$1" pin="P3.0/UCB0STE/UCA0CLK/A5" pad="11"/>
-<connect gate="G$1" pin="P3.1/UCB0SIMO/UCB0SDA" pad="12"/>
-<connect gate="G$1" pin="P3.2/UCB0SOMI/UCB0SCL" pad="13"/>
-<connect gate="G$1" pin="P3.3/UCB0CLK/UCA0STE" pad="14"/>
-<connect gate="G$1" pin="P3.4/UCA0TXD/UCA0SIMO" pad="25"/>
-<connect gate="G$1" pin="P3.5/UCA0RXD/UCA0SOMI" pad="26"/>
-<connect gate="G$1" pin="P3.6/A6" pad="27"/>
-<connect gate="G$1" pin="P3.7/A7" pad="28"/>
-<connect gate="G$1" pin="P4.0/TB0" pad="17"/>
-<connect gate="G$1" pin="P4.1/TB1" pad="18"/>
-<connect gate="G$1" pin="P4.2/TB2" pad="19"/>
-<connect gate="G$1" pin="P4.3/TB0/A12" pad="20"/>
-<connect gate="G$1" pin="P4.4/TB1/A13" pad="21"/>
-<connect gate="G$1" pin="P4.5/TB2/A14" pad="22"/>
-<connect gate="G$1" pin="P4.6/TBOUTH/A15" pad="23"/>
-<connect gate="G$1" pin="P4.7/TBCLK" pad="24"/>
-<connect gate="G$1" pin="RST/NMI/SBWTDIO" pad="7"/>
-<connect gate="G$1" pin="TEST/SBWTCK" pad="1"/>
-<connect gate="G$1" pin="XIN/P2.6" pad="6"/>
-<connect gate="G$1" pin="XOUT/P2.7" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -22896,7 +22706,6 @@ Source: &lt;a href="http://www.infineon.com/dgdl/BSC340N08NS3G_rev2.4.pdf?folder
 <parts>
 <part name="U9" library="octanis_eps_v05" deviceset="BQ24650_RVA_16" device=""/>
 <part name="U5" library="Octanis1_EPS" deviceset="TPS2022D" device=""/>
-<part name="U4" library="Octanis1_EPS" deviceset="MSP430G2544" device=""/>
 <part name="C14" library="resistor" deviceset="C-EU" device="C0805" value="10uF"/>
 <part name="C5" library="resistor" deviceset="C-EU" device="C0805" value="22uF"/>
 <part name="C6" library="resistor" deviceset="C-EU" device="C0805" value="22uF"/>
@@ -23173,7 +22982,6 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <instances>
 <instance part="U9" gate="A" x="99.06" y="68.58"/>
 <instance part="U5" gate="G$1" x="419.1" y="175.26"/>
-<instance part="U4" gate="G$1" x="101.6" y="261.62"/>
 <instance part="C14" gate="G$1" x="297.18" y="165.1"/>
 <instance part="C5" gate="G$1" x="365.76" y="165.1"/>
 <instance part="C6" gate="G$1" x="373.38" y="165.1"/>
@@ -24356,9 +24164,10 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <junction x="215.9" y="289.56"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="P1.0/TACLK/ADC10CLK"/>
-<wire x1="137.16" y1="266.7" x2="149.86" y2="266.7" width="0.1524" layer="91"/>
-<label x="137.16" y="266.7" size="1.778" layer="95"/>
+<pinref part="U15" gate="G$1" pin="PJ.0/TDO"/>
+<wire x1="76.2" y1="322.58" x2="68.58" y2="322.58" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="322.58" x2="60.96" y2="322.58" width="0.1524" layer="91"/>
+<label x="60.96" y="322.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="EN_HEAT2" class="0">
@@ -24371,9 +24180,9 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <junction x="215.9" y="259.08"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="P1.1/TA0"/>
-<wire x1="137.16" y1="269.24" x2="149.86" y2="269.24" width="0.1524" layer="91"/>
-<label x="137.16" y="269.24" size="1.778" layer="95"/>
+<pinref part="U15" gate="G$1" pin="PJ.1/TDI"/>
+<wire x1="76.2" y1="320.04" x2="60.96" y2="320.04" width="0.1524" layer="91"/>
+<label x="60.96" y="320.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="EN_HEAT3" class="0">
@@ -24386,9 +24195,9 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <junction x="215.9" y="228.6"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="P1.2/TA1"/>
-<wire x1="137.16" y1="271.78" x2="149.86" y2="271.78" width="0.1524" layer="91"/>
-<label x="137.16" y="271.78" size="1.778" layer="95"/>
+<pinref part="U15" gate="G$1" pin="PJ.2/TMS"/>
+<wire x1="76.2" y1="317.5" x2="60.96" y2="317.5" width="0.1524" layer="91"/>
+<label x="60.96" y="317.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="HEAT3" class="0">
@@ -24968,9 +24777,9 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <junction x="309.88" y="30.48"/>
 </segment>
 <segment>
-<pinref part="U15" gate="G$1" pin="P4.6"/>
-<wire x1="142.24" y1="330.2" x2="152.4" y2="330.2" width="0.1524" layer="91"/>
-<label x="144.78" y="330.2" size="1.778" layer="95"/>
+<pinref part="U15" gate="G$1" pin="P4.7"/>
+<wire x1="142.24" y1="327.66" x2="147.32" y2="327.66" width="0.1524" layer="91"/>
+<label x="144.78" y="327.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="EN_5V" class="0">
@@ -24984,17 +24793,12 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <junction x="546.1" y="152.4"/>
 </segment>
 <segment>
-<pinref part="U15" gate="G$1" pin="P3.6/TB0.5"/>
-<wire x1="142.24" y1="353.06" x2="152.4" y2="353.06" width="0.1524" layer="91"/>
-<label x="144.78" y="353.06" size="1.778" layer="95"/>
+<pinref part="U15" gate="G$1" pin="P3.1/A13/C13"/>
+<wire x1="142.24" y1="365.76" x2="152.4" y2="365.76" width="0.1524" layer="91"/>
+<label x="144.78" y="365.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="EN_12V" class="0">
-<segment>
-<pinref part="U15" gate="G$1" pin="P3.5/TB0.4"/>
-<wire x1="142.24" y1="355.6" x2="152.4" y2="355.6" width="0.1524" layer="91"/>
-<label x="144.78" y="355.6" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U$4" gate="G$1" pin="IN"/>
 <wire x1="457.2" y1="63.5" x2="449.58" y2="63.5" width="0.1524" layer="91"/>
@@ -25002,6 +24806,11 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <pinref part="R43" gate="G$1" pin="2"/>
 <wire x1="449.58" y1="63.5" x2="441.96" y2="63.5" width="0.1524" layer="91"/>
 <junction x="449.58" y="63.5"/>
+</segment>
+<segment>
+<pinref part="U15" gate="G$1" pin="P3.0/A12/C12"/>
+<wire x1="142.24" y1="368.3" x2="152.4" y2="368.3" width="0.1524" layer="91"/>
+<label x="144.78" y="368.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="I_OUT" class="0">
@@ -25123,9 +24932,9 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <junction x="406.4" y="170.18"/>
 </segment>
 <segment>
-<pinref part="U15" gate="G$1" pin="P4.4/TB0.5"/>
-<wire x1="142.24" y1="335.28" x2="152.4" y2="335.28" width="0.1524" layer="91"/>
-<label x="144.78" y="335.28" size="1.778" layer="95"/>
+<pinref part="U15" gate="G$1" pin="P3.2/A14/C14"/>
+<wire x1="142.24" y1="363.22" x2="152.4" y2="363.22" width="0.1524" layer="91"/>
+<label x="144.78" y="363.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="EN_3V3_1" class="0">
@@ -25140,10 +24949,9 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <junction x="309.88" y="96.52"/>
 </segment>
 <segment>
-<pinref part="U15" gate="G$1" pin="P4.5"/>
-<wire x1="142.24" y1="332.74" x2="149.86" y2="332.74" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="332.74" x2="152.4" y2="332.74" width="0.1524" layer="91"/>
-<label x="144.78" y="332.74" size="1.778" layer="95"/>
+<pinref part="U15" gate="G$1" pin="P3.3/A15/C15"/>
+<wire x1="142.24" y1="360.68" x2="152.4" y2="360.68" width="0.1524" layer="91"/>
+<label x="144.78" y="360.68" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$5" class="0">
