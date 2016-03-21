@@ -283,9 +283,8 @@
 <wire x1="-0.8382" y1="-1.0414" x2="0.8382" y2="-1.0414" width="0.1524" layer="21"/>
 <wire x1="0.8382" y1="-1.0414" x2="0.8382" y2="1.0414" width="0.1524" layer="21"/>
 <wire x1="-0.8382" y1="1.0414" x2="0.8382" y2="1.0414" width="0.1524" layer="21"/>
-<wire x1="-0.3048" y1="0.7112" x2="-0.7112" y2="0.7112" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-0.7112" y1="0.7112" x2="-0.3048" y2="0.7112" width="0.1524" layer="21" curve="-180"/>
-<text x="-0.7112" y="-0.8128" size="1.27" layer="21" ratio="6" rot="SR0">.Designator</text>
+<wire x1="-0.9398" y1="1.4732" x2="-1.3462" y2="1.4732" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-1.3462" y1="1.4732" x2="-0.9398" y2="1.4732" width="0.1524" layer="21" curve="-180"/>
 <wire x1="0.7112" y1="0.8636" x2="0.6604" y2="0.8636" width="0.1524" layer="31" curve="-180"/>
 <wire x1="0.6604" y1="0.8636" x2="0.7112" y2="0.8636" width="0.1524" layer="31" curve="-180"/>
 <wire x1="0.5588" y1="0.7366" x2="0.508" y2="0.7366" width="0.1524" layer="31" curve="-180"/>
@@ -446,611 +445,9 @@
 <wire x1="-0.7112" y1="-0.8636" x2="-0.6604" y2="-0.8636" width="0.1524" layer="31" curve="-180"/>
 <wire x1="-0.508" y1="-0.7366" x2="-0.5588" y2="-0.7366" width="0.1524" layer="31" curve="-180"/>
 <wire x1="-0.5588" y1="-0.7366" x2="-0.508" y2="-0.7366" width="0.1524" layer="31" curve="-180"/>
-<polygon width="0" layer="31">
-<vertex x="0.5334" y="0.6858"/>
-<vertex x="0.6858" y="0.6858"/>
-<vertex x="0.6858" y="0.7366"/>
-<vertex x="0.5334" y="0.7366"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.4826" y="0.8636"/>
-<vertex x="0.4826" y="0.7366"/>
-<vertex x="0.5334" y="0.7366"/>
-<vertex x="0.5334" y="0.8636"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.6858" y="0.9144"/>
-<vertex x="0.5334" y="0.9144"/>
-<vertex x="0.5334" y="0.8636"/>
-<vertex x="0.6858" y="0.8636"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.7366" y="0.7366"/>
-<vertex x="0.7366" y="0.8636"/>
-<vertex x="0.6858" y="0.8636"/>
-<vertex x="0.6858" y="0.7366"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.5334" y="0.8636"/>
-<vertex x="0.5334" y="0.7366"/>
-<vertex x="0.6858" y="0.7366"/>
-<vertex x="0.6858" y="0.8636"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.127" y="0.6858"/>
-<vertex x="0.2794" y="0.6858"/>
-<vertex x="0.2794" y="0.7366"/>
-<vertex x="0.127" y="0.7366"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.0762" y="0.8636"/>
-<vertex x="0.0762" y="0.7366"/>
-<vertex x="0.127" y="0.7366"/>
-<vertex x="0.127" y="0.8636"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.2794" y="0.9144"/>
-<vertex x="0.127" y="0.9144"/>
-<vertex x="0.127" y="0.8636"/>
-<vertex x="0.2794" y="0.8636"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.3302" y="0.7366"/>
-<vertex x="0.3302" y="0.8636"/>
-<vertex x="0.2794" y="0.8636"/>
-<vertex x="0.2794" y="0.7366"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.127" y="0.8636"/>
-<vertex x="0.127" y="0.7366"/>
-<vertex x="0.2794" y="0.7366"/>
-<vertex x="0.2794" y="0.8636"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.2794" y="0.6858"/>
-<vertex x="-0.127" y="0.6858"/>
-<vertex x="-0.127" y="0.7366"/>
-<vertex x="-0.2794" y="0.7366"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.3302" y="0.8636"/>
-<vertex x="-0.3302" y="0.7366"/>
-<vertex x="-0.2794" y="0.7366"/>
-<vertex x="-0.2794" y="0.8636"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.127" y="0.9144"/>
-<vertex x="-0.2794" y="0.9144"/>
-<vertex x="-0.2794" y="0.8636"/>
-<vertex x="-0.127" y="0.8636"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.0762" y="0.7366"/>
-<vertex x="-0.0762" y="0.8636"/>
-<vertex x="-0.127" y="0.8636"/>
-<vertex x="-0.127" y="0.7366"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.2794" y="0.8636"/>
-<vertex x="-0.2794" y="0.7366"/>
-<vertex x="-0.127" y="0.7366"/>
-<vertex x="-0.127" y="0.8636"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.6858" y="0.8636"/>
-<vertex x="-0.6858" y="0.7366"/>
-<vertex x="-0.5334" y="0.7366"/>
-<vertex x="-0.5334" y="0.8636"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.4826" y="0.7366"/>
-<vertex x="-0.4826" y="0.8636"/>
-<vertex x="-0.5334" y="0.8636"/>
-<vertex x="-0.5334" y="0.7366"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.5334" y="0.9144"/>
-<vertex x="-0.6858" y="0.9144"/>
-<vertex x="-0.6858" y="0.8636"/>
-<vertex x="-0.5334" y="0.8636"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.7366" y="0.8636"/>
-<vertex x="-0.7366" y="0.7366"/>
-<vertex x="-0.6858" y="0.7366"/>
-<vertex x="-0.6858" y="0.8636"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.6858" y="0.6858"/>
-<vertex x="-0.5334" y="0.6858"/>
-<vertex x="-0.5334" y="0.7366"/>
-<vertex x="-0.6858" y="0.7366"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.5334" y="0.2794"/>
-<vertex x="0.6858" y="0.2794"/>
-<vertex x="0.6858" y="0.3302"/>
-<vertex x="0.5334" y="0.3302"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.4826" y="0.4826"/>
-<vertex x="0.4826" y="0.3302"/>
-<vertex x="0.5334" y="0.3302"/>
-<vertex x="0.5334" y="0.4826"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.6858" y="0.5334"/>
-<vertex x="0.5334" y="0.5334"/>
-<vertex x="0.5334" y="0.4826"/>
-<vertex x="0.6858" y="0.4826"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.7366" y="0.3302"/>
-<vertex x="0.7366" y="0.4826"/>
-<vertex x="0.6858" y="0.4826"/>
-<vertex x="0.6858" y="0.3302"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.5334" y="0.4826"/>
-<vertex x="0.5334" y="0.3302"/>
-<vertex x="0.6858" y="0.3302"/>
-<vertex x="0.6858" y="0.4826"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.127" y="0.2794"/>
-<vertex x="0.2794" y="0.2794"/>
-<vertex x="0.2794" y="0.3302"/>
-<vertex x="0.127" y="0.3302"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.0762" y="0.4826"/>
-<vertex x="0.0762" y="0.3302"/>
-<vertex x="0.127" y="0.3302"/>
-<vertex x="0.127" y="0.4826"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.2794" y="0.5334"/>
-<vertex x="0.127" y="0.5334"/>
-<vertex x="0.127" y="0.4826"/>
-<vertex x="0.2794" y="0.4826"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.3302" y="0.3302"/>
-<vertex x="0.3302" y="0.4826"/>
-<vertex x="0.2794" y="0.4826"/>
-<vertex x="0.2794" y="0.3302"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.127" y="0.4826"/>
-<vertex x="0.127" y="0.3302"/>
-<vertex x="0.2794" y="0.3302"/>
-<vertex x="0.2794" y="0.4826"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.2794" y="0.2794"/>
-<vertex x="-0.127" y="0.2794"/>
-<vertex x="-0.127" y="0.3302"/>
-<vertex x="-0.2794" y="0.3302"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.3302" y="0.4826"/>
-<vertex x="-0.3302" y="0.3302"/>
-<vertex x="-0.2794" y="0.3302"/>
-<vertex x="-0.2794" y="0.4826"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.127" y="0.5334"/>
-<vertex x="-0.2794" y="0.5334"/>
-<vertex x="-0.2794" y="0.4826"/>
-<vertex x="-0.127" y="0.4826"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.0762" y="0.3302"/>
-<vertex x="-0.0762" y="0.4826"/>
-<vertex x="-0.127" y="0.4826"/>
-<vertex x="-0.127" y="0.3302"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.2794" y="0.4826"/>
-<vertex x="-0.2794" y="0.3302"/>
-<vertex x="-0.127" y="0.3302"/>
-<vertex x="-0.127" y="0.4826"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.6858" y="0.4826"/>
-<vertex x="-0.6858" y="0.3302"/>
-<vertex x="-0.5334" y="0.3302"/>
-<vertex x="-0.5334" y="0.4826"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.4826" y="0.3302"/>
-<vertex x="-0.4826" y="0.4826"/>
-<vertex x="-0.5334" y="0.4826"/>
-<vertex x="-0.5334" y="0.3302"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.5334" y="0.5334"/>
-<vertex x="-0.6858" y="0.5334"/>
-<vertex x="-0.6858" y="0.4826"/>
-<vertex x="-0.5334" y="0.4826"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.7366" y="0.4826"/>
-<vertex x="-0.7366" y="0.3302"/>
-<vertex x="-0.6858" y="0.3302"/>
-<vertex x="-0.6858" y="0.4826"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.6858" y="0.2794"/>
-<vertex x="-0.5334" y="0.2794"/>
-<vertex x="-0.5334" y="0.3302"/>
-<vertex x="-0.6858" y="0.3302"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.5334" y="-0.127"/>
-<vertex x="0.6858" y="-0.127"/>
-<vertex x="0.6858" y="-0.0762"/>
-<vertex x="0.5334" y="-0.0762"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.4826" y="0.0762"/>
-<vertex x="0.4826" y="-0.0762"/>
-<vertex x="0.5334" y="-0.0762"/>
-<vertex x="0.5334" y="0.0762"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.6858" y="0.127"/>
-<vertex x="0.5334" y="0.127"/>
-<vertex x="0.5334" y="0.0762"/>
-<vertex x="0.6858" y="0.0762"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.7366" y="-0.0762"/>
-<vertex x="0.7366" y="0.0762"/>
-<vertex x="0.6858" y="0.0762"/>
-<vertex x="0.6858" y="-0.0762"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.5334" y="0.0762"/>
-<vertex x="0.5334" y="-0.0762"/>
-<vertex x="0.6858" y="-0.0762"/>
-<vertex x="0.6858" y="0.0762"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.127" y="-0.127"/>
-<vertex x="0.2794" y="-0.127"/>
-<vertex x="0.2794" y="-0.0762"/>
-<vertex x="0.127" y="-0.0762"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.0762" y="0.0762"/>
-<vertex x="0.0762" y="-0.0762"/>
-<vertex x="0.127" y="-0.0762"/>
-<vertex x="0.127" y="0.0762"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.2794" y="0.127"/>
-<vertex x="0.127" y="0.127"/>
-<vertex x="0.127" y="0.0762"/>
-<vertex x="0.2794" y="0.0762"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.3302" y="-0.0762"/>
-<vertex x="0.3302" y="0.0762"/>
-<vertex x="0.2794" y="0.0762"/>
-<vertex x="0.2794" y="-0.0762"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.127" y="0.0762"/>
-<vertex x="0.127" y="-0.0762"/>
-<vertex x="0.2794" y="-0.0762"/>
-<vertex x="0.2794" y="0.0762"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.2794" y="-0.127"/>
-<vertex x="-0.127" y="-0.127"/>
-<vertex x="-0.127" y="-0.0762"/>
-<vertex x="-0.2794" y="-0.0762"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.3302" y="0.0762"/>
-<vertex x="-0.3302" y="-0.0762"/>
-<vertex x="-0.2794" y="-0.0762"/>
-<vertex x="-0.2794" y="0.0762"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.127" y="0.127"/>
-<vertex x="-0.2794" y="0.127"/>
-<vertex x="-0.2794" y="0.0762"/>
-<vertex x="-0.127" y="0.0762"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.0762" y="-0.0762"/>
-<vertex x="-0.0762" y="0.0762"/>
-<vertex x="-0.127" y="0.0762"/>
-<vertex x="-0.127" y="-0.0762"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.2794" y="0.0762"/>
-<vertex x="-0.2794" y="-0.0762"/>
-<vertex x="-0.127" y="-0.0762"/>
-<vertex x="-0.127" y="0.0762"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.6858" y="0.0762"/>
-<vertex x="-0.6858" y="-0.0762"/>
-<vertex x="-0.5334" y="-0.0762"/>
-<vertex x="-0.5334" y="0.0762"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.4826" y="-0.0762"/>
-<vertex x="-0.4826" y="0.0762"/>
-<vertex x="-0.5334" y="0.0762"/>
-<vertex x="-0.5334" y="-0.0762"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.5334" y="0.127"/>
-<vertex x="-0.6858" y="0.127"/>
-<vertex x="-0.6858" y="0.0762"/>
-<vertex x="-0.5334" y="0.0762"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.7366" y="0.0762"/>
-<vertex x="-0.7366" y="-0.0762"/>
-<vertex x="-0.6858" y="-0.0762"/>
-<vertex x="-0.6858" y="0.0762"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.6858" y="-0.127"/>
-<vertex x="-0.5334" y="-0.127"/>
-<vertex x="-0.5334" y="-0.0762"/>
-<vertex x="-0.6858" y="-0.0762"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.5334" y="-0.5334"/>
-<vertex x="0.6858" y="-0.5334"/>
-<vertex x="0.6858" y="-0.4826"/>
-<vertex x="0.5334" y="-0.4826"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.4826" y="-0.3302"/>
-<vertex x="0.4826" y="-0.4826"/>
-<vertex x="0.5334" y="-0.4826"/>
-<vertex x="0.5334" y="-0.3302"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.6858" y="-0.2794"/>
-<vertex x="0.5334" y="-0.2794"/>
-<vertex x="0.5334" y="-0.3302"/>
-<vertex x="0.6858" y="-0.3302"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.7366" y="-0.4826"/>
-<vertex x="0.7366" y="-0.3302"/>
-<vertex x="0.6858" y="-0.3302"/>
-<vertex x="0.6858" y="-0.4826"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.5334" y="-0.3302"/>
-<vertex x="0.5334" y="-0.4826"/>
-<vertex x="0.6858" y="-0.4826"/>
-<vertex x="0.6858" y="-0.3302"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.127" y="-0.5334"/>
-<vertex x="0.2794" y="-0.5334"/>
-<vertex x="0.2794" y="-0.4826"/>
-<vertex x="0.127" y="-0.4826"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.0762" y="-0.3302"/>
-<vertex x="0.0762" y="-0.4826"/>
-<vertex x="0.127" y="-0.4826"/>
-<vertex x="0.127" y="-0.3302"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.2794" y="-0.2794"/>
-<vertex x="0.127" y="-0.2794"/>
-<vertex x="0.127" y="-0.3302"/>
-<vertex x="0.2794" y="-0.3302"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.3302" y="-0.4826"/>
-<vertex x="0.3302" y="-0.3302"/>
-<vertex x="0.2794" y="-0.3302"/>
-<vertex x="0.2794" y="-0.4826"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.127" y="-0.3302"/>
-<vertex x="0.127" y="-0.4826"/>
-<vertex x="0.2794" y="-0.4826"/>
-<vertex x="0.2794" y="-0.3302"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.2794" y="-0.5334"/>
-<vertex x="-0.127" y="-0.5334"/>
-<vertex x="-0.127" y="-0.4826"/>
-<vertex x="-0.2794" y="-0.4826"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.3302" y="-0.3302"/>
-<vertex x="-0.3302" y="-0.4826"/>
-<vertex x="-0.2794" y="-0.4826"/>
-<vertex x="-0.2794" y="-0.3302"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.127" y="-0.2794"/>
-<vertex x="-0.2794" y="-0.2794"/>
-<vertex x="-0.2794" y="-0.3302"/>
-<vertex x="-0.127" y="-0.3302"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.0762" y="-0.4826"/>
-<vertex x="-0.0762" y="-0.3302"/>
-<vertex x="-0.127" y="-0.3302"/>
-<vertex x="-0.127" y="-0.4826"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.2794" y="-0.3302"/>
-<vertex x="-0.2794" y="-0.4826"/>
-<vertex x="-0.127" y="-0.4826"/>
-<vertex x="-0.127" y="-0.3302"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.6858" y="-0.3302"/>
-<vertex x="-0.6858" y="-0.4826"/>
-<vertex x="-0.5334" y="-0.4826"/>
-<vertex x="-0.5334" y="-0.3302"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.4826" y="-0.4826"/>
-<vertex x="-0.4826" y="-0.3302"/>
-<vertex x="-0.5334" y="-0.3302"/>
-<vertex x="-0.5334" y="-0.4826"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.5334" y="-0.2794"/>
-<vertex x="-0.6858" y="-0.2794"/>
-<vertex x="-0.6858" y="-0.3302"/>
-<vertex x="-0.5334" y="-0.3302"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.7366" y="-0.3302"/>
-<vertex x="-0.7366" y="-0.4826"/>
-<vertex x="-0.6858" y="-0.4826"/>
-<vertex x="-0.6858" y="-0.3302"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.6858" y="-0.5334"/>
-<vertex x="-0.5334" y="-0.5334"/>
-<vertex x="-0.5334" y="-0.4826"/>
-<vertex x="-0.6858" y="-0.4826"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.5334" y="-0.9144"/>
-<vertex x="0.6858" y="-0.9144"/>
-<vertex x="0.6858" y="-0.8636"/>
-<vertex x="0.5334" y="-0.8636"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.4826" y="-0.7366"/>
-<vertex x="0.4826" y="-0.8636"/>
-<vertex x="0.5334" y="-0.8636"/>
-<vertex x="0.5334" y="-0.7366"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.6858" y="-0.6858"/>
-<vertex x="0.5334" y="-0.6858"/>
-<vertex x="0.5334" y="-0.7366"/>
-<vertex x="0.6858" y="-0.7366"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.7366" y="-0.8636"/>
-<vertex x="0.7366" y="-0.7366"/>
-<vertex x="0.6858" y="-0.7366"/>
-<vertex x="0.6858" y="-0.8636"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.5334" y="-0.7366"/>
-<vertex x="0.5334" y="-0.8636"/>
-<vertex x="0.6858" y="-0.8636"/>
-<vertex x="0.6858" y="-0.7366"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.127" y="-0.9144"/>
-<vertex x="0.2794" y="-0.9144"/>
-<vertex x="0.2794" y="-0.8636"/>
-<vertex x="0.127" y="-0.8636"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.0762" y="-0.7366"/>
-<vertex x="0.0762" y="-0.8636"/>
-<vertex x="0.127" y="-0.8636"/>
-<vertex x="0.127" y="-0.7366"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.2794" y="-0.6858"/>
-<vertex x="0.127" y="-0.6858"/>
-<vertex x="0.127" y="-0.7366"/>
-<vertex x="0.2794" y="-0.7366"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.3302" y="-0.8636"/>
-<vertex x="0.3302" y="-0.7366"/>
-<vertex x="0.2794" y="-0.7366"/>
-<vertex x="0.2794" y="-0.8636"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.127" y="-0.7366"/>
-<vertex x="0.127" y="-0.8636"/>
-<vertex x="0.2794" y="-0.8636"/>
-<vertex x="0.2794" y="-0.7366"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.2794" y="-0.9144"/>
-<vertex x="-0.127" y="-0.9144"/>
-<vertex x="-0.127" y="-0.8636"/>
-<vertex x="-0.2794" y="-0.8636"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.3302" y="-0.7366"/>
-<vertex x="-0.3302" y="-0.8636"/>
-<vertex x="-0.2794" y="-0.8636"/>
-<vertex x="-0.2794" y="-0.7366"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.127" y="-0.6858"/>
-<vertex x="-0.2794" y="-0.6858"/>
-<vertex x="-0.2794" y="-0.7366"/>
-<vertex x="-0.127" y="-0.7366"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.0762" y="-0.8636"/>
-<vertex x="-0.0762" y="-0.7366"/>
-<vertex x="-0.127" y="-0.7366"/>
-<vertex x="-0.127" y="-0.8636"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.2794" y="-0.7366"/>
-<vertex x="-0.2794" y="-0.8636"/>
-<vertex x="-0.127" y="-0.8636"/>
-<vertex x="-0.127" y="-0.7366"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.6858" y="-0.7366"/>
-<vertex x="-0.6858" y="-0.8636"/>
-<vertex x="-0.5334" y="-0.8636"/>
-<vertex x="-0.5334" y="-0.7366"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.4826" y="-0.8636"/>
-<vertex x="-0.4826" y="-0.7366"/>
-<vertex x="-0.5334" y="-0.7366"/>
-<vertex x="-0.5334" y="-0.8636"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.5334" y="-0.6858"/>
-<vertex x="-0.6858" y="-0.6858"/>
-<vertex x="-0.6858" y="-0.7366"/>
-<vertex x="-0.5334" y="-0.7366"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.7366" y="-0.7366"/>
-<vertex x="-0.7366" y="-0.8636"/>
-<vertex x="-0.6858" y="-0.8636"/>
-<vertex x="-0.6858" y="-0.7366"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.6858" y="-0.9144"/>
-<vertex x="-0.5334" y="-0.9144"/>
-<vertex x="-0.5334" y="-0.8636"/>
-<vertex x="-0.6858" y="-0.8636"/>
-</polygon>
-<wire x1="-0.889" y1="1.143" x2="-0.9906" y2="1.143" width="0.1524" layer="51" curve="-180"/>
-<wire x1="-0.9906" y1="1.143" x2="-0.889" y2="1.143" width="0.1524" layer="51" curve="-180"/>
 <text x="0" y="-0.635" size="1.27" layer="51" ratio="6" rot="SR0">Comment</text>
-<text x="-2.8702" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
-<text x="-3.4544" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;VALUE</text>
+<text x="-2.8702" y="1.905" size="1.27" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
+<text x="-3.4544" y="-3.175" size="1.27" layer="27" ratio="6" rot="SR0">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -1559,7 +956,7 @@ Monitor</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MIC4414">
+<deviceset name="MIC5019">
 <gates>
 <gate name="G$1" symbol="MIC4414" x="0" y="0"/>
 </gates>
@@ -1568,8 +965,8 @@ Monitor</description>
 <connects>
 <connect gate="G$1" pin="GND" pad="P$2 P2"/>
 <connect gate="G$1" pin="IN" pad="P$3 P3"/>
-<connect gate="G$1" pin="OUT" pad="P$1 P1"/>
-<connect gate="G$1" pin="VDD" pad="P$4 P4"/>
+<connect gate="G$1" pin="OUT" pad="P$4 P4"/>
+<connect gate="G$1" pin="VDD" pad="P$1 P1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -22926,9 +22323,7 @@ Source: &lt;a href="http://www.infineon.com/dgdl/BSC340N08NS3G_rev2.4.pdf?folder
 <part name="AGND5" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND6" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND7" library="supply1" deviceset="AGND" device=""/>
-<part name="AGND8" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND9" library="supply1" deviceset="AGND" device=""/>
-<part name="U$4" library="Octanis1_EPS" deviceset="MIC4414" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="R43" library="rcl" deviceset="R-EU_" device="R0603" value="1M"/>
 <part name="GND70" library="supply1" deviceset="GND" device=""/>
@@ -22949,6 +22344,8 @@ Source: &lt;a href="http://www.infineon.com/dgdl/BSC340N08NS3G_rev2.4.pdf?folder
 <part name="AGND23" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND24" library="supply1" deviceset="AGND" device=""/>
 <part name="FERRITE2" library="inductors" deviceset="BLM15H" device="" technology="D601SN1" value="100mH"/>
+<part name="U$5" library="Octanis1_EPS" deviceset="MIC5019" device=""/>
+<part name="GND24" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -23261,9 +22658,7 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <instance part="AGND5" gate="VR1" x="43.18" y="177.8" rot="R90"/>
 <instance part="AGND6" gate="VR1" x="43.18" y="180.34" rot="R90"/>
 <instance part="AGND7" gate="VR1" x="160.02" y="307.34" rot="R90"/>
-<instance part="AGND8" gate="VR1" x="167.64" y="322.58" rot="R90"/>
 <instance part="AGND9" gate="VR1" x="132.08" y="375.92" rot="R90"/>
-<instance part="U$4" gate="G$1" x="469.9" y="68.58"/>
 <instance part="GND10" gate="1" x="482.6" y="60.96"/>
 <instance part="R43" gate="G$1" x="449.58" y="58.42" rot="R90"/>
 <instance part="GND70" gate="1" x="449.58" y="50.8"/>
@@ -23284,6 +22679,8 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <instance part="AGND23" gate="VR1" x="609.6" y="248.92" rot="R90"/>
 <instance part="AGND24" gate="VR1" x="609.6" y="243.84" rot="R90"/>
 <instance part="FERRITE2" gate="G$1" x="416.56" y="266.7" rot="R180"/>
+<instance part="U$5" gate="G$1" x="469.9" y="68.58"/>
+<instance part="GND24" gate="1" x="167.64" y="322.58" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -23768,12 +23165,24 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <junction x="76.2" y="25.4"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="GND"/>
-<pinref part="GND10" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="R43" gate="G$1" pin="1"/>
 <pinref part="GND70" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND10" gate="1" pin="GND"/>
+<pinref part="U$5" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="Q1" gate="&gt;NAME" pin="GND"/>
+<wire x1="165.1" y1="322.58" x2="162.56" y2="322.58" width="0.1524" layer="91"/>
+<pinref part="C39" gate="G$1" pin="1"/>
+<wire x1="162.56" y1="317.5" x2="162.56" y2="322.58" width="0.1524" layer="91"/>
+<pinref part="C40" gate="G$1" pin="1"/>
+<wire x1="162.56" y1="322.58" x2="162.56" y2="327.66" width="0.1524" layer="91"/>
+<junction x="162.56" y="322.58"/>
+<junction x="162.56" y="317.5"/>
+<junction x="162.56" y="327.66"/>
+<pinref part="GND24" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -24744,12 +24153,12 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 </net>
 <net name="EN_12V" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="IN"/>
 <wire x1="457.2" y1="63.5" x2="449.58" y2="63.5" width="0.1524" layer="91"/>
 <label x="441.96" y="63.5" size="1.778" layer="95"/>
 <pinref part="R43" gate="G$1" pin="2"/>
 <wire x1="449.58" y1="63.5" x2="441.96" y2="63.5" width="0.1524" layer="91"/>
 <junction x="449.58" y="63.5"/>
+<pinref part="U$5" gate="G$1" pin="IN"/>
 </segment>
 <segment>
 <pinref part="U15" gate="G$1" pin="P3.0/A12/C12"/>
@@ -25109,9 +24518,9 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <wire x1="495.3" y1="81.28" x2="495.3" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="495.3" y1="83.82" x2="454.66" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="454.66" y1="83.82" x2="454.66" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="VDD"/>
 <wire x1="454.66" y1="73.66" x2="457.2" y2="73.66" width="0.1524" layer="91"/>
 <label x="469.9" y="83.82" size="1.778" layer="95"/>
+<pinref part="U$5" gate="G$1" pin="VDD"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -25276,18 +24685,6 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <pinref part="U15" gate="G$1" pin="AVSS"/>
 <wire x1="157.48" y1="307.34" x2="142.24" y2="307.34" width="0.1524" layer="91"/>
 <pinref part="AGND7" gate="VR1" pin="AGND"/>
-</segment>
-<segment>
-<pinref part="Q1" gate="&gt;NAME" pin="GND"/>
-<wire x1="165.1" y1="322.58" x2="162.56" y2="322.58" width="0.1524" layer="91"/>
-<pinref part="C39" gate="G$1" pin="1"/>
-<wire x1="162.56" y1="317.5" x2="162.56" y2="322.58" width="0.1524" layer="91"/>
-<pinref part="C40" gate="G$1" pin="1"/>
-<wire x1="162.56" y1="322.58" x2="162.56" y2="327.66" width="0.1524" layer="91"/>
-<junction x="162.56" y="322.58"/>
-<junction x="162.56" y="317.5"/>
-<junction x="162.56" y="327.66"/>
-<pinref part="AGND8" gate="VR1" pin="AGND"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="2"/>
@@ -25472,8 +24869,8 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <net name="N$10" class="0">
 <segment>
 <pinref part="Q2" gate="G$1" pin="G"/>
-<pinref part="U$4" gate="G$1" pin="OUT"/>
 <wire x1="482.6" y1="73.66" x2="490.22" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="OUT"/>
 </segment>
 </net>
 <net name="BAT_11V" class="0">
