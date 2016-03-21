@@ -22816,16 +22816,6 @@ Source: &lt;a href="http://www.infineon.com/dgdl/BSC340N08NS3G_rev2.4.pdf?folder
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
-<part name="GND24" library="supply1" deviceset="GND" device=""/>
-<part name="GND25" library="supply1" deviceset="GND" device=""/>
-<part name="GND26" library="supply1" deviceset="GND" device=""/>
-<part name="GND27" library="supply1" deviceset="GND" device=""/>
-<part name="GND28" library="supply1" deviceset="GND" device=""/>
-<part name="GND29" library="supply1" deviceset="GND" device=""/>
-<part name="GND30" library="supply1" deviceset="GND" device=""/>
-<part name="GND31" library="supply1" deviceset="GND" device=""/>
-<part name="GND33" library="supply1" deviceset="GND" device=""/>
-<part name="GND34" library="supply1" deviceset="GND" device=""/>
 <part name="GND40" library="supply1" deviceset="GND" device=""/>
 <part name="L4" library="Coilcraft" deviceset="XFL4020" device="" value="1.5uH"/>
 <part name="6.8UH" library="inductors" deviceset="DR127" device=""/>
@@ -22903,15 +22893,9 @@ Source: &lt;a href="http://www.infineon.com/dgdl/BSC340N08NS3G_rev2.4.pdf?folder
 <part name="GND75" library="supply1" deviceset="GND" device=""/>
 <part name="JP6" library="Headerlibrary" deviceset="PINHD-1X2" device=""/>
 <part name="GND76" library="supply1" deviceset="GND" device=""/>
-<part name="GND77" library="supply1" deviceset="GND" device=""/>
-<part name="GND78" library="supply1" deviceset="GND" device=""/>
-<part name="GND79" library="supply1" deviceset="GND" device=""/>
-<part name="GND80" library="supply1" deviceset="GND" device=""/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
-<part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
-<part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
 <part name="JP4" library="Headerlibrary" deviceset="PINHD-2X8" device=""/>
 <part name="U12" library="texasinstruments" deviceset="TPS630250YFFT" device=""/>
@@ -22949,6 +22933,22 @@ Source: &lt;a href="http://www.infineon.com/dgdl/BSC340N08NS3G_rev2.4.pdf?folder
 <part name="R43" library="rcl" deviceset="R-EU_" device="R0603" value="1M"/>
 <part name="GND70" library="supply1" deviceset="GND" device=""/>
 <part name="R41" library="rcl" deviceset="R-EU_" device="R2010" value="2"/>
+<part name="FERRITE1" library="inductors" deviceset="BLM15H" device="" technology="D601SN1" value="100mH"/>
+<part name="AGND11" library="supply1" deviceset="AGND" device=""/>
+<part name="AGND12" library="supply1" deviceset="AGND" device=""/>
+<part name="AGND13" library="supply1" deviceset="AGND" device=""/>
+<part name="AGND14" library="supply1" deviceset="AGND" device=""/>
+<part name="AGND15" library="supply1" deviceset="AGND" device=""/>
+<part name="AGND10" library="supply1" deviceset="AGND" device=""/>
+<part name="AGND16" library="supply1" deviceset="AGND" device=""/>
+<part name="AGND17" library="supply1" deviceset="AGND" device=""/>
+<part name="AGND19" library="supply1" deviceset="AGND" device=""/>
+<part name="AGND20" library="supply1" deviceset="AGND" device=""/>
+<part name="AGND21" library="supply1" deviceset="AGND" device=""/>
+<part name="AGND22" library="supply1" deviceset="AGND" device=""/>
+<part name="AGND23" library="supply1" deviceset="AGND" device=""/>
+<part name="AGND24" library="supply1" deviceset="AGND" device=""/>
+<part name="FERRITE2" library="inductors" deviceset="BLM15H" device="" technology="D601SN1" value="100mH"/>
 </parts>
 <sheets>
 <sheet>
@@ -23100,16 +23100,6 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <instance part="GND21" gate="1" x="525.78" y="27.94"/>
 <instance part="GND22" gate="1" x="515.62" y="27.94"/>
 <instance part="GND23" gate="1" x="505.46" y="27.94"/>
-<instance part="GND24" gate="1" x="632.46" y="228.6"/>
-<instance part="GND25" gate="1" x="632.46" y="261.62"/>
-<instance part="GND26" gate="1" x="609.6" y="281.94" rot="R90"/>
-<instance part="GND27" gate="1" x="609.6" y="276.86" rot="R90"/>
-<instance part="GND28" gate="1" x="609.6" y="248.92" rot="R90"/>
-<instance part="GND29" gate="1" x="609.6" y="243.84" rot="R90"/>
-<instance part="GND30" gate="1" x="480.06" y="228.6"/>
-<instance part="GND31" gate="1" x="480.06" y="274.32"/>
-<instance part="GND33" gate="1" x="449.58" y="274.32"/>
-<instance part="GND34" gate="1" x="429.26" y="254"/>
 <instance part="GND40" gate="1" x="215.9" y="215.9"/>
 <instance part="L4" gate="L$1" x="523.24" y="71.12"/>
 <instance part="6.8UH" gate="G$1" x="170.18" y="104.14"/>
@@ -23217,15 +23207,9 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <instance part="GND75" gate="1" x="20.32" y="53.34"/>
 <instance part="JP6" gate="G$1" x="10.16" y="111.76" rot="R180"/>
 <instance part="GND76" gate="1" x="20.32" y="99.06"/>
-<instance part="GND77" gate="1" x="439.42" y="302.26" rot="R180"/>
-<instance part="GND78" gate="1" x="439.42" y="256.54" rot="R180"/>
-<instance part="GND79" gate="1" x="424.18" y="236.22" rot="R270"/>
-<instance part="GND80" gate="1" x="424.18" y="281.94" rot="R270"/>
 <instance part="+3V1" gate="G$1" x="373.38" y="185.42"/>
-<instance part="+3V2" gate="G$1" x="429.26" y="269.24"/>
-<instance part="+3V3" gate="G$1" x="449.58" y="294.64"/>
-<instance part="+3V4" gate="G$1" x="609.6" y="292.1"/>
-<instance part="+3V5" gate="G$1" x="609.6" y="259.08"/>
+<instance part="+3V2" gate="G$1" x="406.4" y="269.24"/>
+<instance part="+3V4" gate="G$1" x="609.6" y="304.8"/>
 <instance part="+3V6" gate="G$1" x="43.18" y="320.04"/>
 <instance part="JP4" gate="A" x="27.94" y="137.16"/>
 <instance part="U12" gate="A" x="332.74" y="165.1" smashed="yes">
@@ -23284,6 +23268,22 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <instance part="R43" gate="G$1" x="449.58" y="58.42" rot="R90"/>
 <instance part="GND70" gate="1" x="449.58" y="50.8"/>
 <instance part="R41" gate="G$1" x="27.94" y="73.66" rot="R90"/>
+<instance part="FERRITE1" gate="G$1" x="609.6" y="294.64" rot="R90"/>
+<instance part="AGND11" gate="VR1" x="480.06" y="274.32"/>
+<instance part="AGND12" gate="VR1" x="449.58" y="274.32"/>
+<instance part="AGND13" gate="VR1" x="480.06" y="228.6"/>
+<instance part="AGND14" gate="VR1" x="439.42" y="256.54" rot="R180"/>
+<instance part="AGND15" gate="VR1" x="439.42" y="302.26" rot="R180"/>
+<instance part="AGND10" gate="VR1" x="429.26" y="254"/>
+<instance part="AGND16" gate="VR1" x="424.18" y="281.94" rot="R270"/>
+<instance part="AGND17" gate="VR1" x="424.18" y="236.22" rot="R270"/>
+<instance part="AGND19" gate="VR1" x="632.46" y="228.6"/>
+<instance part="AGND20" gate="VR1" x="632.46" y="261.62"/>
+<instance part="AGND21" gate="VR1" x="609.6" y="281.94" rot="R90"/>
+<instance part="AGND22" gate="VR1" x="609.6" y="276.86" rot="R90"/>
+<instance part="AGND23" gate="VR1" x="609.6" y="248.92" rot="R90"/>
+<instance part="AGND24" gate="VR1" x="609.6" y="243.84" rot="R90"/>
+<instance part="FERRITE2" gate="G$1" x="416.56" y="266.7" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -23569,46 +23569,6 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <wire x1="505.46" y1="30.48" x2="505.46" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C8" gate="G$1" pin="1"/>
-<pinref part="GND24" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="C9" gate="G$1" pin="1"/>
-<pinref part="GND25" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="U$3" gate="G$1" pin="GND"/>
-<pinref part="GND26" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="U$3" gate="G$1" pin="REF"/>
-<pinref part="GND27" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="U$2" gate="G$1" pin="GND"/>
-<pinref part="GND28" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="U$2" gate="G$1" pin="REF"/>
-<pinref part="GND29" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="C2" gate="G$1" pin="1"/>
-<pinref part="GND30" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="C1" gate="G$1" pin="1"/>
-<pinref part="GND31" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="P" pin="V-"/>
-<pinref part="GND33" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="C_IC1" gate="G$1" pin="1"/>
-<pinref part="GND34" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="R8" gate="G$1" pin="2"/>
 <pinref part="GND40" gate="1" pin="GND"/>
 </segment>
@@ -23747,22 +23707,6 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <wire x1="12.7" y1="109.22" x2="20.32" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="109.22" x2="20.32" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="GND76" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="R21" gate="G$1" pin="1"/>
-<pinref part="GND77" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="R20" gate="G$1" pin="1"/>
-<pinref part="GND78" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="R18" gate="G$1" pin="2"/>
-<pinref part="GND79" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="R10" gate="G$1" pin="2"/>
-<pinref part="GND80" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="JP4" gate="A" pin="1"/>
@@ -25213,27 +25157,6 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <wire x1="358.14" y1="157.48" x2="353.06" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C_IC1" gate="G$1" pin="2"/>
-<pinref part="+3V2" gate="G$1" pin="+3V3"/>
-<wire x1="429.26" y1="266.7" x2="429.26" y2="264.16" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="P" pin="V+"/>
-<pinref part="+3V3" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
-<pinref part="U$2" gate="G$1" pin="VCC"/>
-<pinref part="+3V5" gate="G$1" pin="+3V3"/>
-<wire x1="607.06" y1="254" x2="609.6" y2="254" width="0.1524" layer="91"/>
-<wire x1="609.6" y1="254" x2="609.6" y2="256.54" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$3" gate="G$1" pin="VCC"/>
-<pinref part="+3V4" gate="G$1" pin="+3V3"/>
-<wire x1="607.06" y1="287.02" x2="609.6" y2="287.02" width="0.1524" layer="91"/>
-<wire x1="609.6" y1="287.02" x2="609.6" y2="289.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="+3V8" gate="G$1" pin="+3V3"/>
 <pinref part="U15" gate="G$1" pin="DVCC"/>
 <wire x1="101.6" y1="391.16" x2="101.6" y2="386.08" width="0.1524" layer="91"/>
@@ -25252,6 +25175,16 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <segment>
 <pinref part="R19" gate="G$1" pin="2"/>
 <pinref part="+3V6" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="FERRITE1" gate="G$1" pin="2"/>
+<pinref part="+3V4" gate="G$1" pin="+3V3"/>
+<wire x1="609.6" y1="302.26" x2="609.6" y2="299.72" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="FERRITE2" gate="G$1" pin="2"/>
+<pinref part="+3V2" gate="G$1" pin="+3V3"/>
+<wire x1="406.4" y1="266.7" x2="411.48" y2="266.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -25360,6 +25293,62 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="129.54" y1="375.92" x2="127" y2="375.92" width="0.1524" layer="91"/>
 <pinref part="AGND9" gate="VR1" pin="AGND"/>
+</segment>
+<segment>
+<pinref part="C1" gate="G$1" pin="1"/>
+<pinref part="AGND11" gate="VR1" pin="AGND"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="P" pin="V-"/>
+<pinref part="AGND12" gate="VR1" pin="AGND"/>
+</segment>
+<segment>
+<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="AGND13" gate="VR1" pin="AGND"/>
+</segment>
+<segment>
+<pinref part="R20" gate="G$1" pin="1"/>
+<pinref part="AGND14" gate="VR1" pin="AGND"/>
+</segment>
+<segment>
+<pinref part="R21" gate="G$1" pin="1"/>
+<pinref part="AGND15" gate="VR1" pin="AGND"/>
+</segment>
+<segment>
+<pinref part="C_IC1" gate="G$1" pin="1"/>
+<pinref part="AGND10" gate="VR1" pin="AGND"/>
+</segment>
+<segment>
+<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="AGND16" gate="VR1" pin="AGND"/>
+</segment>
+<segment>
+<pinref part="R18" gate="G$1" pin="2"/>
+<pinref part="AGND17" gate="VR1" pin="AGND"/>
+</segment>
+<segment>
+<pinref part="C8" gate="G$1" pin="1"/>
+<pinref part="AGND19" gate="VR1" pin="AGND"/>
+</segment>
+<segment>
+<pinref part="C9" gate="G$1" pin="1"/>
+<pinref part="AGND20" gate="VR1" pin="AGND"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="GND"/>
+<pinref part="AGND21" gate="VR1" pin="AGND"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="REF"/>
+<pinref part="AGND22" gate="VR1" pin="AGND"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="GND"/>
+<pinref part="AGND23" gate="VR1" pin="AGND"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="REF"/>
+<pinref part="AGND24" gate="VR1" pin="AGND"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -25518,6 +25507,34 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <pinref part="C22" gate="G$1" pin="1"/>
 <pinref part="R41" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="68.58" x2="27.94" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="AVCC1" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="VCC"/>
+<wire x1="607.06" y1="254" x2="609.6" y2="254" width="0.1524" layer="91"/>
+<wire x1="609.6" y1="254" x2="612.14" y2="254" width="0.1524" layer="91"/>
+<label x="609.6" y="254" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="VCC"/>
+<wire x1="607.06" y1="287.02" x2="609.6" y2="289.56" width="0.1524" layer="91"/>
+<pinref part="FERRITE1" gate="G$1" pin="1"/>
+<label x="609.6" y="287.02" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AVCC2" class="0">
+<segment>
+<pinref part="FERRITE2" gate="G$1" pin="1"/>
+<pinref part="C_IC1" gate="G$1" pin="2"/>
+<wire x1="421.64" y1="266.7" x2="429.26" y2="266.7" width="0.1524" layer="91"/>
+<wire x1="429.26" y1="266.7" x2="429.26" y2="264.16" width="0.1524" layer="91"/>
+<label x="424.18" y="266.7" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="P" pin="V+"/>
+<wire x1="449.58" y1="292.1" x2="449.58" y2="297.18" width="0.1524" layer="91"/>
+<label x="449.58" y="294.64" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
