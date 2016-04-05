@@ -20141,7 +20141,7 @@ http://www.zetex.com&lt;p&gt;
 <wire x1="421.64" y1="193.04" x2="440.69" y2="193.04" width="0.1524" layer="95" style="shortdash"/>
 <wire x1="440.69" y1="193.04" x2="440.69" y2="148.59" width="0.1524" layer="95" style="shortdash"/>
 <wire x1="440.69" y1="148.59" x2="421.64" y2="148.59" width="0.1524" layer="95" style="shortdash"/>
-<text x="241.3" y="307.34" size="1.778" layer="97">P2.0, 2.1, 2.2, 2.3
+<text x="233.68" y="307.34" size="1.778" layer="97">P2.0, 2.1, 2.2, 2.3
 have high drive 
 capabilities up to
 20 mA</text>
@@ -21291,7 +21291,6 @@ capabilities up to
 <wire x1="406.4" y1="439.42" x2="383.54" y2="439.42" width="0.1524" layer="91"/>
 <wire x1="406.4" y1="439.42" x2="419.1" y2="439.42" width="0.1524" layer="91"/>
 <label x="416.56" y="436.88" size="1.778" layer="95"/>
-<wire x1="350.52" y1="429.26" x2="355.6" y2="429.26" width="0.1524" layer="91"/>
 <wire x1="355.6" y1="429.26" x2="355.6" y2="439.42" width="0.1524" layer="91"/>
 <pinref part="+3V12" gate="G$1" pin="+3V3"/>
 <pinref part="C9" gate="G$1" pin="1"/>
@@ -21299,6 +21298,8 @@ capabilities up to
 <pinref part="U1" gate="G$1" pin="VOUT"/>
 <wire x1="350.52" y1="439.42" x2="355.6" y2="439.42" width="0.1524" layer="91"/>
 <junction x="355.6" y="439.42"/>
+<pinref part="U1" gate="G$1" pin="FB"/>
+<wire x1="355.6" y1="429.26" x2="350.52" y2="429.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="M1IN2" class="0">
