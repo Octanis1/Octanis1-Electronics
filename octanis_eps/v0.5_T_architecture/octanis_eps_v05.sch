@@ -21566,8 +21566,8 @@ by exp-lbrs.ulp</description>
 <part name="6.8UH" library="inductors" deviceset="DR127" device=""/>
 <part name="U10" library="texasinstruments" deviceset="CSD16327Q3_DQG_8" device=""/>
 <part name="U11" library="texasinstruments" deviceset="CSD16327Q3_DQG_8" device=""/>
-<part name="R101" library="rcl" deviceset="R-EU_" device="R0603"/>
-<part name="R100" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R101" library="rcl" deviceset="R-EU_" device="R0603" value="Rmppu"/>
+<part name="R100" library="rcl" deviceset="R-EU_" device="R0603" value="Rmppd"/>
 <part name="GND44" library="supply1" deviceset="GND" device=""/>
 <part name="R32" library="rcl" deviceset="R-EU_" device="R0603" value="100k"/>
 <part name="R33" library="rcl" deviceset="R-EU_" device="R0603" value="100k"/>

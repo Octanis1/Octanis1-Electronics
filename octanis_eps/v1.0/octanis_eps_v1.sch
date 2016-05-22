@@ -21981,17 +21981,17 @@ Source: &lt;a href="http://www.infineon.com/dgdl/BSC340N08NS3G_rev2.4.pdf?folder
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="U2" library="linear" deviceset="OPA2333" device="DGK"/>
-<part name="R23" library="rcl" deviceset="R-EU_" device="R0603" value="200k"/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="R0603" value="100k"/>
+<part name="R23" library="rcl" deviceset="R-EU_" device="R0603" value="200k (0.1%)"/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="R0603" value="100k (0.1%)"/>
 <part name="R5" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="R0603" value="200k"/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="R0603" value="100k"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="R0603" value="200k (0.1%)"/>
+<part name="R4" library="rcl" deviceset="R-EU_" device="R0603" value="100k (0.1%)"/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0603" value="1.5uF"/>
-<part name="R25" library="rcl" deviceset="R-EU_" device="R0603" value="200k"/>
-<part name="R6" library="rcl" deviceset="R-EU_" device="R0603" value="100k"/>
+<part name="R25" library="rcl" deviceset="R-EU_" device="R0603" value="330k (0.1%)"/>
+<part name="R6" library="rcl" deviceset="R-EU_" device="R0603" value="100k (0.1%)"/>
 <part name="R7" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
-<part name="R9" library="rcl" deviceset="R-EU_" device="R0603" value="200k"/>
-<part name="R8" library="rcl" deviceset="R-EU_" device="R0603" value="100k"/>
+<part name="R9" library="rcl" deviceset="R-EU_" device="R0603" value="330k (0.1%)"/>
+<part name="R8" library="rcl" deviceset="R-EU_" device="R0603" value="100k (0.1%)"/>
 <part name="C3" library="rcl" deviceset="C-EU" device="C0603" value="1.5uF"/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="R24" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
@@ -22000,8 +22000,8 @@ Source: &lt;a href="http://www.infineon.com/dgdl/BSC340N08NS3G_rev2.4.pdf?folder
 <part name="R22" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
 <part name="U10" library="Octanis1_EPS" deviceset="INA213" device=""/>
 <part name="U9" library="Octanis1_EPS" deviceset="INA213" device=""/>
-<part name="RS3" library="Octanis1_EPS" deviceset="CURRENT_RESISTOR" device="" value="50m"/>
-<part name="RS2" library="Octanis1_EPS" deviceset="CURRENT_RESISTOR" device="" value="50m"/>
+<part name="RS3" library="Octanis1_EPS" deviceset="CURRENT_RESISTOR" device="" value="10m"/>
+<part name="RS2" library="Octanis1_EPS" deviceset="CURRENT_RESISTOR" device="" value="10m"/>
 <part name="R20" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
 <part name="R21" library="rcl" deviceset="R-EU_" device="R0603" value="1M"/>
 <part name="C5" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
@@ -22029,7 +22029,7 @@ Source: &lt;a href="http://www.infineon.com/dgdl/BSC340N08NS3G_rev2.4.pdf?folder
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="R43" library="resistor" deviceset="R-EU_" device="R0603" value="47k"/>
-<part name="R47" library="resistor" deviceset="R-EU_" device="R0603" value="470k"/>
+<part name="R47" library="resistor" deviceset="R-EU_" device="R0603" value="456k"/>
 <part name="R46" library="resistor" deviceset="R-EU_" device="R0603" value="56k"/>
 <part name="C32" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="C45" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
@@ -22060,11 +22060,11 @@ Source: &lt;a href="http://www.infineon.com/dgdl/BSC340N08NS3G_rev2.4.pdf?folder
 <part name="L4" library="inductors" deviceset="DR127" device="" value="DR127_6u8"/>
 <part name="Q5" library="texasinstruments" deviceset="CSD16327Q3_DQG_8" device=""/>
 <part name="Q6" library="texasinstruments" deviceset="CSD16327Q3_DQG_8" device=""/>
-<part name="R29" library="rcl" deviceset="R-EU_" device="R0603"/>
-<part name="R33" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R29" library="rcl" deviceset="R-EU_" device="R0603" value="Rmpph"/>
+<part name="R33" library="rcl" deviceset="R-EU_" device="R0603" value="Rmppl"/>
 <part name="GND44" library="supply1" deviceset="GND" device=""/>
-<part name="R35" library="rcl" deviceset="R-EU_" device="R0603" value="100k"/>
-<part name="R34" library="rcl" deviceset="R-EU_" device="R0603" value="100k"/>
+<part name="R35" library="rcl" deviceset="R-EU_" device="R0603" value="100k (1%)"/>
+<part name="R34" library="rcl" deviceset="R-EU_" device="R0603" value="100k (1%)"/>
 <part name="R30" library="rcl" deviceset="R-EU_" device="R0603" value="4k7"/>
 <part name="R31" library="rcl" deviceset="R-EU_" device="R0603" value="4k7"/>
 <part name="STAT2" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="5V-ok"/>
@@ -22082,7 +22082,7 @@ Source: &lt;a href="http://www.infineon.com/dgdl/BSC340N08NS3G_rev2.4.pdf?folder
 <part name="GND45" library="supply1" deviceset="GND" device=""/>
 <part name="GND46" library="supply1" deviceset="GND" device=""/>
 <part name="GND47" library="supply1" deviceset="GND" device=""/>
-<part name="C28" library="rcl" deviceset="C-EU" device="C0603" value="1u"/>
+<part name="C28" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
 <part name="GND48" library="supply1" deviceset="GND" device=""/>
 <part name="GND49" library="supply1" deviceset="GND" device=""/>
 <part name="GND50" library="supply1" deviceset="GND" device=""/>
@@ -22101,8 +22101,8 @@ Source: &lt;a href="http://www.infineon.com/dgdl/BSC340N08NS3G_rev2.4.pdf?folder
 <part name="GND61" library="supply1" deviceset="GND" device=""/>
 <part name="Q4" library="transistor-small-signal" deviceset="BSS123" device=""/>
 <part name="GND62" library="supply1" deviceset="GND" device=""/>
-<part name="R28" library="rcl" deviceset="R-EU_" device="R0603" value="1M"/>
-<part name="R41" library="rcl" deviceset="R-EU_" device="R0603" value="2.2M"/>
+<part name="R28" library="rcl" deviceset="R-EU_" device="R0603" value="dnp"/>
+<part name="R41" library="rcl" deviceset="R-EU_" device="R0603" value="2.2M (1%)"/>
 <part name="D1" library="diode" deviceset="BAT54C" device=""/>
 <part name="R40" library="rcl" deviceset="R-EU_" device="R1206" value="10"/>
 <part name="Q3" library="texasinstruments" deviceset="CSD16327Q3_DQG_8" device=""/>
@@ -22151,9 +22151,9 @@ Source: &lt;a href="http://www.infineon.com/dgdl/BSC340N08NS3G_rev2.4.pdf?folder
 <part name="DIGITAL" library="adafruit" deviceset="PINHD-1X6" device="B"/>
 <part name="C7" library="rcl" deviceset="C-EU" device="C0603" value="12pF"/>
 <part name="C6" library="rcl" deviceset="C-EU" device="C0603" value="12pF"/>
-<part name="RT3" library="rcl" deviceset="R-EU_" device="R0603" value="2723"/>
-<part name="RT4" library="rcl" deviceset="R-EU_" device="R0603" value="8501"/>
-<part name="RTH" library="Headerlibrary" deviceset="PINHD-1X2" device=""/>
+<part name="RT3" library="rcl" deviceset="R-EU_" device="R0603" value="2696"/>
+<part name="RT4" library="rcl" deviceset="R-EU_" device="R0603" value="8187"/>
+<part name="RTH" library="Headerlibrary" deviceset="PINHD-1X2" device="" value="103AT"/>
 <part name="GND41" library="supply1" deviceset="GND" device=""/>
 <part name="JP2" library="Headerlibrary" deviceset="PINHD-2X6" device=""/>
 <part name="RT2" library="rcl" deviceset="R-EU_" device="R0603" value="2723"/>
@@ -22201,12 +22201,12 @@ Source: &lt;a href="http://www.infineon.com/dgdl/BSC340N08NS3G_rev2.4.pdf?folder
 <text x="464.82" y="251.46" size="1.778" layer="94">Solar cell voltage</text>
 <text x="619.76" y="254" size="1.778" layer="94">SOLAR in</text>
 <text x="622.3" y="289.56" size="1.778" layer="94">Current Out</text>
-<text x="635" y="60.96" size="1.778" layer="97">-&gt; Vout = 11.4 V</text>
-<text x="635" y="58.42" size="1.778" layer="97">456kOhm for R23 for Vout = 11V</text>
+<text x="635" y="60.96" size="1.778" layer="97">-&gt; Vout = 11.0 V</text>
+<text x="635" y="58.42" size="1.778" layer="97">470kOhm for R47 for Vout = 11.4V</text>
 <text x="66.04" y="66.04" size="1.778" layer="97">1.2V for MPP</text>
 <text x="66.04" y="68.58" size="1.778" layer="97">1uA leakage</text>
 <text x="119.38" y="53.34" size="1.778" layer="97">Charge termination disabled</text>
-<text x="236.22" y="88.9" size="1.778" layer="97">Vterm = 4.1 V -&gt; be nice with battery</text>
+<text x="233.68" y="73.66" size="1.778" layer="97">Vterm = 4.1 V -&gt; be nice with battery</text>
 <text x="187.96" y="109.22" size="1.778" layer="97">10mOhm -&gt; 4A max current</text>
 <text x="50.8" y="45.72" size="1.778" layer="97">2N7002DICT</text>
 <text x="119.38" y="121.92" size="1.778" layer="97">Si7288DP as alternative</text>
@@ -22218,6 +22218,10 @@ Cin = 2pF
 
 Requires external capacitors at both terminals to meet the effective load capacitance specified by crystal manufacturers. 
 Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, and 12.5 pF </text>
+<text x="391.16" y="236.22" size="1.778" layer="97">input range: 0 - 8.5V</text>
+<text x="388.62" y="281.94" size="1.778" layer="97">input range: 0 - 5V</text>
+<text x="40.64" y="27.94" size="1.778" layer="97">-25°C - 60°C charge range
+(see BOM for calculation)</text>
 </plain>
 <instances>
 <instance part="U5" gate="A" x="99.06" y="68.58"/>
@@ -22351,8 +22355,8 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <attribute name="VALUE" x="66.802" y="57.15" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND44" gate="1" x="96.52" y="53.34" rot="R270"/>
-<instance part="R35" gate="G$1" x="231.14" y="99.06" rot="R90"/>
-<instance part="R34" gate="G$1" x="231.14" y="88.9" rot="R90"/>
+<instance part="R35" gate="G$1" x="236.22" y="99.06" rot="R90"/>
+<instance part="R34" gate="G$1" x="236.22" y="88.9" rot="R90"/>
 <instance part="R30" gate="G$1" x="76.2" y="58.42" smashed="yes" rot="R180">
 <attribute name="NAME" x="72.39" y="52.2986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="72.39" y="55.118" size="1.778" layer="96"/>
@@ -22375,7 +22379,7 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <attribute name="NAME" x="199.644" y="61.341" size="1.778" layer="95"/>
 <attribute name="VALUE" x="199.644" y="58.801" size="1.778" layer="96"/>
 </instance>
-<instance part="C30" gate="G$1" x="238.76" y="99.06"/>
+<instance part="C30" gate="G$1" x="241.3" y="99.06"/>
 <instance part="C17" gate="G$1" x="182.88" y="48.26" rot="R180"/>
 <instance part="C40" gate="G$1" x="86.36" y="88.9"/>
 <instance part="C27" gate="G$1" x="27.94" y="63.5"/>
@@ -22397,7 +22401,7 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <instance part="GND52" gate="1" x="106.68" y="88.9" rot="R270"/>
 <instance part="GND53" gate="1" x="172.72" y="53.34" rot="R90"/>
 <instance part="GND54" gate="1" x="172.72" y="68.58" rot="R90"/>
-<instance part="GND55" gate="1" x="231.14" y="81.28"/>
+<instance part="GND55" gate="1" x="236.22" y="81.28"/>
 <instance part="GND56" gate="1" x="203.2" y="55.88" rot="R90"/>
 <instance part="C29" gate="G$1" x="190.5" y="71.12" smashed="yes">
 <attribute name="NAME" x="192.024" y="74.041" size="1.778" layer="95"/>
@@ -23863,13 +23867,13 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <pinref part="R35" gate="G$1" pin="1"/>
 <pinref part="R34" gate="G$1" pin="2"/>
 <pinref part="C30" gate="G$1" pin="2"/>
-<wire x1="231.14" y1="93.98" x2="238.76" y2="93.98" width="0.1524" layer="91"/>
-<junction x="231.14" y="93.98"/>
+<wire x1="236.22" y1="93.98" x2="241.3" y2="93.98" width="0.1524" layer="91"/>
+<junction x="236.22" y="93.98"/>
 <pinref part="U5" gate="A" pin="VFB"/>
 <wire x1="99.06" y1="50.8" x2="99.06" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="40.64" x2="228.6" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="40.64" x2="228.6" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="93.98" x2="231.14" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="93.98" x2="236.22" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="R41" gate="G$1" pin="1"/>
 <junction x="228.6" y="93.98"/>
 </segment>
@@ -23878,19 +23882,19 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <segment>
 <pinref part="C30" gate="G$1" pin="1"/>
 <pinref part="R35" gate="G$1" pin="2"/>
-<wire x1="238.76" y1="101.6" x2="238.76" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="104.14" x2="231.14" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="101.6" x2="241.3" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="104.14" x2="236.22" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="C42" gate="G$1" pin="1"/>
 <wire x1="215.9" y1="104.14" x2="223.52" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="C41" gate="G$1" pin="1"/>
 <junction x="223.52" y="104.14"/>
 <wire x1="223.52" y1="104.14" x2="228.6" y2="104.14" width="0.1524" layer="91"/>
-<junction x="231.14" y="104.14"/>
+<junction x="236.22" y="104.14"/>
 <pinref part="R41" gate="G$1" pin="2"/>
-<wire x1="228.6" y1="104.14" x2="231.14" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="104.14" x2="236.22" y2="104.14" width="0.1524" layer="91"/>
 <junction x="228.6" y="104.14"/>
-<wire x1="238.76" y1="104.14" x2="248.92" y2="104.14" width="0.1524" layer="91"/>
-<junction x="238.76" y="104.14"/>
+<wire x1="241.3" y1="104.14" x2="248.92" y2="104.14" width="0.1524" layer="91"/>
+<junction x="241.3" y="104.14"/>
 <label x="238.76" y="104.14" size="1.778" layer="95"/>
 <pinref part="RS1" gate="G$1" pin="I2"/>
 <wire x1="208.28" y1="104.14" x2="215.9" y2="104.14" width="0.1524" layer="91"/>
@@ -24075,50 +24079,51 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 </net>
 <net name="A_EXT1" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="P4.0/A8"/>
-<wire x1="142.24" y1="345.44" x2="152.4" y2="345.44" width="0.1524" layer="91"/>
-<label x="144.78" y="345.44" size="1.778" layer="95"/>
+<pinref part="JP2" gate="A" pin="9"/>
+<wire x1="25.4" y1="170.18" x2="10.16" y2="170.18" width="0.1524" layer="91"/>
+<label x="10.16" y="170.18" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="P1.5/TB0.2/UCA0CLK/A5/C5"/>
+<wire x1="76.2" y1="355.6" x2="50.8" y2="355.6" width="0.1524" layer="91"/>
+<label x="60.96" y="355.6" size="1.778" layer="95"/>
+<pinref part="RT1" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="A_EXT2" class="0">
 <segment>
 <wire x1="25.4" y1="172.72" x2="10.16" y2="172.72" width="0.1524" layer="91"/>
 <label x="10.16" y="172.72" size="1.778" layer="95"/>
 <pinref part="JP2" gate="A" pin="7"/>
 </segment>
-</net>
-<net name="A_EXT2" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="P4.1/A9"/>
-<wire x1="142.24" y1="342.9" x2="152.4" y2="342.9" width="0.1524" layer="91"/>
-<label x="144.78" y="342.9" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="P4.0/A8"/>
+<wire x1="142.24" y1="345.44" x2="152.4" y2="345.44" width="0.1524" layer="91"/>
+<label x="144.78" y="345.44" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="A_EXT3" class="0">
 <segment>
 <wire x1="25.4" y1="175.26" x2="10.16" y2="175.26" width="0.1524" layer="91"/>
 <label x="10.16" y="175.26" size="1.778" layer="95"/>
 <pinref part="JP2" gate="A" pin="5"/>
 </segment>
-</net>
-<net name="A_EXT3" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="P4.2/A10"/>
-<wire x1="142.24" y1="340.36" x2="152.4" y2="340.36" width="0.1524" layer="91"/>
-<label x="144.78" y="340.36" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="P4.1/A9"/>
+<wire x1="142.24" y1="342.9" x2="152.4" y2="342.9" width="0.1524" layer="91"/>
+<label x="144.78" y="342.9" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="A_EXT4" class="0">
 <segment>
 <wire x1="25.4" y1="177.8" x2="10.16" y2="177.8" width="0.1524" layer="91"/>
 <label x="10.16" y="177.8" size="1.778" layer="95"/>
 <pinref part="JP2" gate="A" pin="3"/>
 </segment>
-</net>
-<net name="A_EXT4" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="P4.3/A11"/>
-<wire x1="142.24" y1="337.82" x2="152.4" y2="337.82" width="0.1524" layer="91"/>
-<label x="144.78" y="337.82" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="25.4" y1="180.34" x2="10.16" y2="180.34" width="0.1524" layer="91"/>
-<label x="10.16" y="180.34" size="1.778" layer="95"/>
-<pinref part="JP2" gate="A" pin="1"/>
+<pinref part="U1" gate="G$1" pin="P4.2/A10"/>
+<wire x1="142.24" y1="340.36" x2="152.4" y2="340.36" width="0.1524" layer="91"/>
+<label x="144.78" y="340.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="EN_3V3_M" class="0">
@@ -24692,32 +24697,6 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <label x="81.28" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="A4_EXT" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="P1.4/TB0.1/UCA0STE/A4/C4"/>
-<wire x1="76.2" y1="358.14" x2="60.96" y2="358.14" width="0.1524" layer="91"/>
-<label x="60.96" y="358.14" size="1.778" layer="95"/>
-<pinref part="RT2" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="JP2" gate="A" pin="11"/>
-<wire x1="25.4" y1="167.64" x2="10.16" y2="167.64" width="0.1524" layer="91"/>
-<label x="10.16" y="167.64" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="A5_EXT" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="P1.5/TB0.2/UCA0CLK/A5/C5"/>
-<wire x1="76.2" y1="355.6" x2="50.8" y2="355.6" width="0.1524" layer="91"/>
-<label x="60.96" y="355.6" size="1.778" layer="95"/>
-<pinref part="RT1" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="JP2" gate="A" pin="9"/>
-<wire x1="25.4" y1="170.18" x2="10.16" y2="170.18" width="0.1524" layer="91"/>
-<label x="10.16" y="170.18" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="N$10" class="0">
 <segment>
 <pinref part="Q7" gate="G$1" pin="G"/>
@@ -24784,6 +24763,31 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <pinref part="U2" gate="P" pin="V+"/>
 <wire x1="449.58" y1="292.1" x2="449.58" y2="297.18" width="0.1524" layer="91"/>
 <label x="449.58" y="294.64" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="A_EXT0" class="0">
+<segment>
+<pinref part="JP2" gate="A" pin="11"/>
+<wire x1="25.4" y1="167.64" x2="10.16" y2="167.64" width="0.1524" layer="91"/>
+<label x="10.16" y="167.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="P1.4/TB0.1/UCA0STE/A4/C4"/>
+<wire x1="76.2" y1="358.14" x2="60.96" y2="358.14" width="0.1524" layer="91"/>
+<label x="60.96" y="358.14" size="1.778" layer="95"/>
+<pinref part="RT2" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="A_EXT5" class="0">
+<segment>
+<wire x1="25.4" y1="180.34" x2="10.16" y2="180.34" width="0.1524" layer="91"/>
+<label x="10.16" y="180.34" size="1.778" layer="95"/>
+<pinref part="JP2" gate="A" pin="1"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="P4.3/A11"/>
+<wire x1="142.24" y1="337.82" x2="152.4" y2="337.82" width="0.1524" layer="91"/>
+<label x="144.78" y="337.82" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

@@ -5740,11 +5740,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="7.1898" y="0.975" size="1.016" layer="25" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="9.525" y="1.1056" size="1.27" layer="27" ratio="6" rot="SR90"/>
 </element>
-<element name="R101" library="rcl" package="R0603" value="" x="5.26" y="21.62" smashed="yes" rot="MR0">
+<element name="R101" library="rcl" package="R0603" value="Rmppu" x="5.26" y="21.62" smashed="yes" rot="MR0">
 <attribute name="NAME" x="6.145" y="19.505" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="5.895" y="19.715" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="R100" library="rcl" package="R0603" value="" x="9.42" y="21.55" smashed="yes" rot="MR0">
+<element name="R100" library="rcl" package="R0603" value="Rmppd" x="9.42" y="21.55" smashed="yes" rot="MR0">
 <attribute name="NAME" x="10.805" y="19.435" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="10.055" y="19.645" size="1.27" layer="28" rot="MR0"/>
 </element>
