@@ -24843,18 +24843,18 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 </segment>
 <segment>
 <pinref part="+3V8" gate="G$1" pin="+3V3"/>
-<pinref part="U1" gate="G$1" pin="DVCC"/>
 <wire x1="91.44" y1="307.34" x2="91.44" y2="302.26" width="0.1524" layer="91"/>
 <pinref part="LF2" gate="G$1" pin="2"/>
-<wire x1="91.44" y1="302.26" x2="91.44" y2="297.18" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="297.18" x2="91.44" y2="292.1" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="307.34" x2="106.68" y2="307.34" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="88.9" y1="302.26" x2="91.44" y2="302.26" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="+"/>
-<wire x1="88.9" y1="297.18" x2="91.44" y2="297.18" width="0.1524" layer="91"/>
-<junction x="91.44" y="302.26"/>
 <junction x="91.44" y="307.34"/>
+<pinref part="U1" gate="G$1" pin="DVCC"/>
+<wire x1="91.44" y1="292.1" x2="91.44" y2="297.18" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="+"/>
+<wire x1="91.44" y1="297.18" x2="91.44" y2="302.26" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="297.18" x2="91.44" y2="297.18" width="0.1524" layer="91"/>
+<junction x="91.44" y="297.18"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
@@ -24899,7 +24899,6 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <wire x1="106.68" y1="297.18" x2="106.68" y2="292.1" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="1"/>
 <junction x="106.68" y="292.1"/>
-<junction x="91.44" y="297.18"/>
 <wire x1="109.22" y1="292.1" x2="106.68" y2="292.1" width="0.1524" layer="91"/>
 <label x="106.68" y="294.64" size="1.778" layer="95" rot="R180"/>
 </segment>

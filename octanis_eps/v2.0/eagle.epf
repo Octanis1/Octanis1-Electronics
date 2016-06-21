@@ -389,10 +389,11 @@ UsedLibrary="/Users/raffael/Desktop/Octanis/Octanis1-Electronics/lib/texasinstru
 UsedLibrary="/Users/raffael/Desktop/Octanis/Octanis1-Electronics/lib/transistor-power.lbr"
 UsedLibrary="/Users/raffael/Desktop/Octanis/Octanis1-Electronics/lib/we-sensor.lbr"
 UsedLibrary="octanis_eps_v05.lbr"
+UsedLibrary="/Users/raffael/Desktop/Octanis/Octanis1-Electronics/lib/usbminib.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="4 23 1461 1177"
+Loc="559 23 2016 1177"
 State=2
 Number=0
 
