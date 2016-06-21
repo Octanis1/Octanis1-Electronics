@@ -22035,7 +22035,7 @@ Source: &lt;a href="http://www.infineon.com/dgdl/BSC340N08NS3G_rev2.4.pdf?folder
 <part name="C45" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="C33" library="rcl" deviceset="C-EU" device="C0603" value="2.2uF"/>
 <part name="C46" library="rcl" deviceset="C-EU" device="C0603" value="47nF"/>
-<part name="R44" library="resistor" deviceset="R-EU_" device="R0603" value="100k"/>
+<part name="R44" library="resistor" deviceset="R-EU_" device="R0603" value="100k (1%)"/>
 <part name="R45" library="resistor" deviceset="R-EU_" device="R0603" value="150-220k"/>
 <part name="C35" library="rcl" deviceset="C-EU" device="C0603" value="150pF"/>
 <part name="C37" library="rcl" deviceset="C-EU" device="C0603" value="4.7nF"/>

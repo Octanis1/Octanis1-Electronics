@@ -6829,7 +6829,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="62.7874" y="4.0198" size="0.8128" layer="25" rot="R270"/>
 <attribute name="VALUE" x="60.0282" y="3.2766" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R44" library="resistor" package="R0603" value="100k" x="64.9732" y="12.8016" smashed="yes" rot="R270">
+<element name="R44" library="resistor" package="R0603" value="100k (1%)" x="64.9732" y="12.8016" smashed="yes" rot="R270">
 <attribute name="NAME" x="65.3542" y="14.4846" size="0.8128" layer="25" rot="R90"/>
 <attribute name="VALUE" x="63.0682" y="13.4366" size="1.27" layer="27" rot="R270"/>
 </element>
