@@ -22279,21 +22279,21 @@ Datasheet: &lt;a href="http://www.hirose.co.jp/cataloge_hp/e24000153.pdf"&gt;e24
 </class>
 </classes>
 <parts>
-<part name="U5" library="octanis_eps_v05" deviceset="BQ24650_RVA_16" device=""/>
+<part name="U10" library="octanis_eps_v05" deviceset="BQ24650_RVA_16" device=""/>
 <part name="U3" library="Octanis1_EPS" deviceset="TPS2022D" device=""/>
-<part name="C19" library="resistor" deviceset="C-EU" device="C0805" value="10uF"/>
-<part name="C11" library="resistor" deviceset="C-EU" device="C0805" value="22uF"/>
-<part name="C12" library="resistor" deviceset="C-EU" device="C0805" value="22uF"/>
-<part name="R26" library="resistor" deviceset="R-EU_" device="R0603" value="1M"/>
+<part name="C28" library="resistor" deviceset="C-EU" device="C0805" value="10uF"/>
+<part name="C10" library="resistor" deviceset="C-EU" device="C0805" value="22uF"/>
+<part name="C9" library="resistor" deviceset="C-EU" device="C0805" value="22uF"/>
+<part name="R8" library="resistor" deviceset="R-EU_" device="R0603" value="1M"/>
 <part name="U7" library="texasinstruments" deviceset="TPS61232" device=""/>
-<part name="L5" library="Coilcraft" deviceset="XFL4020" device="" value="1uH"/>
-<part name="C20" library="rcl" deviceset="C-EU" device="C0603" value="10nF"/>
+<part name="L4" library="Coilcraft" deviceset="XFL4020" device="" value="1uH"/>
+<part name="C15" library="rcl" deviceset="C-EU" device="C0603" value="10nF"/>
 <part name="+5V1" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="5V1"/>
-<part name="R14" library="rcl" deviceset="R-EU_" device="R0603" value="1.5k"/>
-<part name="R36" library="rcl" deviceset="R-EU_" device="R0603" value="1M"/>
-<part name="R37" library="rcl" deviceset="R-EU_" device="R0603" value="1M"/>
-<part name="J103" library="jumper" deviceset="SJ" device=""/>
-<part name="L3" library="Coilcraft" deviceset="XFL4020" device="" value="1uH"/>
+<part name="R13" library="rcl" deviceset="R-EU_" device="R0603" value="1.5k"/>
+<part name="R27" library="rcl" deviceset="R-EU_" device="R0603" value="1M"/>
+<part name="R28" library="rcl" deviceset="R-EU_" device="R0603" value="1M"/>
+<part name="J107" library="jumper" deviceset="SJ" device=""/>
+<part name="L1" library="Coilcraft" deviceset="XFL4020" device="" value="1uH"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
@@ -22301,86 +22301,86 @@ Datasheet: &lt;a href="http://www.hirose.co.jp/cataloge_hp/e24000153.pdf"&gt;e24
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="C23" library="resistor" deviceset="C-EU" device="C0805" value="10uF"/>
-<part name="C25" library="resistor" deviceset="C-EU" device="C0805" value="22uF"/>
-<part name="C26" library="resistor" deviceset="C-EU" device="C0805" value="22uF"/>
-<part name="R38" library="resistor" deviceset="R-EU_" device="R0603" value="1M"/>
+<part name="C29" library="resistor" deviceset="C-EU" device="C0805" value="10uF"/>
+<part name="C12" library="resistor" deviceset="C-EU" device="C0805" value="22uF"/>
+<part name="C11" library="resistor" deviceset="C-EU" device="C0805" value="22uF"/>
+<part name="R41" library="resistor" deviceset="R-EU_" device="R0603" value="1M"/>
 <part name="L2" library="Coilcraft" deviceset="XFL4020" device="" value="1uH"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="C13" library="resistor" deviceset="C-EU" device="C0805" value="10uF"/>
+<part name="C30" library="resistor" deviceset="C-EU" device="C0805" value="10uF"/>
 <part name="C14" library="resistor" deviceset="C-EU" device="C0805" value="22uF"/>
-<part name="C15" library="resistor" deviceset="C-EU" device="C0805" value="22uF"/>
-<part name="R27" library="resistor" deviceset="R-EU_" device="R0603" value="1M"/>
-<part name="L1" library="Coilcraft" deviceset="XFL4020" device="" value="1uH"/>
+<part name="C13" library="resistor" deviceset="C-EU" device="C0805" value="22uF"/>
+<part name="R42" library="resistor" deviceset="R-EU_" device="R0603" value="1M"/>
+<part name="L3" library="Coilcraft" deviceset="XFL4020" device="" value="1uH"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="U2" library="linear" deviceset="OPA2333" device="DGK"/>
-<part name="R23" library="rcl" deviceset="R-EU_" device="R0603" value="200k (0.1%)"/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="R0603" value="100k (0.1%)"/>
-<part name="R5" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
+<part name="R18" library="rcl" deviceset="R-EU_" device="R0603" value="200k (0.1%)"/>
+<part name="R17" library="rcl" deviceset="R-EU_" device="R0603" value="100k (0.1%)"/>
+<part name="R4" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R0603" value="200k (0.1%)"/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="R0603" value="100k (0.1%)"/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="R0603" value="100k (0.1%)"/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0603" value="1.5uF"/>
-<part name="R25" library="rcl" deviceset="R-EU_" device="R0603" value="330k (0.1%)"/>
+<part name="R20" library="rcl" deviceset="R-EU_" device="R0603" value="330k (0.1%)"/>
+<part name="R19" library="rcl" deviceset="R-EU_" device="R0603" value="100k (0.1%)"/>
+<part name="R5" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
+<part name="R7" library="rcl" deviceset="R-EU_" device="R0603" value="330k (0.1%)"/>
 <part name="R6" library="rcl" deviceset="R-EU_" device="R0603" value="100k (0.1%)"/>
-<part name="R7" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
-<part name="R9" library="rcl" deviceset="R-EU_" device="R0603" value="330k (0.1%)"/>
-<part name="R8" library="rcl" deviceset="R-EU_" device="R0603" value="100k (0.1%)"/>
 <part name="C3" library="rcl" deviceset="C-EU" device="C0603" value="1.5uF"/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
-<part name="R24" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
-<part name="C10" library="rcl" deviceset="C-EU" device="C0603" value="1.5uF"/>
-<part name="C9" library="rcl" deviceset="C-EU" device="C0603" value="1.5uF"/>
-<part name="R22" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
-<part name="U10" library="Octanis1_EPS" deviceset="INA213" device=""/>
-<part name="U9" library="Octanis1_EPS" deviceset="INA213" device=""/>
-<part name="RS3" library="Octanis1_EPS" deviceset="CURRENT_RESISTOR" device="" value="10m"/>
-<part name="R20" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
-<part name="R21" library="rcl" deviceset="R-EU_" device="R0603" value="1M"/>
+<part name="R40" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
+<part name="C27" library="rcl" deviceset="C-EU" device="C0603" value="1.5uF"/>
+<part name="C26" library="rcl" deviceset="C-EU" device="C0603" value="1.5uF"/>
+<part name="R38" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
+<part name="U11" library="Octanis1_EPS" deviceset="INA213" device=""/>
+<part name="U12" library="Octanis1_EPS" deviceset="INA213" device=""/>
+<part name="RS1" library="Octanis1_EPS" deviceset="CURRENT_RESISTOR" device="" value="10m"/>
+<part name="R54" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
+<part name="R55" library="rcl" deviceset="R-EU_" device="R0603" value="1M"/>
 <part name="C5" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="C4" library="rcl" deviceset="CPOL-EU" device="A/3216-18R" value="10uF"/>
 <part name="LF2" library="inductors" deviceset="BLM15H" device="" technology="D601SN1" value="100mH"/>
 <part name="C8" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="X1" library="microcrystal" deviceset="MS3V-T1R" device="" value="32.768kHz"/>
 <part name="+3V3_2" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="3V3-2"/>
-<part name="R13" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
-<part name="J104" library="jumper" deviceset="SJ" device=""/>
+<part name="R12" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
+<part name="J108" library="jumper" deviceset="SJ" device=""/>
 <part name="+11V" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="11V"/>
 <part name="R15" library="rcl" deviceset="R-EU_" device="R0603" value="4.7k"/>
-<part name="J102" library="jumper" deviceset="SJ" device=""/>
+<part name="J105" library="jumper" deviceset="SJ" device=""/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="+3V3_M" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="3V3-M"/>
-<part name="R11" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
-<part name="J106" library="jumper" deviceset="SJ" device=""/>
-<part name="VCC" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="3V3-EPS"/>
 <part name="R10" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
-<part name="J107" library="jumper" deviceset="SJ" device=""/>
+<part name="J110" library="jumper" deviceset="SJ" device=""/>
+<part name="VCC" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="3V3-EPS"/>
+<part name="R9" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
+<part name="J111" library="jumper" deviceset="SJ" device=""/>
 <part name="+3V3_1" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="3V3-1"/>
-<part name="R12" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
-<part name="J105" library="jumper" deviceset="SJ" device=""/>
-<part name="U12" library="texasinstruments" deviceset="TPS61088" device=""/>
+<part name="R11" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
+<part name="J109" library="jumper" deviceset="SJ" device=""/>
+<part name="U15" library="texasinstruments" deviceset="TPS61088" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
-<part name="R43" library="resistor" deviceset="R-EU_" device="R0603" value="47k"/>
-<part name="R47" library="resistor" deviceset="R-EU_" device="R0603" value="430k"/>
-<part name="R46" library="resistor" deviceset="R-EU_" device="R0603" value="56k"/>
-<part name="C32" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
-<part name="C45" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
-<part name="C33" library="rcl" deviceset="C-EU" device="C0603" value="2.2uF"/>
-<part name="C46" library="rcl" deviceset="C-EU" device="C0603" value="47nF"/>
-<part name="R44" library="resistor" deviceset="R-EU_" device="R0603" value="100k"/>
-<part name="R45" library="resistor" deviceset="R-EU_" device="R0603" value="150-220k"/>
-<part name="C35" library="rcl" deviceset="C-EU" device="C0603" value="150pF"/>
-<part name="C37" library="rcl" deviceset="C-EU" device="C0603" value="4.7nF"/>
-<part name="C21" library="resistor" deviceset="C-EU" device="C0805" value="22uF"/>
-<part name="C22" library="resistor" deviceset="C-EU" device="C0805" value="22uF"/>
-<part name="C24" library="resistor" deviceset="C-EU" device="C0805" value="22uF"/>
-<part name="C38" library="resistor" deviceset="C-EU" device="C0805" value="22uF"/>
-<part name="C36" library="resistor" deviceset="C-EU" device="C0805" value="22uF"/>
-<part name="C39" library="resistor" deviceset="C-EU" device="C0805" value="22uF"/>
-<part name="C34" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
-<part name="C44" library="resistor" deviceset="C-EU" device="C0805" value="10uF"/>
+<part name="R57" library="resistor" deviceset="R-EU_" device="R0603" value="47k"/>
+<part name="R61" library="resistor" deviceset="R-EU_" device="R0603" value="430k"/>
+<part name="R60" library="resistor" deviceset="R-EU_" device="R0603" value="56k"/>
+<part name="C46" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="C47" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="C38" library="rcl" deviceset="C-EU" device="C0603" value="2.2uF"/>
+<part name="C48" library="rcl" deviceset="C-EU" device="C0603" value="47nF"/>
+<part name="R58" library="resistor" deviceset="R-EU_" device="R0603" value="100k"/>
+<part name="R59" library="resistor" deviceset="R-EU_" device="R0603" value="150-220k"/>
+<part name="C40" library="rcl" deviceset="C-EU" device="C0603" value="150pF"/>
+<part name="C41" library="rcl" deviceset="C-EU" device="C0603" value="4.7nF"/>
+<part name="C18" library="resistor" deviceset="C-EU" device="C0805" value="22uF"/>
+<part name="C17" library="resistor" deviceset="C-EU" device="C0805" value="22uF"/>
+<part name="C16" library="resistor" deviceset="C-EU" device="C0805" value="22uF"/>
+<part name="C50" library="resistor" deviceset="C-EU" device="C0805" value="22uF"/>
+<part name="C49" library="resistor" deviceset="C-EU" device="C0805" value="22uF"/>
+<part name="C51" library="resistor" deviceset="C-EU" device="C0805" value="22uF"/>
+<part name="C39" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
+<part name="C45" library="resistor" deviceset="C-EU" device="C0805" value="10uF"/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
@@ -22390,33 +22390,33 @@ Datasheet: &lt;a href="http://www.hirose.co.jp/cataloge_hp/e24000153.pdf"&gt;e24
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
 <part name="GND40" library="supply1" deviceset="GND" device=""/>
-<part name="L6" library="Coilcraft" deviceset="XFL4020" device="" value="1.5uH"/>
-<part name="L4" library="inductors" deviceset="DR127" device="" value="DR127_6u8"/>
-<part name="Q5" library="texasinstruments" deviceset="CSD16327Q3_DQG_8" device=""/>
-<part name="Q6" library="texasinstruments" deviceset="CSD16327Q3_DQG_8" device=""/>
-<part name="R29" library="rcl" deviceset="R-EU_" device="R0603" value="Rmpph"/>
-<part name="R33" library="rcl" deviceset="R-EU_" device="R0603" value="Rmppl"/>
+<part name="L7" library="Coilcraft" deviceset="XFL4020" device="" value="1.5uH"/>
+<part name="L6" library="inductors" deviceset="DR127" device="" value="DR127_6u8"/>
+<part name="Q2" library="texasinstruments" deviceset="CSD16327Q3_DQG_8" device=""/>
+<part name="Q7" library="texasinstruments" deviceset="CSD16327Q3_DQG_8" device=""/>
+<part name="R32" library="rcl" deviceset="R-EU_" device="R0603" value="Rmpph"/>
+<part name="R36" library="rcl" deviceset="R-EU_" device="R0603" value="Rmppl"/>
 <part name="GND44" library="supply1" deviceset="GND" device=""/>
-<part name="R35" library="rcl" deviceset="R-EU_" device="R0603" value="100k (1%)"/>
-<part name="R34" library="rcl" deviceset="R-EU_" device="R0603" value="100k (1%)"/>
-<part name="R30" library="rcl" deviceset="R-EU_" device="R0603" value="4k7"/>
-<part name="R31" library="rcl" deviceset="R-EU_" device="R0603" value="4k7"/>
-<part name="STAT2" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="5V-ok"/>
+<part name="R39" library="rcl" deviceset="R-EU_" device="R0603" value="100k (1%)"/>
+<part name="R37" library="rcl" deviceset="R-EU_" device="R0603" value="100k (1%)"/>
+<part name="R33" library="rcl" deviceset="R-EU_" device="R0603" value="4k7"/>
+<part name="R34" library="rcl" deviceset="R-EU_" device="R0603" value="4k7"/>
 <part name="STAT1" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="5V-ok"/>
-<part name="J101" library="jumper" deviceset="SJ" device=""/>
-<part name="J100" library="jumper" deviceset="SJ" device=""/>
+<part name="STAT2" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="5V-ok"/>
+<part name="J103" library="jumper" deviceset="SJ" device=""/>
+<part name="J102" library="jumper" deviceset="SJ" device=""/>
+<part name="C43" library="resistor" deviceset="C-EU" device="C0805" value="10uF"/>
+<part name="C37" library="resistor" deviceset="C-EU" device="C0805" value="10uF"/>
+<part name="C23" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
+<part name="C36" library="rcl" deviceset="C-EU" device="C0603" value="22pF"/>
+<part name="C24" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="C42" library="resistor" deviceset="C-EU" device="C0805" value="10uF"/>
-<part name="C41" library="resistor" deviceset="C-EU" device="C0805" value="10uF"/>
-<part name="C16" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
-<part name="C30" library="rcl" deviceset="C-EU" device="C0603" value="22pF"/>
-<part name="C17" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
-<part name="C40" library="resistor" deviceset="C-EU" device="C0805" value="10uF"/>
-<part name="C27" library="rcl" deviceset="C-EU" device="C0603" value="2.2uF"/>
-<part name="C18" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
+<part name="C33" library="rcl" deviceset="C-EU" device="C0603" value="2.2uF"/>
+<part name="C25" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
 <part name="GND45" library="supply1" deviceset="GND" device=""/>
 <part name="GND46" library="supply1" deviceset="GND" device=""/>
 <part name="GND47" library="supply1" deviceset="GND" device=""/>
-<part name="C28" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
+<part name="C35" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
 <part name="GND48" library="supply1" deviceset="GND" device=""/>
 <part name="GND49" library="supply1" deviceset="GND" device=""/>
 <part name="GND50" library="supply1" deviceset="GND" device=""/>
@@ -22426,41 +22426,41 @@ Datasheet: &lt;a href="http://www.hirose.co.jp/cataloge_hp/e24000153.pdf"&gt;e24
 <part name="GND54" library="supply1" deviceset="GND" device=""/>
 <part name="GND55" library="supply1" deviceset="GND" device=""/>
 <part name="GND56" library="supply1" deviceset="GND" device=""/>
-<part name="C29" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
-<part name="RS1" library="Octanis1_EPS" deviceset="CURRENT_RESISTOR" device="" value="10m"/>
+<part name="C34" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="RS2" library="Octanis1_EPS" deviceset="CURRENT_RESISTOR" device="" value="10m"/>
 <part name="GND57" library="supply1" deviceset="GND" device=""/>
 <part name="GND58" library="supply1" deviceset="GND" device=""/>
 <part name="GND60" library="supply1" deviceset="GND" device=""/>
-<part name="C43" library="rcl" deviceset="C-EU" device="C1210" value="47uF Tantal"/>
+<part name="C44" library="rcl" deviceset="C-EU" device="C1210" value="47uF Tantal"/>
 <part name="GND61" library="supply1" deviceset="GND" device=""/>
-<part name="Q4" library="transistor-small-signal" deviceset="BSS123" device=""/>
+<part name="Q1" library="transistor-small-signal" deviceset="BSS123" device=""/>
 <part name="GND62" library="supply1" deviceset="GND" device=""/>
-<part name="R28" library="rcl" deviceset="R-EU_" device="R0603" value="dnp"/>
-<part name="R41" library="rcl" deviceset="R-EU_" device="R0603" value="2.2M (1%)"/>
+<part name="R31" library="rcl" deviceset="R-EU_" device="R0603" value="dnp"/>
+<part name="R46" library="rcl" deviceset="R-EU_" device="R0603" value="2.2M (1%)"/>
 <part name="D1" library="diode" deviceset="BAT54C" device=""/>
-<part name="R40" library="rcl" deviceset="R-EU_" device="R1206" value="10"/>
-<part name="Q3" library="texasinstruments" deviceset="CSD16327Q3_DQG_8" device=""/>
+<part name="R45" library="rcl" deviceset="R-EU_" device="R1206" value="10"/>
+<part name="Q5" library="texasinstruments" deviceset="CSD16327Q3_DQG_8" device=""/>
 <part name="GND63" library="supply1" deviceset="GND" device=""/>
 <part name="GND64" library="supply1" deviceset="GND" device=""/>
 <part name="GND65" library="supply1" deviceset="GND" device=""/>
-<part name="R18" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
-<part name="R19" library="rcl" deviceset="R-EU_" device="R0603" value="1M"/>
+<part name="R52" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
+<part name="R53" library="rcl" deviceset="R-EU_" device="R0603" value="1M"/>
 <part name="GND35" library="supply1" deviceset="GND" device=""/>
-<part name="Q2" library="texasinstruments" deviceset="CSD16327Q3_DQG_8" device=""/>
+<part name="Q4" library="texasinstruments" deviceset="CSD16327Q3_DQG_8" device=""/>
 <part name="GND36" library="supply1" deviceset="GND" device=""/>
 <part name="GND37" library="supply1" deviceset="GND" device=""/>
 <part name="GND38" library="supply1" deviceset="GND" device=""/>
-<part name="R16" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
-<part name="R17" library="rcl" deviceset="R-EU_" device="R0603" value="1M"/>
+<part name="R50" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
+<part name="R51" library="rcl" deviceset="R-EU_" device="R0603" value="1M"/>
 <part name="GND39" library="supply1" deviceset="GND" device=""/>
-<part name="Q1" library="texasinstruments" deviceset="CSD16327Q3_DQG_8" device=""/>
+<part name="Q3" library="texasinstruments" deviceset="CSD16327Q3_DQG_8" device=""/>
 <part name="GND66" library="supply1" deviceset="GND" device=""/>
 <part name="GND67" library="supply1" deviceset="GND" device=""/>
 <part name="GND68" library="supply1" deviceset="GND" device=""/>
 <part name="JP1" library="Headerlibrary" deviceset="PINHD-1X2" device=""/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
-<part name="JP3" library="Headerlibrary" deviceset="PINHD-1X2" device=""/>
-<part name="R32" library="rcl" deviceset="R-EU_" device="R0603" value="1M"/>
+<part name="JP4" library="Headerlibrary" deviceset="PINHD-1X2" device=""/>
+<part name="R35" library="rcl" deviceset="R-EU_" device="R0603" value="1M"/>
 <part name="GND59" library="supply1" deviceset="GND" device=""/>
 <part name="JP5" library="Headerlibrary" deviceset="PINHD-1X2" device=""/>
 <part name="GND75" library="supply1" deviceset="GND" device=""/>
@@ -22470,9 +22470,9 @@ Datasheet: &lt;a href="http://www.hirose.co.jp/cataloge_hp/e24000153.pdf"&gt;e24
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
-<part name="R48" library="resistor" deviceset="R-EU_" device="R0603" value="dnp"/>
+<part name="R62" library="resistor" deviceset="R-EU_" device="R0603" value="dnp"/>
 <part name="GND32" library="supply1" deviceset="GND" device=""/>
-<part name="Q7" library="transistor-power" deviceset="BSC340N08NS3G" device="" value="BSC0901NS"/>
+<part name="Q6" library="transistor-power" deviceset="BSC340N08NS3G" device="" value="BSC0901NS"/>
 <part name="U1" library="chips" deviceset="MSP430FR5969" device=""/>
 <part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND42" library="supply1" deviceset="GND" device=""/>
@@ -22497,9 +22497,9 @@ Datasheet: &lt;a href="http://www.hirose.co.jp/cataloge_hp/e24000153.pdf"&gt;e24
 <part name="AGND7" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND9" library="supply1" deviceset="AGND" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="R42" library="rcl" deviceset="R-EU_" device="R0603" value="1M"/>
+<part name="R56" library="rcl" deviceset="R-EU_" device="R0603" value="1M"/>
 <part name="GND70" library="supply1" deviceset="GND" device=""/>
-<part name="R39" library="rcl" deviceset="R-EU_" device="R2010" value="2"/>
+<part name="R44" library="rcl" deviceset="R-EU_" device="R2010" value="2"/>
 <part name="LF3" library="inductors" deviceset="BLM15H" device="" technology="D601SN1" value="100mH"/>
 <part name="AGND11" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND12" library="supply1" deviceset="AGND" device=""/>
@@ -22516,54 +22516,54 @@ Datasheet: &lt;a href="http://www.hirose.co.jp/cataloge_hp/e24000153.pdf"&gt;e24
 <part name="AGND23" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND24" library="supply1" deviceset="AGND" device=""/>
 <part name="LF1" library="inductors" deviceset="BLM15H" device="" technology="D601SN1" value="100mH"/>
-<part name="U11" library="Octanis1_EPS" deviceset="MIC5019" device=""/>
+<part name="U14" library="Octanis1_EPS" deviceset="MIC5019" device=""/>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
-<part name="U13" library="texasinstruments" deviceset="TPS61232" device=""/>
-<part name="L7" library="Coilcraft" deviceset="XFL4020" device="" value="1uH"/>
-<part name="C48" library="rcl" deviceset="C-EU" device="C0603" value="10nF"/>
+<part name="U8" library="texasinstruments" deviceset="TPS61232" device=""/>
+<part name="L5" library="Coilcraft" deviceset="XFL4020" device="" value="1uH"/>
+<part name="C19" library="rcl" deviceset="C-EU" device="C0603" value="10nF"/>
 <part name="+5V2" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="5V2"/>
-<part name="R49" library="rcl" deviceset="R-EU_" device="R0603" value="1.5k"/>
-<part name="R50" library="rcl" deviceset="R-EU_" device="R0603" value="1M"/>
-<part name="R51" library="rcl" deviceset="R-EU_" device="R0603" value="1M"/>
-<part name="J1" library="jumper" deviceset="SJ" device=""/>
+<part name="R14" library="rcl" deviceset="R-EU_" device="R0603" value="1.5k"/>
+<part name="R29" library="rcl" deviceset="R-EU_" device="R0603" value="1M"/>
+<part name="R30" library="rcl" deviceset="R-EU_" device="R0603" value="1M"/>
+<part name="J106" library="jumper" deviceset="SJ" device=""/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
-<part name="C49" library="resistor" deviceset="C-EU" device="C0805" value="22uF"/>
-<part name="C50" library="resistor" deviceset="C-EU" device="C0805" value="22uF"/>
-<part name="C51" library="resistor" deviceset="C-EU" device="C0805" value="22uF"/>
+<part name="C20" library="resistor" deviceset="C-EU" device="C0805" value="22uF"/>
+<part name="C22" library="resistor" deviceset="C-EU" device="C0805" value="22uF"/>
+<part name="C21" library="resistor" deviceset="C-EU" device="C0805" value="22uF"/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
-<part name="U15" library="octanis_eps_v05" deviceset="TPS630250RNCR" device="" value="Value"/>
-<part name="U16" library="octanis_eps_v05" deviceset="TPS630250RNCR" device="" value="Value"/>
-<part name="U17" library="octanis_eps_v05" deviceset="TPS630250RNCR" device="" value="Value"/>
-<part name="U4" library="Octanis1_EPS" deviceset="TPS2022D" device=""/>
-<part name="R53" library="resistor" deviceset="R-EU_" device="R0603" value="1M"/>
+<part name="U4" library="octanis_eps_v05" deviceset="TPS630250RNCR" device="" value="Value"/>
+<part name="U5" library="octanis_eps_v05" deviceset="TPS630250RNCR" device="" value="Value"/>
+<part name="U6" library="octanis_eps_v05" deviceset="TPS630250RNCR" device="" value="Value"/>
+<part name="U9" library="Octanis1_EPS" deviceset="TPS2022D" device=""/>
+<part name="R43" library="resistor" deviceset="R-EU_" device="R0603" value="1M"/>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
-<part name="U$1" library="Octanis1_EPS" deviceset="MCP73831/2" device=""/>
-<part name="R52" library="rcl" deviceset="R-EU_" device="R0603" value="2k"/>
+<part name="U13" library="Octanis1_EPS" deviceset="MCP73831/2" device=""/>
+<part name="R47" library="rcl" deviceset="R-EU_" device="R0603" value="2k"/>
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
 <part name="C_USB" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="C_USB"/>
-<part name="R54" library="rcl" deviceset="R-EU_" device="R0603" value="470"/>
-<part name="J2" library="jumper" deviceset="SJ" device=""/>
-<part name="R55" library="rcl" deviceset="R-EU_" device="R0603" value="150k"/>
-<part name="R56" library="rcl" deviceset="R-EU_" device="R0603" value="360k"/>
-<part name="R57" library="rcl" deviceset="R-EU_" device="R0603" value="360k"/>
-<part name="R58" library="rcl" deviceset="R-EU_" device="R0603" value="360k"/>
-<part name="R59" library="rcl" deviceset="R-EU_" device="R0603" value="150k"/>
-<part name="R60" library="rcl" deviceset="R-EU_" device="R0603" value="150k"/>
+<part name="R48" library="rcl" deviceset="R-EU_" device="R0603" value="470"/>
+<part name="J101" library="jumper" deviceset="SJ" device=""/>
+<part name="R21" library="rcl" deviceset="R-EU_" device="R0603" value="150k"/>
+<part name="R22" library="rcl" deviceset="R-EU_" device="R0603" value="360k"/>
+<part name="R24" library="rcl" deviceset="R-EU_" device="R0603" value="360k"/>
+<part name="R26" library="rcl" deviceset="R-EU_" device="R0603" value="360k"/>
+<part name="R23" library="rcl" deviceset="R-EU_" device="R0603" value="150k"/>
+<part name="R25" library="rcl" deviceset="R-EU_" device="R0603" value="150k"/>
 <part name="DIRECT" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="DIRECT"/>
-<part name="R61" library="rcl" deviceset="R-EU_" device="R0603" value="1.5k"/>
-<part name="J3" library="jumper" deviceset="SJ" device=""/>
+<part name="R16" library="rcl" deviceset="R-EU_" device="R0603" value="1.5k"/>
+<part name="J104" library="jumper" deviceset="SJ" device=""/>
 <part name="GND34" library="supply1" deviceset="GND" device=""/>
 <part name="P_USB" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="P_USB"/>
-<part name="R62" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
-<part name="J4" library="jumper" deviceset="SJ" device=""/>
+<part name="R49" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
+<part name="J100" library="jumper" deviceset="SJ" device=""/>
 <part name="GND71" library="supply1" deviceset="GND" device=""/>
 <part name="C31" library="resistor" deviceset="C-EU" device="C0805" value="22uF"/>
-<part name="C47" library="resistor" deviceset="C-EU" device="C0805" value="22uF"/>
-<part name="JP7" library="Headerlibrary" deviceset="PINHD-1X16" device=""/>
+<part name="C32" library="resistor" deviceset="C-EU" device="C0805" value="22uF"/>
+<part name="JP3" library="Headerlibrary" deviceset="PINHD-1X16" device=""/>
 <part name="GND72" library="supply1" deviceset="GND" device=""/>
 <part name="GND73" library="supply1" deviceset="GND" device=""/>
 <part name="GND74" library="supply1" deviceset="GND" device=""/>
@@ -22573,8 +22573,8 @@ Datasheet: &lt;a href="http://www.hirose.co.jp/cataloge_hp/e24000153.pdf"&gt;e24
 <part name="GND80" library="supply1" deviceset="GND" device=""/>
 <part name="GND81" library="supply1" deviceset="GND" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
-<part name="JP4" library="Headerlibrary" deviceset="PINHD-1X6" device=""/>
-<part name="U$2" library="usbminib" deviceset="UX60SC-MB-5ST" device=""/>
+<part name="JP7" library="Headerlibrary" deviceset="PINHD-1X6" device=""/>
+<part name="MINI_USB" library="usbminib" deviceset="UX60SC-MB-5ST" device=""/>
 <part name="GND82" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -22611,21 +22611,21 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <text x="579.12" y="200.66" size="1.778" layer="91">5V</text>
 </plain>
 <instances>
-<instance part="U5" gate="A" x="99.06" y="68.58"/>
+<instance part="U10" gate="A" x="99.06" y="68.58"/>
 <instance part="U3" gate="G$1" x="419.1" y="175.26"/>
-<instance part="C19" gate="G$1" x="297.18" y="165.1"/>
-<instance part="C11" gate="G$1" x="365.76" y="165.1"/>
-<instance part="C12" gate="G$1" x="373.38" y="165.1"/>
-<instance part="R26" gate="G$1" x="398.78" y="170.18" rot="R180"/>
+<instance part="C28" gate="G$1" x="297.18" y="165.1"/>
+<instance part="C10" gate="G$1" x="365.76" y="165.1"/>
+<instance part="C9" gate="G$1" x="373.38" y="165.1"/>
+<instance part="R8" gate="G$1" x="398.78" y="170.18" rot="R180"/>
 <instance part="U7" gate="G$1" x="579.12" y="147.32"/>
-<instance part="L5" gate="L$1" x="579.12" y="162.56"/>
-<instance part="C20" gate="G$1" x="553.72" y="139.7"/>
+<instance part="L4" gate="L$1" x="579.12" y="162.56"/>
+<instance part="C15" gate="G$1" x="553.72" y="139.7"/>
 <instance part="+5V1" gate="G$1" x="647.7" y="147.32"/>
-<instance part="R14" gate="G$1" x="647.7" y="134.62" rot="R90"/>
-<instance part="R36" gate="G$1" x="546.1" y="142.24" rot="R90"/>
-<instance part="R37" gate="G$1" x="604.52" y="144.78" rot="R90"/>
-<instance part="J103" gate="1" x="647.7" y="121.92" rot="R90"/>
-<instance part="L3" gate="L$1" x="332.74" y="195.58"/>
+<instance part="R13" gate="G$1" x="647.7" y="134.62" rot="R90"/>
+<instance part="R27" gate="G$1" x="546.1" y="142.24" rot="R90"/>
+<instance part="R28" gate="G$1" x="604.52" y="144.78" rot="R90"/>
+<instance part="J107" gate="1" x="647.7" y="121.92" rot="R90"/>
+<instance part="L1" gate="L$1" x="332.74" y="195.58"/>
 <instance part="GND1" gate="1" x="518.16" y="142.24"/>
 <instance part="GND2" gate="1" x="553.72" y="129.54"/>
 <instance part="GND3" gate="1" x="627.38" y="134.62"/>
@@ -22633,45 +22633,45 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <instance part="GND5" gate="1" x="373.38" y="142.24"/>
 <instance part="GND6" gate="1" x="297.18" y="142.24"/>
 <instance part="GND7" gate="1" x="398.78" y="180.34" rot="R270"/>
-<instance part="C23" gate="G$1" x="297.18" y="104.14"/>
-<instance part="C25" gate="G$1" x="365.76" y="99.06"/>
-<instance part="C26" gate="G$1" x="373.38" y="99.06"/>
-<instance part="R38" gate="G$1" x="302.26" y="88.9" rot="R180"/>
+<instance part="C29" gate="G$1" x="297.18" y="104.14"/>
+<instance part="C12" gate="G$1" x="365.76" y="99.06"/>
+<instance part="C11" gate="G$1" x="373.38" y="99.06"/>
+<instance part="R41" gate="G$1" x="302.26" y="88.9" rot="R180"/>
 <instance part="L2" gate="L$1" x="332.74" y="129.54"/>
 <instance part="GND8" gate="1" x="373.38" y="76.2"/>
 <instance part="GND9" gate="1" x="297.18" y="76.2"/>
-<instance part="C13" gate="G$1" x="297.18" y="38.1"/>
+<instance part="C30" gate="G$1" x="297.18" y="38.1"/>
 <instance part="C14" gate="G$1" x="365.76" y="33.02"/>
-<instance part="C15" gate="G$1" x="373.38" y="33.02"/>
-<instance part="R27" gate="G$1" x="302.26" y="22.86" rot="R180"/>
-<instance part="L1" gate="L$1" x="332.74" y="63.5"/>
+<instance part="C13" gate="G$1" x="373.38" y="33.02"/>
+<instance part="R42" gate="G$1" x="302.26" y="22.86" rot="R180"/>
+<instance part="L3" gate="L$1" x="332.74" y="63.5"/>
 <instance part="GND11" gate="1" x="373.38" y="10.16"/>
 <instance part="GND12" gate="1" x="297.18" y="10.16"/>
 <instance part="U2" gate="A" x="449.58" y="284.48"/>
 <instance part="U2" gate="P" x="449.58" y="284.48"/>
-<instance part="R23" gate="G$1" x="431.8" y="287.02" rot="R180"/>
-<instance part="R3" gate="G$1" x="439.42" y="294.64" rot="R270"/>
-<instance part="R5" gate="G$1" x="467.36" y="284.48" rot="R180"/>
+<instance part="R18" gate="G$1" x="431.8" y="287.02" rot="R180"/>
+<instance part="R17" gate="G$1" x="439.42" y="294.64" rot="R270"/>
+<instance part="R4" gate="G$1" x="467.36" y="284.48" rot="R180"/>
 <instance part="R2" gate="G$1" x="431.8" y="281.94" rot="R180"/>
-<instance part="R4" gate="G$1" x="449.58" y="266.7" rot="R180"/>
+<instance part="R3" gate="G$1" x="449.58" y="266.7" rot="R180"/>
 <instance part="C1" gate="G$1" x="480.06" y="279.4" rot="R180"/>
-<instance part="R25" gate="G$1" x="431.8" y="241.3" rot="R180"/>
-<instance part="R6" gate="G$1" x="439.42" y="248.92" rot="R270"/>
-<instance part="R7" gate="G$1" x="467.36" y="238.76" rot="R180"/>
-<instance part="R9" gate="G$1" x="431.8" y="236.22" rot="R180"/>
-<instance part="R8" gate="G$1" x="449.58" y="220.98" rot="R180"/>
+<instance part="R20" gate="G$1" x="431.8" y="241.3" rot="R180"/>
+<instance part="R19" gate="G$1" x="439.42" y="248.92" rot="R270"/>
+<instance part="R5" gate="G$1" x="467.36" y="238.76" rot="R180"/>
+<instance part="R7" gate="G$1" x="431.8" y="236.22" rot="R180"/>
+<instance part="R6" gate="G$1" x="449.58" y="220.98" rot="R180"/>
 <instance part="C3" gate="G$1" x="480.06" y="233.68" rot="R180"/>
 <instance part="C2" gate="G$1" x="429.26" y="259.08" rot="R180"/>
 <instance part="U2" gate="B" x="452.12" y="238.76"/>
-<instance part="R24" gate="G$1" x="614.68" y="271.78" rot="R180"/>
-<instance part="C10" gate="G$1" x="632.46" y="266.7" rot="R180"/>
-<instance part="C9" gate="G$1" x="632.46" y="233.68" rot="R180"/>
-<instance part="R22" gate="G$1" x="614.68" y="238.76" rot="R180"/>
-<instance part="U10" gate="G$1" x="594.36" y="281.94" rot="R180"/>
-<instance part="U9" gate="G$1" x="594.36" y="248.92" rot="R180"/>
-<instance part="RS3" gate="G$1" x="568.96" y="271.78" rot="R270"/>
-<instance part="R20" gate="G$1" x="223.52" y="228.6" rot="R180"/>
-<instance part="R21" gate="G$1" x="215.9" y="223.52" rot="R270"/>
+<instance part="R40" gate="G$1" x="614.68" y="271.78" rot="R180"/>
+<instance part="C27" gate="G$1" x="632.46" y="266.7" rot="R180"/>
+<instance part="C26" gate="G$1" x="632.46" y="233.68" rot="R180"/>
+<instance part="R38" gate="G$1" x="614.68" y="238.76" rot="R180"/>
+<instance part="U11" gate="G$1" x="594.36" y="281.94" rot="R180"/>
+<instance part="U12" gate="G$1" x="594.36" y="248.92" rot="R180"/>
+<instance part="RS1" gate="G$1" x="568.96" y="271.78" rot="R270"/>
+<instance part="R54" gate="G$1" x="223.52" y="228.6" rot="R180"/>
+<instance part="R55" gate="G$1" x="215.9" y="223.52" rot="R270"/>
 <instance part="C5" gate="G$1" x="86.36" y="302.26" rot="R270"/>
 <instance part="C4" gate="G$1" x="86.36" y="297.18" rot="R270"/>
 <instance part="LF2" gate="G$1" x="106.68" y="302.26" rot="R90"/>
@@ -22681,46 +22681,46 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <attribute name="VALUE" x="157.48" y="241.3" size="1.524" layer="96" rot="MR0"/>
 </instance>
 <instance part="+3V3_2" gate="G$1" x="386.08" y="40.64"/>
-<instance part="R13" gate="G$1" x="386.08" y="30.48" rot="R90"/>
-<instance part="J104" gate="1" x="386.08" y="20.32" rot="R90"/>
+<instance part="R12" gate="G$1" x="386.08" y="30.48" rot="R90"/>
+<instance part="J108" gate="1" x="386.08" y="20.32" rot="R90"/>
 <instance part="+11V" gate="G$1" x="655.32" y="66.04"/>
 <instance part="R15" gate="G$1" x="655.32" y="53.34" rot="R90"/>
-<instance part="J102" gate="1" x="655.32" y="43.18" rot="R90"/>
+<instance part="J105" gate="1" x="655.32" y="43.18" rot="R90"/>
 <instance part="GND17" gate="1" x="655.32" y="35.56"/>
 <instance part="+3V3_M" gate="G$1" x="449.58" y="172.72"/>
-<instance part="R11" gate="G$1" x="449.58" y="162.56" rot="R90"/>
-<instance part="J106" gate="1" x="449.58" y="152.4" rot="R90"/>
+<instance part="R10" gate="G$1" x="449.58" y="162.56" rot="R90"/>
+<instance part="J110" gate="1" x="449.58" y="152.4" rot="R90"/>
 <instance part="VCC" gate="G$1" x="386.08" y="172.72"/>
-<instance part="R10" gate="G$1" x="386.08" y="162.56" rot="R90"/>
-<instance part="J107" gate="1" x="386.08" y="152.4" rot="R90"/>
+<instance part="R9" gate="G$1" x="386.08" y="162.56" rot="R90"/>
+<instance part="J111" gate="1" x="386.08" y="152.4" rot="R90"/>
 <instance part="+3V3_1" gate="G$1" x="386.08" y="106.68"/>
-<instance part="R12" gate="G$1" x="386.08" y="96.52" rot="R90"/>
-<instance part="J105" gate="1" x="386.08" y="86.36" rot="R90"/>
-<instance part="U12" gate="G$1" x="543.56" y="71.12"/>
+<instance part="R11" gate="G$1" x="386.08" y="96.52" rot="R90"/>
+<instance part="J109" gate="1" x="386.08" y="86.36" rot="R90"/>
+<instance part="U15" gate="G$1" x="543.56" y="71.12"/>
 <instance part="GND13" gate="1" x="558.8" y="27.94"/>
 <instance part="GND14" gate="1" x="568.96" y="27.94"/>
-<instance part="R43" gate="G$1" x="535.94" y="55.88" rot="R180"/>
-<instance part="R47" gate="G$1" x="629.92" y="66.04" rot="R90"/>
-<instance part="R46" gate="G$1" x="629.92" y="55.88" rot="R90"/>
-<instance part="C32" gate="G$1" x="551.18" y="88.9" rot="R90"/>
-<instance part="C45" gate="G$1" x="515.62" y="40.64"/>
-<instance part="C33" gate="G$1" x="525.78" y="40.64"/>
-<instance part="C46" gate="G$1" x="591.82" y="45.72" smashed="yes" rot="R90">
+<instance part="R57" gate="G$1" x="535.94" y="55.88" rot="R180"/>
+<instance part="R61" gate="G$1" x="629.92" y="66.04" rot="R90"/>
+<instance part="R60" gate="G$1" x="629.92" y="55.88" rot="R90"/>
+<instance part="C46" gate="G$1" x="551.18" y="88.9" rot="R90"/>
+<instance part="C47" gate="G$1" x="515.62" y="40.64"/>
+<instance part="C38" gate="G$1" x="525.78" y="40.64"/>
+<instance part="C48" gate="G$1" x="591.82" y="45.72" smashed="yes" rot="R90">
 <attribute name="NAME" x="595.376" y="42.799" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="595.376" y="40.259" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R44" gate="G$1" x="594.36" y="50.8" rot="R180"/>
-<instance part="R45" gate="G$1" x="612.14" y="50.8" rot="R90"/>
-<instance part="C35" gate="G$1" x="619.76" y="48.26"/>
-<instance part="C37" gate="G$1" x="612.14" y="43.18"/>
-<instance part="C21" gate="G$1" x="612.14" y="147.32"/>
-<instance part="C22" gate="G$1" x="619.76" y="147.32"/>
-<instance part="C24" gate="G$1" x="627.38" y="147.32"/>
-<instance part="C38" gate="G$1" x="604.52" y="78.74"/>
-<instance part="C36" gate="G$1" x="612.14" y="78.74"/>
-<instance part="C39" gate="G$1" x="619.76" y="78.74"/>
-<instance part="C34" gate="G$1" x="591.82" y="78.74"/>
-<instance part="C44" gate="G$1" x="505.46" y="55.88"/>
+<instance part="R58" gate="G$1" x="594.36" y="50.8" rot="R180"/>
+<instance part="R59" gate="G$1" x="612.14" y="50.8" rot="R90"/>
+<instance part="C40" gate="G$1" x="619.76" y="48.26"/>
+<instance part="C41" gate="G$1" x="612.14" y="43.18"/>
+<instance part="C18" gate="G$1" x="612.14" y="147.32"/>
+<instance part="C17" gate="G$1" x="619.76" y="147.32"/>
+<instance part="C16" gate="G$1" x="627.38" y="147.32"/>
+<instance part="C50" gate="G$1" x="604.52" y="78.74"/>
+<instance part="C49" gate="G$1" x="612.14" y="78.74"/>
+<instance part="C51" gate="G$1" x="619.76" y="78.74"/>
+<instance part="C39" gate="G$1" x="591.82" y="78.74"/>
+<instance part="C45" gate="G$1" x="505.46" y="55.88"/>
 <instance part="GND15" gate="1" x="601.98" y="35.56"/>
 <instance part="GND16" gate="1" x="612.14" y="35.56"/>
 <instance part="GND18" gate="1" x="619.76" y="35.56"/>
@@ -22730,52 +22730,52 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <instance part="GND22" gate="1" x="515.62" y="27.94"/>
 <instance part="GND23" gate="1" x="505.46" y="27.94"/>
 <instance part="GND40" gate="1" x="215.9" y="215.9"/>
-<instance part="L6" gate="L$1" x="523.24" y="71.12"/>
-<instance part="L4" gate="G$1" x="170.18" y="104.14"/>
-<instance part="Q5" gate="A" x="154.94" y="111.76" rot="R180"/>
-<instance part="Q6" gate="A" x="109.22" y="93.98"/>
-<instance part="R29" gate="G$1" x="63.5" y="71.12" rot="R90"/>
-<instance part="R33" gate="G$1" x="63.5" y="60.96" smashed="yes" rot="R90">
+<instance part="L7" gate="L$1" x="523.24" y="71.12"/>
+<instance part="L6" gate="G$1" x="170.18" y="104.14"/>
+<instance part="Q2" gate="A" x="154.94" y="111.76" rot="R180"/>
+<instance part="Q7" gate="A" x="109.22" y="93.98"/>
+<instance part="R32" gate="G$1" x="63.5" y="71.12" rot="R90"/>
+<instance part="R36" gate="G$1" x="63.5" y="60.96" smashed="yes" rot="R90">
 <attribute name="NAME" x="64.77" y="54.8386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="66.802" y="57.15" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND44" gate="1" x="96.52" y="53.34" rot="R270"/>
-<instance part="R35" gate="G$1" x="236.22" y="99.06" rot="R90"/>
-<instance part="R34" gate="G$1" x="236.22" y="88.9" rot="R90"/>
-<instance part="R30" gate="G$1" x="76.2" y="58.42" smashed="yes" rot="R180">
+<instance part="R39" gate="G$1" x="236.22" y="99.06" rot="R90"/>
+<instance part="R37" gate="G$1" x="236.22" y="88.9" rot="R90"/>
+<instance part="R33" gate="G$1" x="76.2" y="58.42" smashed="yes" rot="R180">
 <attribute name="NAME" x="72.39" y="52.2986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="72.39" y="55.118" size="1.778" layer="96"/>
 </instance>
-<instance part="R31" gate="G$1" x="76.2" y="63.5" smashed="yes" rot="R180">
+<instance part="R34" gate="G$1" x="76.2" y="63.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="74.93" y="59.9186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="69.85" y="60.198" size="1.778" layer="96"/>
 </instance>
-<instance part="STAT2" gate="G$1" x="83.82" y="58.42" smashed="yes" rot="R90"/>
-<instance part="STAT1" gate="G$1" x="83.82" y="63.5" smashed="yes" rot="R90"/>
-<instance part="J101" gate="1" x="93.98" y="58.42" smashed="yes" rot="R180">
+<instance part="STAT1" gate="G$1" x="83.82" y="58.42" smashed="yes" rot="R90"/>
+<instance part="STAT2" gate="G$1" x="83.82" y="63.5" smashed="yes" rot="R90"/>
+<instance part="J103" gate="1" x="93.98" y="58.42" smashed="yes" rot="R180">
 <attribute name="VALUE" x="96.52" y="62.23" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="J100" gate="1" x="93.98" y="63.5" smashed="yes" rot="R180">
+<instance part="J102" gate="1" x="93.98" y="63.5" smashed="yes" rot="R180">
 <attribute name="VALUE" x="96.52" y="67.31" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C42" gate="G$1" x="215.9" y="101.6"/>
-<instance part="C41" gate="G$1" x="223.52" y="101.6"/>
-<instance part="C16" gate="G$1" x="195.58" y="55.88" smashed="yes" rot="R90">
+<instance part="C43" gate="G$1" x="215.9" y="101.6"/>
+<instance part="C37" gate="G$1" x="223.52" y="101.6"/>
+<instance part="C23" gate="G$1" x="195.58" y="55.88" smashed="yes" rot="R90">
 <attribute name="NAME" x="199.644" y="61.341" size="1.778" layer="95"/>
 <attribute name="VALUE" x="199.644" y="58.801" size="1.778" layer="96"/>
 </instance>
-<instance part="C30" gate="G$1" x="241.3" y="99.06"/>
-<instance part="C17" gate="G$1" x="182.88" y="48.26" rot="R180"/>
-<instance part="C40" gate="G$1" x="86.36" y="88.9"/>
-<instance part="C27" gate="G$1" x="27.94" y="63.5"/>
-<instance part="C18" gate="G$1" x="91.44" y="53.34" smashed="yes">
+<instance part="C36" gate="G$1" x="241.3" y="99.06"/>
+<instance part="C24" gate="G$1" x="182.88" y="48.26" rot="R180"/>
+<instance part="C42" gate="G$1" x="86.36" y="88.9"/>
+<instance part="C33" gate="G$1" x="27.94" y="63.5"/>
+<instance part="C25" gate="G$1" x="91.44" y="53.34" smashed="yes">
 <attribute name="NAME" x="85.344" y="48.641" size="1.778" layer="95"/>
 <attribute name="VALUE" x="92.964" y="48.641" size="1.778" layer="96"/>
 </instance>
 <instance part="GND45" gate="1" x="27.94" y="53.34"/>
 <instance part="GND46" gate="1" x="63.5" y="53.34"/>
 <instance part="GND47" gate="1" x="91.44" y="45.72"/>
-<instance part="C28" gate="G$1" x="99.06" y="71.12" smashed="yes" rot="R180">
+<instance part="C35" gate="G$1" x="99.06" y="71.12" smashed="yes" rot="R180">
 <attribute name="NAME" x="105.156" y="75.819" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="97.536" y="75.819" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -22788,49 +22788,49 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <instance part="GND54" gate="1" x="172.72" y="68.58" rot="R90"/>
 <instance part="GND55" gate="1" x="236.22" y="81.28"/>
 <instance part="GND56" gate="1" x="203.2" y="55.88" rot="R90"/>
-<instance part="C29" gate="G$1" x="190.5" y="71.12" smashed="yes">
+<instance part="C34" gate="G$1" x="190.5" y="71.12" smashed="yes">
 <attribute name="NAME" x="192.024" y="74.041" size="1.778" layer="95"/>
 <attribute name="VALUE" x="192.024" y="71.501" size="1.778" layer="96"/>
 </instance>
-<instance part="RS1" gate="G$1" x="203.2" y="101.6" rot="MR180"/>
+<instance part="RS2" gate="G$1" x="203.2" y="101.6" rot="MR180"/>
 <instance part="GND57" gate="1" x="223.52" y="93.98"/>
 <instance part="GND58" gate="1" x="215.9" y="93.98"/>
 <instance part="GND60" gate="1" x="546.1" y="129.54"/>
-<instance part="C43" gate="G$1" x="495.3" y="55.88"/>
+<instance part="C44" gate="G$1" x="495.3" y="55.88"/>
 <instance part="GND61" gate="1" x="495.3" y="27.94"/>
-<instance part="Q4" gate="G$1" x="55.88" y="60.96" smashed="yes">
+<instance part="Q1" gate="G$1" x="55.88" y="60.96" smashed="yes">
 <attribute name="NAME" x="50.8" y="55.88" size="1.778" layer="95"/>
 </instance>
 <instance part="GND62" gate="1" x="55.88" y="53.34"/>
-<instance part="R28" gate="G$1" x="45.72" y="76.2" rot="R90"/>
-<instance part="R41" gate="G$1" x="228.6" y="99.06" rot="R90"/>
+<instance part="R31" gate="G$1" x="45.72" y="76.2" rot="R90"/>
+<instance part="R46" gate="G$1" x="228.6" y="99.06" rot="R90"/>
 <instance part="D1" gate="G$1" x="190.5" y="63.5" smashed="yes">
 <attribute name="NAME" x="193.802" y="65.5066" size="1.778" layer="95"/>
 <attribute name="VALUE" x="193.802" y="67.1576" size="1.778" layer="96"/>
 </instance>
-<instance part="R40" gate="G$1" x="93.98" y="68.58"/>
-<instance part="Q3" gate="A" x="233.68" y="220.98" rot="MR180"/>
+<instance part="R45" gate="G$1" x="93.98" y="68.58"/>
+<instance part="Q5" gate="A" x="233.68" y="220.98" rot="MR180"/>
 <instance part="GND63" gate="1" x="231.14" y="223.52" rot="R270"/>
 <instance part="GND64" gate="1" x="231.14" y="220.98" rot="R270"/>
 <instance part="GND65" gate="1" x="231.14" y="226.06" rot="R270"/>
-<instance part="R18" gate="G$1" x="223.52" y="259.08" rot="R180"/>
-<instance part="R19" gate="G$1" x="215.9" y="254" rot="R270"/>
+<instance part="R52" gate="G$1" x="223.52" y="259.08" rot="R180"/>
+<instance part="R53" gate="G$1" x="215.9" y="254" rot="R270"/>
 <instance part="GND35" gate="1" x="215.9" y="246.38"/>
-<instance part="Q2" gate="A" x="233.68" y="251.46" rot="MR180"/>
+<instance part="Q4" gate="A" x="233.68" y="251.46" rot="MR180"/>
 <instance part="GND36" gate="1" x="231.14" y="254" rot="R270"/>
 <instance part="GND37" gate="1" x="231.14" y="251.46" rot="R270"/>
 <instance part="GND38" gate="1" x="231.14" y="256.54" rot="R270"/>
-<instance part="R16" gate="G$1" x="223.52" y="289.56" rot="R180"/>
-<instance part="R17" gate="G$1" x="215.9" y="284.48" rot="R270"/>
+<instance part="R50" gate="G$1" x="223.52" y="289.56" rot="R180"/>
+<instance part="R51" gate="G$1" x="215.9" y="284.48" rot="R270"/>
 <instance part="GND39" gate="1" x="215.9" y="276.86"/>
-<instance part="Q1" gate="A" x="233.68" y="281.94" rot="MR180"/>
+<instance part="Q3" gate="A" x="233.68" y="281.94" rot="MR180"/>
 <instance part="GND66" gate="1" x="231.14" y="284.48" rot="R270"/>
 <instance part="GND67" gate="1" x="231.14" y="281.94" rot="R270"/>
 <instance part="GND68" gate="1" x="231.14" y="287.02" rot="R270"/>
 <instance part="JP1" gate="G$1" x="50.8" y="226.06" rot="R180"/>
 <instance part="R1" gate="G$1" x="33.02" y="228.6" rot="R90"/>
-<instance part="JP3" gate="G$1" x="27.94" y="157.48"/>
-<instance part="R32" gate="G$1" x="45.72" y="63.5" rot="R90"/>
+<instance part="JP4" gate="G$1" x="27.94" y="157.48"/>
+<instance part="R35" gate="G$1" x="45.72" y="63.5" rot="R90"/>
 <instance part="GND59" gate="1" x="45.72" y="53.34"/>
 <instance part="JP5" gate="G$1" x="10.16" y="78.74" rot="R180"/>
 <instance part="GND75" gate="1" x="20.32" y="53.34"/>
@@ -22840,9 +22840,9 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <instance part="+3V2" gate="G$1" x="406.4" y="269.24"/>
 <instance part="+3V4" gate="G$1" x="609.6" y="304.8"/>
 <instance part="+3V6" gate="G$1" x="33.02" y="236.22"/>
-<instance part="R48" gate="G$1" x="586.74" y="35.56" rot="R270"/>
+<instance part="R62" gate="G$1" x="586.74" y="35.56" rot="R270"/>
 <instance part="GND32" gate="1" x="586.74" y="25.4"/>
-<instance part="Q7" gate="G$1" x="492.76" y="76.2"/>
+<instance part="Q6" gate="G$1" x="492.76" y="76.2"/>
 <instance part="U1" gate="G$1" x="88.9" y="261.62"/>
 <instance part="+3V8" gate="G$1" x="91.44" y="309.88"/>
 <instance part="GND42" gate="1" x="73.66" y="297.18" rot="R270"/>
@@ -22879,9 +22879,9 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <instance part="AGND7" gate="VR1" x="149.86" y="223.52" rot="R90"/>
 <instance part="AGND9" gate="VR1" x="121.92" y="292.1" rot="R90"/>
 <instance part="GND10" gate="1" x="482.6" y="60.96"/>
-<instance part="R42" gate="G$1" x="449.58" y="58.42" rot="R90"/>
+<instance part="R56" gate="G$1" x="449.58" y="58.42" rot="R90"/>
 <instance part="GND70" gate="1" x="449.58" y="50.8"/>
-<instance part="R39" gate="G$1" x="27.94" y="73.66" rot="R90"/>
+<instance part="R44" gate="G$1" x="27.94" y="73.66" rot="R90"/>
 <instance part="LF3" gate="G$1" x="609.6" y="294.64" rot="R90"/>
 <instance part="AGND11" gate="VR1" x="480.06" y="274.32"/>
 <instance part="AGND12" gate="VR1" x="449.58" y="274.32"/>
@@ -22898,54 +22898,54 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <instance part="AGND23" gate="VR1" x="609.6" y="248.92" rot="R90"/>
 <instance part="AGND24" gate="VR1" x="609.6" y="243.84" rot="R90"/>
 <instance part="LF1" gate="G$1" x="416.56" y="266.7" rot="R180"/>
-<instance part="U11" gate="G$1" x="469.9" y="68.58"/>
+<instance part="U14" gate="G$1" x="469.9" y="68.58"/>
 <instance part="GND24" gate="1" x="157.48" y="238.76" rot="R90"/>
-<instance part="U13" gate="G$1" x="579.12" y="198.12"/>
-<instance part="L7" gate="L$1" x="579.12" y="213.36"/>
-<instance part="C48" gate="G$1" x="553.72" y="190.5"/>
+<instance part="U8" gate="G$1" x="579.12" y="198.12"/>
+<instance part="L5" gate="L$1" x="579.12" y="213.36"/>
+<instance part="C19" gate="G$1" x="553.72" y="190.5"/>
 <instance part="+5V2" gate="G$1" x="647.7" y="198.12"/>
-<instance part="R49" gate="G$1" x="647.7" y="185.42" rot="R90"/>
-<instance part="R50" gate="G$1" x="546.1" y="193.04" rot="R90"/>
-<instance part="R51" gate="G$1" x="604.52" y="195.58" rot="R90"/>
-<instance part="J1" gate="1" x="647.7" y="172.72" rot="R90"/>
+<instance part="R14" gate="G$1" x="647.7" y="185.42" rot="R90"/>
+<instance part="R29" gate="G$1" x="546.1" y="193.04" rot="R90"/>
+<instance part="R30" gate="G$1" x="604.52" y="195.58" rot="R90"/>
+<instance part="J106" gate="1" x="647.7" y="172.72" rot="R90"/>
 <instance part="GND25" gate="1" x="518.16" y="193.04"/>
 <instance part="GND26" gate="1" x="553.72" y="180.34"/>
 <instance part="GND27" gate="1" x="627.38" y="185.42"/>
 <instance part="GND28" gate="1" x="647.7" y="162.56"/>
-<instance part="C49" gate="G$1" x="612.14" y="198.12"/>
-<instance part="C50" gate="G$1" x="619.76" y="198.12"/>
-<instance part="C51" gate="G$1" x="627.38" y="198.12"/>
+<instance part="C20" gate="G$1" x="612.14" y="198.12"/>
+<instance part="C22" gate="G$1" x="619.76" y="198.12"/>
+<instance part="C21" gate="G$1" x="627.38" y="198.12"/>
 <instance part="GND29" gate="1" x="546.1" y="180.34"/>
-<instance part="U15" gate="A" x="332.74" y="165.1"/>
-<instance part="U16" gate="A" x="332.74" y="99.06"/>
-<instance part="U17" gate="A" x="332.74" y="33.02"/>
-<instance part="U4" gate="G$1" x="350.52" y="289.56"/>
-<instance part="R53" gate="G$1" x="330.2" y="284.48" rot="R180"/>
+<instance part="U4" gate="A" x="332.74" y="165.1"/>
+<instance part="U5" gate="A" x="332.74" y="99.06"/>
+<instance part="U6" gate="A" x="332.74" y="33.02"/>
+<instance part="U9" gate="G$1" x="350.52" y="289.56"/>
+<instance part="R43" gate="G$1" x="330.2" y="284.48" rot="R180"/>
 <instance part="GND30" gate="1" x="335.28" y="292.1" rot="R270"/>
-<instance part="U$1" gate="G$1" x="124.46" y="182.88"/>
-<instance part="R52" gate="G$1" x="160.02" y="182.88"/>
+<instance part="U13" gate="G$1" x="124.46" y="182.88"/>
+<instance part="R47" gate="G$1" x="160.02" y="182.88"/>
 <instance part="GND31" gate="1" x="172.72" y="180.34"/>
 <instance part="GND33" gate="1" x="106.68" y="177.8" rot="R270"/>
 <instance part="C_USB" gate="G$1" x="157.48" y="170.18"/>
-<instance part="R54" gate="G$1" x="137.16" y="160.02" rot="R180"/>
-<instance part="J2" gate="1" x="119.38" y="165.1" rot="R270"/>
-<instance part="R55" gate="G$1" x="360.68" y="154.94" rot="R90"/>
-<instance part="R56" gate="G$1" x="360.68" y="167.64" rot="R90"/>
-<instance part="R57" gate="G$1" x="360.68" y="101.6" rot="R90"/>
-<instance part="R58" gate="G$1" x="360.68" y="35.56" rot="R90"/>
-<instance part="R59" gate="G$1" x="360.68" y="86.36" rot="R90"/>
-<instance part="R60" gate="G$1" x="360.68" y="20.32" rot="R90"/>
+<instance part="R48" gate="G$1" x="137.16" y="160.02" rot="R180"/>
+<instance part="J101" gate="1" x="119.38" y="165.1" rot="R270"/>
+<instance part="R21" gate="G$1" x="360.68" y="154.94" rot="R90"/>
+<instance part="R22" gate="G$1" x="360.68" y="167.64" rot="R90"/>
+<instance part="R24" gate="G$1" x="360.68" y="101.6" rot="R90"/>
+<instance part="R26" gate="G$1" x="360.68" y="35.56" rot="R90"/>
+<instance part="R23" gate="G$1" x="360.68" y="86.36" rot="R90"/>
+<instance part="R25" gate="G$1" x="360.68" y="20.32" rot="R90"/>
 <instance part="DIRECT" gate="G$1" x="368.3" y="284.48"/>
-<instance part="R61" gate="G$1" x="368.3" y="274.32" rot="R90"/>
-<instance part="J3" gate="1" x="368.3" y="264.16" rot="R90"/>
+<instance part="R16" gate="G$1" x="368.3" y="274.32" rot="R90"/>
+<instance part="J104" gate="1" x="368.3" y="264.16" rot="R90"/>
 <instance part="GND34" gate="1" x="368.3" y="256.54"/>
 <instance part="P_USB" gate="G$1" x="167.64" y="170.18"/>
-<instance part="R62" gate="G$1" x="167.64" y="160.02" rot="R270"/>
-<instance part="J4" gate="1" x="167.64" y="149.86" rot="R270"/>
+<instance part="R49" gate="G$1" x="167.64" y="160.02" rot="R270"/>
+<instance part="J100" gate="1" x="167.64" y="149.86" rot="R270"/>
 <instance part="GND71" gate="1" x="167.64" y="142.24"/>
 <instance part="C31" gate="G$1" x="518.16" y="203.2"/>
-<instance part="C47" gate="G$1" x="518.16" y="152.4"/>
-<instance part="JP7" gate="A" x="-27.94" y="149.86" rot="R180"/>
+<instance part="C32" gate="G$1" x="518.16" y="152.4"/>
+<instance part="JP3" gate="A" x="-27.94" y="149.86" rot="R180"/>
 <instance part="GND72" gate="1" x="-22.86" y="167.64" rot="R90"/>
 <instance part="GND73" gate="1" x="-22.86" y="162.56" rot="R90"/>
 <instance part="GND74" gate="1" x="-22.86" y="157.48" rot="R90"/>
@@ -22955,8 +22955,8 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <instance part="GND80" gate="1" x="-22.86" y="137.16" rot="R90"/>
 <instance part="GND81" gate="1" x="-22.86" y="132.08" rot="R90"/>
 <instance part="+3V3" gate="G$1" x="-10.16" y="137.16"/>
-<instance part="JP4" gate="A" x="-27.94" y="116.84" rot="R180"/>
-<instance part="U$2" gate="G$1" x="187.96" y="167.64"/>
+<instance part="JP7" gate="A" x="-27.94" y="116.84" rot="R180"/>
+<instance part="MINI_USB" gate="G$1" x="187.96" y="167.64"/>
 <instance part="GND82" gate="1" x="180.34" y="160.02"/>
 </instances>
 <busses>
@@ -22966,28 +22966,28 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <segment>
 <pinref part="U7" gate="G$1" pin="SW"/>
 <wire x1="594.36" y1="154.94" x2="594.36" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="L5" gate="L$1" pin="2"/>
+<pinref part="L4" gate="L$1" pin="2"/>
 <wire x1="594.36" y1="162.56" x2="586.74" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED5" class="0">
 <segment>
-<pinref part="R14" gate="G$1" pin="2"/>
+<pinref part="R13" gate="G$1" pin="2"/>
 <pinref part="+5V1" gate="G$1" pin="C"/>
 <wire x1="647.7" y1="139.7" x2="647.7" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="R37" gate="G$1" pin="1"/>
+<pinref part="R28" gate="G$1" pin="1"/>
 <pinref part="U7" gate="G$1" pin="PG"/>
 <wire x1="604.52" y1="139.7" x2="594.36" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="R14" gate="G$1" pin="1"/>
-<pinref part="J103" gate="1" pin="2"/>
+<pinref part="R13" gate="G$1" pin="1"/>
+<pinref part="J107" gate="1" pin="2"/>
 <wire x1="647.7" y1="127" x2="647.7" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -22995,12 +22995,12 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <segment>
 <wire x1="518.16" y1="147.32" x2="518.16" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<pinref part="C47" gate="G$1" pin="2"/>
+<pinref part="C32" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="U7" gate="G$1" pin="GND"/>
 <wire x1="563.88" y1="139.7" x2="563.88" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="C20" gate="G$1" pin="2"/>
+<pinref part="C15" gate="G$1" pin="2"/>
 <wire x1="563.88" y1="134.62" x2="553.72" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="553.72" y1="134.62" x2="553.72" y2="132.08" width="0.1524" layer="91"/>
 <junction x="553.72" y="134.62"/>
@@ -23034,100 +23034,100 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <wire x1="612.14" y1="139.7" x2="612.14" y2="142.24" width="0.1524" layer="91"/>
 <junction x="619.76" y="139.7"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<pinref part="C21" gate="G$1" pin="2"/>
-<pinref part="C22" gate="G$1" pin="2"/>
-<pinref part="C24" gate="G$1" pin="2"/>
+<pinref part="C18" gate="G$1" pin="2"/>
+<pinref part="C17" gate="G$1" pin="2"/>
+<pinref part="C16" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="J103" gate="1" pin="1"/>
+<pinref part="J107" gate="1" pin="1"/>
 <wire x1="647.7" y1="114.3" x2="647.7" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C19" gate="G$1" pin="2"/>
+<pinref part="C28" gate="G$1" pin="2"/>
 <wire x1="312.42" y1="147.32" x2="297.18" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="297.18" y1="147.32" x2="297.18" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="144.78" x2="297.18" y2="147.32" width="0.1524" layer="91"/>
 <junction x="297.18" y="147.32"/>
-<pinref part="U15" gate="A" pin="PFM_PWM"/>
+<pinref part="U4" gate="A" pin="PFM_PWM"/>
 </segment>
 <segment>
-<pinref part="C12" gate="G$1" pin="2"/>
+<pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="365.76" y1="147.32" x2="373.38" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="373.38" y1="147.32" x2="373.38" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="C11" gate="G$1" pin="2"/>
+<pinref part="C10" gate="G$1" pin="2"/>
 <wire x1="365.76" y1="160.02" x2="365.76" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="373.38" y1="144.78" x2="373.38" y2="147.32" width="0.1524" layer="91"/>
 <junction x="373.38" y="147.32"/>
-<pinref part="J107" gate="1" pin="1"/>
+<pinref part="J111" gate="1" pin="1"/>
 <wire x1="373.38" y1="147.32" x2="386.08" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="J106" gate="1" pin="1"/>
+<pinref part="J110" gate="1" pin="1"/>
 <wire x1="386.08" y1="147.32" x2="449.58" y2="147.32" width="0.1524" layer="91"/>
 <junction x="386.08" y="147.32"/>
-<pinref part="U15" gate="A" pin="PGND"/>
+<pinref part="U4" gate="A" pin="PGND"/>
 <wire x1="353.06" y1="147.32" x2="358.14" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="U15" gate="A" pin="GND"/>
+<pinref part="U4" gate="A" pin="GND"/>
 <wire x1="358.14" y1="147.32" x2="360.68" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="360.68" y1="147.32" x2="365.76" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="353.06" y1="154.94" x2="358.14" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="358.14" y1="154.94" x2="358.14" y2="147.32" width="0.1524" layer="91"/>
 <junction x="358.14" y="147.32"/>
 <junction x="365.76" y="147.32"/>
-<pinref part="R55" gate="G$1" pin="1"/>
+<pinref part="R21" gate="G$1" pin="1"/>
 <wire x1="360.68" y1="149.86" x2="360.68" y2="147.32" width="0.1524" layer="91"/>
 <junction x="360.68" y="147.32"/>
 </segment>
 <segment>
-<pinref part="C23" gate="G$1" pin="2"/>
+<pinref part="C29" gate="G$1" pin="2"/>
 <wire x1="312.42" y1="81.28" x2="297.18" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="297.18" y1="81.28" x2="297.18" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="88.9" x2="297.18" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="78.74" x2="297.18" y2="81.28" width="0.1524" layer="91"/>
 <junction x="297.18" y="81.28"/>
-<pinref part="R38" gate="G$1" pin="2"/>
+<pinref part="R41" gate="G$1" pin="2"/>
 <junction x="297.18" y="88.9"/>
-<pinref part="U16" gate="A" pin="PFM_PWM"/>
+<pinref part="U5" gate="A" pin="PFM_PWM"/>
 </segment>
 <segment>
-<pinref part="C26" gate="G$1" pin="2"/>
+<pinref part="C11" gate="G$1" pin="2"/>
 <wire x1="365.76" y1="81.28" x2="373.38" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="373.38" y1="81.28" x2="373.38" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="C25" gate="G$1" pin="2"/>
+<pinref part="C12" gate="G$1" pin="2"/>
 <wire x1="365.76" y1="93.98" x2="365.76" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="373.38" y1="78.74" x2="373.38" y2="81.28" width="0.1524" layer="91"/>
 <junction x="373.38" y="81.28"/>
-<pinref part="J105" gate="1" pin="1"/>
+<pinref part="J109" gate="1" pin="1"/>
 <wire x1="373.38" y1="81.28" x2="386.08" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="353.06" y1="81.28" x2="358.14" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="358.14" y1="81.28" x2="360.68" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="360.68" y1="81.28" x2="365.76" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="353.06" y1="88.9" x2="358.14" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="358.14" y1="88.9" x2="358.14" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="U16" gate="A" pin="GND"/>
-<pinref part="U16" gate="A" pin="PGND"/>
+<pinref part="U5" gate="A" pin="GND"/>
+<pinref part="U5" gate="A" pin="PGND"/>
 <junction x="365.76" y="81.28"/>
 <junction x="358.14" y="81.28"/>
-<pinref part="R59" gate="G$1" pin="1"/>
+<pinref part="R23" gate="G$1" pin="1"/>
 <junction x="360.68" y="81.28"/>
 </segment>
 <segment>
-<pinref part="C13" gate="G$1" pin="2"/>
+<pinref part="C30" gate="G$1" pin="2"/>
 <wire x1="312.42" y1="15.24" x2="297.18" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="GND12" gate="1" pin="GND"/>
 <wire x1="297.18" y1="15.24" x2="297.18" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="22.86" x2="297.18" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="12.7" x2="297.18" y2="15.24" width="0.1524" layer="91"/>
 <junction x="297.18" y="15.24"/>
-<pinref part="R27" gate="G$1" pin="2"/>
+<pinref part="R42" gate="G$1" pin="2"/>
 <junction x="297.18" y="22.86"/>
-<pinref part="U17" gate="A" pin="PFM_PWM"/>
+<pinref part="U6" gate="A" pin="PFM_PWM"/>
 </segment>
 <segment>
-<pinref part="C15" gate="G$1" pin="2"/>
+<pinref part="C13" gate="G$1" pin="2"/>
 <wire x1="365.76" y1="15.24" x2="373.38" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="373.38" y1="15.24" x2="373.38" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="C14" gate="G$1" pin="2"/>
@@ -23135,7 +23135,7 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <pinref part="GND11" gate="1" pin="GND"/>
 <wire x1="373.38" y1="12.7" x2="373.38" y2="15.24" width="0.1524" layer="91"/>
 <junction x="373.38" y="15.24"/>
-<pinref part="J104" gate="1" pin="1"/>
+<pinref part="J108" gate="1" pin="1"/>
 <wire x1="373.38" y1="15.24" x2="386.08" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="365.76" y1="15.24" x2="360.68" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="360.68" y1="15.24" x2="358.14" y2="15.24" width="0.1524" layer="91"/>
@@ -23144,49 +23144,49 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <wire x1="358.14" y1="22.86" x2="358.14" y2="15.24" width="0.1524" layer="91"/>
 <junction x="358.14" y="15.24"/>
 <junction x="365.76" y="15.24"/>
-<pinref part="U17" gate="A" pin="GND"/>
-<pinref part="U17" gate="A" pin="PGND"/>
-<pinref part="R60" gate="G$1" pin="1"/>
+<pinref part="U6" gate="A" pin="GND"/>
+<pinref part="U6" gate="A" pin="PGND"/>
+<pinref part="R25" gate="G$1" pin="1"/>
 <junction x="360.68" y="15.24"/>
 </segment>
 <segment>
-<pinref part="J102" gate="1" pin="1"/>
+<pinref part="J105" gate="1" pin="1"/>
 <pinref part="GND17" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U12" gate="G$1" pin="PGND"/>
+<pinref part="U15" gate="G$1" pin="PGND"/>
 <pinref part="GND13" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U12" gate="G$1" pin="AGND"/>
+<pinref part="U15" gate="G$1" pin="AGND"/>
 <pinref part="GND14" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND15" gate="1" pin="GND"/>
 <wire x1="601.98" y1="38.1" x2="601.98" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="R44" gate="G$1" pin="1"/>
+<pinref part="R58" gate="G$1" pin="1"/>
 <wire x1="601.98" y1="45.72" x2="601.98" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="601.98" y1="50.8" x2="599.44" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="C46" gate="G$1" pin="2"/>
+<pinref part="C48" gate="G$1" pin="2"/>
 <wire x1="596.9" y1="45.72" x2="601.98" y2="45.72" width="0.1524" layer="91"/>
 <junction x="601.98" y="45.72"/>
 </segment>
 <segment>
-<pinref part="C37" gate="G$1" pin="2"/>
+<pinref part="C41" gate="G$1" pin="2"/>
 <pinref part="GND16" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C35" gate="G$1" pin="2"/>
+<pinref part="C40" gate="G$1" pin="2"/>
 <pinref part="GND18" gate="1" pin="GND"/>
 <wire x1="619.76" y1="38.1" x2="619.76" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R46" gate="G$1" pin="1"/>
+<pinref part="R60" gate="G$1" pin="1"/>
 <pinref part="GND19" gate="1" pin="GND"/>
 <wire x1="629.92" y1="38.1" x2="629.92" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C34" gate="G$1" pin="1"/>
+<pinref part="C39" gate="G$1" pin="1"/>
 <wire x1="591.82" y1="81.28" x2="591.82" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="GND20" gate="1" pin="GND"/>
 <wire x1="591.82" y1="86.36" x2="604.52" y2="86.36" width="0.1524" layer="91"/>
@@ -23194,156 +23194,156 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <wire x1="612.14" y1="86.36" x2="619.76" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="619.76" y1="86.36" x2="632.46" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="632.46" y1="86.36" x2="632.46" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="C39" gate="G$1" pin="1"/>
+<pinref part="C51" gate="G$1" pin="1"/>
 <wire x1="619.76" y1="81.28" x2="619.76" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="C36" gate="G$1" pin="1"/>
+<pinref part="C49" gate="G$1" pin="1"/>
 <wire x1="612.14" y1="81.28" x2="612.14" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="C38" gate="G$1" pin="1"/>
+<pinref part="C50" gate="G$1" pin="1"/>
 <wire x1="604.52" y1="81.28" x2="604.52" y2="86.36" width="0.1524" layer="91"/>
 <junction x="604.52" y="86.36"/>
 <junction x="612.14" y="86.36"/>
 <junction x="619.76" y="86.36"/>
 </segment>
 <segment>
-<pinref part="C33" gate="G$1" pin="2"/>
+<pinref part="C38" gate="G$1" pin="2"/>
 <pinref part="GND21" gate="1" pin="GND"/>
 <wire x1="525.78" y1="35.56" x2="525.78" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C45" gate="G$1" pin="2"/>
+<pinref part="C47" gate="G$1" pin="2"/>
 <pinref part="GND22" gate="1" pin="GND"/>
 <wire x1="515.62" y1="30.48" x2="515.62" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C44" gate="G$1" pin="2"/>
+<pinref part="C45" gate="G$1" pin="2"/>
 <pinref part="GND23" gate="1" pin="GND"/>
 <wire x1="505.46" y1="30.48" x2="505.46" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R21" gate="G$1" pin="2"/>
+<pinref part="R55" gate="G$1" pin="2"/>
 <pinref part="GND40" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U5" gate="A" pin="TERM_EN"/>
+<pinref part="U10" gate="A" pin="TERM_EN"/>
 <pinref part="GND44" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C27" gate="G$1" pin="2"/>
+<pinref part="C33" gate="G$1" pin="2"/>
 <pinref part="GND45" gate="1" pin="GND"/>
 <wire x1="27.94" y1="58.42" x2="27.94" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R33" gate="G$1" pin="1"/>
+<pinref part="R36" gate="G$1" pin="1"/>
 <pinref part="GND46" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C18" gate="G$1" pin="2"/>
+<pinref part="C25" gate="G$1" pin="2"/>
 <pinref part="GND47" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C28" gate="G$1" pin="2"/>
+<pinref part="C35" gate="G$1" pin="2"/>
 <pinref part="GND48" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C40" gate="G$1" pin="1"/>
+<pinref part="C42" gate="G$1" pin="1"/>
 <pinref part="GND49" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="Q6" gate="A" pin="S_2"/>
+<pinref part="Q7" gate="A" pin="S_2"/>
 <pinref part="GND50" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="Q6" gate="A" pin="S_3"/>
+<pinref part="Q7" gate="A" pin="S_3"/>
 <pinref part="GND51" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="Q6" gate="A" pin="S"/>
+<pinref part="Q7" gate="A" pin="S"/>
 <pinref part="GND52" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U5" gate="A" pin="GND"/>
+<pinref part="U10" gate="A" pin="GND"/>
 <pinref part="GND53" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U5" gate="A" pin="EPAD"/>
+<pinref part="U10" gate="A" pin="EPAD"/>
 <pinref part="GND54" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R34" gate="G$1" pin="1"/>
+<pinref part="R37" gate="G$1" pin="1"/>
 <pinref part="GND55" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C16" gate="G$1" pin="2"/>
+<pinref part="C23" gate="G$1" pin="2"/>
 <pinref part="GND56" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C41" gate="G$1" pin="2"/>
+<pinref part="C37" gate="G$1" pin="2"/>
 <pinref part="GND57" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C42" gate="G$1" pin="2"/>
+<pinref part="C43" gate="G$1" pin="2"/>
 <pinref part="GND58" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R36" gate="G$1" pin="1"/>
+<pinref part="R27" gate="G$1" pin="1"/>
 <pinref part="GND60" gate="1" pin="GND"/>
 <wire x1="546.1" y1="132.08" x2="546.1" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C43" gate="G$1" pin="2"/>
+<pinref part="C44" gate="G$1" pin="2"/>
 <wire x1="495.3" y1="50.8" x2="495.3" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="GND61" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="Q4" gate="G$1" pin="S"/>
+<pinref part="Q1" gate="G$1" pin="S"/>
 <pinref part="GND62" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="Q3" gate="A" pin="S_3"/>
+<pinref part="Q5" gate="A" pin="S_3"/>
 <pinref part="GND63" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="Q3" gate="A" pin="S_2"/>
+<pinref part="Q5" gate="A" pin="S_2"/>
 <pinref part="GND64" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="Q3" gate="A" pin="S"/>
+<pinref part="Q5" gate="A" pin="S"/>
 <pinref part="GND65" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R19" gate="G$1" pin="2"/>
+<pinref part="R53" gate="G$1" pin="2"/>
 <pinref part="GND35" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="Q2" gate="A" pin="S_3"/>
+<pinref part="Q4" gate="A" pin="S_3"/>
 <pinref part="GND36" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="Q2" gate="A" pin="S_2"/>
+<pinref part="Q4" gate="A" pin="S_2"/>
 <pinref part="GND37" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="Q2" gate="A" pin="S"/>
+<pinref part="Q4" gate="A" pin="S"/>
 <pinref part="GND38" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R17" gate="G$1" pin="2"/>
+<pinref part="R51" gate="G$1" pin="2"/>
 <pinref part="GND39" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="Q1" gate="A" pin="S_3"/>
+<pinref part="Q3" gate="A" pin="S_3"/>
 <pinref part="GND66" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="Q1" gate="A" pin="S_2"/>
+<pinref part="Q3" gate="A" pin="S_2"/>
 <pinref part="GND67" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="Q1" gate="A" pin="S"/>
+<pinref part="Q3" gate="A" pin="S"/>
 <pinref part="GND68" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R32" gate="G$1" pin="1"/>
+<pinref part="R35" gate="G$1" pin="1"/>
 <pinref part="GND59" gate="1" pin="GND"/>
 <wire x1="45.72" y1="55.88" x2="45.72" y2="58.42" width="0.1524" layer="91"/>
 </segment>
@@ -23360,7 +23360,7 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <pinref part="GND76" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R48" gate="G$1" pin="2"/>
+<pinref part="R62" gate="G$1" pin="2"/>
 <pinref part="GND32" gate="1" pin="GND"/>
 <wire x1="586.74" y1="30.48" x2="586.74" y2="27.94" width="0.1524" layer="91"/>
 </segment>
@@ -23394,12 +23394,12 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <junction x="76.2" y="25.4"/>
 </segment>
 <segment>
-<pinref part="R42" gate="G$1" pin="1"/>
+<pinref part="R56" gate="G$1" pin="1"/>
 <pinref part="GND70" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
-<pinref part="U11" gate="G$1" pin="GND"/>
+<pinref part="U14" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="X1" gate="&gt;NAME" pin="GND"/>
@@ -23419,26 +23419,26 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <pinref part="C31" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="U13" gate="G$1" pin="GND"/>
+<pinref part="U8" gate="G$1" pin="GND"/>
 <wire x1="563.88" y1="190.5" x2="563.88" y2="185.42" width="0.1524" layer="91"/>
-<pinref part="C48" gate="G$1" pin="2"/>
+<pinref part="C19" gate="G$1" pin="2"/>
 <wire x1="563.88" y1="185.42" x2="553.72" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="553.72" y1="185.42" x2="553.72" y2="182.88" width="0.1524" layer="91"/>
 <junction x="553.72" y="185.42"/>
-<pinref part="U13" gate="G$1" pin="GND5"/>
+<pinref part="U8" gate="G$1" pin="GND5"/>
 <wire x1="581.66" y1="182.88" x2="579.12" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="579.12" y1="182.88" x2="576.58" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="576.58" y1="182.88" x2="574.04" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="574.04" y1="182.88" x2="571.5" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="571.5" y1="182.88" x2="563.88" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="563.88" y1="182.88" x2="563.88" y2="185.42" width="0.1524" layer="91"/>
-<pinref part="U13" gate="G$1" pin="GND1"/>
+<pinref part="U8" gate="G$1" pin="GND1"/>
 <junction x="571.5" y="182.88"/>
-<pinref part="U13" gate="G$1" pin="GND2"/>
+<pinref part="U8" gate="G$1" pin="GND2"/>
 <junction x="574.04" y="182.88"/>
-<pinref part="U13" gate="G$1" pin="GND3"/>
+<pinref part="U8" gate="G$1" pin="GND3"/>
 <junction x="576.58" y="182.88"/>
-<pinref part="U13" gate="G$1" pin="GND4"/>
+<pinref part="U8" gate="G$1" pin="GND4"/>
 <junction x="579.12" y="182.88"/>
 <junction x="581.66" y="182.88"/>
 <junction x="563.88" y="185.42"/>
@@ -23455,40 +23455,40 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <wire x1="612.14" y1="190.5" x2="612.14" y2="193.04" width="0.1524" layer="91"/>
 <junction x="619.76" y="190.5"/>
 <pinref part="GND27" gate="1" pin="GND"/>
-<pinref part="C49" gate="G$1" pin="2"/>
-<pinref part="C50" gate="G$1" pin="2"/>
-<pinref part="C51" gate="G$1" pin="2"/>
+<pinref part="C20" gate="G$1" pin="2"/>
+<pinref part="C22" gate="G$1" pin="2"/>
+<pinref part="C21" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="J1" gate="1" pin="1"/>
+<pinref part="J106" gate="1" pin="1"/>
 <wire x1="647.7" y1="165.1" x2="647.7" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="GND28" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R50" gate="G$1" pin="1"/>
+<pinref part="R29" gate="G$1" pin="1"/>
 <pinref part="GND29" gate="1" pin="GND"/>
 <wire x1="546.1" y1="182.88" x2="546.1" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="GND"/>
+<pinref part="U9" gate="G$1" pin="GND"/>
 <pinref part="GND30" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R52" gate="G$1" pin="2"/>
+<pinref part="R47" gate="G$1" pin="2"/>
 <pinref part="GND31" gate="1" pin="GND"/>
 <wire x1="172.72" y1="182.88" x2="165.1" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="VSS"/>
+<pinref part="U13" gate="G$1" pin="VSS"/>
 <pinref part="GND33" gate="1" pin="GND"/>
 <wire x1="109.22" y1="177.8" x2="124.46" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="1" pin="1"/>
+<pinref part="J104" gate="1" pin="1"/>
 <pinref part="GND34" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J4" gate="1" pin="2"/>
+<pinref part="J100" gate="1" pin="2"/>
 <pinref part="GND71" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -23497,47 +23497,47 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <wire x1="401.32" y1="180.34" x2="406.4" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP7" gate="A" pin="15"/>
+<pinref part="JP3" gate="A" pin="15"/>
 <pinref part="GND72" gate="1" pin="GND"/>
 <junction x="-25.4" y="167.64"/>
 </segment>
 <segment>
-<pinref part="JP7" gate="A" pin="13"/>
+<pinref part="JP3" gate="A" pin="13"/>
 <pinref part="GND73" gate="1" pin="GND"/>
 <junction x="-25.4" y="162.56"/>
 </segment>
 <segment>
-<pinref part="JP7" gate="A" pin="11"/>
+<pinref part="JP3" gate="A" pin="11"/>
 <pinref part="GND74" gate="1" pin="GND"/>
 <junction x="-25.4" y="157.48"/>
 </segment>
 <segment>
-<pinref part="JP7" gate="A" pin="9"/>
+<pinref part="JP3" gate="A" pin="9"/>
 <pinref part="GND77" gate="1" pin="GND"/>
 <junction x="-25.4" y="152.4"/>
 </segment>
 <segment>
-<pinref part="JP7" gate="A" pin="7"/>
+<pinref part="JP3" gate="A" pin="7"/>
 <pinref part="GND78" gate="1" pin="GND"/>
 <junction x="-25.4" y="147.32"/>
 </segment>
 <segment>
-<pinref part="JP7" gate="A" pin="5"/>
+<pinref part="JP3" gate="A" pin="5"/>
 <pinref part="GND79" gate="1" pin="GND"/>
 <junction x="-25.4" y="142.24"/>
 </segment>
 <segment>
-<pinref part="JP7" gate="A" pin="3"/>
+<pinref part="JP3" gate="A" pin="3"/>
 <pinref part="GND80" gate="1" pin="GND"/>
 <junction x="-25.4" y="137.16"/>
 </segment>
 <segment>
-<pinref part="JP7" gate="A" pin="1"/>
+<pinref part="JP3" gate="A" pin="1"/>
 <pinref part="GND81" gate="1" pin="GND"/>
 <junction x="-25.4" y="132.08"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="5"/>
+<pinref part="MINI_USB" gate="G$1" pin="5"/>
 <pinref part="GND82" gate="1" pin="GND"/>
 <wire x1="182.88" y1="162.56" x2="180.34" y2="162.56" width="0.1524" layer="91"/>
 </segment>
@@ -23546,18 +23546,18 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <segment>
 <wire x1="312.42" y1="185.42" x2="309.88" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="309.88" y1="185.42" x2="309.88" y2="195.58" width="0.1524" layer="91"/>
-<pinref part="L3" gate="L$1" pin="1"/>
+<pinref part="L1" gate="L$1" pin="1"/>
 <wire x1="309.88" y1="195.58" x2="325.12" y2="195.58" width="0.1524" layer="91"/>
-<pinref part="U15" gate="A" pin="L1"/>
+<pinref part="U4" gate="A" pin="L1"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="L3" gate="L$1" pin="2"/>
+<pinref part="L1" gate="L$1" pin="2"/>
 <wire x1="340.36" y1="195.58" x2="355.6" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="355.6" y1="195.58" x2="355.6" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="355.6" y1="185.42" x2="353.06" y2="185.42" width="0.1524" layer="91"/>
-<pinref part="U15" gate="A" pin="L2"/>
+<pinref part="U4" gate="A" pin="L2"/>
 </segment>
 </net>
 <net name="+3V3_M" class="0">
@@ -23580,7 +23580,7 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <segment>
 <wire x1="-25.4" y1="139.7" x2="-10.16" y2="139.7" width="0.1524" layer="91"/>
 <label x="-20.32" y="139.7" size="1.778" layer="95"/>
-<pinref part="JP7" gate="A" pin="4"/>
+<pinref part="JP3" gate="A" pin="4"/>
 <junction x="-25.4" y="139.7"/>
 </segment>
 </net>
@@ -23590,7 +23590,7 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <wire x1="309.88" y1="119.38" x2="309.88" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="L2" gate="L$1" pin="1"/>
 <wire x1="309.88" y1="129.54" x2="325.12" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="U16" gate="A" pin="L1"/>
+<pinref part="U5" gate="A" pin="L1"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -23599,30 +23599,30 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <wire x1="340.36" y1="129.54" x2="355.6" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="355.6" y1="129.54" x2="355.6" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="355.6" y1="119.38" x2="353.06" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="U16" gate="A" pin="L2"/>
+<pinref part="U5" gate="A" pin="L2"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
 <wire x1="312.42" y1="53.34" x2="309.88" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="309.88" y1="53.34" x2="309.88" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="L1" gate="L$1" pin="1"/>
+<pinref part="L3" gate="L$1" pin="1"/>
 <wire x1="309.88" y1="63.5" x2="325.12" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="U17" gate="A" pin="L1"/>
+<pinref part="U6" gate="A" pin="L1"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="L1" gate="L$1" pin="2"/>
+<pinref part="L3" gate="L$1" pin="2"/>
 <wire x1="340.36" y1="63.5" x2="355.6" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="355.6" y1="63.5" x2="355.6" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="355.6" y1="53.34" x2="353.06" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="U17" gate="A" pin="L2"/>
+<pinref part="U6" gate="A" pin="L2"/>
 </segment>
 </net>
 <net name="+3V3_1" class="0">
 <segment>
-<pinref part="C26" gate="G$1" pin="1"/>
+<pinref part="C11" gate="G$1" pin="1"/>
 <wire x1="353.06" y1="109.22" x2="358.14" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="358.14" y1="109.22" x2="360.68" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="360.68" y1="109.22" x2="365.76" y2="109.22" width="0.1524" layer="91"/>
@@ -23635,7 +23635,7 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <junction x="358.14" y="106.68"/>
 <junction x="358.14" y="109.22"/>
 <junction x="365.76" y="109.22"/>
-<pinref part="C25" gate="G$1" pin="1"/>
+<pinref part="C12" gate="G$1" pin="1"/>
 <wire x1="365.76" y1="101.6" x2="365.76" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="+3V3_1" gate="G$1" pin="A"/>
 <wire x1="386.08" y1="109.22" x2="373.38" y2="109.22" width="0.1524" layer="91"/>
@@ -23643,23 +23643,23 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <wire x1="386.08" y1="109.22" x2="398.78" y2="109.22" width="0.1524" layer="91"/>
 <junction x="386.08" y="109.22"/>
 <label x="388.62" y="109.22" size="1.778" layer="95"/>
-<pinref part="U16" gate="A" pin="VOUT"/>
-<pinref part="U16" gate="A" pin="VOUT_2"/>
-<pinref part="U16" gate="A" pin="VOUT_3"/>
-<pinref part="R57" gate="G$1" pin="2"/>
+<pinref part="U5" gate="A" pin="VOUT"/>
+<pinref part="U5" gate="A" pin="VOUT_2"/>
+<pinref part="U5" gate="A" pin="VOUT_3"/>
+<pinref part="R24" gate="G$1" pin="2"/>
 <wire x1="360.68" y1="106.68" x2="360.68" y2="109.22" width="0.1524" layer="91"/>
 <junction x="360.68" y="109.22"/>
 </segment>
 <segment>
 <wire x1="-25.4" y1="144.78" x2="-10.16" y2="144.78" width="0.1524" layer="91"/>
 <label x="-20.32" y="144.78" size="1.778" layer="95"/>
-<pinref part="JP7" gate="A" pin="6"/>
+<pinref part="JP3" gate="A" pin="6"/>
 <junction x="-25.4" y="144.78"/>
 </segment>
 </net>
 <net name="+3V3_2" class="0">
 <segment>
-<pinref part="C15" gate="G$1" pin="1"/>
+<pinref part="C13" gate="G$1" pin="1"/>
 <wire x1="353.06" y1="43.18" x2="358.14" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="358.14" y1="43.18" x2="360.68" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="360.68" y1="43.18" x2="365.76" y2="43.18" width="0.1524" layer="91"/>
@@ -23680,26 +23680,26 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <wire x1="386.08" y1="43.18" x2="398.78" y2="43.18" width="0.1524" layer="91"/>
 <junction x="386.08" y="43.18"/>
 <label x="388.62" y="43.18" size="1.778" layer="95"/>
-<pinref part="U17" gate="A" pin="VOUT"/>
-<pinref part="U17" gate="A" pin="VOUT_2"/>
-<pinref part="U17" gate="A" pin="VOUT_3"/>
-<pinref part="R58" gate="G$1" pin="2"/>
+<pinref part="U6" gate="A" pin="VOUT"/>
+<pinref part="U6" gate="A" pin="VOUT_2"/>
+<pinref part="U6" gate="A" pin="VOUT_3"/>
+<pinref part="R26" gate="G$1" pin="2"/>
 <wire x1="360.68" y1="40.64" x2="360.68" y2="43.18" width="0.1524" layer="91"/>
 <junction x="360.68" y="43.18"/>
 </segment>
 <segment>
 <wire x1="-25.4" y1="149.86" x2="-10.16" y2="149.86" width="0.1524" layer="91"/>
 <label x="-20.32" y="149.86" size="1.778" layer="95"/>
-<pinref part="JP7" gate="A" pin="8"/>
+<pinref part="JP3" gate="A" pin="8"/>
 <junction x="-25.4" y="149.86"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
-<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="U2" gate="A" pin="OUT"/>
 <wire x1="462.28" y1="284.48" x2="459.74" y2="284.48" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="459.74" y1="284.48" x2="457.2" y2="284.48" width="0.1524" layer="91"/>
 <wire x1="454.66" y1="266.7" x2="459.74" y2="266.7" width="0.1524" layer="91"/>
 <wire x1="459.74" y1="266.7" x2="459.74" y2="284.48" width="0.1524" layer="91"/>
@@ -23708,7 +23708,7 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 </net>
 <net name="N$20" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="444.5" y1="266.7" x2="439.42" y2="266.7" width="0.1524" layer="91"/>
 <wire x1="439.42" y1="266.7" x2="439.42" y2="281.94" width="0.1524" layer="91"/>
 <pinref part="U2" gate="A" pin="-IN"/>
@@ -23721,9 +23721,9 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <net name="N$21" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="+IN"/>
-<pinref part="R23" gate="G$1" pin="1"/>
+<pinref part="R18" gate="G$1" pin="1"/>
 <wire x1="441.96" y1="287.02" x2="439.42" y2="287.02" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="R17" gate="G$1" pin="2"/>
 <wire x1="439.42" y1="287.02" x2="436.88" y2="287.02" width="0.1524" layer="91"/>
 <wire x1="439.42" y1="289.56" x2="439.42" y2="287.02" width="0.1524" layer="91"/>
 <junction x="439.42" y="287.02"/>
@@ -23731,9 +23731,9 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 </net>
 <net name="N$22" class="0">
 <segment>
-<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="462.28" y1="238.76" x2="459.74" y2="238.76" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="454.66" y1="220.98" x2="459.74" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="459.74" y1="220.98" x2="459.74" y2="238.76" width="0.1524" layer="91"/>
 <junction x="459.74" y="238.76"/>
@@ -23742,11 +23742,11 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 </net>
 <net name="N$23" class="0">
 <segment>
-<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="444.5" y1="220.98" x2="439.42" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="439.42" y1="220.98" x2="439.42" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="439.42" y1="236.22" x2="444.5" y2="236.22" width="0.1524" layer="91"/>
-<pinref part="R9" gate="G$1" pin="1"/>
+<pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="439.42" y1="236.22" x2="436.88" y2="236.22" width="0.1524" layer="91"/>
 <junction x="439.42" y="236.22"/>
 <pinref part="U2" gate="B" pin="-IN"/>
@@ -23754,9 +23754,9 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 </net>
 <net name="N$24" class="0">
 <segment>
-<pinref part="R25" gate="G$1" pin="1"/>
+<pinref part="R20" gate="G$1" pin="1"/>
 <wire x1="444.5" y1="241.3" x2="439.42" y2="241.3" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R19" gate="G$1" pin="2"/>
 <wire x1="439.42" y1="241.3" x2="436.88" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="439.42" y1="243.84" x2="439.42" y2="241.3" width="0.1524" layer="91"/>
 <junction x="439.42" y="241.3"/>
@@ -23765,50 +23765,50 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 </net>
 <net name="N$25" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="OUT"/>
+<pinref part="U11" gate="G$1" pin="OUT"/>
 <wire x1="581.66" y1="276.86" x2="581.66" y2="271.78" width="0.1524" layer="91"/>
-<pinref part="R24" gate="G$1" pin="2"/>
+<pinref part="R40" gate="G$1" pin="2"/>
 <wire x1="581.66" y1="271.78" x2="609.6" y2="271.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$26" class="0">
 <segment>
-<pinref part="U9" gate="G$1" pin="OUT"/>
+<pinref part="U12" gate="G$1" pin="OUT"/>
 <wire x1="581.66" y1="243.84" x2="581.66" y2="238.76" width="0.1524" layer="91"/>
-<pinref part="R22" gate="G$1" pin="2"/>
+<pinref part="R38" gate="G$1" pin="2"/>
 <wire x1="581.66" y1="238.76" x2="609.6" y2="238.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$32" class="0">
 <segment>
 <wire x1="571.5" y1="287.02" x2="581.66" y2="287.02" width="0.1524" layer="91"/>
-<pinref part="U10" gate="G$1" pin="IN+"/>
-<pinref part="RS3" gate="G$1" pin="V1"/>
+<pinref part="U11" gate="G$1" pin="IN+"/>
+<pinref part="RS1" gate="G$1" pin="V1"/>
 </segment>
 </net>
 <net name="N$33" class="0">
 <segment>
-<pinref part="RS3" gate="G$1" pin="V2"/>
+<pinref part="RS1" gate="G$1" pin="V2"/>
 <wire x1="571.5" y1="266.7" x2="579.12" y2="266.7" width="0.1524" layer="91"/>
 <wire x1="579.12" y1="266.7" x2="579.12" y2="281.94" width="0.1524" layer="91"/>
-<pinref part="U10" gate="G$1" pin="IN-"/>
+<pinref part="U11" gate="G$1" pin="IN-"/>
 <wire x1="579.12" y1="281.94" x2="581.66" y2="281.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$27" class="0">
 <segment>
-<pinref part="R20" gate="G$1" pin="1"/>
+<pinref part="R54" gate="G$1" pin="1"/>
 <wire x1="233.68" y1="228.6" x2="228.6" y2="228.6" width="0.1524" layer="91"/>
-<pinref part="Q3" gate="A" pin="G"/>
+<pinref part="Q5" gate="A" pin="G"/>
 </segment>
 </net>
 <net name="EN_HEAT1" class="0">
 <segment>
-<pinref part="R16" gate="G$1" pin="2"/>
+<pinref part="R50" gate="G$1" pin="2"/>
 <wire x1="218.44" y1="289.56" x2="215.9" y2="289.56" width="0.1524" layer="91"/>
 <label x="203.2" y="289.56" size="1.778" layer="95"/>
 <wire x1="215.9" y1="289.56" x2="203.2" y2="289.56" width="0.1524" layer="91"/>
-<pinref part="R17" gate="G$1" pin="1"/>
+<pinref part="R51" gate="G$1" pin="1"/>
 <junction x="215.9" y="289.56"/>
 </segment>
 <segment>
@@ -23819,11 +23819,11 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 </net>
 <net name="EN_HEAT2" class="0">
 <segment>
-<pinref part="R18" gate="G$1" pin="2"/>
+<pinref part="R52" gate="G$1" pin="2"/>
 <wire x1="218.44" y1="259.08" x2="215.9" y2="259.08" width="0.1524" layer="91"/>
 <label x="203.2" y="259.08" size="1.778" layer="95"/>
 <wire x1="215.9" y1="259.08" x2="203.2" y2="259.08" width="0.1524" layer="91"/>
-<pinref part="R19" gate="G$1" pin="1"/>
+<pinref part="R53" gate="G$1" pin="1"/>
 <junction x="215.9" y="259.08"/>
 </segment>
 <segment>
@@ -23834,11 +23834,11 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 </net>
 <net name="EN_HEAT3" class="0">
 <segment>
-<pinref part="R20" gate="G$1" pin="2"/>
+<pinref part="R54" gate="G$1" pin="2"/>
 <wire x1="218.44" y1="228.6" x2="215.9" y2="228.6" width="0.1524" layer="91"/>
 <label x="203.2" y="228.6" size="1.778" layer="95"/>
 <wire x1="215.9" y1="228.6" x2="203.2" y2="228.6" width="0.1524" layer="91"/>
-<pinref part="R21" gate="G$1" pin="1"/>
+<pinref part="R55" gate="G$1" pin="1"/>
 <junction x="215.9" y="228.6"/>
 </segment>
 <segment>
@@ -23851,23 +23851,23 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <segment>
 <wire x1="297.18" y1="228.6" x2="284.48" y2="228.6" width="0.1524" layer="91"/>
 <label x="289.56" y="228.6" size="1.778" layer="95"/>
-<pinref part="Q3" gate="A" pin="D"/>
+<pinref part="Q5" gate="A" pin="D"/>
 <wire x1="284.48" y1="228.6" x2="279.4" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="220.98" x2="284.48" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="220.98" x2="284.48" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="Q3" gate="A" pin="D_4"/>
+<pinref part="Q5" gate="A" pin="D_4"/>
 <wire x1="284.48" y1="223.52" x2="284.48" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="226.06" x2="284.48" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="223.52" x2="284.48" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="Q3" gate="A" pin="D_3"/>
+<pinref part="Q5" gate="A" pin="D_3"/>
 <wire x1="279.4" y1="226.06" x2="284.48" y2="226.06" width="0.1524" layer="91"/>
 <junction x="284.48" y="223.52"/>
 <junction x="284.48" y="226.06"/>
 <junction x="284.48" y="228.6"/>
-<pinref part="Q3" gate="A" pin="D_2"/>
+<pinref part="Q5" gate="A" pin="D_2"/>
 </segment>
 <segment>
-<pinref part="JP4" gate="A" pin="2"/>
+<pinref part="JP7" gate="A" pin="2"/>
 <wire x1="-25.4" y1="111.76" x2="-12.7" y2="111.76" width="0.1524" layer="91"/>
 <label x="-20.32" y="111.76" size="1.778" layer="95"/>
 </segment>
@@ -23876,23 +23876,23 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <segment>
 <wire x1="297.18" y1="259.08" x2="284.48" y2="259.08" width="0.1524" layer="91"/>
 <label x="289.56" y="259.08" size="1.778" layer="95"/>
-<pinref part="Q2" gate="A" pin="D"/>
+<pinref part="Q4" gate="A" pin="D"/>
 <wire x1="284.48" y1="259.08" x2="279.4" y2="259.08" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="251.46" x2="284.48" y2="251.46" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="251.46" x2="284.48" y2="254" width="0.1524" layer="91"/>
-<pinref part="Q2" gate="A" pin="D_4"/>
+<pinref part="Q4" gate="A" pin="D_4"/>
 <wire x1="284.48" y1="254" x2="284.48" y2="256.54" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="256.54" x2="284.48" y2="259.08" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="254" x2="284.48" y2="254" width="0.1524" layer="91"/>
-<pinref part="Q2" gate="A" pin="D_3"/>
+<pinref part="Q4" gate="A" pin="D_3"/>
 <wire x1="279.4" y1="256.54" x2="284.48" y2="256.54" width="0.1524" layer="91"/>
 <junction x="284.48" y="254"/>
 <junction x="284.48" y="256.54"/>
 <junction x="284.48" y="259.08"/>
-<pinref part="Q2" gate="A" pin="D_2"/>
+<pinref part="Q4" gate="A" pin="D_2"/>
 </segment>
 <segment>
-<pinref part="JP4" gate="A" pin="4"/>
+<pinref part="JP7" gate="A" pin="4"/>
 <wire x1="-25.4" y1="116.84" x2="-15.24" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="116.84" x2="-12.7" y2="116.84" width="0.1524" layer="91"/>
 <label x="-20.32" y="116.84" size="1.778" layer="95"/>
@@ -23902,48 +23902,48 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <segment>
 <wire x1="297.18" y1="289.56" x2="284.48" y2="289.56" width="0.1524" layer="91"/>
 <label x="289.56" y="289.56" size="1.778" layer="95"/>
-<pinref part="Q1" gate="A" pin="D"/>
+<pinref part="Q3" gate="A" pin="D"/>
 <wire x1="284.48" y1="289.56" x2="279.4" y2="289.56" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="281.94" x2="284.48" y2="281.94" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="281.94" x2="284.48" y2="284.48" width="0.1524" layer="91"/>
-<pinref part="Q1" gate="A" pin="D_4"/>
+<pinref part="Q3" gate="A" pin="D_4"/>
 <wire x1="284.48" y1="284.48" x2="284.48" y2="287.02" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="287.02" x2="284.48" y2="289.56" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="284.48" x2="284.48" y2="284.48" width="0.1524" layer="91"/>
-<pinref part="Q1" gate="A" pin="D_3"/>
+<pinref part="Q3" gate="A" pin="D_3"/>
 <wire x1="279.4" y1="287.02" x2="284.48" y2="287.02" width="0.1524" layer="91"/>
 <junction x="284.48" y="284.48"/>
 <junction x="284.48" y="287.02"/>
 <junction x="284.48" y="289.56"/>
-<pinref part="Q1" gate="A" pin="D_2"/>
+<pinref part="Q3" gate="A" pin="D_2"/>
 </segment>
 <segment>
-<pinref part="JP4" gate="A" pin="6"/>
+<pinref part="JP7" gate="A" pin="6"/>
 <wire x1="-25.4" y1="121.92" x2="-12.7" y2="121.92" width="0.1524" layer="91"/>
 <label x="-20.32" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$46" class="0">
 <segment>
-<pinref part="R13" gate="G$1" pin="2"/>
+<pinref part="R12" gate="G$1" pin="2"/>
 <pinref part="+3V3_2" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$47" class="0">
 <segment>
-<pinref part="R13" gate="G$1" pin="1"/>
-<pinref part="J104" gate="1" pin="2"/>
+<pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="J108" gate="1" pin="2"/>
 </segment>
 </net>
 <net name="+12V" class="3">
 <segment>
 <pinref part="+11V" gate="G$1" pin="A"/>
 <wire x1="655.32" y1="68.58" x2="655.32" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="U12" gate="G$1" pin="VOUT1"/>
-<pinref part="R47" gate="G$1" pin="2"/>
+<pinref part="U15" gate="G$1" pin="VOUT1"/>
+<pinref part="R61" gate="G$1" pin="2"/>
 <wire x1="584.2" y1="71.12" x2="591.82" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="U12" gate="G$1" pin="VOUT3"/>
-<pinref part="C34" gate="G$1" pin="2"/>
+<pinref part="U15" gate="G$1" pin="VOUT3"/>
+<pinref part="C39" gate="G$1" pin="2"/>
 <wire x1="591.82" y1="71.12" x2="604.52" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="604.52" y1="71.12" x2="612.14" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="612.14" y1="71.12" x2="619.76" y2="71.12" width="0.1524" layer="91"/>
@@ -23953,14 +23953,14 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <junction x="591.82" y="71.12"/>
 <wire x1="591.82" y1="68.58" x2="591.82" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="591.82" y1="71.12" x2="591.82" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="U12" gate="G$1" pin="VOUT2"/>
+<pinref part="U15" gate="G$1" pin="VOUT2"/>
 <wire x1="584.2" y1="68.58" x2="591.82" y2="68.58" width="0.1524" layer="91"/>
 <junction x="591.82" y="68.58"/>
-<pinref part="C38" gate="G$1" pin="2"/>
+<pinref part="C50" gate="G$1" pin="2"/>
 <wire x1="604.52" y1="73.66" x2="604.52" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="C36" gate="G$1" pin="2"/>
+<pinref part="C49" gate="G$1" pin="2"/>
 <wire x1="612.14" y1="73.66" x2="612.14" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="C39" gate="G$1" pin="2"/>
+<pinref part="C51" gate="G$1" pin="2"/>
 <wire x1="619.76" y1="73.66" x2="619.76" y2="71.12" width="0.1524" layer="91"/>
 <junction x="619.76" y="71.12"/>
 <junction x="612.14" y="71.12"/>
@@ -23974,7 +23974,7 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <segment>
 <wire x1="-25.4" y1="165.1" x2="-10.16" y2="165.1" width="0.1524" layer="91"/>
 <label x="-20.32" y="165.1" size="1.778" layer="95"/>
-<pinref part="JP7" gate="A" pin="14"/>
+<pinref part="JP3" gate="A" pin="14"/>
 <junction x="-25.4" y="165.1"/>
 </segment>
 </net>
@@ -23988,86 +23988,86 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <net name="N$49" class="0">
 <segment>
 <pinref part="R15" gate="G$1" pin="1"/>
-<pinref part="J102" gate="1" pin="2"/>
+<pinref part="J105" gate="1" pin="2"/>
 </segment>
 </net>
 <net name="N$39" class="0">
 <segment>
-<pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="R10" gate="G$1" pin="2"/>
 <pinref part="+3V3_M" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$40" class="0">
 <segment>
-<pinref part="R11" gate="G$1" pin="1"/>
-<pinref part="J106" gate="1" pin="2"/>
+<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="J110" gate="1" pin="2"/>
 </segment>
 </net>
 <net name="N$43" class="0">
 <segment>
-<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="R9" gate="G$1" pin="2"/>
 <pinref part="VCC" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$45" class="0">
 <segment>
-<pinref part="R10" gate="G$1" pin="1"/>
-<pinref part="J107" gate="1" pin="2"/>
+<pinref part="R9" gate="G$1" pin="1"/>
+<pinref part="J111" gate="1" pin="2"/>
 </segment>
 </net>
 <net name="N$51" class="0">
 <segment>
-<pinref part="R12" gate="G$1" pin="2"/>
+<pinref part="R11" gate="G$1" pin="2"/>
 <pinref part="+3V3_1" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$52" class="0">
 <segment>
-<pinref part="R12" gate="G$1" pin="1"/>
-<pinref part="J105" gate="1" pin="2"/>
+<pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="J109" gate="1" pin="2"/>
 </segment>
 </net>
 <net name="N$38" class="0">
 <segment>
-<pinref part="U12" gate="G$1" pin="BOOT"/>
+<pinref part="U15" gate="G$1" pin="BOOT"/>
 <wire x1="563.88" y1="81.28" x2="563.88" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="C32" gate="G$1" pin="2"/>
+<pinref part="C46" gate="G$1" pin="2"/>
 <wire x1="563.88" y1="88.9" x2="556.26" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$53" class="0">
 <segment>
-<pinref part="U12" gate="G$1" pin="FSW"/>
-<pinref part="R43" gate="G$1" pin="1"/>
+<pinref part="U15" gate="G$1" pin="FSW"/>
+<pinref part="R57" gate="G$1" pin="1"/>
 <wire x1="541.02" y1="55.88" x2="543.56" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$56" class="0">
 <segment>
-<pinref part="U12" gate="G$1" pin="SS"/>
-<pinref part="C46" gate="G$1" pin="1"/>
+<pinref part="U15" gate="G$1" pin="SS"/>
+<pinref part="C48" gate="G$1" pin="1"/>
 <wire x1="589.28" y1="45.72" x2="584.2" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$57" class="0">
 <segment>
-<pinref part="U12" gate="G$1" pin="ILIM"/>
-<pinref part="R44" gate="G$1" pin="2"/>
+<pinref part="U15" gate="G$1" pin="ILIM"/>
+<pinref part="R58" gate="G$1" pin="2"/>
 <wire x1="589.28" y1="50.8" x2="584.2" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$54" class="0">
 <segment>
-<pinref part="R45" gate="G$1" pin="1"/>
-<pinref part="C37" gate="G$1" pin="1"/>
+<pinref part="R59" gate="G$1" pin="1"/>
+<pinref part="C41" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$58" class="0">
 <segment>
-<pinref part="U12" gate="G$1" pin="COMP"/>
-<pinref part="R45" gate="G$1" pin="2"/>
+<pinref part="U15" gate="G$1" pin="COMP"/>
+<pinref part="R59" gate="G$1" pin="2"/>
 <wire x1="584.2" y1="55.88" x2="612.14" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="C35" gate="G$1" pin="1"/>
+<pinref part="C40" gate="G$1" pin="1"/>
 <wire x1="619.76" y1="50.8" x2="619.76" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="619.76" y1="55.88" x2="612.14" y2="55.88" width="0.1524" layer="91"/>
 <junction x="612.14" y="55.88"/>
@@ -24075,98 +24075,98 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 </net>
 <net name="N$60" class="0">
 <segment>
-<pinref part="R46" gate="G$1" pin="2"/>
-<pinref part="R47" gate="G$1" pin="1"/>
-<pinref part="U12" gate="G$1" pin="FB"/>
+<pinref part="R60" gate="G$1" pin="2"/>
+<pinref part="R61" gate="G$1" pin="1"/>
+<pinref part="U15" gate="G$1" pin="FB"/>
 <wire x1="584.2" y1="60.96" x2="629.92" y2="60.96" width="0.1524" layer="91"/>
 <junction x="629.92" y="60.96"/>
 </segment>
 </net>
 <net name="N$59" class="0">
 <segment>
-<pinref part="C33" gate="G$1" pin="1"/>
+<pinref part="C38" gate="G$1" pin="1"/>
 <wire x1="525.78" y1="43.18" x2="525.78" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="U12" gate="G$1" pin="VCC"/>
+<pinref part="U15" gate="G$1" pin="VCC"/>
 <wire x1="525.78" y1="45.72" x2="543.56" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$50" class="0">
 <segment>
-<pinref part="U12" gate="G$1" pin="SW1"/>
+<pinref part="U15" gate="G$1" pin="SW1"/>
 <wire x1="543.56" y1="71.12" x2="535.94" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="535.94" y1="71.12" x2="535.94" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="C32" gate="G$1" pin="1"/>
+<pinref part="C46" gate="G$1" pin="1"/>
 <wire x1="535.94" y1="88.9" x2="548.64" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="U12" gate="G$1" pin="SW4"/>
+<pinref part="U15" gate="G$1" pin="SW4"/>
 <wire x1="543.56" y1="63.5" x2="535.94" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="535.94" y1="63.5" x2="535.94" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="U12" gate="G$1" pin="SW3"/>
+<pinref part="U15" gate="G$1" pin="SW3"/>
 <wire x1="535.94" y1="66.04" x2="535.94" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="535.94" y1="68.58" x2="535.94" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="543.56" y1="66.04" x2="535.94" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="U12" gate="G$1" pin="SW2"/>
+<pinref part="U15" gate="G$1" pin="SW2"/>
 <wire x1="543.56" y1="68.58" x2="535.94" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="R43" gate="G$1" pin="2"/>
+<pinref part="R57" gate="G$1" pin="2"/>
 <wire x1="530.86" y1="55.88" x2="530.86" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="530.86" y1="71.12" x2="535.94" y2="71.12" width="0.1524" layer="91"/>
 <junction x="535.94" y="71.12"/>
 <junction x="535.94" y="68.58"/>
 <junction x="535.94" y="66.04"/>
-<pinref part="L6" gate="L$1" pin="2"/>
+<pinref part="L7" gate="L$1" pin="2"/>
 <junction x="530.86" y="71.12"/>
 </segment>
 </net>
 <net name="N$64" class="0">
 <segment>
-<pinref part="R29" gate="G$1" pin="1"/>
-<pinref part="R33" gate="G$1" pin="2"/>
-<pinref part="U5" gate="A" pin="MPPSET"/>
+<pinref part="R32" gate="G$1" pin="1"/>
+<pinref part="R36" gate="G$1" pin="2"/>
+<pinref part="U10" gate="A" pin="MPPSET"/>
 <wire x1="99.06" y1="66.04" x2="63.5" y2="66.04" width="0.1524" layer="91"/>
 <junction x="63.5" y="66.04"/>
 <wire x1="63.5" y1="66.04" x2="55.88" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="Q4" gate="G$1" pin="D"/>
+<pinref part="Q1" gate="G$1" pin="D"/>
 </segment>
 </net>
 <net name="N$67" class="0">
 <segment>
-<pinref part="STAT2" gate="G$1" pin="C"/>
-<pinref part="J101" gate="1" pin="2"/>
+<pinref part="STAT1" gate="G$1" pin="C"/>
+<pinref part="J103" gate="1" pin="2"/>
 </segment>
 </net>
 <net name="N$68" class="0">
 <segment>
-<pinref part="STAT1" gate="G$1" pin="C"/>
-<pinref part="J100" gate="1" pin="2"/>
+<pinref part="STAT2" gate="G$1" pin="C"/>
+<pinref part="J102" gate="1" pin="2"/>
 </segment>
 </net>
 <net name="N$66" class="0">
 <segment>
-<pinref part="STAT1" gate="G$1" pin="A"/>
-<pinref part="R31" gate="G$1" pin="1"/>
+<pinref part="STAT2" gate="G$1" pin="A"/>
+<pinref part="R34" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$69" class="0">
 <segment>
-<pinref part="STAT2" gate="G$1" pin="A"/>
-<pinref part="R30" gate="G$1" pin="1"/>
+<pinref part="STAT1" gate="G$1" pin="A"/>
+<pinref part="R33" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$70" class="0">
 <segment>
-<pinref part="U5" gate="A" pin="STAT2"/>
-<pinref part="J101" gate="1" pin="1"/>
+<pinref part="U10" gate="A" pin="STAT2"/>
+<pinref part="J103" gate="1" pin="1"/>
 </segment>
 </net>
 <net name="N$71" class="0">
 <segment>
-<pinref part="U5" gate="A" pin="STAT1"/>
-<pinref part="J100" gate="1" pin="1"/>
+<pinref part="U10" gate="A" pin="STAT1"/>
+<pinref part="J102" gate="1" pin="1"/>
 </segment>
 </net>
 <net name="N$72" class="0">
 <segment>
-<pinref part="U5" gate="A" pin="VREF"/>
-<pinref part="C18" gate="G$1" pin="1"/>
+<pinref part="U10" gate="A" pin="VREF"/>
+<pinref part="C25" gate="G$1" pin="1"/>
 <wire x1="99.06" y1="55.88" x2="91.44" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="55.88" x2="81.28" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="RT3" gate="G$1" pin="1"/>
@@ -24174,18 +24174,18 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 </net>
 <net name="N$73" class="0">
 <segment>
-<pinref part="U5" gate="A" pin="VCC"/>
-<pinref part="C28" gate="G$1" pin="1"/>
+<pinref part="U10" gate="A" pin="VCC"/>
+<pinref part="C35" gate="G$1" pin="1"/>
 <junction x="99.06" y="68.58"/>
-<pinref part="R40" gate="G$1" pin="2"/>
+<pinref part="R45" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$76" class="0">
 <segment>
-<pinref part="Q5" gate="A" pin="S"/>
+<pinref part="Q2" gate="A" pin="S"/>
 <wire x1="154.94" y1="116.84" x2="162.56" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="116.84" x2="162.56" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="Q6" gate="A" pin="D_2"/>
+<pinref part="Q7" gate="A" pin="D_2"/>
 <wire x1="162.56" y1="114.3" x2="162.56" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="111.76" x2="162.56" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="104.14" x2="162.56" y2="93.98" width="0.1524" layer="91"/>
@@ -24193,30 +24193,30 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <wire x1="162.56" y1="91.44" x2="162.56" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="88.9" x2="162.56" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="86.36" x2="154.94" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="Q6" gate="A" pin="D_3"/>
+<pinref part="Q7" gate="A" pin="D_3"/>
 <wire x1="154.94" y1="88.9" x2="162.56" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="Q6" gate="A" pin="D_4"/>
+<pinref part="Q7" gate="A" pin="D_4"/>
 <wire x1="154.94" y1="91.44" x2="162.56" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="Q6" gate="A" pin="D"/>
+<pinref part="Q7" gate="A" pin="D"/>
 <wire x1="154.94" y1="93.98" x2="162.56" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="Q5" gate="A" pin="S_2"/>
+<pinref part="Q2" gate="A" pin="S_2"/>
 <wire x1="154.94" y1="111.76" x2="162.56" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="Q5" gate="A" pin="S_3"/>
+<pinref part="Q2" gate="A" pin="S_3"/>
 <wire x1="154.94" y1="114.3" x2="162.56" y2="114.3" width="0.1524" layer="91"/>
 <junction x="162.56" y="88.9"/>
 <junction x="162.56" y="91.44"/>
 <junction x="162.56" y="93.98"/>
 <junction x="162.56" y="111.76"/>
 <junction x="162.56" y="114.3"/>
-<pinref part="L4" gate="G$1" pin="1"/>
+<pinref part="L6" gate="G$1" pin="1"/>
 <junction x="162.56" y="104.14"/>
-<pinref part="U5" gate="A" pin="PH"/>
+<pinref part="U10" gate="A" pin="PH"/>
 <wire x1="170.18" y1="60.96" x2="182.88" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="60.96" x2="182.88" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="78.74" x2="182.88" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="86.36" x2="162.56" y2="86.36" width="0.1524" layer="91"/>
 <junction x="162.56" y="86.36"/>
-<pinref part="C29" gate="G$1" pin="1"/>
+<pinref part="C34" gate="G$1" pin="1"/>
 <wire x1="190.5" y1="73.66" x2="190.5" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="78.74" x2="182.88" y2="78.74" width="0.1524" layer="91"/>
 <junction x="182.88" y="78.74"/>
@@ -24224,85 +24224,85 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 </net>
 <net name="V_SCOUT" class="0">
 <segment>
-<pinref part="U5" gate="A" pin="SRP"/>
+<pinref part="U10" gate="A" pin="SRP"/>
 <wire x1="170.18" y1="50.8" x2="177.8" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="50.8" x2="177.8" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="C17" gate="G$1" pin="2"/>
+<pinref part="C24" gate="G$1" pin="2"/>
 <wire x1="177.8" y1="53.34" x2="182.88" y2="53.34" width="0.1524" layer="91"/>
 <junction x="182.88" y="53.34"/>
 <wire x1="182.88" y1="53.34" x2="208.28" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="53.34" x2="208.28" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="88.9" x2="187.96" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="RS1" gate="G$1" pin="V1"/>
+<pinref part="RS2" gate="G$1" pin="V1"/>
 <wire x1="187.96" y1="88.9" x2="187.96" y2="99.06" width="0.1524" layer="91"/>
 <label x="190.5" y="88.9" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U9" gate="G$1" pin="IN+"/>
+<pinref part="U12" gate="G$1" pin="IN+"/>
 <wire x1="571.5" y1="254" x2="581.66" y2="254" width="0.1524" layer="91"/>
 <label x="571.5" y="254" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="V_BAT+" class="0">
 <segment>
-<pinref part="U5" gate="A" pin="SRN"/>
+<pinref part="U10" gate="A" pin="SRN"/>
 <wire x1="170.18" y1="48.26" x2="177.8" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="48.26" x2="177.8" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="C17" gate="G$1" pin="1"/>
+<pinref part="C24" gate="G$1" pin="1"/>
 <wire x1="177.8" y1="45.72" x2="182.88" y2="45.72" width="0.1524" layer="91"/>
 <junction x="182.88" y="45.72"/>
 <wire x1="210.82" y1="45.72" x2="182.88" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="RS1" gate="G$1" pin="V2"/>
+<pinref part="RS2" gate="G$1" pin="V2"/>
 <wire x1="208.28" y1="99.06" x2="210.82" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="99.06" x2="210.82" y2="45.72" width="0.1524" layer="91"/>
 <label x="210.82" y="88.9" size="1.778" layer="95" rot="R270"/>
 </segment>
 <segment>
 <wire x1="571.5" y1="248.92" x2="581.66" y2="248.92" width="0.1524" layer="91"/>
-<pinref part="U9" gate="G$1" pin="IN-"/>
+<pinref part="U12" gate="G$1" pin="IN-"/>
 <label x="571.5" y="248.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$80" class="0">
 <segment>
-<pinref part="U5" gate="A" pin="HIDRV"/>
+<pinref part="U10" gate="A" pin="HIDRV"/>
 <wire x1="170.18" y1="63.5" x2="180.34" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="63.5" x2="180.34" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="Q5" gate="A" pin="G"/>
+<pinref part="Q2" gate="A" pin="G"/>
 <wire x1="180.34" y1="119.38" x2="154.94" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$81" class="0">
 <segment>
-<pinref part="U5" gate="A" pin="LODRV"/>
+<pinref part="U10" gate="A" pin="LODRV"/>
 <wire x1="170.18" y1="58.42" x2="177.8" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="58.42" x2="177.8" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="Q6" gate="A" pin="G"/>
+<pinref part="Q7" gate="A" pin="G"/>
 <wire x1="177.8" y1="78.74" x2="109.22" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="78.74" x2="109.22" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$82" class="0">
 <segment>
-<pinref part="R35" gate="G$1" pin="1"/>
-<pinref part="R34" gate="G$1" pin="2"/>
-<pinref part="C30" gate="G$1" pin="2"/>
+<pinref part="R39" gate="G$1" pin="1"/>
+<pinref part="R37" gate="G$1" pin="2"/>
+<pinref part="C36" gate="G$1" pin="2"/>
 <wire x1="236.22" y1="93.98" x2="241.3" y2="93.98" width="0.1524" layer="91"/>
 <junction x="236.22" y="93.98"/>
-<pinref part="U5" gate="A" pin="VFB"/>
+<pinref part="U10" gate="A" pin="VFB"/>
 <wire x1="99.06" y1="50.8" x2="99.06" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="40.64" x2="228.6" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="40.64" x2="228.6" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="93.98" x2="236.22" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="R41" gate="G$1" pin="1"/>
+<pinref part="R46" gate="G$1" pin="1"/>
 <junction x="228.6" y="93.98"/>
 </segment>
 </net>
 <net name="N$84" class="0">
 <segment>
-<pinref part="U5" gate="A" pin="REGN"/>
+<pinref part="U10" gate="A" pin="REGN"/>
 <wire x1="170.18" y1="55.88" x2="185.42" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="C16" gate="G$1" pin="1"/>
+<pinref part="C23" gate="G$1" pin="1"/>
 <pinref part="D1" gate="G$1" pin="A1"/>
 <wire x1="185.42" y1="55.88" x2="193.04" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="63.5" x2="185.42" y2="55.88" width="0.1524" layer="91"/>
@@ -24316,30 +24316,30 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 </net>
 <net name="N$85" class="0">
 <segment>
-<pinref part="U5" gate="A" pin="BTST"/>
+<pinref part="U10" gate="A" pin="BTST"/>
 <wire x1="190.5" y1="66.04" x2="170.18" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="C29" gate="G$1" pin="2"/>
+<pinref part="C34" gate="G$1" pin="2"/>
 <junction x="190.5" y="66.04"/>
 <pinref part="D1" gate="G$1" pin="CC"/>
 </segment>
 </net>
 <net name="N$31" class="0">
 <segment>
-<pinref part="R18" gate="G$1" pin="1"/>
+<pinref part="R52" gate="G$1" pin="1"/>
 <wire x1="233.68" y1="259.08" x2="228.6" y2="259.08" width="0.1524" layer="91"/>
-<pinref part="Q2" gate="A" pin="G"/>
+<pinref part="Q4" gate="A" pin="G"/>
 </segment>
 </net>
 <net name="N$37" class="0">
 <segment>
-<pinref part="R16" gate="G$1" pin="1"/>
+<pinref part="R50" gate="G$1" pin="1"/>
 <wire x1="233.68" y1="289.56" x2="228.6" y2="289.56" width="0.1524" layer="91"/>
-<pinref part="Q1" gate="A" pin="G"/>
+<pinref part="Q3" gate="A" pin="G"/>
 </segment>
 </net>
 <net name="I2C_SDA" class="0">
 <segment>
-<pinref part="JP3" gate="G$1" pin="1"/>
+<pinref part="JP4" gate="G$1" pin="1"/>
 <wire x1="25.4" y1="160.02" x2="10.16" y2="160.02" width="0.1524" layer="91"/>
 <label x="10.16" y="160.02" size="1.778" layer="95"/>
 </segment>
@@ -24351,7 +24351,7 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 </net>
 <net name="I2C_SCL" class="0">
 <segment>
-<pinref part="JP3" gate="G$1" pin="2"/>
+<pinref part="JP4" gate="G$1" pin="2"/>
 <wire x1="25.4" y1="157.48" x2="10.16" y2="157.48" width="0.1524" layer="91"/>
 <label x="10.16" y="157.48" size="1.778" layer="95"/>
 </segment>
@@ -24363,14 +24363,14 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 </net>
 <net name="EN_3V3_2" class="0">
 <segment>
-<pinref part="R27" gate="G$1" pin="1"/>
+<pinref part="R42" gate="G$1" pin="1"/>
 <wire x1="307.34" y1="22.86" x2="309.88" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="309.88" y1="22.86" x2="312.42" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="309.88" y1="22.86" x2="309.88" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="309.88" y1="20.32" x2="281.94" y2="20.32" width="0.1524" layer="91"/>
 <label x="281.94" y="27.94" size="1.778" layer="95"/>
 <junction x="309.88" y="22.86"/>
-<pinref part="U17" gate="A" pin="EN"/>
+<pinref part="U6" gate="A" pin="EN"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="P4.7"/>
@@ -24382,10 +24382,10 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <segment>
 <wire x1="457.2" y1="63.5" x2="449.58" y2="63.5" width="0.1524" layer="91"/>
 <label x="441.96" y="63.5" size="1.778" layer="95"/>
-<pinref part="R42" gate="G$1" pin="2"/>
+<pinref part="R56" gate="G$1" pin="2"/>
 <wire x1="449.58" y1="63.5" x2="441.96" y2="63.5" width="0.1524" layer="91"/>
 <junction x="449.58" y="63.5"/>
-<pinref part="U11" gate="G$1" pin="IN"/>
+<pinref part="U14" gate="G$1" pin="IN"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="P3.0/A12/C12"/>
@@ -24396,8 +24396,8 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <net name="I_OUT" class="0">
 <segment>
 <label x="652.78" y="271.78" size="1.778" layer="95"/>
-<pinref part="R24" gate="G$1" pin="1"/>
-<pinref part="C10" gate="G$1" pin="2"/>
+<pinref part="R40" gate="G$1" pin="1"/>
+<pinref part="C27" gate="G$1" pin="2"/>
 <wire x1="632.46" y1="271.78" x2="619.76" y2="271.78" width="0.1524" layer="91"/>
 <junction x="632.46" y="271.78"/>
 <wire x1="632.46" y1="271.78" x2="662.94" y2="271.78" width="0.1524" layer="91"/>
@@ -24411,8 +24411,8 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <net name="I_IN" class="0">
 <segment>
 <label x="652.78" y="238.76" size="1.778" layer="95"/>
-<pinref part="C9" gate="G$1" pin="2"/>
-<pinref part="R22" gate="G$1" pin="1"/>
+<pinref part="C26" gate="G$1" pin="2"/>
+<pinref part="R38" gate="G$1" pin="1"/>
 <wire x1="632.46" y1="238.76" x2="619.76" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="632.46" y1="238.76" x2="662.94" y2="238.76" width="0.1524" layer="91"/>
 <junction x="632.46" y="238.76"/>
@@ -24427,7 +24427,7 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <segment>
 <label x="505.46" y="238.76" size="1.778" layer="95"/>
 <pinref part="C3" gate="G$1" pin="2"/>
-<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="480.06" y1="238.76" x2="472.44" y2="238.76" width="0.1524" layer="91"/>
 <junction x="480.06" y="238.76"/>
 <wire x1="518.16" y1="238.76" x2="480.06" y2="238.76" width="0.1524" layer="91"/>
@@ -24442,7 +24442,7 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <segment>
 <label x="502.92" y="284.48" size="1.778" layer="95"/>
 <pinref part="C1" gate="G$1" pin="2"/>
-<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="480.06" y1="284.48" x2="472.44" y2="284.48" width="0.1524" layer="91"/>
 <junction x="480.06" y="284.48"/>
 <wire x1="515.62" y1="284.48" x2="480.06" y2="284.48" width="0.1524" layer="91"/>
@@ -24504,7 +24504,7 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 </net>
 <net name="EN_3V3_M" class="0">
 <segment>
-<pinref part="R26" gate="G$1" pin="1"/>
+<pinref part="R8" gate="G$1" pin="1"/>
 <pinref part="U3" gate="G$1" pin="EN"/>
 <wire x1="403.86" y1="170.18" x2="406.4" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="406.4" y1="170.18" x2="406.4" y2="162.56" width="0.1524" layer="91"/>
@@ -24520,14 +24520,14 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 </net>
 <net name="EN_3V3_1" class="0">
 <segment>
-<pinref part="R38" gate="G$1" pin="1"/>
+<pinref part="R41" gate="G$1" pin="1"/>
 <wire x1="307.34" y1="88.9" x2="309.88" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="309.88" y1="88.9" x2="312.42" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="309.88" y1="88.9" x2="309.88" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="309.88" y1="86.36" x2="284.48" y2="86.36" width="0.1524" layer="91"/>
 <label x="284.48" y="93.98" size="1.778" layer="95"/>
 <junction x="309.88" y="88.9"/>
-<pinref part="U16" gate="A" pin="EN"/>
+<pinref part="U5" gate="A" pin="EN"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="P3.3/A15/C15"/>
@@ -24538,16 +24538,16 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <net name="N$5" class="0">
 <segment>
 <pinref part="U7" gate="G$1" pin="SS"/>
-<pinref part="C20" gate="G$1" pin="1"/>
+<pinref part="C15" gate="G$1" pin="1"/>
 <wire x1="563.88" y1="142.24" x2="553.72" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="EN_SC" class="0">
 <segment>
-<pinref part="R32" gate="G$1" pin="2"/>
-<pinref part="R28" gate="G$1" pin="1"/>
+<pinref part="R35" gate="G$1" pin="2"/>
+<pinref part="R31" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="68.58" x2="45.72" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="Q4" gate="G$1" pin="G"/>
+<pinref part="Q1" gate="G$1" pin="G"/>
 <wire x1="50.8" y1="58.42" x2="50.8" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="68.58" x2="45.72" y2="68.58" width="0.1524" layer="91"/>
 <junction x="45.72" y="68.58"/>
@@ -24564,40 +24564,40 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <segment>
 <wire x1="27.94" y1="78.74" x2="27.94" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="63.5" x2="68.58" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="R31" gate="G$1" pin="2"/>
+<pinref part="R34" gate="G$1" pin="2"/>
 <wire x1="71.12" y1="63.5" x2="68.58" y2="63.5" width="0.1524" layer="91"/>
 <junction x="68.58" y="63.5"/>
-<pinref part="R30" gate="G$1" pin="2"/>
+<pinref part="R33" gate="G$1" pin="2"/>
 <wire x1="71.12" y1="58.42" x2="68.58" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="58.42" x2="68.58" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="R29" gate="G$1" pin="2"/>
+<pinref part="R32" gate="G$1" pin="2"/>
 <wire x1="63.5" y1="83.82" x2="68.58" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="83.82" x2="86.36" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="76.2" x2="63.5" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="68.58" x2="86.36" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="68.58" x2="86.36" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="C40" gate="G$1" pin="2"/>
+<pinref part="C42" gate="G$1" pin="2"/>
 <junction x="86.36" y="83.82"/>
 <wire x1="86.36" y1="83.82" x2="99.06" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="83.82" x2="99.06" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="Q5" gate="A" pin="D_2"/>
+<pinref part="Q2" gate="A" pin="D_2"/>
 <wire x1="99.06" y1="111.76" x2="99.06" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="114.3" x2="99.06" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="116.84" x2="99.06" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="119.38" x2="109.22" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="Q5" gate="A" pin="D_3"/>
+<pinref part="Q2" gate="A" pin="D_3"/>
 <wire x1="109.22" y1="116.84" x2="99.06" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="Q5" gate="A" pin="D_4"/>
+<pinref part="Q2" gate="A" pin="D_4"/>
 <wire x1="109.22" y1="114.3" x2="99.06" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="Q5" gate="A" pin="D"/>
+<pinref part="Q2" gate="A" pin="D"/>
 <wire x1="109.22" y1="111.76" x2="99.06" y2="111.76" width="0.1524" layer="91"/>
 <junction x="99.06" y="111.76"/>
 <junction x="99.06" y="114.3"/>
 <junction x="99.06" y="116.84"/>
 <junction x="68.58" y="83.82"/>
-<pinref part="R40" gate="G$1" pin="1"/>
+<pinref part="R45" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="83.82" x2="45.72" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="R28" gate="G$1" pin="2"/>
+<pinref part="R31" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="83.82" x2="63.5" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="81.28" x2="45.72" y2="83.82" width="0.1524" layer="91"/>
 <junction x="45.72" y="83.82"/>
@@ -24607,10 +24607,10 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <wire x1="20.32" y1="78.74" x2="20.32" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="83.82" x2="27.94" y2="83.82" width="0.1524" layer="91"/>
 <label x="20.32" y="83.82" size="1.778" layer="95"/>
-<pinref part="R39" gate="G$1" pin="2"/>
+<pinref part="R44" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="R25" gate="G$1" pin="2"/>
+<pinref part="R20" gate="G$1" pin="2"/>
 <wire x1="426.72" y1="241.3" x2="416.56" y2="241.3" width="0.1524" layer="91"/>
 <label x="416.56" y="241.3" size="1.778" layer="95"/>
 </segment>
@@ -24622,50 +24622,50 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <label x="20.32" y="111.76" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="RS3" gate="G$1" pin="I1"/>
+<pinref part="RS1" gate="G$1" pin="I1"/>
 <wire x1="566.42" y1="287.02" x2="551.18" y2="287.02" width="0.1524" layer="91"/>
 <label x="551.18" y="287.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R23" gate="G$1" pin="2"/>
+<pinref part="R18" gate="G$1" pin="2"/>
 <wire x1="426.72" y1="287.02" x2="416.56" y2="287.02" width="0.1524" layer="91"/>
 <label x="416.56" y="287.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="C30" gate="G$1" pin="1"/>
-<pinref part="R35" gate="G$1" pin="2"/>
+<pinref part="C36" gate="G$1" pin="1"/>
+<pinref part="R39" gate="G$1" pin="2"/>
 <wire x1="241.3" y1="101.6" x2="241.3" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="104.14" x2="236.22" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="C42" gate="G$1" pin="1"/>
+<pinref part="C43" gate="G$1" pin="1"/>
 <wire x1="215.9" y1="104.14" x2="223.52" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="C41" gate="G$1" pin="1"/>
+<pinref part="C37" gate="G$1" pin="1"/>
 <junction x="223.52" y="104.14"/>
 <wire x1="223.52" y1="104.14" x2="228.6" y2="104.14" width="0.1524" layer="91"/>
 <junction x="236.22" y="104.14"/>
-<pinref part="R41" gate="G$1" pin="2"/>
+<pinref part="R46" gate="G$1" pin="2"/>
 <wire x1="228.6" y1="104.14" x2="236.22" y2="104.14" width="0.1524" layer="91"/>
 <junction x="228.6" y="104.14"/>
 <wire x1="241.3" y1="104.14" x2="248.92" y2="104.14" width="0.1524" layer="91"/>
 <junction x="241.3" y="104.14"/>
 <label x="238.76" y="104.14" size="1.778" layer="95"/>
-<pinref part="RS1" gate="G$1" pin="I2"/>
+<pinref part="RS2" gate="G$1" pin="I2"/>
 <wire x1="208.28" y1="104.14" x2="215.9" y2="104.14" width="0.1524" layer="91"/>
 <junction x="215.9" y="104.14"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="VBAT"/>
+<pinref part="U13" gate="G$1" pin="VBAT"/>
 <wire x1="124.46" y1="172.72" x2="109.22" y2="172.72" width="0.1524" layer="91"/>
 <label x="111.76" y="172.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BAT_OUT" class="0">
 <segment>
-<pinref part="RS3" gate="G$1" pin="I2"/>
+<pinref part="RS1" gate="G$1" pin="I2"/>
 <wire x1="566.42" y1="266.7" x2="551.18" y2="266.7" width="0.1524" layer="91"/>
 <label x="551.18" y="266.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="C19" gate="G$1" pin="1"/>
+<pinref part="C28" gate="G$1" pin="1"/>
 <wire x1="312.42" y1="175.26" x2="307.34" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="307.34" y1="175.26" x2="297.18" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="175.26" x2="297.18" y2="167.64" width="0.1524" layer="91"/>
@@ -24684,14 +24684,14 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <wire x1="312.42" y1="154.94" x2="307.34" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="307.34" y1="154.94" x2="307.34" y2="162.56" width="0.1524" layer="91"/>
 <junction x="307.34" y="162.56"/>
-<pinref part="U15" gate="A" pin="EN"/>
-<pinref part="U15" gate="A" pin="VIN"/>
-<pinref part="U15" gate="A" pin="VINA"/>
-<pinref part="U15" gate="A" pin="VIN_2"/>
-<pinref part="U15" gate="A" pin="VIN_3"/>
+<pinref part="U4" gate="A" pin="EN"/>
+<pinref part="U4" gate="A" pin="VIN"/>
+<pinref part="U4" gate="A" pin="VINA"/>
+<pinref part="U4" gate="A" pin="VIN_2"/>
+<pinref part="U4" gate="A" pin="VIN_3"/>
 </segment>
 <segment>
-<pinref part="C23" gate="G$1" pin="1"/>
+<pinref part="C29" gate="G$1" pin="1"/>
 <wire x1="312.42" y1="109.22" x2="307.34" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="307.34" y1="109.22" x2="297.18" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="109.22" x2="297.18" y2="106.68" width="0.1524" layer="91"/>
@@ -24707,13 +24707,13 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <wire x1="307.34" y1="104.14" x2="307.34" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="307.34" y1="96.52" x2="312.42" y2="96.52" width="0.1524" layer="91"/>
 <junction x="307.34" y="104.14"/>
-<pinref part="U16" gate="A" pin="VIN"/>
-<pinref part="U16" gate="A" pin="VINA"/>
-<pinref part="U16" gate="A" pin="VIN_2"/>
-<pinref part="U16" gate="A" pin="VIN_3"/>
+<pinref part="U5" gate="A" pin="VIN"/>
+<pinref part="U5" gate="A" pin="VINA"/>
+<pinref part="U5" gate="A" pin="VIN_2"/>
+<pinref part="U5" gate="A" pin="VIN_3"/>
 </segment>
 <segment>
-<pinref part="C13" gate="G$1" pin="1"/>
+<pinref part="C30" gate="G$1" pin="1"/>
 <wire x1="312.42" y1="43.18" x2="307.34" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="307.34" y1="43.18" x2="297.18" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="43.18" x2="297.18" y2="40.64" width="0.1524" layer="91"/>
@@ -24729,14 +24729,14 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <wire x1="312.42" y1="30.48" x2="307.34" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="307.34" y1="30.48" x2="307.34" y2="38.1" width="0.1524" layer="91"/>
 <junction x="307.34" y="38.1"/>
-<pinref part="U17" gate="A" pin="VIN"/>
-<pinref part="U17" gate="A" pin="VINA"/>
-<pinref part="U17" gate="A" pin="VIN_2"/>
-<pinref part="U17" gate="A" pin="VIN_3"/>
+<pinref part="U6" gate="A" pin="VIN"/>
+<pinref part="U6" gate="A" pin="VINA"/>
+<pinref part="U6" gate="A" pin="VIN_2"/>
+<pinref part="U6" gate="A" pin="VIN_3"/>
 </segment>
 <segment>
 <wire x1="518.16" y1="154.94" x2="518.16" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="L5" gate="L$1" pin="1"/>
+<pinref part="L4" gate="L$1" pin="1"/>
 <wire x1="518.16" y1="162.56" x2="558.8" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="U7" gate="G$1" pin="VIN"/>
 <wire x1="558.8" y1="162.56" x2="571.5" y2="162.56" width="0.1524" layer="91"/>
@@ -24745,22 +24745,22 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <junction x="558.8" y="162.56"/>
 <wire x1="518.16" y1="162.56" x2="505.46" y2="162.56" width="0.1524" layer="91"/>
 <label x="505.46" y="162.56" size="1.778" layer="95"/>
-<pinref part="C47" gate="G$1" pin="1"/>
+<pinref part="C32" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="Q7" gate="G$1" pin="D"/>
+<pinref part="Q6" gate="G$1" pin="D"/>
 <wire x1="495.3" y1="81.28" x2="495.3" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="495.3" y1="83.82" x2="454.66" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="454.66" y1="83.82" x2="454.66" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="454.66" y1="73.66" x2="457.2" y2="73.66" width="0.1524" layer="91"/>
 <label x="469.9" y="83.82" size="1.778" layer="95"/>
-<pinref part="U11" gate="G$1" pin="VDD"/>
+<pinref part="U14" gate="G$1" pin="VDD"/>
 </segment>
 <segment>
 <wire x1="518.16" y1="205.74" x2="518.16" y2="213.36" width="0.1524" layer="91"/>
-<pinref part="L7" gate="L$1" pin="1"/>
+<pinref part="L5" gate="L$1" pin="1"/>
 <wire x1="518.16" y1="213.36" x2="558.8" y2="213.36" width="0.1524" layer="91"/>
-<pinref part="U13" gate="G$1" pin="VIN"/>
+<pinref part="U8" gate="G$1" pin="VIN"/>
 <wire x1="558.8" y1="213.36" x2="571.5" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="563.88" y1="205.74" x2="558.8" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="558.8" y1="205.74" x2="558.8" y2="213.36" width="0.1524" layer="91"/>
@@ -24770,12 +24770,12 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <pinref part="C31" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="IN2"/>
+<pinref part="U9" gate="G$1" pin="IN2"/>
 <wire x1="337.82" y1="287.02" x2="322.58" y2="287.02" width="0.1524" layer="91"/>
-<pinref part="R53" gate="G$1" pin="2"/>
+<pinref part="R43" gate="G$1" pin="2"/>
 <wire x1="325.12" y1="284.48" x2="322.58" y2="284.48" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="284.48" x2="322.58" y2="287.02" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="IN1"/>
+<pinref part="U9" gate="G$1" pin="IN1"/>
 <wire x1="337.82" y1="289.56" x2="322.58" y2="289.56" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="289.56" x2="312.42" y2="289.56" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="287.02" x2="322.58" y2="289.56" width="0.1524" layer="91"/>
@@ -24784,24 +24784,24 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <label x="312.42" y="289.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP4" gate="A" pin="5"/>
+<pinref part="JP7" gate="A" pin="5"/>
 <wire x1="-25.4" y1="119.38" x2="-12.7" y2="119.38" width="0.1524" layer="91"/>
 <label x="-20.32" y="119.38" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP4" gate="A" pin="3"/>
+<pinref part="JP7" gate="A" pin="3"/>
 <wire x1="-25.4" y1="114.3" x2="-12.7" y2="114.3" width="0.1524" layer="91"/>
 <label x="-20.32" y="114.3" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP4" gate="A" pin="1"/>
+<pinref part="JP7" gate="A" pin="1"/>
 <wire x1="-25.4" y1="109.22" x2="-12.7" y2="109.22" width="0.1524" layer="91"/>
 <label x="-20.32" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
-<pinref part="C12" gate="G$1" pin="1"/>
+<pinref part="C9" gate="G$1" pin="1"/>
 <wire x1="353.06" y1="175.26" x2="358.14" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="358.14" y1="175.26" x2="360.68" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="360.68" y1="175.26" x2="365.76" y2="175.26" width="0.1524" layer="91"/>
@@ -24814,7 +24814,7 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <junction x="358.14" y="172.72"/>
 <junction x="358.14" y="175.26"/>
 <junction x="365.76" y="175.26"/>
-<pinref part="C11" gate="G$1" pin="1"/>
+<pinref part="C10" gate="G$1" pin="1"/>
 <wire x1="365.76" y1="167.64" x2="365.76" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="401.32" y1="175.26" x2="393.7" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="IN2"/>
@@ -24827,17 +24827,17 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <wire x1="401.32" y1="175.26" x2="406.4" y2="175.26" width="0.1524" layer="91"/>
 <junction x="401.32" y="175.26"/>
 <junction x="373.38" y="175.26"/>
-<pinref part="R26" gate="G$1" pin="2"/>
+<pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="393.7" y1="170.18" x2="393.7" y2="175.26" width="0.1524" layer="91"/>
 <junction x="393.7" y="175.26"/>
 <pinref part="VCC" gate="G$1" pin="A"/>
 <junction x="386.08" y="175.26"/>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
 <wire x1="373.38" y1="182.88" x2="373.38" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="U15" gate="A" pin="VOUT"/>
-<pinref part="U15" gate="A" pin="VOUT_2"/>
-<pinref part="U15" gate="A" pin="VOUT_3"/>
-<pinref part="R56" gate="G$1" pin="2"/>
+<pinref part="U4" gate="A" pin="VOUT"/>
+<pinref part="U4" gate="A" pin="VOUT_2"/>
+<pinref part="U4" gate="A" pin="VOUT_3"/>
+<pinref part="R22" gate="G$1" pin="2"/>
 <wire x1="360.68" y1="172.72" x2="360.68" y2="175.26" width="0.1524" layer="91"/>
 <junction x="360.68" y="175.26"/>
 </segment>
@@ -24871,7 +24871,7 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <wire x1="406.4" y1="266.7" x2="411.48" y2="266.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP7" gate="A" pin="2"/>
+<pinref part="JP3" gate="A" pin="2"/>
 <wire x1="-25.4" y1="134.62" x2="-10.16" y2="134.62" width="0.1524" layer="91"/>
 <label x="-20.32" y="134.62" size="1.778" layer="95"/>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
@@ -24880,15 +24880,15 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="RS1" gate="G$1" pin="I1"/>
-<pinref part="L4" gate="G$1" pin="2"/>
+<pinref part="RS2" gate="G$1" pin="I1"/>
+<pinref part="L6" gate="G$1" pin="2"/>
 <wire x1="187.96" y1="104.14" x2="177.8" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="U12" gate="G$1" pin="MODE"/>
-<pinref part="R48" gate="G$1" pin="1"/>
+<pinref part="U15" gate="G$1" pin="MODE"/>
+<pinref part="R62" gate="G$1" pin="1"/>
 <wire x1="584.2" y1="40.64" x2="586.74" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -24985,11 +24985,11 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <pinref part="AGND13" gate="VR1" pin="AGND"/>
 </segment>
 <segment>
-<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="R19" gate="G$1" pin="1"/>
 <pinref part="AGND14" gate="VR1" pin="AGND"/>
 </segment>
 <segment>
-<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="R17" gate="G$1" pin="1"/>
 <pinref part="AGND15" gate="VR1" pin="AGND"/>
 </segment>
 <segment>
@@ -25001,31 +25001,31 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <pinref part="AGND16" gate="VR1" pin="AGND"/>
 </segment>
 <segment>
-<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="R7" gate="G$1" pin="2"/>
 <pinref part="AGND17" gate="VR1" pin="AGND"/>
 </segment>
 <segment>
-<pinref part="C9" gate="G$1" pin="1"/>
+<pinref part="C26" gate="G$1" pin="1"/>
 <pinref part="AGND19" gate="VR1" pin="AGND"/>
 </segment>
 <segment>
-<pinref part="C10" gate="G$1" pin="1"/>
+<pinref part="C27" gate="G$1" pin="1"/>
 <pinref part="AGND20" gate="VR1" pin="AGND"/>
 </segment>
 <segment>
-<pinref part="U10" gate="G$1" pin="GND"/>
+<pinref part="U11" gate="G$1" pin="GND"/>
 <pinref part="AGND21" gate="VR1" pin="AGND"/>
 </segment>
 <segment>
-<pinref part="U10" gate="G$1" pin="REF"/>
+<pinref part="U11" gate="G$1" pin="REF"/>
 <pinref part="AGND22" gate="VR1" pin="AGND"/>
 </segment>
 <segment>
-<pinref part="U9" gate="G$1" pin="GND"/>
+<pinref part="U12" gate="G$1" pin="GND"/>
 <pinref part="AGND23" gate="VR1" pin="AGND"/>
 </segment>
 <segment>
-<pinref part="U9" gate="G$1" pin="REF"/>
+<pinref part="U12" gate="G$1" pin="REF"/>
 <pinref part="AGND24" gate="VR1" pin="AGND"/>
 </segment>
 </net>
@@ -25107,7 +25107,7 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 </net>
 <net name="TS" class="0">
 <segment>
-<pinref part="U5" gate="A" pin="TS"/>
+<pinref part="U10" gate="A" pin="TS"/>
 <wire x1="99.06" y1="60.96" x2="88.9" y2="60.96" width="0.1524" layer="91"/>
 <label x="88.9" y="60.96" size="1.778" layer="95"/>
 </segment>
@@ -25123,16 +25123,16 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="Q7" gate="G$1" pin="G"/>
+<pinref part="Q6" gate="G$1" pin="G"/>
 <wire x1="482.6" y1="73.66" x2="490.22" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="U11" gate="G$1" pin="OUT"/>
+<pinref part="U14" gate="G$1" pin="OUT"/>
 </segment>
 </net>
 <net name="BAT_11V" class="0">
 <segment>
-<pinref part="C44" gate="G$1" pin="1"/>
 <pinref part="C45" gate="G$1" pin="1"/>
-<pinref part="U12" gate="G$1" pin="VIN"/>
+<pinref part="C47" gate="G$1" pin="1"/>
+<pinref part="U15" gate="G$1" pin="VIN"/>
 <wire x1="543.56" y1="50.8" x2="538.48" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="538.48" y1="50.8" x2="515.62" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="515.62" y1="50.8" x2="515.62" y2="43.18" width="0.1524" layer="91"/>
@@ -25140,15 +25140,15 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <wire x1="515.62" y1="50.8" x2="515.62" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="515.62" y1="71.12" x2="505.46" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="505.46" y1="71.12" x2="505.46" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="C43" gate="G$1" pin="1"/>
+<pinref part="C44" gate="G$1" pin="1"/>
 <wire x1="495.3" y1="58.42" x2="495.3" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="495.3" y1="71.12" x2="505.46" y2="71.12" width="0.1524" layer="91"/>
 <junction x="505.46" y="71.12"/>
-<pinref part="L6" gate="L$1" pin="1"/>
+<pinref part="L7" gate="L$1" pin="1"/>
 <junction x="515.62" y="71.12"/>
-<pinref part="Q7" gate="G$1" pin="S"/>
+<pinref part="Q6" gate="G$1" pin="S"/>
 <junction x="495.3" y="71.12"/>
-<pinref part="U12" gate="G$1" pin="EN"/>
+<pinref part="U15" gate="G$1" pin="EN"/>
 <wire x1="543.56" y1="40.64" x2="538.48" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="538.48" y1="40.64" x2="538.48" y2="50.8" width="0.1524" layer="91"/>
 <junction x="538.48" y="50.8"/>
@@ -25156,20 +25156,20 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 </net>
 <net name="N$42" class="0">
 <segment>
-<pinref part="C27" gate="G$1" pin="1"/>
-<pinref part="R39" gate="G$1" pin="1"/>
+<pinref part="C33" gate="G$1" pin="1"/>
+<pinref part="R44" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="68.58" x2="27.94" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AVCC1" class="0">
 <segment>
-<pinref part="U9" gate="G$1" pin="VCC"/>
+<pinref part="U12" gate="G$1" pin="VCC"/>
 <wire x1="607.06" y1="254" x2="609.6" y2="254" width="0.1524" layer="91"/>
 <wire x1="609.6" y1="254" x2="612.14" y2="254" width="0.1524" layer="91"/>
 <label x="609.6" y="254" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U10" gate="G$1" pin="VCC"/>
+<pinref part="U11" gate="G$1" pin="VCC"/>
 <wire x1="607.06" y1="287.02" x2="609.6" y2="289.56" width="0.1524" layer="91"/>
 <pinref part="LF3" gate="G$1" pin="1"/>
 <label x="609.6" y="287.02" size="1.778" layer="95"/>
@@ -25216,44 +25216,44 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 </net>
 <net name="IND1" class="0">
 <segment>
-<pinref part="U13" gate="G$1" pin="SW"/>
+<pinref part="U8" gate="G$1" pin="SW"/>
 <wire x1="594.36" y1="205.74" x2="594.36" y2="213.36" width="0.1524" layer="91"/>
-<pinref part="L7" gate="L$1" pin="2"/>
+<pinref part="L5" gate="L$1" pin="2"/>
 <wire x1="594.36" y1="213.36" x2="586.74" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED1" class="0">
 <segment>
-<pinref part="R49" gate="G$1" pin="2"/>
+<pinref part="R14" gate="G$1" pin="2"/>
 <pinref part="+5V2" gate="G$1" pin="C"/>
 <wire x1="647.7" y1="190.5" x2="647.7" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$44" class="0">
 <segment>
-<pinref part="R51" gate="G$1" pin="1"/>
-<pinref part="U13" gate="G$1" pin="PG"/>
+<pinref part="R30" gate="G$1" pin="1"/>
+<pinref part="U8" gate="G$1" pin="PG"/>
 <wire x1="604.52" y1="190.5" x2="594.36" y2="190.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$55" class="0">
 <segment>
-<pinref part="R49" gate="G$1" pin="1"/>
-<pinref part="J1" gate="1" pin="2"/>
+<pinref part="R14" gate="G$1" pin="1"/>
+<pinref part="J106" gate="1" pin="2"/>
 <wire x1="647.7" y1="177.8" x2="647.7" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$61" class="0">
 <segment>
-<pinref part="U13" gate="G$1" pin="SS"/>
-<pinref part="C48" gate="G$1" pin="1"/>
+<pinref part="U8" gate="G$1" pin="SS"/>
+<pinref part="C19" gate="G$1" pin="1"/>
 <wire x1="563.88" y1="193.04" x2="553.72" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="EN_DIRECT" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="EN"/>
-<pinref part="R53" gate="G$1" pin="1"/>
+<pinref part="U9" gate="G$1" pin="EN"/>
+<pinref part="R43" gate="G$1" pin="1"/>
 <wire x1="335.28" y1="284.48" x2="337.82" y2="284.48" width="0.1524" layer="91"/>
 <wire x1="337.82" y1="284.48" x2="337.82" y2="279.4" width="0.1524" layer="91"/>
 <wire x1="337.82" y1="279.4" x2="322.58" y2="279.4" width="0.1524" layer="91"/>
@@ -25270,11 +25270,11 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <segment>
 <wire x1="-25.4" y1="160.02" x2="-10.16" y2="160.02" width="0.1524" layer="91"/>
 <label x="-20.32" y="160.02" size="1.778" layer="95"/>
-<pinref part="JP7" gate="A" pin="12"/>
+<pinref part="JP3" gate="A" pin="12"/>
 <junction x="-25.4" y="160.02"/>
 </segment>
 <segment>
-<pinref part="U13" gate="G$1" pin="VOUT"/>
+<pinref part="U8" gate="G$1" pin="VOUT"/>
 <wire x1="594.36" y1="203.2" x2="599.44" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="599.44" y1="203.2" x2="604.52" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="604.52" y1="203.2" x2="612.14" y2="203.2" width="0.1524" layer="91"/>
@@ -25291,24 +25291,24 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <wire x1="647.7" y1="200.66" x2="647.7" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="647.7" y1="203.2" x2="660.4" y2="203.2" width="0.1524" layer="91"/>
 <label x="650.24" y="203.2" size="1.778" layer="95"/>
-<pinref part="U13" gate="G$1" pin="FB"/>
+<pinref part="U8" gate="G$1" pin="FB"/>
 <wire x1="594.36" y1="193.04" x2="599.44" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="599.44" y1="193.04" x2="599.44" y2="203.2" width="0.1524" layer="91"/>
-<pinref part="R51" gate="G$1" pin="2"/>
+<pinref part="R30" gate="G$1" pin="2"/>
 <wire x1="612.14" y1="200.66" x2="612.14" y2="203.2" width="0.1524" layer="91"/>
 <junction x="599.44" y="203.2"/>
 <junction x="612.14" y="203.2"/>
 <junction x="647.7" y="203.2"/>
-<pinref part="C49" gate="G$1" pin="1"/>
-<pinref part="C50" gate="G$1" pin="1"/>
-<pinref part="C51" gate="G$1" pin="1"/>
+<pinref part="C20" gate="G$1" pin="1"/>
+<pinref part="C22" gate="G$1" pin="1"/>
+<pinref part="C21" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="+5V_1" class="3">
 <segment>
 <wire x1="-25.4" y1="154.94" x2="-10.16" y2="154.94" width="0.1524" layer="91"/>
 <label x="-20.32" y="154.94" size="1.778" layer="95"/>
-<pinref part="JP7" gate="A" pin="10"/>
+<pinref part="JP3" gate="A" pin="10"/>
 <junction x="-25.4" y="154.94"/>
 </segment>
 <segment>
@@ -25332,31 +25332,31 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <pinref part="U7" gate="G$1" pin="FB"/>
 <wire x1="594.36" y1="142.24" x2="599.44" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="599.44" y1="142.24" x2="599.44" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="R37" gate="G$1" pin="2"/>
+<pinref part="R28" gate="G$1" pin="2"/>
 <wire x1="612.14" y1="149.86" x2="612.14" y2="152.4" width="0.1524" layer="91"/>
 <junction x="599.44" y="152.4"/>
 <junction x="612.14" y="152.4"/>
 <junction x="647.7" y="152.4"/>
-<pinref part="C21" gate="G$1" pin="1"/>
-<pinref part="C22" gate="G$1" pin="1"/>
-<pinref part="C24" gate="G$1" pin="1"/>
+<pinref part="C18" gate="G$1" pin="1"/>
+<pinref part="C17" gate="G$1" pin="1"/>
+<pinref part="C16" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="DIRECT" class="0">
 <segment>
 <wire x1="-25.4" y1="170.18" x2="-10.16" y2="170.18" width="0.1524" layer="91"/>
 <label x="-20.32" y="170.18" size="1.778" layer="95"/>
-<pinref part="JP7" gate="A" pin="16"/>
+<pinref part="JP3" gate="A" pin="16"/>
 <junction x="-25.4" y="170.18"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="OUT3"/>
+<pinref part="U9" gate="G$1" pin="OUT3"/>
 <wire x1="363.22" y1="292.1" x2="368.3" y2="292.1" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="OUT2"/>
+<pinref part="U9" gate="G$1" pin="OUT2"/>
 <wire x1="368.3" y1="292.1" x2="381" y2="292.1" width="0.1524" layer="91"/>
 <wire x1="363.22" y1="289.56" x2="368.3" y2="289.56" width="0.1524" layer="91"/>
 <wire x1="368.3" y1="289.56" x2="368.3" y2="292.1" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="OUT1"/>
+<pinref part="U9" gate="G$1" pin="OUT1"/>
 <wire x1="363.22" y1="287.02" x2="368.3" y2="287.02" width="0.1524" layer="91"/>
 <wire x1="368.3" y1="287.02" x2="368.3" y2="289.56" width="0.1524" layer="91"/>
 <junction x="368.3" y="289.56"/>
@@ -25369,9 +25369,9 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <net name="N$34" class="0">
 <segment>
 <wire x1="360.68" y1="160.02" x2="353.06" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="U15" gate="A" pin="FB"/>
-<pinref part="R55" gate="G$1" pin="2"/>
-<pinref part="R56" gate="G$1" pin="1"/>
+<pinref part="U4" gate="A" pin="FB"/>
+<pinref part="R21" gate="G$1" pin="2"/>
+<pinref part="R22" gate="G$1" pin="1"/>
 <wire x1="360.68" y1="160.02" x2="360.68" y2="162.56" width="0.1524" layer="91"/>
 <junction x="360.68" y="160.02"/>
 </segment>
@@ -25379,9 +25379,9 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <net name="N$35" class="0">
 <segment>
 <wire x1="360.68" y1="93.98" x2="353.06" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="U16" gate="A" pin="FB"/>
-<pinref part="R59" gate="G$1" pin="2"/>
-<pinref part="R57" gate="G$1" pin="1"/>
+<pinref part="U5" gate="A" pin="FB"/>
+<pinref part="R23" gate="G$1" pin="2"/>
+<pinref part="R24" gate="G$1" pin="1"/>
 <wire x1="360.68" y1="91.44" x2="360.68" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="360.68" y1="93.98" x2="360.68" y2="96.52" width="0.1524" layer="91"/>
 <junction x="360.68" y="93.98"/>
@@ -25390,9 +25390,9 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <net name="N$62" class="0">
 <segment>
 <wire x1="360.68" y1="27.94" x2="353.06" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="U17" gate="A" pin="FB"/>
-<pinref part="R58" gate="G$1" pin="1"/>
-<pinref part="R60" gate="G$1" pin="2"/>
+<pinref part="U6" gate="A" pin="FB"/>
+<pinref part="R26" gate="G$1" pin="1"/>
+<pinref part="R25" gate="G$1" pin="2"/>
 <wire x1="360.68" y1="30.48" x2="360.68" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="360.68" y1="27.94" x2="360.68" y2="25.4" width="0.1524" layer="91"/>
 <junction x="360.68" y="27.94"/>
@@ -25400,14 +25400,14 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 </net>
 <net name="N$63" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="PROG"/>
-<pinref part="R52" gate="G$1" pin="1"/>
+<pinref part="U13" gate="G$1" pin="PROG"/>
+<pinref part="R47" gate="G$1" pin="1"/>
 <wire x1="154.94" y1="182.88" x2="152.4" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="V_USB" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="VDD"/>
+<pinref part="U13" gate="G$1" pin="VDD"/>
 <wire x1="152.4" y1="172.72" x2="157.48" y2="172.72" width="0.1524" layer="91"/>
 <label x="175.26" y="172.72" size="1.778" layer="95"/>
 <pinref part="C_USB" gate="G$1" pin="A"/>
@@ -25416,27 +25416,27 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <junction x="157.48" y="172.72"/>
 <pinref part="P_USB" gate="G$1" pin="A"/>
 <junction x="167.64" y="172.72"/>
-<pinref part="U$2" gate="G$1" pin="1"/>
+<pinref part="MINI_USB" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$65" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="STAT"/>
-<pinref part="J2" gate="1" pin="1"/>
+<pinref part="U13" gate="G$1" pin="STAT"/>
+<pinref part="J101" gate="1" pin="1"/>
 <wire x1="119.38" y1="170.18" x2="119.38" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="182.88" x2="124.46" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$74" class="0">
 <segment>
-<pinref part="J2" gate="1" pin="2"/>
-<pinref part="R54" gate="G$1" pin="2"/>
+<pinref part="J101" gate="1" pin="2"/>
+<pinref part="R48" gate="G$1" pin="2"/>
 <wire x1="132.08" y1="160.02" x2="119.38" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$75" class="0">
 <segment>
-<pinref part="R54" gate="G$1" pin="1"/>
+<pinref part="R48" gate="G$1" pin="1"/>
 <pinref part="C_USB" gate="G$1" pin="C"/>
 <wire x1="157.48" y1="165.1" x2="157.48" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="160.02" x2="142.24" y2="160.02" width="0.1524" layer="91"/>
@@ -25445,7 +25445,7 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 <net name="EN_5V_1" class="0">
 <segment>
 <pinref part="U7" gate="G$1" pin="EN"/>
-<pinref part="R36" gate="G$1" pin="2"/>
+<pinref part="R27" gate="G$1" pin="2"/>
 <wire x1="563.88" y1="152.4" x2="546.1" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="546.1" y1="152.4" x2="546.1" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="546.1" y1="152.4" x2="533.4" y2="152.4" width="0.1524" layer="91"/>
@@ -25460,8 +25460,8 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 </net>
 <net name="EN_5V_2" class="0">
 <segment>
-<pinref part="U13" gate="G$1" pin="EN"/>
-<pinref part="R50" gate="G$1" pin="2"/>
+<pinref part="U8" gate="G$1" pin="EN"/>
+<pinref part="R29" gate="G$1" pin="2"/>
 <wire x1="563.88" y1="203.2" x2="546.1" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="546.1" y1="203.2" x2="546.1" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="546.1" y1="203.2" x2="533.4" y2="203.2" width="0.1524" layer="91"/>
@@ -25476,26 +25476,26 @@ Recommended effective load capacitance values supported are 3.7 pF, 6 pF, 9 pF, 
 </net>
 <net name="LED2" class="0">
 <segment>
-<pinref part="R61" gate="G$1" pin="2"/>
+<pinref part="R16" gate="G$1" pin="2"/>
 <pinref part="DIRECT" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$77" class="0">
 <segment>
-<pinref part="R61" gate="G$1" pin="1"/>
-<pinref part="J3" gate="1" pin="2"/>
+<pinref part="R16" gate="G$1" pin="1"/>
+<pinref part="J104" gate="1" pin="2"/>
 </segment>
 </net>
 <net name="N$78" class="0">
 <segment>
 <pinref part="P_USB" gate="G$1" pin="C"/>
-<pinref part="R62" gate="G$1" pin="1"/>
+<pinref part="R49" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$79" class="0">
 <segment>
-<pinref part="R62" gate="G$1" pin="2"/>
-<pinref part="J4" gate="1" pin="1"/>
+<pinref part="R49" gate="G$1" pin="2"/>
+<pinref part="J100" gate="1" pin="1"/>
 </segment>
 </net>
 </nets>
